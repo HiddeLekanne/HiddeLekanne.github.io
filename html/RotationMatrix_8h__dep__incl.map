@@ -1,9 +1,0 @@
-<map id="source/dnt/tools/math/RotationMatrix.h" name="source/dnt/tools/math/RotationMatrix.h">
-<area shape="rect" id="node2" href="$Pose3f_8h.html" title="source/dnt/tools/math\l/Pose3f.h" alt="" coords="251,95,399,136"/>
-<area shape="rect" id="node8" href="$RotationMatrix_8cpp.html" title="source/dnt/tools/math\l/RotationMatrix.cpp" alt="" coords="423,95,571,136"/>
-<area shape="rect" id="node3" href="$inverse__kinematics_8h.html" title="source/dnt/tools/math\l/inverse_kinematics.h" alt="" coords="194,184,343,225"/>
-<area shape="rect" id="node7" href="$inverse__kinematics_8cpp.html" title="source/dnt/tools/math\l/inverse_kinematics.cpp" alt="" coords="299,281,462,322"/>
-<area shape="rect" id="node4" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="76,273,275,329"/>
-<area shape="rect" id="node5" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="5,392,145,419"/>
-<area shape="rect" id="node6" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="170,377,383,433"/>
-</map>

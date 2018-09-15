@@ -1,6 +1,0 @@
-<map id="wJointSensor" name="wJointSensor">
-<area shape="rect" id="node3" href="$classCloseButton.html" title="CloseButton" alt="" coords="92,157,187,184"/>
-<area shape="rect" id="node5" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="211,157,412,184"/>
-<area shape="rect" id="node6" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="244,81,379,108"/>
-<area shape="rect" id="node7" href="$classMessage.html" title="Message" alt="" coords="274,5,349,32"/>
-</map>

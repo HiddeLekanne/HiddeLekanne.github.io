@@ -1,7 +1,0 @@
-<map id="wBehaviorStatus" name="wBehaviorStatus">
-<area shape="rect" id="node6" href="$classwDecision.html" title="wDecision" alt="" coords="46,157,129,184"/>
-<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rBehaviorStatus \&gt;" alt="" coords="153,157,374,184"/>
-<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="196,81,331,108"/>
-<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="226,5,301,32"/>
-<area shape="rect" id="node7" href="$classCloseButton.html" title="CloseButton" alt="" coords="399,157,493,184"/>
-</map>

@@ -1,7 +1,0 @@
-<map id="source/dnt/representations/infrastructure/r_microphone.h" name="source/dnt/representations/infrastructure/r_microphone.h">
-<area shape="rect" id="node2" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="91,95,281,151"/>
-<area shape="rect" id="node5" href="$m__microphone_8h.html" title="source/dnt/modules\l/microphone/m_microphone.h" alt="" coords="305,102,499,143"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="220,213,360,240"/>
-<area shape="rect" id="node4" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="5,199,196,255"/>
-<area shape="rect" id="node6" href="$m__microphone_8cpp.html" title="source/dnt/modules\l/microphone/m_microphone.cpp" alt="" coords="384,206,591,247"/>
-</map>

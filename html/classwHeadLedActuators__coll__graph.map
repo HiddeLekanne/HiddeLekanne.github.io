@@ -1,6 +1,0 @@
-<map id="wHeadLedActuators" name="wHeadLedActuators">
-<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="93,157,338,184"/>
-<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="148,81,283,108"/>
-<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="178,5,253,32"/>
-<area shape="rect" id="node6" href="$classCloseButton.html" title="CloseButton" alt="" coords="363,157,457,184"/>
-</map>

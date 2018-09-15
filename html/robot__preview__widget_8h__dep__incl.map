@@ -1,9 +1,0 @@
-<map id="source/teamcopy/widgets/robot_preview_widget.h" name="source/teamcopy/widgets/robot_preview_widget.h">
-<area shape="rect" id="node2" href="$dnt__window_8h.html" title="source/teamcopy/dnt\l_window.h" alt="" coords="188,95,332,136"/>
-<area shape="rect" id="node8" href="$robot__preview__widget_8cpp.html" title="source/teamcopy/widgets\l/robot_preview_widget.cpp" alt="" coords="357,95,534,136"/>
-<area shape="rect" id="node3" href="$dnt__window_8cpp.html" title="source/teamcopy/dnt\l_window.cpp" alt="" coords="5,184,149,225"/>
-<area shape="rect" id="node4" href="$settings__toolbar_8h.html" title="source/teamcopy/settings\l_toolbar.h" alt="" coords="174,184,346,225"/>
-<area shape="rect" id="node6" href="$teamcopy_2main_8cpp.html" title="source/teamcopy/main.cpp" alt="" coords="371,191,549,218"/>
-<area shape="rect" id="node7" href="$robot__widget_8cpp.html" title="source/teamcopy/widgets\l/robot_widget.cpp" alt="" coords="573,184,744,225"/>
-<area shape="rect" id="node5" href="$settings__toolbar_8cpp.html" title="source/teamcopy/settings\l_toolbar.cpp" alt="" coords="174,273,346,315"/>
-</map>
