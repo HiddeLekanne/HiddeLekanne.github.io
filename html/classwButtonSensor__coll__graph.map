@@ -1,0 +1,7 @@
+<map id="wButtonSensor" name="wButtonSensor">
+<area shape="rect" id="node8" href="$classwGraph.html" title="wGraph" alt="" coords="71,171,138,197"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rButtonSensor \&gt;" alt="" coords="356,171,567,197"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="394,81,529,108"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="424,5,499,32"/>
+<area shape="rect" id="node6" href="$classCloseButton.html" title="CloseButton" alt="" coords="161,81,256,108"/>
+</map>

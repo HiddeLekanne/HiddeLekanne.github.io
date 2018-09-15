@@ -1,0 +1,9 @@
+<map id="mIMUOdometry" name="mIMUOdometry">
+<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="392,5,456,32"/>
+<area shape="rect" id="node3" href="$classOutputMessage.html" title="OutputMessage\&lt; rOdometry \&gt;" alt="" coords="325,56,523,83"/>
+<area shape="rect" id="node4" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="129,56,273,83"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="5,80,80,107"/>
+<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="134,107,269,133"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="325,107,523,133"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="323,157,525,184"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="wIMUSensor" name="wIMUSensor">
+<area shape="rect" id="node5" href="$classwGraph.html" title="wGraph" alt="" coords="60,171,127,197"/>
+<area shape="rect" id="node3" href="$classCloseButton.html" title="CloseButton" alt="" coords="122,81,217,108"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="322,171,521,197"/>
+<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="354,81,489,108"/>
+<area shape="rect" id="node8" href="$classMessage.html" title="Message" alt="" coords="384,5,459,32"/>
+</map>

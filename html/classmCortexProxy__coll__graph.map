@@ -1,0 +1,14 @@
+<map id="mCortexProxy" name="mCortexProxy">
+<area shape="rect" id="node2" href="$classmMemoryProxy.html" title="mMemoryProxy" alt="" coords="584,13,699,40"/>
+<area shape="rect" id="node3" href="$classModule.html" title="Module" alt="" coords="308,5,372,32"/>
+<area shape="rect" id="node4" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="285,56,395,83"/>
+<area shape="rect" id="node5" href="$structWalkCommand.html" title="WalkCommand" alt="" coords="5,56,117,83"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="539,64,744,91"/>
+<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="273,141,407,168"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="519,115,764,141"/>
+<area shape="rect" id="node13" href="$classInputMessage.html" title="InputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="524,165,759,192"/>
+<area shape="rect" id="node8" href="$classMessage.html" title="Message" alt="" coords="24,183,99,209"/>
+<area shape="rect" id="node11" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="268,216,412,243"/>
+<area shape="rect" id="node10" href="$classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="539,216,744,243"/>
+<area shape="rect" id="node12" href="$classOutputMessage.html" title="OutputMessage\&lt; rFrameInfo \&gt;" alt="" coords="541,267,742,293"/>
+</map>

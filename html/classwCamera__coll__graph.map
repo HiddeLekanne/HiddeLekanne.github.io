@@ -1,0 +1,7 @@
+<map id="wCamera" name="wCamera">
+<area shape="rect" id="node3" href="$classCloseButton.html" title="CloseButton" alt="" coords="92,157,187,184"/>
+<area shape="rect" id="node5" href="$classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="211,157,366,184"/>
+<area shape="rect" id="node6" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="327,81,461,108"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="391,157,605,184"/>
+<area shape="rect" id="node7" href="$classMessage.html" title="Message" alt="" coords="357,5,431,32"/>
+</map>

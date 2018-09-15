@@ -1,0 +1,30 @@
+<map id="source/interface/interface.h" name="source/interface/interface.h">
+<area shape="rect" id="node2" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="782,237,969,263"/>
+<area shape="rect" id="node13" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="993,237,1187,263"/>
+<area shape="rect" id="node18" href="$r__head__led__actuators_8h.html" title="representations/actuators\l/r_head_led_actuators.h" alt="" coords="2139,229,2308,271"/>
+<area shape="rect" id="node19" href="$r__ball_8h.html" title="representations/perception\l/r_ball.h" alt="" coords="1501,229,1676,271"/>
+<area shape="rect" id="node23" href="$r__client_8h.html" title="representations/r_client.h" alt="" coords="1003,155,1171,181"/>
+<area shape="rect" id="node24" href="$r__host_8h.html" title="representations/r_host.h" alt="" coords="1195,155,1358,181"/>
+<area shape="rect" id="node25" href="$r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="2333,229,2487,271"/>
+<area shape="rect" id="node34" href="$w__connect_8h.html" title="widgets/w_connect.h" alt="" coords="1204,80,1349,107"/>
+<area shape="rect" id="node45" href="$w__overview_8h.html" title="widgets/w_overview.h" alt="" coords="1664,80,1815,107"/>
+<area shape="rect" id="node8" href="$message_8h.html" title="framework/message.h" alt="" coords="1011,326,1161,353"/>
+<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="1243,408,1358,435"/>
+<area shape="rect" id="node14" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1844,319,1995,360"/>
+<area shape="rect" id="node15" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="2021,408,2183,435"/>
+<area shape="rect" id="node16" href="$container_8h.html" title="framework/container.h" alt="" coords="2027,483,2177,509"/>
+<area shape="rect" id="node20" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1729,408,1881,435"/>
+<area shape="rect" id="node26" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="2246,326,2414,353"/>
+<area shape="rect" id="node33" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="2019,319,2185,360"/>
+<area shape="rect" id="node28" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="2448,408,2580,435"/>
+<area shape="rect" id="node35" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="217,155,355,181"/>
+<area shape="rect" id="node36" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="219,229,353,271"/>
+<area shape="rect" id="node41" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="203,408,299,435"/>
+<area shape="rect" id="node40" href="$data_8h.html" title="data.h" alt="" coords="190,326,249,353"/>
+<area shape="rect" id="node44" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="374,408,481,435"/>
+<area shape="rect" id="node46" href="$w__camera_8h.html" title="w_camera.h" alt="" coords="1873,155,1966,181"/>
+<area shape="rect" id="node50" href="$w__head__led__actuators_8h.html" title="w_head_led_actuators.h" alt="" coords="1686,155,1849,181"/>
+<area shape="rect" id="node47" href="$close__button_8h.html" title="close_button.h" alt="" coords="1701,237,1807,263"/>
+<area shape="rect" id="node48" href="$r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="1832,229,2007,271"/>
+<area shape="rect" id="node49" href="$log_8h.html" title="tools/log.h" alt="" coords="2031,237,2114,263"/>
+</map>

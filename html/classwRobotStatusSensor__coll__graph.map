@@ -1,0 +1,6 @@
+<map id="wRobotStatusSensor" name="wRobotStatusSensor">
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rRobotStatus\lSensor \&gt;" alt="" coords="145,157,339,199"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="175,81,309,108"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="205,5,279,32"/>
+<area shape="rect" id="node6" href="$classCloseButton.html" title="CloseButton" alt="" coords="363,165,457,191"/>
+</map>

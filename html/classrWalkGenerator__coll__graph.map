@@ -1,0 +1,8 @@
+<map id="rWalkGenerator" name="rWalkGenerator">
+<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation" alt="" coords="13,5,123,32"/>
+<area shape="rect" id="node6" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="21,81,115,108"/>
+<area shape="rect" id="node7" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="140,81,247,108"/>
+<area shape="rect" id="node3" href="$classPose2f.html" title="Pose2f" alt="" coords="247,171,310,197"/>
+<area shape="rect" id="node4" href="$classAngle.html" title="Angle" alt="" coords="271,81,326,108"/>
+<area shape="rect" id="node5" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="58,171,161,197"/>
+</map>

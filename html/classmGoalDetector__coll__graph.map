@@ -1,0 +1,9 @@
+<map id="mGoalDetector" name="mGoalDetector">
+<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="400,5,464,32"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="323,56,541,83"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="134,107,269,133"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="325,107,539,133"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="5,131,80,157"/>
+<area shape="rect" id="node7" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="129,157,273,184"/>
+<area shape="rect" id="node6" href="$classOutputMessage.html" title="OutputMessage\&lt; rGoal \&gt;" alt="" coords="347,157,517,184"/>
+</map>

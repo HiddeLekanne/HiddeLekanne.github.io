@@ -1,0 +1,30 @@
+<map id="source/dnt/modules/robot_proxies/m_cortex_proxy.cpp" name="source/dnt/modules/robot_proxies/m_cortex_proxy.cpp">
+<area shape="rect" id="node4" href="$m__cortex__proxy_8h.html" title="modules/robot_proxies\l/m_cortex_proxy.h" alt="" coords="1988,109,2141,151"/>
+<area shape="rect" id="node42" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="187,295,326,322"/>
+<area shape="rect" id="node5" href="$r__left__eye__leds_8h.html" title="representations/actuators\l/r_left_eye_leds.h" alt="" coords="2281,199,2451,240"/>
+<area shape="rect" id="node8" href="$m__memory__proxy_8h.html" title="m_memory_proxy.h" alt="" coords="1519,206,1656,233"/>
+<area shape="rect" id="node9" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="771,377,926,419"/>
+<area shape="rect" id="node13" href="$r__fsr__sensor_8h.html" title="representations/sensor\l/r_fsr_sensor.h" alt="" coords="2346,288,2501,329"/>
+<area shape="rect" id="node14" href="$r__imu__sensor_8h.html" title="representations/sensor\l/r_imu_sensor.h" alt="" coords="1978,288,2133,329"/>
+<area shape="rect" id="node34" href="$r__ear__led__actuators_8h.html" title="representations/actuators\l/r_ear_led_actuators.h" alt="" coords="2808,199,2977,240"/>
+<area shape="rect" id="node35" href="$r__head__led__actuators_8h.html" title="representations/actuators\l/r_head_led_actuators.h" alt="" coords="1101,199,1271,240"/>
+<area shape="rect" id="node36" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="2593,199,2784,240"/>
+<area shape="rect" id="node38" href="$r__game__data_8h.html" title="representations/infrastructure\l/r_game_data.h" alt="" coords="2525,288,2716,329"/>
+<area shape="rect" id="node39" href="$r__button__sensor_8h.html" title="representations/sensor\l/r_button_sensor.h" alt="" coords="1681,199,1835,240"/>
+<area shape="rect" id="node40" href="$r__robot__status__sensor_8h.html" title="representations/sensor\l/r_robot_status_sensor.h" alt="" coords="1860,199,2027,240"/>
+<area shape="rect" id="node41" href="$r__sonar__sensor_8h.html" title="representations/sensor\l/r_sonar_sensor.h" alt="" coords="2102,199,2257,240"/>
+<area shape="rect" id="node6" href="$representation_8h.html" title="framework/representation.h" alt="" coords="1851,556,2031,583"/>
+<area shape="rect" id="node15" href="$module_8h.html" title="framework/module.h" alt="" coords="1213,295,1353,322"/>
+<area shape="rect" id="node29" href="$shared__memory_8h.html" title="shared_memory.h" alt="" coords="1604,295,1731,322"/>
+<area shape="rect" id="node10" href="$r__joint__angles_8h.html" title="representations/infrastructure\l/r_joint_angles.h" alt="" coords="769,467,960,508"/>
+<area shape="rect" id="node11" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="907,556,1036,583"/>
+<area shape="rect" id="node18" href="$message_8h.html" title="framework/message.h" alt="" coords="1328,474,1479,501"/>
+<area shape="rect" id="node21" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1425,385,1611,411"/>
+<area shape="rect" id="node26" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1051,385,1246,411"/>
+<area shape="rect" id="node27" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1101,467,1252,508"/>
+<area shape="rect" id="node28" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1111,556,1274,583"/>
+<area shape="rect" id="node43" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="189,377,324,419"/>
+<area shape="rect" id="node47" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="177,556,273,583"/>
+<area shape="rect" id="node46" href="$data_8h.html" title="data.h" alt="" coords="227,474,286,501"/>
+<area shape="rect" id="node50" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="486,474,593,501"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="StreamableRepresentation" name="StreamableRepresentation">
+<area shape="rect" id="node4" href="$classrBall.html" title="rBall" alt="" coords="5,155,53,181"/>
+<area shape="rect" id="node5" href="$classrCameraSensor.html" title="rCameraSensor" alt="" coords="78,155,191,181"/>
+<area shape="rect" id="node6" href="$classrFieldBoundary.html" title="rFieldBoundary" alt="" coords="216,155,325,181"/>
+<area shape="rect" id="node7" href="$classrHeadLEDActuators.html" title="rHeadLEDActuators" alt="" coords="349,155,488,181"/>
+<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation" alt="" coords="86,5,197,32"/>
+<area shape="rect" id="node3" href="$classStreamable.html" title="Streamable" alt="" coords="221,5,309,32"/>
+</map>

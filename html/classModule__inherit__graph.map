@@ -1,0 +1,25 @@
+<map id="Module" name="Module">
+<area shape="rect" id="node2" href="$classmBallDetector.html" title="mBallDetector" alt="" coords="154,5,259,32"/>
+<area shape="rect" id="node3" href="$classmBehaviorEngine.html" title="mBehaviorEngine" alt="" coords="145,56,269,83"/>
+<area shape="rect" id="node4" href="$classmCamera.html" title="mCamera" alt="" coords="167,107,246,133"/>
+<area shape="rect" id="node5" href="$classmEarIndicators.html" title="mEarIndicators" alt="" coords="151,157,262,184"/>
+<area shape="rect" id="node6" href="$classmFallDownDetector.html" title="mFallDownDetector" alt="" coords="137,208,276,235"/>
+<area shape="rect" id="node7" href="$classmFieldFilter.html" title="mFieldFilter" alt="" coords="161,259,252,285"/>
+<area shape="rect" id="node8" href="$classmFootSupportProvider.html" title="mFootSupportProvider" alt="" coords="131,309,283,336"/>
+<area shape="rect" id="node9" href="$classmGoalDetector.html" title="mGoalDetector" alt="" coords="151,360,262,387"/>
+<area shape="rect" id="node10" href="$classmIMUOdometry.html" title="mIMUOdometry" alt="" coords="149,411,264,437"/>
+<area shape="rect" id="node11" href="$classmInterface.html" title="mInterface" alt="" coords="165,461,249,488"/>
+<area shape="rect" id="node12" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication" alt="" coords="119,512,294,539"/>
+<area shape="rect" id="node13" href="$classmInterpolationEngine.html" title="mInterpolationEngine" alt="" coords="135,563,279,589"/>
+<area shape="rect" id="node14" href="$classmMemoryProxy.html" title="mMemoryProxy" alt="" coords="149,613,264,640"/>
+<area shape="rect" id="node17" href="$classmMicrophone.html" title="mMicrophone" alt="" coords="157,664,257,691"/>
+<area shape="rect" id="node18" href="$classmMotionSelector.html" title="mMotionSelector" alt="" coords="147,715,267,741"/>
+<area shape="rect" id="node19" href="$classmNaoActive.html" title="mNaoActive" alt="" coords="159,765,254,792"/>
+<area shape="rect" id="node20" href="$classModule1.html" title="Module1" alt="" coords="171,816,242,843"/>
+<area shape="rect" id="node21" href="$classModule2.html" title="Module2" alt="" coords="171,867,242,893"/>
+<area shape="rect" id="node22" href="$classmRobotModel.html" title="mRobotModel" alt="" coords="155,917,258,944"/>
+<area shape="rect" id="node23" href="$classmTestShowImage.html" title="mTestShowImage" alt="" coords="143,968,271,995"/>
+<area shape="rect" id="node24" href="$classmWalk2014GeneratorBase.html" title="mWalk2014GeneratorBase" alt="" coords="117,1019,296,1045"/>
+<area shape="rect" id="node15" href="$classmCortexProxy.html" title="mCortexProxy" alt="" coords="344,588,451,615"/>
+<area shape="rect" id="node16" href="$classmMotionProxy.html" title="mMotionProxy" alt="" coords="344,639,451,665"/>
+</map>

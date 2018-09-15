@@ -1,0 +1,9 @@
+<map id="source/dnt/representations/sensor/r_robot_status_sensor.h" name="source/dnt/representations/sensor/r_robot_status_sensor.h">
+<area shape="rect" id="node2" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="491,95,653,151"/>
+<area shape="rect" id="node5" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="91,95,256,151"/>
+<area shape="rect" id="node7" href="$m__ear__indicators_8h.html" title="source/dnt/modules\l/sensing/m_ear_indicators.h" alt="" coords="281,102,466,143"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="195,213,335,240"/>
+<area shape="rect" id="node4" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="583,199,745,255"/>
+<area shape="rect" id="node6" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="5,199,171,255"/>
+<area shape="rect" id="node8" href="$m__ear__indicators_8cpp.html" title="source/dnt/modules\l/sensing/m_ear_indicators.cpp" alt="" coords="359,206,558,247"/>
+</map>

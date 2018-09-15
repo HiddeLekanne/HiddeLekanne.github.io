@@ -1,0 +1,10 @@
+<map id="source/dnt/representations/sensor/r_camera_sensor.h" name="source/dnt/representations/sensor/r_camera_sensor.h">
+<area shape="rect" id="node2" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="260,95,411,136"/>
+<area shape="rect" id="node11" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="625,102,793,129"/>
+<area shape="rect" id="node18" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="435,95,601,136"/>
+<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="113,184,293,211"/>
+<area shape="rect" id="node5" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="318,184,481,211"/>
+<area shape="rect" id="node6" href="$container_8h.html" title="framework/container.h" alt="" coords="316,259,467,285"/>
+<area shape="rect" id="node13" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="989,184,1121,211"/>
+<area shape="rect" id="node19" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="606,184,758,211"/>
+</map>
