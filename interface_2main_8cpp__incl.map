@@ -1,0 +1,33 @@
+<map id="source/interface/main.cpp" name="source/interface/main.cpp">
+<area shape="rect" id="node2" href="$log_8h.html" title="tools/log.h" alt="" coords="211,341,293,367"/>
+<area shape="rect" id="node10" href="$module__manager_8h.html" title="framework/module_manager.h" alt="" coords="795,177,992,203"/>
+<area shape="rect" id="node29" href="$m__nao__active_8h.html" title="modules/m_nao_active.h" alt="" coords="1219,259,1386,285"/>
+<area shape="rect" id="node31" href="$m__camera_8h.html" title="modules/camera/m_camera.h" alt="" coords="672,259,867,285"/>
+<area shape="rect" id="node39" href="$interface_2modules_2m__interface__communication_8h.html" title="modules/m_interface\l_communication.h" alt="" coords="1059,80,1202,121"/>
+<area shape="rect" id="node46" href="$m__interface_8h.html" title="modules/m_interface.h" alt="" coords="1756,259,1911,285"/>
+<area shape="rect" id="node3" href="$log_2log_8h.html" title="log/log.h" alt="" coords="217,430,287,457"/>
+<area shape="rect" id="node7" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="145,519,242,546"/>
+<area shape="rect" id="node13" href="$representation_8h.html" title="framework/representation.h" alt="" coords="1846,601,2026,628"/>
+<area shape="rect" id="node14" href="$message_8h.html" title="framework/message.h" alt="" coords="1479,519,1630,546"/>
+<area shape="rect" id="node17" href="$module_8h.html" title="framework/module.h" alt="" coords="1001,341,1141,367"/>
+<area shape="rect" id="node27" href="$module__group_8h.html" title="framework/module_group.h" alt="" coords="419,259,597,285"/>
+<area shape="rect" id="node19" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1780,430,1967,457"/>
+<area shape="rect" id="node24" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1511,430,1705,457"/>
+<area shape="rect" id="node25" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1150,512,1301,553"/>
+<area shape="rect" id="node26" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="936,601,1099,628"/>
+<area shape="rect" id="node30" href="$r__head__led__actuators_8h.html" title="representations/actuators\l/r_head_led_actuators.h" alt="" coords="1141,423,1310,464"/>
+<area shape="rect" id="node32" href="$nao__camera_8h.html" title="modules/camera/nao\l_camera.h" alt="" coords="506,423,649,464"/>
+<area shape="rect" id="node35" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="760,519,928,546"/>
+<area shape="rect" id="node38" href="$r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="961,423,1116,464"/>
+<area shape="rect" id="node33" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="956,512,1121,553"/>
+<area shape="rect" id="node34" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1261,601,1413,628"/>
+<area shape="rect" id="node37" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="654,601,786,628"/>
+<area shape="rect" id="node40" href="$r__ball_8h.html" title="representations/perception\l/r_ball.h" alt="" coords="2466,423,2641,464"/>
+<area shape="rect" id="node41" href="$r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="750,333,925,375"/>
+<area shape="rect" id="node42" href="$r__host_8h.html" title="representations/r_host.h" alt="" coords="2465,519,2628,546"/>
+<area shape="rect" id="node43" href="$r__client_8h.html" title="representations/r_client.h" alt="" coords="2172,519,2340,546"/>
+<area shape="rect" id="node44" href="$tcp__client_8h.html" title="tools/communication\l/tcp_client.h" alt="" coords="1219,169,1362,211"/>
+<area shape="rect" id="node45" href="$tcp_8h.html" title="tcp.h" alt="" coords="1385,430,1436,457"/>
+<area shape="rect" id="node48" href="$interface_8h.html" title="interface.h" alt="" coords="2041,341,2124,367"/>
+<area shape="rect" id="node49" href="$w__connect_8h.html" title="widgets/w_connect.h" alt="" coords="2143,430,2289,457"/>
+</map>

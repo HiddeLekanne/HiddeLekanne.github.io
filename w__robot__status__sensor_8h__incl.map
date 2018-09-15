@@ -1,0 +1,11 @@
+<map id="source/interface/widgets/w_robot_status_sensor.h" name="source/interface/widgets/w_robot_status_sensor.h">
+<area shape="rect" id="node3" href="$r__robot__status__sensor_8h.html" title="representations/sensor\l/r_robot_status_sensor.h" alt="" coords="725,95,891,136"/>
+<area shape="rect" id="node15" href="$close__button_8h.html" title="close_button.h" alt="" coords="1021,102,1128,129"/>
+<area shape="rect" id="node16" href="$log_8h.html" title="tools/log.h" alt="" coords="915,102,997,129"/>
+<area shape="rect" id="node4" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="699,184,850,225"/>
+<area shape="rect" id="node5" href="$representation_8h.html" title="framework/representation.h" alt="" coords="685,273,865,300"/>
+<area shape="rect" id="node7" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="497,273,660,300"/>
+<area shape="rect" id="node8" href="$container_8h.html" title="framework/container.h" alt="" coords="503,348,654,375"/>
+<area shape="rect" id="node17" href="$log_2log_8h.html" title="log/log.h" alt="" coords="954,191,1025,218"/>
+<area shape="rect" id="node21" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="941,273,1038,300"/>
+</map>

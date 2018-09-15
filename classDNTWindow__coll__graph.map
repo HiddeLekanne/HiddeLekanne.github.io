@@ -1,0 +1,6 @@
+<map id="DNTWindow" name="DNTWindow">
+<area shape="rect" id="node3" href="$classConsoleWidget.html" title="ConsoleWidget" alt="" coords="137,171,247,197"/>
+<area shape="rect" id="node5" href="$classTeamWidget.html" title="TeamWidget" alt="" coords="276,171,372,197"/>
+<area shape="rect" id="node7" href="$classRobotWidget.html" title="RobotWidget" alt="" coords="304,81,403,108"/>
+<area shape="rect" id="node8" href="$classSettingsToolbar.html" title="SettingsToolbar" alt="" coords="405,171,518,197"/>
+</map>

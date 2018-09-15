@@ -1,0 +1,29 @@
+<map id="InputMessageBase" name="InputMessageBase">
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; MessageType \&gt;" alt="" coords="328,5,539,32"/>
+<area shape="rect" id="node4" href="$classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="356,56,511,83"/>
+<area shape="rect" id="node5" href="$classInputMessage.html" title="InputMessage\&lt; rButtonSensor \&gt;" alt="" coords="328,107,539,133"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="324,157,543,184"/>
+<area shape="rect" id="node7" href="$classInputMessage.html" title="InputMessage\&lt; rClient \&gt;" alt="" coords="350,208,517,235"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="316,259,551,285"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; Representation1 \&gt;" alt="" coords="322,309,545,336"/>
+<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rFallDownState \&gt;" alt="" coords="324,360,543,387"/>
+<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="326,411,541,437"/>
+<area shape="rect" id="node12" href="$classInputMessage.html" title="InputMessage\&lt; rFootSupport \&gt;" alt="" coords="332,461,535,488"/>
+<area shape="rect" id="node13" href="$classInputMessage.html" title="InputMessage\&lt; rFrameInfo \&gt;" alt="" coords="338,512,529,539"/>
+<area shape="rect" id="node14" href="$classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="333,563,533,589"/>
+<area shape="rect" id="node15" href="$classInputMessage.html" title="InputMessage\&lt; rGameData \&gt;" alt="" coords="336,613,531,640"/>
+<area shape="rect" id="node16" href="$classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="311,664,556,691"/>
+<area shape="rect" id="node17" href="$classInputMessage.html" title="InputMessage\&lt; rHost \&gt;" alt="" coords="353,715,513,741"/>
+<area shape="rect" id="node18" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="334,765,533,792"/>
+<area shape="rect" id="node19" href="$classInputMessage.html" title="InputMessage\&lt; rInterpolation\lOutput \&gt;" alt="" coords="338,817,529,858"/>
+<area shape="rect" id="node20" href="$classInputMessage.html" title="InputMessage\&lt; rJointRequest \&gt;" alt="" coords="329,883,538,909"/>
+<area shape="rect" id="node21" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="333,933,534,960"/>
+<area shape="rect" id="node22" href="$classInputMessage.html" title="InputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="331,984,536,1011"/>
+<area shape="rect" id="node23" href="$classInputMessage.html" title="InputMessage\&lt; rMicrophone \&gt;" alt="" coords="334,1035,533,1061"/>
+<area shape="rect" id="node24" href="$classInputMessage.html" title="InputMessage\&lt; rMotion \&gt;" alt="" coords="348,1085,519,1112"/>
+<area shape="rect" id="node25" href="$classInputMessage.html" title="InputMessage\&lt; rMotionRequest \&gt;" alt="" coords="323,1136,543,1163"/>
+<area shape="rect" id="node26" href="$classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="332,1187,535,1213"/>
+<area shape="rect" id="node27" href="$classInputMessage.html" title="InputMessage\&lt; rRobotStatus\lSensor \&gt;" alt="" coords="337,1238,530,1279"/>
+<area shape="rect" id="node28" href="$classInputMessage.html" title="InputMessage\&lt; rWalkGenerator \&gt;" alt="" coords="324,1304,543,1331"/>
+<area shape="rect" id="node2" href="$classMessage.html" title="Message" alt="" coords="5,639,80,665"/>
+</map>

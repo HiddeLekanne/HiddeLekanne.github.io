@@ -1,0 +1,7 @@
+<map id="wConnect" name="wConnect">
+<area shape="rect" id="node3" href="$classOutputMessage.html" title="OutputMessage\&lt; rHost \&gt;" alt="" coords="146,157,317,184"/>
+<area shape="rect" id="node4" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="178,81,322,108"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="311,5,386,32"/>
+<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="348,81,483,108"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rClient \&gt;" alt="" coords="341,157,508,184"/>
+</map>

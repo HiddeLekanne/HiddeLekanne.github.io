@@ -1,0 +1,14 @@
+<map id="source/interface/widgets/w_graph.h" name="source/interface/widgets/w_graph.h">
+<area shape="rect" id="node2" href="$w__fsr__sensor_8h.html" title="source/interface/widgets\l/w_fsr_sensor.h" alt="" coords="5,95,169,136"/>
+<area shape="rect" id="node9" href="$w__button__sensor_8h.html" title="source/interface/widgets\l/w_button_sensor.h" alt="" coords="193,95,357,136"/>
+<area shape="rect" id="node10" href="$w__sonar__sensor_8h.html" title="source/interface/widgets\l/w_sonar_sensor.h" alt="" coords="381,95,545,136"/>
+<area shape="rect" id="node11" href="$w__imu__sensor_8h.html" title="source/interface/widgets\l/w_imu_sensor.h" alt="" coords="569,95,733,136"/>
+<area shape="rect" id="node12" href="$w__joint__sensor_8h.html" title="source/interface/widgets\l/w_joint_sensor.h" alt="" coords="757,95,921,136"/>
+<area shape="rect" id="node13" href="$w__behavior__status_8h.html" title="source/interface/widgets\l/w_behavior_status.h" alt="" coords="945,95,1109,136"/>
+<area shape="rect" id="node3" href="$w__overview_8h.html" title="source/interface/widgets\l/w_overview.h" alt="" coords="475,184,639,225"/>
+<area shape="rect" id="node4" href="$interface_8h.html" title="source/interface/interface.h" alt="" coords="467,273,647,300"/>
+<area shape="rect" id="node5" href="$interface_8cpp.html" title="source/interface/interface.cpp" alt="" coords="357,355,551,382"/>
+<area shape="rect" id="node6" href="$m__interface_8h.html" title="source/interface/modules\l/m_interface.h" alt="" coords="575,348,743,389"/>
+<area shape="rect" id="node7" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="476,445,648,471"/>
+<area shape="rect" id="node8" href="$m__interface_8cpp.html" title="source/interface/modules\l/m_interface.cpp" alt="" coords="673,437,841,479"/>
+</map>

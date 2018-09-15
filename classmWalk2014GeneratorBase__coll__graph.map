@@ -1,0 +1,17 @@
+<map id="mWalk2014GeneratorBase" name="mWalk2014GeneratorBase">
+<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="523,8,587,34"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rMotionRequest \&gt;" alt="" coords="445,58,665,85"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="170,160,305,186"/>
+<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="455,109,654,136"/>
+<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="454,160,655,186"/>
+<area shape="rect" id="node16" href="$classInputMessage.html" title="InputMessage\&lt; rFootSupport \&gt;" alt="" coords="453,210,656,237"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="23,192,98,218"/>
+<area shape="rect" id="node9" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="165,224,309,250"/>
+<area shape="rect" id="node6" href="$classAngle.html" title="Angle" alt="" coords="210,482,265,509"/>
+<area shape="rect" id="node7" href="$classPose2f.html" title="Pose2f" alt="" coords="523,528,586,554"/>
+<area shape="rect" id="node8" href="$classOutputMessage.html" title="OutputMessage\&lt; rWalkGenerator \&gt;" alt="" coords="440,261,669,288"/>
+<area shape="rect" id="node12" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="503,593,606,620"/>
+<area shape="rect" id="node13" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="190,554,285,581"/>
+<area shape="rect" id="node14" href="$classRepresentation.html" title="Representation" alt="" coords="5,581,116,608"/>
+<area shape="rect" id="node15" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="184,605,291,632"/>
+</map>
