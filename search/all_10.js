@@ -2,14 +2,8 @@ var searchData=
 [
   ['p2',['P2',['../structSpline_1_1P2.html',1,'Spline']]],
   ['pack',['pack',['../namespaceRotation_1_1AngleAxis.html#a2db29fa7ab29be630a1c11ecfa536c70',1,'Rotation::AngleAxis']]],
-  ['pair_5fhead_5f',['pair_head_',['../classmIMUOdometry.html#a2f34d91bf12483d3c8847b2cb799378b',1,'mIMUOdometry']]],
-  ['pair_5fleft_5farm_5f',['pair_left_arm_',['../classmIMUOdometry.html#ac07c20f5d4258e65dcb6b31d95c65317',1,'mIMUOdometry']]],
-  ['pair_5fleft_5ffoot_5f',['pair_left_foot_',['../classmIMUOdometry.html#a0a17b65ee9e0ec4f56231c708dee92ce',1,'mIMUOdometry']]],
-  ['pair_5fmodel_5fcenter_5fof_5fmass_5f',['pair_model_center_of_mass_',['../classmIMUOdometry.html#a6cefe94110b1d90c07594ff1f7f7d495',1,'mIMUOdometry']]],
-  ['pair_5fright_5farm_5f',['pair_right_arm_',['../classmIMUOdometry.html#a56853e7ae8664335954127882e5da81d',1,'mIMUOdometry']]],
-  ['pair_5fright_5ffoot_5f',['pair_right_foot_',['../classmIMUOdometry.html#a1aa005f26385c33d4146c1850ec17c0b',1,'mIMUOdometry']]],
-  ['parabolicreturn',['parabolicReturn',['../classmWalk2014GeneratorBase.html#a1de22d018704d3a582f1f61bb9608ebe',1,'mWalk2014GeneratorBase']]],
-  ['parabolicstep',['parabolicStep',['../classmWalk2014GeneratorBase.html#a9d1522b06c1eaa8e75fb2adb2571b2b7',1,'mWalk2014GeneratorBase']]],
+  ['parabolicreturn',['parabolicReturn',['../classmWalk2014GeneratorBase.html#a5e0348525a6147cc0b6a5e5c11ed2f06',1,'mWalk2014GeneratorBase']]],
+  ['parabolicstep',['parabolicStep',['../classmWalk2014GeneratorBase.html#afdb506d6d375316918c1b4114d3063f6',1,'mWalk2014GeneratorBase']]],
   ['parse',['parse',['../namespaceConfiguration.html#ad6009df4d4f6c1cf722b03fa000f93cb',1,'Configuration::parse(std::istream &amp;input)'],['../namespaceConfiguration.html#ae54082bf645fa5873297c6397f9aa6bf',1,'Configuration::parse(const std::string &amp;filename)']]],
   ['penalized',['Penalized',['../m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ab0ee8cb5ebe61389209da7dc57bf2743',1,'m_behavior_engine.h']]],
   ['penalized_5f',['penalized_',['../classrGameData.html#af3e016f77c5a5a8d6a15b7cde5eb7006',1,'rGameData']]],
@@ -46,7 +40,6 @@ var searchData=
   ['prepareimage',['prepareImage',['../classwCamera.html#a0c8ede5362e8eddb7f4cffbd87002e90',1,'wCamera']]],
   ['prevforwardl',['prevForwardL',['../classmWalk2014GeneratorBase.html#a238ff2cb4a81c6b0b9badb4617754ddf',1,'mWalk2014GeneratorBase']]],
   ['prevforwardr',['prevForwardR',['../classmWalk2014GeneratorBase.html#a97c84687a6395ed46ad7f108417f7bc2',1,'mWalk2014GeneratorBase']]],
-  ['previous_5fcenter_5fof_5fmass_5f',['previous_center_of_mass_',['../classmIMUOdometry.html#a79c669aeccbd1a8ecd9ab6912e2da86b',1,'mIMUOdometry']]],
   ['previous_5ftimes_5f',['previous_times_',['../classmInterpolationEngine.html#af9cd4d98a39259287307eda7d9b6dfdc',1,'mInterpolationEngine']]],
   ['prevleftl',['prevLeftL',['../classmWalk2014GeneratorBase.html#a430033996bf6b3fbc4dc2274a717909b',1,'mWalk2014GeneratorBase']]],
   ['prevleftr',['prevLeftR',['../classmWalk2014GeneratorBase.html#ad0924831006157225a3ecc81a211382f',1,'mWalk2014GeneratorBase']]],
@@ -55,7 +48,6 @@ var searchData=
   ['printdurations',['printDurations',['../classTimer.html#ab6cdf57aecc1a414909c02f887d8d409',1,'Timer']]],
   ['printorder',['printOrder',['../classModuleGroup.html#a8e6f4fd263970c341610f39335410e82',1,'ModuleGroup']]],
   ['printorders',['printOrders',['../classModuleManager.html#a413b2784f4454ce09e90a34b32c44cf7',1,'ModuleManager']]],
-  ['project',['project',['../interface_2CMakeLists_8txt.html#a731b4905934aaa80a56092f3a66def66',1,'project(DNT_INTERFACE) set(CMAKE_CXX_STANDARD 14) set(DNT_PROJECT_SOURCE_DIR $:&#160;CMakeLists.txt'],['../mofconverter_2CMakeLists_8txt.html#ab6cc3cd0a47e52ac94b892bd030f8afc',1,'project(mofconverter) set(MOFCONVERTER_SOURCES mofconverter.cpp) set(CMAKE_CXX_STANDARD 11) add_executable(mof2keyframe $:&#160;CMakeLists.txt'],['../teamcopy_2CMakeLists_8txt.html#a8a0d0df9324a4b77f520c82c562620ae',1,'project(teamcopy) set(TEAMCOPY_SOURCES main.cpp dnt_window.cpp widgets/robot_preview_widget.cpp widgets/team_widget.cpp widgets/console_widget.cpp widgets/robot_widget.cpp settings_toolbar.cpp $:&#160;CMakeLists.txt']]],
   ['public_5finterface_2eh',['public_interface.h',['../public__interface_8h.html',1,'']]],
   ['push',['push',['../classInputMessage.html#a92a84a5eb53546c6753e41bc85e14d21',1,'InputMessage']]]
 ];

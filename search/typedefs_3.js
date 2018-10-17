@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['goalposts',['GoalPosts',['../classmGoalDetector.html#ad3e79fadfc551361d1c54e447c5ace62',1,'mGoalDetector']]]
+  ['goalposts',['GoalPosts',['../classmGoalDetector.html#a8ef76db38ef5361108070c813543c530',1,'mGoalDetector']]]
 ];

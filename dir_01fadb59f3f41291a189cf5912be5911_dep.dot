@@ -1,0 +1,11 @@
+digraph "source/teamcopy/widgets" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_03fc5a6c04e6f5aa13904985f95b4747 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="teamcopy" fontname="Helvetica", fontsize="10", URL="dir_03fc5a6c04e6f5aa13904985f95b4747.html"]
+  dir_01fadb59f3f41291a189cf5912be5911 [shape=box, label="widgets", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_01fadb59f3f41291a189cf5912be5911.html"];
+  }
+  dir_9f21cc5e450a8709b82f92c61a1cfea7 [shape=box label="dnt" fillcolor="white" style="filled" color="red" URL="dir_9f21cc5e450a8709b82f92c61a1cfea7.html"];
+  dir_01fadb59f3f41291a189cf5912be5911->dir_9f21cc5e450a8709b82f92c61a1cfea7 [headlabel="2", labeldistance=1.5 headhref="dir_000050_000002.html"];
+}

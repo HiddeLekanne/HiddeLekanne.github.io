@@ -6,9 +6,10 @@ var searchData=
   ['image_5fview_5f',['image_view_',['../classwCamera.html#a711c82d8cf61ebc078d2c938702ffb98',1,'wCamera']]],
   ['image_5fwindow_5f',['image_window_',['../classwCamera.html#aa1b751790d7aba8d867bf74f4d9cf4d0',1,'wCamera']]],
   ['imu_5fdata_5f',['imu_data_',['../classmFallDownDetector.html#a19b3f45e9d1dac0f1ddf0b1788c13f04',1,'mFallDownDetector']]],
-  ['imu_5fmessage_5f',['imu_message_',['../classmIMUOdometry.html#a097e1e3db00562eae54c3baece1c9cb8',1,'mIMUOdometry::imu_message_()'],['../classmMotionProxy.html#a712c256a8b76355b77adef923875e45f',1,'mMotionProxy::imu_message_()']]],
+  ['imu_5fmessage_5f',['imu_message_',['../classmMotionProxy.html#a712c256a8b76355b77adef923875e45f',1,'mMotionProxy']]],
   ['imu_5fsensor',['imu_sensor',['../classmWalk2014GeneratorBase.html#a4844ce6e1ee5c590a2c5217c04c4f394',1,'mWalk2014GeneratorBase']]],
   ['in_5frange_5fthreshold_5f',['IN_RANGE_THRESHOLD_',['../classmBallDetector.html#a050cae35bfcf4df3b81b6e9c2675b435',1,'mBallDetector']]],
+  ['in_5fview_5fepsilon_5f',['IN_VIEW_EPSILON_',['../classmLineModel.html#afa49c51c93ee3179cbb3c1c76f82c62c',1,'mLineModel']]],
   ['info_5fstream_5f',['info_stream_',['../classLog.html#a80ef469cf2a54be799a19b10d2c3c25e',1,'Log']]],
   ['infrastructure_5fbutton_5f',['infrastructure_button_',['../classwOverview.html#a8f8ecaf6b7b37ab4c033c469645729b2',1,'wOverview']]],
   ['inlier_5fratio_5f',['INLIER_RATIO_',['../classmFieldFilter.html#a552e4f76cea1dd8a4852899a37115e76',1,'mFieldFilter']]],
@@ -32,6 +33,6 @@ var searchData=
   ['interpolation_5foutput_5f',['interpolation_output_',['../classmInterpolationEngine.html#a68464018d138b4700ba6cc5159d72dd3',1,'mInterpolationEngine::interpolation_output_()'],['../classmMotionSelector.html#a305d847bb0b0d72f3bee435ae80ccee9',1,'mMotionSelector::interpolation_output_()']]],
   ['invalid_5fvalue_5f',['INVALID_VALUE_',['../classALRobot.html#a8297548e853268de39593ee3bc4a0a48',1,'ALRobot']]],
   ['is_5fconnected_5f',['is_connected_',['../classTCP.html#ade408592e36a64c0e983914d73fc7923',1,'TCP']]],
-  ['is_5fupper_5f',['is_upper_',['../classrBall.html#a49bd84cc4bc69e9270791d34154160fa',1,'rBall::is_upper_()'],['../classrCameraSensor.html#a963d77c9305c7f29622f554fe4000bf6',1,'rCameraSensor::is_upper_()'],['../classwCamera.html#a2ee6fe2bc3edef176ad08ae37e67505e',1,'wCamera::is_upper_()']]],
+  ['is_5fupper_5f',['is_upper_',['../classrLineModel.html#ab72ccb5ffde85907f3204cc272b1fb20',1,'rLineModel::is_upper_()'],['../classrBall.html#a49bd84cc4bc69e9270791d34154160fa',1,'rBall::is_upper_()'],['../classrCameraSensor.html#a963d77c9305c7f29622f554fe4000bf6',1,'rCameraSensor::is_upper_()'],['../classwCamera.html#a2ee6fe2bc3edef176ad08ae37e67505e',1,'wCamera::is_upper_()']]],
   ['isleftphase',['isLeftPhase',['../classmWalk2014GeneratorBase.html#afd53ee64cdc7cf708ed587bb9fbc043d',1,'mWalk2014GeneratorBase::isLeftPhase()'],['../classrWalkGenerator.html#aa4b998e184e86c57593df41736027b8d',1,'rWalkGenerator::isLeftPhase()']]]
 ];

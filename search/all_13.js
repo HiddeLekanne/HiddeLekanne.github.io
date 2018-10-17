@@ -2,7 +2,7 @@ var searchData=
 [
   ['sample_5frate_5f',['sample_rate_',['../classmMicrophone.html#a9aae5e9f7e92ac4666d5396ed57e2471',1,'mMicrophone']]],
   ['sample_5frate_5frx',['SAMPLE_RATE_RX',['../r__microphone_8h.html#ad393f95e8cfcafec35eee2f568ad7d75',1,'r_microphone.h']]],
-  ['save',['save',['../classStreamable.html#af87ab78122f306bc3ccd85a03805926d',1,'Streamable::save()'],['../classStreamableRepresentation.html#a705a4fbe9a2375de14e5d149b1546d33',1,'StreamableRepresentation::save()'],['../classCameraSettings.html#a1ec20b20fb3a4e8959182aa93e2bf07f',1,'CameraSettings::save()'],['../classImage.html#a87271ded073f53a516ac55001cb8e861',1,'Image::save()'],['../classrHeadLEDActuators.html#a8403abb5ad3f65ffd0cd7be2e6a115ac',1,'rHeadLEDActuators::save()'],['../classrBall.html#a14a3618ee97992844aa6095d7337c9c7',1,'rBall::save()'],['../classrFieldBoundary.html#af3d45527d7861cf8c9e5744ba7fce2df',1,'rFieldBoundary::save()'],['../classrCameraSensor.html#abc7ad0b0c0a90172f44791522c956b4a',1,'rCameraSensor::save()']]],
+  ['save',['save',['../classStreamable.html#a2101910851f9816872d106d1d02cc3e5',1,'Streamable::save()'],['../classStreamableRepresentation.html#af7ad1cdf44b23bf3a04a4c154f2b618c',1,'StreamableRepresentation::save()'],['../classCameraSettings.html#ad41fbfa9e42026e9136290804489257e',1,'CameraSettings::save()'],['../classImage.html#a1832d939e0d85e4b36c3990c1e92fd55',1,'Image::save()'],['../classrHeadLEDActuators.html#af2a62525ab771a65b9550a9f64158349',1,'rHeadLEDActuators::save()'],['../classrForwardKinematics.html#a667e9aaa06f9322f624e70c0f4183b45',1,'rForwardKinematics::save()'],['../classrLineModel.html#ad195fe275c014b03287836ffcbc1dcde',1,'rLineModel::save()'],['../classrBall.html#ac125e514cbbca8f24452581adcd361a9',1,'rBall::save()'],['../classrFieldBoundary.html#a2df29dc077aebe92cc995b199ead330b',1,'rFieldBoundary::save()'],['../classrCameraSensor.html#ae70883e420c1ac679f7dff162e23b67b',1,'rCameraSensor::save()'],['../namespacecereal.html#a9b37c7750f57e12b011a47010400ef57',1,'cereal::save()']]],
   ['scale',['scale',['../consideration_8h.html#a20421e9df5fe08b17a7db787df1fd924',1,'consideration.h']]],
   ['scaledgcoeffu',['scaledGCoeffU',['../classImage.html#ad6bc83cdaf472ca7e25d2c8f6e492c7b',1,'Image']]],
   ['scaledgcoeffv',['scaledGCoeffV',['../classImage.html#aeb29310f9225ad76fdbf9b839b6a2a60',1,'Image']]],
@@ -26,14 +26,7 @@ var searchData=
   ['sensorids',['SensorIds',['../namespaceSensorIds.html',1,'SensorIds'],['../namespaceSensorIds.html#a589fa81fe0b6214a1527d2e4eb223935',1,'SensorIds::SensorIds()']]],
   ['server_5f',['server_',['../classTCPClient.html#a46283adb38af76089225fb12f05041f5',1,'TCPClient::server_()'],['../classTCPServer.html#ab18b446dfd1362e6db44147f598169e1',1,'TCPServer::server_()']]],
   ['server_5fhost_5f',['server_host_',['../classTCPClient.html#ad433e87bf9b43be1618fcfed64ac9229',1,'TCPClient']]],
-  ['set',['Set',['../classrGameData.html#a9c3f4c1a6dcf8f358204c475ad7844f1a61e0efd2c0b23810ec2dac36af6ad549',1,'rGameData::Set()'],['../m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a5d5b78699e57104f2fa03bbdf7b9197b',1,'Set():&#160;m_behavior_engine.h'],['../alrobot_2CMakeLists_8txt.html#a9891af6cf93dbd997370b4767d91679f',1,'set(CMAKE_CXX_FLAGS&quot;${CMAKE_CXX_FLAGS} \
-                        -Weverything \
-                        -Wno-c++98-compat \
-                        -Wno-c++98-compat-pedantic \
-                        -Wno-reserved-id-macro \
-                        -Wno-weak-vtables \
-                        -Wno-padded \
-                        -Wno-exit-time-destructors&quot;) set(PROJECT_DIR../..) set(CMAKE_LIBRARY_OUTPUT_DIRECTORY $:&#160;CMakeLists.txt'],['../alrobot_2CMakeLists_8txt.html#a963ba77d05c94cf3f97565a3a9f33cdf',1,'set(UTIL_DIR ${PROJECT_DIR}/util) include_directories($:&#160;CMakeLists.txt'],['../dnt_2CMakeLists_8txt.html#a64dfd3cfe1e14a5740db86ab55602e90',1,'set(DNT_QUEUETEST_SOURCES framework/module_manager.cpp framework/module_group.cpp test/queue_test.cpp tools/system_tools/system_tools.cpp tools/log/log_stream.cpp tools/log/log.cpp) set(DNT_CLIENTTEST_SOURCES $:&#160;CMakeLists.txt'],['../dnt_2CMakeLists_8txt.html#a3c4c165a3455f933ffaa7077d00fed61',1,'set(DNT_SOURCES ${PROJECT_SOURCE_DIR}/util/quickblob/quickblob.cpp framework/module_group.cpp framework/module_manager.cpp main.cpp modules/behavior_engine/m_behavior_engine.cpp modules/camera/camera_settings.cpp modules/camera/image.cpp modules/camera/m_camera.cpp modules/camera/nao_camera.cpp modules/communication/m_interface_communication.cpp modules/m_nao_active.cpp modules/m_test_show_image.cpp modules/microphone/STFT.cpp modules/microphone/m_microphone.cpp modules/modeling/dh_frame.cpp modules/modeling/m_imu_odometry.cpp modules/modeling/m_robot_model.cpp modules/motion/footsupport/m_footsupport_provider.cpp modules/motion/interpolation/m_interpolation_engine.cpp modules/motion/m_motion_selector.cpp modules/motion/walking_engine/m_walk2014generator_base.cpp modules/perception/ball_detector/m_ball_detector.cpp modules/perception/ball_detector/quickblob_opencv.cpp modules/perception/field_filter/field_filter.cpp modules/perception/goal_detector/goal_detector.cpp modules/robot_proxies/m_cortex_proxy.cpp modules/robot_proxies/m_memory_proxy.cpp modules/robot_proxies/m_motion_proxy.cpp modules/sensing/m_ear_indicators.cpp modules/sensing/m_falldown_detector.cpp tools/communication/tcp.cpp tools/communication/tcp_server.cpp tools/configuration/configuration.cpp tools/log/log.cpp tools/log/log_stream.cpp tools/math/RotationMatrix.cpp tools/math/inverse_kinematics.cpp tools/sound_player/sound_player.cpp tools/string_tools/string_tools.cpp tools/system_tools/system_tools.cpp tools/timer/timer.cpp) set(MINIMUM_VISION_SRC_TEST modules/camera/camera_settings.cpp modules/camera/image.cpp modules/camera/m_camera.cpp modules/camera/nao_camera.cpp tools/timer/timer.cpp tools/log/log.cpp tools/log/log_stream.cpp tools/configuration/configuration.cpp tools/string_tools/string_tools.cpp tools/system_tools/system_tools.cpp) set(DNT_FIELD_FILTER_TEST modules/perception/field_filter/field_filter.cpp modules/perception/field_filter/field_filter_test.cpp $:&#160;CMakeLists.txt'],['../dnt_2CMakeLists_8txt.html#a560bf668986aee4599b9a462a939caba',1,'set(DNT_GOAL_DETECTOR_TEST modules/perception/field_filter/field_filter.cpp modules/perception/goal_detector/goal_detector.cpp modules/perception/goal_detector/goal_detector_test.cpp ${MINIMUM_VISION_SRC_TEST}) include_directories($:&#160;CMakeLists.txt'],['../interface_2CMakeLists_8txt.html#aca7d0afc2f99f251ef0b73ee30dd7ef8',1,'set(CMAKE_CXX_COMPILER clang++) set(CMAKE_CXX_FLAGS&quot;$:&#160;CMakeLists.txt'],['../interface_2CMakeLists_8txt.html#ae43acb2511eac213270d727c0ef1dabc',1,'set(DNT_DIR ${DNT_PROJECT_SOURCE_DIR}/source/dnt) set(DNT_SOURCES $:&#160;CMakeLists.txt'],['../mofconverter_2CMakeLists_8txt.html#aca7d0afc2f99f251ef0b73ee30dd7ef8',1,'set(CMAKE_CXX_COMPILER clang++) set(CMAKE_CXX_FLAGS&quot;$:&#160;CMakeLists.txt'],['../teamcopy_2CMakeLists_8txt.html#aca7d0afc2f99f251ef0b73ee30dd7ef8',1,'set(CMAKE_CXX_COMPILER clang++) set(CMAKE_CXX_FLAGS&quot;$:&#160;CMakeLists.txt']]],
+  ['set',['Set',['../classrGameData.html#a9c3f4c1a6dcf8f358204c475ad7844f1a61e0efd2c0b23810ec2dac36af6ad549',1,'rGameData::Set()'],['../m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a5d5b78699e57104f2fa03bbdf7b9197b',1,'Set():&#160;m_behavior_engine.h']]],
   ['set_2eh',['set.h',['../set_8h.html',1,'']]],
   ['setbehaviorstatusrepresentation',['setBehaviorStatusRepresentation',['../classDecisionEngine.html#a50d917624f2e8d8376d78e1e9c284753',1,'DecisionEngine']]],
   ['setcamerasettings',['setCameraSettings',['../classrCameraSensor.html#a2a94d4265c844b8b700c7b979b9a4dea',1,'rCameraSensor']]],
@@ -60,14 +53,12 @@ var searchData=
   ['setwidth',['setWidth',['../classImage.html#a68099defb0f9a26f45033bed46deb936',1,'Image']]],
   ['setwifi',['setWifi',['../classDNTWindow.html#a2c9cfbcea5a999f604d5cef10ed43636',1,'DNTWindow']]],
   ['sfinae',['sfinae',['../structstd_1_1hash.html#a62073ee958ff6ae5ebd725171a401eb9',1,'std::hash']]],
-  ['sgn',['sgn',['../BHMath_8h.html#aab5d3284bdc6b4fd99402dbf3f1e134a',1,'BHMath.h']]],
-  ['sgn',['Sgn',['../structimpl_1_1Sgn.html',1,'impl']]],
+  ['sgn',['Sgn',['../structimpl_1_1Sgn.html',1,'impl::Sgn&lt; T, IsSigned &gt;'],['../BHMath_8h.html#aab5d3284bdc6b4fd99402dbf3f1e134a',1,'sgn():&#160;BHMath.h']]],
   ['sgn_3c_20angle_20_3e',['sgn&lt; Angle &gt;',['../BHMath_8h.html#a3e1df54d424d5b8e3e437292fbe47bf4',1,'BHMath.h']]],
   ['sgn_3c_20t_2c_20false_20_3e',['Sgn&lt; T, false &gt;',['../structimpl_1_1Sgn_3_01T_00_01false_01_4.html',1,'impl']]],
   ['sgn_3c_20t_2c_20true_20_3e',['Sgn&lt; T, true &gt;',['../structimpl_1_1Sgn_3_01T_00_01true_01_4.html',1,'impl']]],
   ['sgnneg',['sgnNeg',['../BHMath_8h.html#a182ef5f37b776714a71a242ef718ccce',1,'BHMath.h']]],
-  ['sgnpos',['sgnPos',['../BHMath_8h.html#a5b2f11b7ce8182149c88334ed1a811a2',1,'BHMath.h']]],
-  ['sgnpos',['SgnPos',['../structimpl_1_1SgnPos.html',1,'impl']]],
+  ['sgnpos',['SgnPos',['../structimpl_1_1SgnPos.html',1,'impl::SgnPos&lt; T, IsSigned &gt;'],['../BHMath_8h.html#a5b2f11b7ce8182149c88334ed1a811a2',1,'sgnPos():&#160;BHMath.h']]],
   ['sgnpos_3c_20angle_20_3e',['sgnPos&lt; Angle &gt;',['../BHMath_8h.html#a6ac39756209227822004d6e1b7c41b58',1,'BHMath.h']]],
   ['sgnpos_3c_20t_2c_20false_20_3e',['SgnPos&lt; T, false &gt;',['../structimpl_1_1SgnPos_3_01T_00_01false_01_4.html',1,'impl']]],
   ['sgnpos_3c_20t_2c_20true_20_3e',['SgnPos&lt; T, true &gt;',['../structimpl_1_1SgnPos_3_01T_00_01true_01_4.html',1,'impl']]],
@@ -108,8 +99,7 @@ var searchData=
   ['sound_5fdevice_5frx',['SOUND_DEVICE_RX',['../r__microphone_8h.html#a04ba1502fee42f09bb310f2979a088c9',1,'r_microphone.h']]],
   ['sound_5fdevice_5frx_5fvol',['SOUND_DEVICE_RX_VOL',['../r__microphone_8h.html#a6441fd5be5723dca00f6388606ef3093',1,'r_microphone.h']]],
   ['sound_5fplayer_2ecpp',['sound_player.cpp',['../sound__player_8cpp.html',1,'']]],
-  ['sound_5fplayer_2eh',['sound_player.h',['../sound__player_2sound__player_8h.html',1,'']]],
-  ['sound_5fplayer_2eh',['sound_player.h',['../sound__player_8h.html',1,'']]],
+  ['sound_5fplayer_2eh',['sound_player.h',['../sound__player_2sound__player_8h.html',1,'(Global Namespace)'],['../sound__player_8h.html',1,'(Global Namespace)']]],
   ['sound_5fqueue',['sound_queue',['../classSoundPlayer.html#ae728c9884da3014a4da247da12b136c5',1,'SoundPlayer']]],
   ['sound_5fsubdevice_5frx',['SOUND_SUBDEVICE_RX',['../r__microphone_8h.html#a6d60fd28264e4b449439bf4e91e536ac',1,'r_microphone.h']]],
   ['sound_5fsubdevice_5frx_5f1',['SOUND_SUBDEVICE_RX_1',['../r__microphone_8h.html#a19ca135a3d674f19e312aa3e613ba361',1,'r_microphone.h']]],
@@ -170,11 +160,9 @@ var searchData=
   ['streamablerepresentation',['StreamableRepresentation',['../classStreamableRepresentation.html',1,'']]],
   ['string',['string',['../classConfiguration_1_1detail_1_1TOMLHandler.html#a45c4f13c02d3738b1f38b7190fd9437a',1,'Configuration::detail::TOMLHandler::string()'],['../classConfiguration_1_1TOMLValue.html#a7ecb4bdc533ced243f90508e057e8525ab45cffe084dd3d20d928bee85e7b0f21',1,'Configuration::TOMLValue::string()']]],
   ['string_5ftools_2ecpp',['string_tools.cpp',['../string__tools_8cpp.html',1,'']]],
-  ['string_5ftools_2eh',['string_tools.h',['../string__tools_2string__tools_8h.html',1,'']]],
-  ['string_5ftools_2eh',['string_tools.h',['../string__tools_8h.html',1,'']]],
+  ['string_5ftools_2eh',['string_tools.h',['../string__tools_2string__tools_8h.html',1,'(Global Namespace)'],['../string__tools_8h.html',1,'(Global Namespace)']]],
   ['stringtools',['StringTools',['../namespaceStringTools.html',1,'']]],
-  ['structure',['Structure',['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html',1,'Configuration::detail::TOMLHandler']]],
-  ['structure',['Structure',['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html#a88aed70ad0db6705c79ad43b44b4eef3',1,'Configuration::detail::TOMLHandler::Structure::Structure(const std::string &amp;key) noexcept'],['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html#a26b9050b184005ac4c5086f90b410191',1,'Configuration::detail::TOMLHandler::Structure::Structure(const std::vector&lt; TOMLValue &gt; array) noexcept'],['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html#a632b0e1f6177216640cbe7d5777e2a6f',1,'Configuration::detail::TOMLHandler::Structure::Structure(const Structure &amp;other) noexcept']]],
+  ['structure',['Structure',['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html',1,'Configuration::detail::TOMLHandler::Structure'],['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html#a88aed70ad0db6705c79ad43b44b4eef3',1,'Configuration::detail::TOMLHandler::Structure::Structure(const std::string &amp;key) noexcept'],['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html#a26b9050b184005ac4c5086f90b410191',1,'Configuration::detail::TOMLHandler::Structure::Structure(const std::vector&lt; TOMLValue &gt; array) noexcept'],['../structConfiguration_1_1detail_1_1TOMLHandler_1_1Structure.html#a632b0e1f6177216640cbe7d5777e2a6f',1,'Configuration::detail::TOMLHandler::Structure::Structure(const Structure &amp;other) noexcept']]],
   ['structure_5fpath_5f',['structure_path_',['../classConfiguration_1_1detail_1_1TOMLHandler.html#a81244200a06bc62a00a6b0f67ba4c539',1,'Configuration::detail::TOMLHandler']]],
   ['support',['support',['../classrFootSupport.html#a6e7fe270a31cd0ba66addf9ed26d3106',1,'rFootSupport']]],
   ['supportswitchphaserangemax',['supportSwitchPhaseRangeMax',['../classmWalk2014GeneratorBase.html#af48e1c5f144db205f708f12c7f0be0f3',1,'mWalk2014GeneratorBase']]],
@@ -184,7 +172,6 @@ var searchData=
   ['switchphase',['switchPhase',['../classmWalk2014GeneratorBase.html#a4d99c9ed1255d4458d1643a56030512a',1,'mWalk2014GeneratorBase']]],
   ['symbol',['symbol',['../classConfiguration_1_1detail_1_1TOMLHandler.html#a1d0674e8359597641fb726fbc3d2c004',1,'Configuration::detail::TOMLHandler']]],
   ['system_5ftools_2ecpp',['system_tools.cpp',['../system__tools_8cpp.html',1,'']]],
-  ['system_5ftools_2eh',['system_tools.h',['../system__tools_2system__tools_8h.html',1,'']]],
-  ['system_5ftools_2eh',['system_tools.h',['../system__tools_8h.html',1,'']]],
+  ['system_5ftools_2eh',['system_tools.h',['../system__tools_2system__tools_8h.html',1,'(Global Namespace)'],['../system__tools_8h.html',1,'(Global Namespace)']]],
   ['systemtools',['SystemTools',['../namespaceSystemTools.html',1,'']]]
 ];

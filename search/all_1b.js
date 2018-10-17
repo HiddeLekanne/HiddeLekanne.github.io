@@ -20,6 +20,7 @@ var searchData=
   ['_7etcpserver',['~TCPServer',['../classTCPServer.html#abc497ac52355e53986a6a1bd1acb9581',1,'TCPServer']]],
   ['_7etomlvalue',['~TOMLValue',['../classConfiguration_1_1TOMLValue.html#a073868e7d8c2982379fd29fe2234a237',1,'Configuration::TOMLValue']]],
   ['_7ewcamera',['~wCamera',['../classwCamera.html#a59c927590d78c2cc60fa7b45892031d6',1,'wCamera']]],
+  ['_7ewforwardkinematics',['~wForwardKinematics',['../classwForwardKinematics.html#ac22f1f2cdc20a495f624a2bfedd96f00',1,'wForwardKinematics']]],
   ['_7ewheadledactuators',['~wHeadLedActuators',['../classwHeadLedActuators.html#a15e4be4fbfe101da33817a9b82c5af51',1,'wHeadLedActuators']]],
   ['_7ewoverview',['~wOverview',['../classwOverview.html#a2f9f7d90bd68a0c527e115731908a3d1',1,'wOverview']]]
 ];

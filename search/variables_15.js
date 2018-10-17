@@ -10,5 +10,7 @@ var searchData=
   ['value',['value',['../classAngle.html#a2c87c576d0f13d10c79d388c4fce911e',1,'Angle']]],
   ['vcoeff',['vCoeff',['../classImage.html#a54985285ed99b7b03de6a6935b362c08',1,'Image']]],
   ['vertical_5fview_5fangle_5f',['VERTICAL_VIEW_ANGLE_',['../classCameraSettings.html#a29be960d662fe20bc495bace672bd758',1,'CameraSettings']]],
+  ['view_5fangle_5fhalf_5fhor_5f',['VIEW_ANGLE_HALF_HOR_',['../classmLineModel.html#aee0f4949545a2f66b2514e282f6bebcf',1,'mLineModel']]],
+  ['view_5fangle_5fhalf_5fver_5f',['VIEW_ANGLE_HALF_VER_',['../classmLineModel.html#a6367caf12d64a6115557067a7ab117a4',1,'mLineModel']]],
   ['volume_5fslider_5f',['volume_slider_',['../classSettingsToolbar.html#a508162bc01751cce47bea53a93c1cd7c',1,'SettingsToolbar']]]
 ];

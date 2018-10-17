@@ -1,0 +1,15 @@
+digraph "source/dnt/representations/infrastructure" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_ffe3ad53f1ced0e013eef8ad4adffcb5 {
+    graph [ bgcolor="#ddddee", pencolor="black", label="representations" fontname="Helvetica", fontsize="10", URL="dir_ffe3ad53f1ced0e013eef8ad4adffcb5.html"]
+  dir_83631d1faa77ce08f0fe00dd6edc6475 [shape=box, label="infrastructure", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_83631d1faa77ce08f0fe00dd6edc6475.html"];
+  }
+  dir_d108a8a52eeac75b0e597769f03f48e5 [shape=box label="framework" URL="dir_d108a8a52eeac75b0e597769f03f48e5.html"];
+  dir_5d0042f909018ce5a6e6ef6ccdf4504c [shape=box label="tools" fillcolor="white" style="filled" color="red" URL="dir_5d0042f909018ce5a6e6ef6ccdf4504c.html"];
+  dir_d108a8a52eeac75b0e597769f03f48e5->dir_5d0042f909018ce5a6e6ef6ccdf4504c [headlabel="2", labeldistance=1.5 headhref="dir_000003_000037.html"];
+  dir_5d0042f909018ce5a6e6ef6ccdf4504c->dir_d108a8a52eeac75b0e597769f03f48e5 [headlabel="3", labeldistance=1.5 headhref="dir_000037_000003.html"];
+  dir_83631d1faa77ce08f0fe00dd6edc6475->dir_d108a8a52eeac75b0e597769f03f48e5 [headlabel="4", labeldistance=1.5 headhref="dir_000030_000003.html"];
+  dir_83631d1faa77ce08f0fe00dd6edc6475->dir_5d0042f909018ce5a6e6ef6ccdf4504c [headlabel="1", labeldistance=1.5 headhref="dir_000030_000037.html"];
+}

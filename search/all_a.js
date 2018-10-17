@@ -11,7 +11,7 @@ var searchData=
   ['jointids',['JointIds',['../namespaceJointIds.html',1,'JointIds'],['../namespaceJointIds.html#a412b4d44362831bd71d0ac528fedc6b6',1,'JointIds::JointIds()']]],
   ['jointrequest',['jointRequest',['../classmWalk2014GeneratorBase.html#a607d90de9a39b2e2ace1ec310456077f',1,'mWalk2014GeneratorBase::jointRequest()'],['../classrWalkGenerator.html#aa1af8463dd290429e4ade9d0be9adf44',1,'rWalkGenerator::jointRequest()']]],
   ['joints',['Joints',['../namespaceJoints.html',1,'Joints'],['../classrJointAngles.html#a70f8d2cfd3adfabeac345a9ba91c9749',1,'rJointAngles::Joints()'],['../namespaceJoints.html#a0f726310bc48ef13d5b09b79fb6cd45d',1,'Joints::Joints()'],['../namespaceJoints.html#a0f726310bc48ef13d5b09b79fb6cd45d',1,'Joints::Joints()']]],
-  ['joints_2eh',['joints.h',['../mofconverter_2joints_8h.html',1,'']]],
-  ['joints_2eh',['joints.h',['../dnt_2tools_2joints_8h.html',1,'']]],
-  ['joints_5fmap',['joints_map',['../classmInterpolationEngine.html#afd742f0eaad38da650e54b9ab1a4e749',1,'mInterpolationEngine']]]
+  ['joints_2eh',['joints.h',['../dnt_2tools_2joints_8h.html',1,'(Global Namespace)'],['../mofconverter_2joints_8h.html',1,'(Global Namespace)']]],
+  ['joints_5fmap',['joints_map',['../classmInterpolationEngine.html#afd742f0eaad38da650e54b9ab1a4e749',1,'mInterpolationEngine']]],
+  ['jump_5fgoalie_2eh',['jump_goalie.h',['../jump__goalie_8h.html',1,'']]]
 ];

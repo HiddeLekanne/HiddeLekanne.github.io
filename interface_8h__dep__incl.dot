@@ -1,0 +1,14 @@
+digraph "source/interface/interface.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node64 [label="source/interface/interface.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node64 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="source/interface/interface.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_8cpp.html"];
+  Node64 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="source/interface/modules\l/m_interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$m__interface_8h.html"];
+  Node66 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="source/interface/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_2main_8cpp.html"];
+  Node66 -> Node68 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node68 [label="source/interface/modules\l/m_interface.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$m__interface_8cpp.html"];
+}

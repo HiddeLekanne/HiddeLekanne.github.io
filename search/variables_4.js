@@ -6,7 +6,6 @@ var searchData=
   ['enable_5fmedian_5f',['ENABLE_MEDIAN_',['../classmFieldFilter.html#a0949ff0ca8e0d1796bc008de7a59053e',1,'mFieldFilter']]],
   ['enable_5fransac_5f',['ENABLE_RANSAC_',['../classmFieldFilter.html#aa13a4b3cd34386913eaee478038f2191',1,'mFieldFilter']]],
   ['end_5ff_5f',['end_f_',['../structLinkTable.html#a5e732b4534df30b0987e01fa0eb16b3e',1,'LinkTable']]],
-  ['end_5fposition_5f',['end_position_',['../classmIMUOdometry.html#ac77d3aaa004304d91f98cef1fa8acfcc',1,'mIMUOdometry']]],
   ['end_5frotation_5f',['end_rotation_',['../structLinkTable.html#a38d7d15cadc365e84467d80550a1b58b',1,'LinkTable']]],
   ['end_5ftranslation_5f',['end_translation_',['../structLinkTable.html#a4a10b159711ad8fcc9a2c6c85c0b529e',1,'LinkTable']]],
   ['error_5fstream_5f',['error_stream_',['../classLog.html#a967b1a2bdf86cfbbb012d922532db77b',1,'Log']]],

@@ -2,6 +2,7 @@ var searchData=
 [
   ['w_5fcamera_2eh',['w_camera.h',['../w__camera_8h.html',1,'']]],
   ['w_5fconnect_2eh',['w_connect.h',['../w__connect_8h.html',1,'']]],
+  ['w_5fforward_5fkinematics_2eh',['w_forward_kinematics.h',['../w__forward__kinematics_8h.html',1,'']]],
   ['w_5fhead_5fled_5factuators_2eh',['w_head_led_actuators.h',['../w__head__led__actuators_8h.html',1,'']]],
   ['w_5foverview_2eh',['w_overview.h',['../w__overview_8h.html',1,'']]],
   ['waittillfinished',['waitTillFinished',['../classModuleGroup.html#a9f6fcf8fe9575c0271ec997ad75ddc40',1,'ModuleGroup']]],
@@ -15,7 +16,7 @@ var searchData=
   ['walking',['walking',['../classmWalk2014GeneratorBase.html#a4c395b028a3921972f2976b392d4a3ada275b0703008de995938abfd1d6055d3e',1,'mWalk2014GeneratorBase']]],
   ['walkmode',['WalkMode',['../classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172a',1,'rWalkGenerator::WalkMode()'],['../classmWalk2014GeneratorBase.html#ae7987e71c73293a6f0672cab12d0459d',1,'mWalk2014GeneratorBase::walkMode()'],['../classrMotionRequest.html#a1f3e2b6bea56c084583d55cec5f73a69',1,'rMotionRequest::walkMode()']]],
   ['walkspeed',['walkSpeed',['../classrMotionRequest.html#a822e5da78ff92b6643646ad84c7b0af0',1,'rMotionRequest']]],
-  ['walkstate',['walkState',['../classmWalk2014GeneratorBase.html#a3a1a18fe4dc19ae6a75ebc85656cd5b8',1,'mWalk2014GeneratorBase::walkState()'],['../classmWalk2014GeneratorBase.html#a4c395b028a3921972f2976b392d4a3ad',1,'mWalk2014GeneratorBase::WalkState()']]],
+  ['walkstate',['WalkState',['../classmWalk2014GeneratorBase.html#a4c395b028a3921972f2976b392d4a3ad',1,'mWalk2014GeneratorBase::WalkState()'],['../classmWalk2014GeneratorBase.html#a3a1a18fe4dc19ae6a75ebc85656cd5b8',1,'mWalk2014GeneratorBase::walkState()']]],
   ['walkstiffness',['walkStiffness',['../classmWalk2014GeneratorBase.html#a69dbbb241e254fb30a8cec237b0feb31',1,'mWalk2014GeneratorBase']]],
   ['walkvolumerotationexponent',['walkVolumeRotationExponent',['../classmWalk2014GeneratorBase.html#ab7dc9b05f4c3d1c09714b0eb1c2f1d1c',1,'mWalk2014GeneratorBase']]],
   ['walkvolumetranslationexponent',['walkVolumeTranslationExponent',['../classmWalk2014GeneratorBase.html#a4d9fe6dd5b14f45517163fe6123ea06e',1,'mWalk2014GeneratorBase']]],
@@ -23,13 +24,14 @@ var searchData=
   ['warn',['WARN',['../STFT_8cpp.html#ada6df57a62e35e76f5008bd30020cccb',1,'STFT.cpp']]],
   ['warning',['warning',['../classLog.html#a73ac2872c54484e20d1ecdf8714c2f3e',1,'Log::warning()'],['../classLogStream.html#a1e24ed3a55686069d245b63fbc69a62da0eaadb4fcb48a0a0ed7bc9868be9fbaa',1,'LogStream::Warning()']]],
   ['warning_5fstream_5f',['warning_stream_',['../classLog.html#a43e6534f9ab1d74e253ec43eb670ff5e',1,'Log']]],
-  ['wcamera',['wCamera',['../classwCamera.html',1,'wCamera'],['../classwCamera.html#a252d4b489290e236942473227c2cd11f',1,'wCamera::wCamera()']]],
+  ['wcamera',['wCamera',['../classwCamera.html',1,'wCamera'],['../classwCamera.html#a6441e4d6c1c53aaf27ad15c3ceaecaa4',1,'wCamera::wCamera()']]],
   ['wconnect',['wConnect',['../classwConnect.html',1,'wConnect'],['../classwConnect.html#a5c568e6182acf95994fc8962462ad2e8',1,'wConnect::wConnect()']]],
   ['weightdidnotshift',['weightDidNotShift',['../classmWalk2014GeneratorBase.html#add4b6298da0468229f15288f2cdeb71baa230702355706c3d3cb79179bdc1f7c8',1,'mWalk2014GeneratorBase']]],
   ['weightdidshift',['weightDidShift',['../classmWalk2014GeneratorBase.html#add4b6298da0468229f15288f2cdeb71bae27903753ea652b7261d3e90fc01f804',1,'mWalk2014GeneratorBase']]],
   ['weights',['weights',['../classmFootSupportProvider.html#a0df79613705ce34090a7d599438dd3a2',1,'mFootSupportProvider']]],
   ['weightshiftmisses',['weightShiftMisses',['../classmWalk2014GeneratorBase.html#a99d8289dcc504028a9f5482e6af0965b',1,'mWalk2014GeneratorBase']]],
   ['weightshiftstatus',['weightShiftStatus',['../classmWalk2014GeneratorBase.html#a845b79c72bc9a04339627470a9d5c2c6',1,'mWalk2014GeneratorBase']]],
+  ['wforwardkinematics',['wForwardKinematics',['../classwForwardKinematics.html',1,'wForwardKinematics'],['../classwForwardKinematics.html#abe567172a073b6ccda5822dc7bb06ee5',1,'wForwardKinematics::wForwardKinematics()']]],
   ['wheadledactuators',['wHeadLedActuators',['../classwHeadLedActuators.html',1,'wHeadLedActuators'],['../classwHeadLedActuators.html#a5f5508c87b1ea0b6162301c373aa1833',1,'wHeadLedActuators::wHeadLedActuators()']]],
   ['whistle_5fbegin_5f',['whistle_begin_',['../classmMicrophone.html#afc0e0762c1cb273391ba92d4154dfa9f',1,'mMicrophone']]],
   ['whistle_5fdetected_5f',['whistle_detected_',['../classrMicrophone.html#a00bdd638baadc90b47cdde1cbb6c11ea',1,'rMicrophone']]],
@@ -48,5 +50,5 @@ var searchData=
   ['windowfrequencyhalf',['windowFrequencyHalf',['../classSTFT.html#ac5e3809df1c1b3d31af83c86bf4092dd',1,'STFT']]],
   ['windowtime',['windowTime',['../classSTFT.html#a171de4338cdeb5f7d596e539330f5413',1,'STFT']]],
   ['windowtimestep',['windowTimeStep',['../classSTFT.html#a2856bd070f77b65cced137ac0d9fb28e',1,'STFT']]],
-  ['woverview',['wOverview',['../classwOverview.html',1,'wOverview'],['../classwOverview.html#a56ebfcc2835a2eabbb10dbb1055639ec',1,'wOverview::wOverview()']]]
+  ['woverview',['wOverview',['../classwOverview.html',1,'wOverview'],['../classwOverview.html#a3e788809bd22fda303dbd77366c430dc',1,'wOverview::wOverview()']]]
 ];

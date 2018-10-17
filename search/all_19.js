@@ -1,7 +1,7 @@
 var searchData=
 [
   ['y',['y',['../structWalkCommand.html#a4fd56e0ed5867b6832da0461de0a361c',1,'WalkCommand::y()'],['../structSpline_1_1P2.html#a3cae272f4c098b7574d63e628d32a7d4',1,'Spline::P2::y()']]],
-  ['y_5f',['y_',['../classrBall.html#a3714d0b9f0de3785c9e384ef08143983',1,'rBall::y_()'],['../classrOdometry.html#a407dee4032c3ecc9fc96b2cad166a982',1,'rOdometry::y_()']]],
+  ['y_5f',['y_',['../classrBall.html#a3714d0b9f0de3785c9e384ef08143983',1,'rBall']]],
   ['y_5fchannel_5f',['y_channel_',['../classImage.html#a39bb52aeb0d19565ca0023e74b5d89c0',1,'Image']]],
   ['y_5frotation_5f',['y_rotation_',['../structLinkTable.html#ab5b1e359527d0b88572f48d6430688ab',1,'LinkTable']]],
   ['ycoeffb',['yCoeffB',['../classImage.html#a86b2a5a83588f9683f7757e34b36356b',1,'Image']]],

@@ -1,0 +1,7 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="ScopeTimer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classScopeTimer.html",tooltip="Timer: timer used to time parts of the code inside of the { ScopeTimer t(\"test\"); code ..."];
+}

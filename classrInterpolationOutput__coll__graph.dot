@@ -1,0 +1,18 @@
+digraph "rInterpolationOutput"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node4 [label="rInterpolationOutput",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="rJointRequest",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classrJointRequest.html"];
+  Node6 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="rJointAngles",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classrJointAngles.html"];
+  Node7 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="Representation",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classRepresentation.html",tooltip="Representation abstract class. "];
+  Node8 -> Node5 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" stiffnessData" ,fontname="Helvetica"];
+  Node8 [label="rStiffnessData",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classrStiffnessData.html"];
+  Node7 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" motion_in_progress_" ,fontname="Helvetica"];
+  Node9 [label="rMotion",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classrMotion.html"];
+  Node7 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

@@ -1,11 +1,5 @@
 var searchData=
 [
-  ['pair_5fhead_5f',['pair_head_',['../classmIMUOdometry.html#a2f34d91bf12483d3c8847b2cb799378b',1,'mIMUOdometry']]],
-  ['pair_5fleft_5farm_5f',['pair_left_arm_',['../classmIMUOdometry.html#ac07c20f5d4258e65dcb6b31d95c65317',1,'mIMUOdometry']]],
-  ['pair_5fleft_5ffoot_5f',['pair_left_foot_',['../classmIMUOdometry.html#a0a17b65ee9e0ec4f56231c708dee92ce',1,'mIMUOdometry']]],
-  ['pair_5fmodel_5fcenter_5fof_5fmass_5f',['pair_model_center_of_mass_',['../classmIMUOdometry.html#a6cefe94110b1d90c07594ff1f7f7d495',1,'mIMUOdometry']]],
-  ['pair_5fright_5farm_5f',['pair_right_arm_',['../classmIMUOdometry.html#a56853e7ae8664335954127882e5da81d',1,'mIMUOdometry']]],
-  ['pair_5fright_5ffoot_5f',['pair_right_foot_',['../classmIMUOdometry.html#a1aa005f26385c33d4146c1850ec17c0b',1,'mIMUOdometry']]],
   ['penalized_5f',['penalized_',['../classrGameData.html#af3e016f77c5a5a8d6a15b7cde5eb7006',1,'rGameData']]],
   ['percentage_5foverlap_5f',['PERCENTAGE_OVERLAP_',['../classmBallDetector.html#a5c3fc1cd7fce13f6dfd293cc8283cc55',1,'mBallDetector']]],
   ['pi',['pi',['../namespaceConstants.html#a886aef527256b6e4d99be742e1cb7c6f',1,'Constants']]],
@@ -25,7 +19,6 @@ var searchData=
   ['port_5f',['port_',['../classTCPClient.html#a9c4fca62f1c81666f29c7abb957dda47',1,'TCPClient::port_()'],['../classTCPServer.html#a4a76f5410bb43cb46542fd6d56df75aa',1,'TCPServer::port_()']]],
   ['prevforwardl',['prevForwardL',['../classmWalk2014GeneratorBase.html#a238ff2cb4a81c6b0b9badb4617754ddf',1,'mWalk2014GeneratorBase']]],
   ['prevforwardr',['prevForwardR',['../classmWalk2014GeneratorBase.html#a97c84687a6395ed46ad7f108417f7bc2',1,'mWalk2014GeneratorBase']]],
-  ['previous_5fcenter_5fof_5fmass_5f',['previous_center_of_mass_',['../classmIMUOdometry.html#a79c669aeccbd1a8ecd9ab6912e2da86b',1,'mIMUOdometry']]],
   ['previous_5ftimes_5f',['previous_times_',['../classmInterpolationEngine.html#af9cd4d98a39259287307eda7d9b6dfdc',1,'mInterpolationEngine']]],
   ['prevleftl',['prevLeftL',['../classmWalk2014GeneratorBase.html#a430033996bf6b3fbc4dc2274a717909b',1,'mWalk2014GeneratorBase']]],
   ['prevleftr',['prevLeftR',['../classmWalk2014GeneratorBase.html#ad0924831006157225a3ecc81a211382f',1,'mWalk2014GeneratorBase']]],

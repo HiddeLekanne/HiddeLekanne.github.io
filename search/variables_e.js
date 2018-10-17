@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['odometry_5f',['odometry_',['../classmIMUOdometry.html#a3d91ce6628527716f020f92444ba5766',1,'mIMUOdometry']]],
-  ['odometryoffset',['odometryOffset',['../classmWalk2014GeneratorBase.html#ad8ae85728bad9cd0f327b15dd01230f5',1,'mWalk2014GeneratorBase::odometryOffset()'],['../classrWalkGenerator.html#a03809776f76d97b935b15c8b58a89237',1,'rWalkGenerator::odometryOffset()']]],
+  ['odometry_5foffset_5f',['odometry_offset_',['../classrWalkGenerator.html#af93ee2ab10c806f2a04308dbca8eaaa5',1,'rWalkGenerator']]],
+  ['odometryoffset',['odometryOffset',['../classmWalk2014GeneratorBase.html#ad8ae85728bad9cd0f327b15dd01230f5',1,'mWalk2014GeneratorBase']]],
   ['odometryscale',['odometryScale',['../classmWalk2014GeneratorBase.html#af64e3f5fffa709c0f2b7caa962226fa6',1,'mWalk2014GeneratorBase']]],
   ['offset',['offset',['../classSTFT.html#af5f3036e959b2769049a7fa819a5da3a',1,'STFT']]],
   ['ongroundangle_5f',['onGroundAngle_',['../classmFallDownDetector.html#a0c07313da5a9b78fbebd81b4f70d5d50',1,'mFallDownDetector']]],

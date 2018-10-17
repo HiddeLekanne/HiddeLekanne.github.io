@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['quaternion_5f',['quaternion_',['../classmIMUOdometry.html#a6b61bf84d0669e28d5205b135dbf357f',1,'mIMUOdometry']]],
   ['quaterniond',['Quaterniond',['../math_2Eigen_8h.html#abd7368ce87f4b03cf77abf2f5486c520',1,'Eigen.h']]],
   ['quaternionf',['Quaternionf',['../math_2Eigen_8h.html#aea8c0c08032c3bfe6d4a31b30bdf21b0',1,'Eigen.h']]],
   ['queue_5fmutex_5f',['queue_mutex_',['../classInputMessage.html#a418852be8261bad6c0a9f5378436dc3d',1,'InputMessage']]],

@@ -1,0 +1,11 @@
+digraph "source/mofconverter" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_b2f33c71d4aa5e7af42a1ca61ff5af1b {
+    graph [ bgcolor="#ddddee", pencolor="black", label="source" fontname="Helvetica", fontsize="10", URL="dir_b2f33c71d4aa5e7af42a1ca61ff5af1b.html"]
+  dir_15bdb66b033aa111f9239a91ebb0c3a4 [shape=box, label="mofconverter", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_15bdb66b033aa111f9239a91ebb0c3a4.html"];
+  }
+  dir_9f21cc5e450a8709b82f92c61a1cfea7 [shape=box label="dnt" fillcolor="white" style="filled" color="red" URL="dir_9f21cc5e450a8709b82f92c61a1cfea7.html"];
+  dir_15bdb66b033aa111f9239a91ebb0c3a4->dir_9f21cc5e450a8709b82f92c61a1cfea7 [headlabel="1", labeldistance=1.5 headhref="dir_000042_000002.html"];
+}

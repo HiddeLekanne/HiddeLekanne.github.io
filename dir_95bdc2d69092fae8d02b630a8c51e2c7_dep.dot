@@ -1,0 +1,9 @@
+digraph "source/dnt/tools/sound_player" {
+  compound=true
+  node [ fontsize="10", fontname="Helvetica"];
+  edge [ labelfontsize="10", labelfontname="Helvetica"];
+  subgraph clusterdir_5d0042f909018ce5a6e6ef6ccdf4504c {
+    graph [ bgcolor="#ddddee", pencolor="black", label="tools" fontname="Helvetica", fontsize="10", URL="dir_5d0042f909018ce5a6e6ef6ccdf4504c.html"]
+  dir_95bdc2d69092fae8d02b630a8c51e2c7 [shape=box, label="sound_player", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_95bdc2d69092fae8d02b630a8c51e2c7.html"];
+  }
+}

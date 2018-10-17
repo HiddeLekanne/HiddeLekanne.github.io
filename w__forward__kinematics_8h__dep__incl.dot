@@ -1,0 +1,18 @@
+digraph "source/interface/widgets/w_forward_kinematics.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node19 [label="source/interface/widgets\l/w_forward_kinematics.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node19 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="source/interface/widgets\l/w_overview.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$w__overview_8h.html"];
+  Node20 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node21 [label="source/interface/interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_8h.html"];
+  Node21 -> Node22 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node22 [label="source/interface/interface.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_8cpp.html"];
+  Node21 -> Node23 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node23 [label="source/interface/modules\l/m_interface.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$m__interface_8h.html"];
+  Node23 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node24 [label="source/interface/main.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$interface_2main_8cpp.html"];
+  Node23 -> Node25 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node25 [label="source/interface/modules\l/m_interface.cpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$m__interface_8cpp.html"];
+}

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['cameras',['Cameras',['../namespaceCameras.html',1,'']]],
+  ['cereal',['cereal',['../namespacecereal.html',1,'']]],
   ['communication',['Communication',['../namespaceCommunication.html',1,'']]],
   ['configuration',['Configuration',['../namespaceConfiguration.html',1,'']]],
   ['constants',['Constants',['../namespaceConstants.html',1,'']]],

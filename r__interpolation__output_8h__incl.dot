@@ -1,0 +1,29 @@
+digraph "source/dnt/representations/motion/r_interpolation_output.h"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node0 [label="source/dnt/representations\l/motion/r_interpolation\l_output.h",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="representations/motion\l/r_joint_request.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$r__joint__request_8h.html",tooltip="Taken from NaoDevils codebase. "];
+  Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="representations/infrastructure\l/r_joint_angles.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$r__joint__angles_8h.html",tooltip="Inspired by the NaoDevils codebase. "];
+  Node2 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="framework/representation.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$representation_8h.html"];
+  Node3 -> Node4 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="string",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node2 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="tools/math/angle.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$angle_8h.html"];
+  Node5 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="constants.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$constants_8h.html"];
+  Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="array",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="representations/motion\l/r_stiffness_data.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$r__stiffness__data_8h.html",tooltip="Inspired by the NaoDevils codebase. "];
+  Node8 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="cmath",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="representations/motion\l/r_motion.h",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$r__motion_8h.html"];
+  Node10 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

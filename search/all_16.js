@@ -33,6 +33,8 @@ var searchData=
   ['vectorxf',['VectorXf',['../math_2Eigen_8h.html#ab1cfd56887f8138b4277d25817402296',1,'Eigen.h']]],
   ['vertical_5fview_5fangle_5f',['VERTICAL_VIEW_ANGLE_',['../classCameraSettings.html#a29be960d662fe20bc495bace672bd758',1,'CameraSettings']]],
   ['veryuseful',['VeryUseful',['../decision_8h.html#a7ddfdc0b3f99a542161130db594afe06ab8c5d9f3b73ac014974579b010225e82',1,'decision.h']]],
+  ['view_5fangle_5fhalf_5fhor_5f',['VIEW_ANGLE_HALF_HOR_',['../classmLineModel.html#aee0f4949545a2f66b2514e282f6bebcf',1,'mLineModel']]],
+  ['view_5fangle_5fhalf_5fver_5f',['VIEW_ANGLE_HALF_VER_',['../classmLineModel.html#a6367caf12d64a6115557067a7ab117a4',1,'mLineModel']]],
   ['vision',['Vision',['../classModuleManager.html#a63bb13b1f39ca4abbe8fc0e268a58714a489f50e5bcc4ab845ac324cd5756fefc',1,'ModuleManager']]],
   ['volume_5frx',['VOLUME_RX',['../r__microphone_8h.html#aa5345c28f090d70d4431176ac8c8d365',1,'r_microphone.h']]],
   ['volume_5fslider_5f',['volume_slider_',['../classSettingsToolbar.html#a508162bc01751cce47bea53a93c1cd7c',1,'SettingsToolbar']]]

@@ -1,0 +1,35 @@
+digraph "mCortexProxy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node3 [label="mCortexProxy",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node4 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="mMemoryProxy",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmMemoryProxy.html",tooltip="mMemoryProxy: Base class to reads from shared memory and put data into Representations. "];
+  Node5 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Module",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classModule.html",tooltip="Module abstract class. "];
+  Node6 -> Node4 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" memory_" ,fontname="Helvetica"];
+  Node6 [label="SharedMemory",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSharedMemory.html"];
+  Node7 -> Node6 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" walk_command_" ,fontname="Helvetica"];
+  Node7 [label="WalkCommand",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structWalkCommand.html",tooltip="Walk command used to control the naoqi motion proxy. "];
+  Node8 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" left_eye_leds_message_" ,fontname="Helvetica"];
+  Node8 [label="InputMessage\< rLeftEyeLeds \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInputMessage.html"];
+  Node9 -> Node8 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="InputMessageBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInputMessageBase.html",tooltip="InputMessage of a module. "];
+  Node10 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="Message",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classMessage.html",tooltip="Message abstract class. "];
+  Node11 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" head_led_actuators\l_message_" ,fontname="Helvetica"];
+  Node11 [label="InputMessage\< rHeadLEDActuators \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInputMessage.html"];
+  Node9 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" game_data_message_" ,fontname="Helvetica"];
+  Node12 [label="OutputMessage\< rGameData \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOutputMessage.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="OutputMessageBase",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOutputMessageBase.html",tooltip="OutputMessage of a module. "];
+  Node10 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" frame_info_message_" ,fontname="Helvetica"];
+  Node14 [label="OutputMessage\< rFrameInfo \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classOutputMessage.html"];
+  Node13 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node15 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" ear_led_actuators_message_" ,fontname="Helvetica"];
+  Node15 [label="InputMessage\< rEarLEDActuators \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classInputMessage.html"];
+  Node9 -> Node15 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}
