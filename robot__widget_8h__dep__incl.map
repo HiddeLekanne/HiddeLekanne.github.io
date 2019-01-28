@@ -1,8 +1,8 @@
 <map id="source/teamcopy/widgets/robot_widget.h" name="source/teamcopy/widgets/robot_widget.h">
-<area shape="rect" id="node2" href="$team__widget_8h.html" title="source/teamcopy/widgets\l/team_widget.h" alt="" coords="415,95,585,136"/>
+<area shape="rect" id="node2" href="$team__widget_8h.html" title="source/teamcopy/widgets\l/team_widget.h" alt="" coords="427,95,597,136"/>
 <area shape="rect" id="node8" href="$robot__widget_8cpp.html" title="source/teamcopy/widgets\l/robot_widget.cpp" alt="" coords="573,273,744,315"/>
-<area shape="rect" id="node3" href="$dnt__window_8h.html" title="source/teamcopy/dnt\l_window.h" alt="" coords="200,184,344,225"/>
-<area shape="rect" id="node9" href="$team__widget_8cpp.html" title="source/teamcopy/widgets\l/team_widget.cpp" alt="" coords="415,184,585,225"/>
+<area shape="rect" id="node3" href="$dnt__window_8h.html" title="source/teamcopy/dnt\l_window.h" alt="" coords="235,184,379,225"/>
+<area shape="rect" id="node9" href="$team__widget_8cpp.html" title="source/teamcopy/widgets\l/team_widget.cpp" alt="" coords="427,184,597,225"/>
 <area shape="rect" id="node4" href="$dnt__window_8cpp.html" title="source/teamcopy/dnt\l_window.cpp" alt="" coords="5,273,149,315"/>
 <area shape="rect" id="node5" href="$settings__toolbar_8h.html" title="source/teamcopy/settings\l_toolbar.h" alt="" coords="174,273,346,315"/>
 <area shape="rect" id="node7" href="$teamcopy_2main_8cpp.html" title="source/teamcopy/main.cpp" alt="" coords="371,281,549,307"/>

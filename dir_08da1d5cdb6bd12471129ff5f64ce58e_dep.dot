@@ -1,9 +1,0 @@
-digraph "source/dnt/tools/timer" {
-  compound=true
-  node [ fontsize="10", fontname="Helvetica"];
-  edge [ labelfontsize="10", labelfontname="Helvetica"];
-  subgraph clusterdir_5d0042f909018ce5a6e6ef6ccdf4504c {
-    graph [ bgcolor="#ddddee", pencolor="black", label="tools" fontname="Helvetica", fontsize="10", URL="dir_5d0042f909018ce5a6e6ef6ccdf4504c.html"]
-  dir_08da1d5cdb6bd12471129ff5f64ce58e [shape=box, label="timer", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_08da1d5cdb6bd12471129ff5f64ce58e.html"];
-  }
-}

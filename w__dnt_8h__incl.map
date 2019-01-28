@@ -1,0 +1,10 @@
+<map id="source/interface/widgets/w_dnt.h" name="source/interface/widgets/w_dnt.h">
+<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="135,95,275,121"/>
+<area shape="rect" id="node7" href="$message_8h.html" title="framework/message.h" alt="" coords="82,333,232,360"/>
+<area shape="rect" id="node11" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="334,251,521,278"/>
+<area shape="rect" id="node17" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="332,169,526,196"/>
+<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="264,408,378,435"/>
+<area shape="rect" id="node18" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="818,244,968,285"/>
+<area shape="rect" id="node19" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="930,333,1093,360"/>
+<area shape="rect" id="node20" href="$container_8h.html" title="framework/container.h" alt="" coords="936,408,1087,435"/>
+</map>

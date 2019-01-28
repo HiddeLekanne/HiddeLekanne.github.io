@@ -1,4 +1,4 @@
 <map id="Log" name="Log">
 <area shape="rect" id="node2" href="$classLogStream.html" title="LogStream" alt="" coords="44,95,129,121"/>
-<area shape="rect" id="node3" href="$structLogStream_1_1DebugLevel.html" title="LogStream::DebugLevel" alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node3" href="$structLogStream_1_1DebugLevel.html" title="A struct that holds all the information about a debug level. " alt="" coords="5,5,168,32"/>
 </map>

@@ -77,13 +77,18 @@ $(function() {
 Inheritance diagram for TCPServer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classTCPServer__inherit__graph.png" border="0" usemap="#TCPServer_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="TCPServer_inherit__map" id="TCPServer_inherit__map">
+<area shape="rect" id="node3" href="classmInterfaceCommunication.html" title="mInterfaceCommunication: Constructs a TCP server on which representations are sent to a remote client..." alt="" coords="5,155,180,181"/>
+<area shape="rect" id="node2" href="classTCP.html" title="TCP: base class for the tcp client and server, implements sending and receiving data over the tcp con..." alt="" coords="68,5,117,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for TCPServer:</div>
 <div class="dyncontent">
 <div class="center"><img src="classTCPServer__coll__graph.png" border="0" usemap="#TCPServer_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="TCPServer_coll__map" id="TCPServer_coll__map">
+<area shape="rect" id="node2" href="classTCP.html" title="TCP: base class for the tcp client and server, implements sending and receiving data over the tcp con..." alt="" coords="24,5,73,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -110,9 +115,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3e3883bc160e48f239460e975aaa972 inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#ac3e3883bc160e48f239460e975aaa972">sendRepresentation</a> (std::shared_ptr&lt; const <a class="el" href="classStreamableRepresentation.html">StreamableRepresentation</a> &gt; streamable_representation)</td></tr>
 <tr class="memdesc:ac3e3883bc160e48f239460e975aaa972 inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a streamable representation over the network.  <a href="classTCP.html#ac3e3883bc160e48f239460e975aaa972">More...</a><br /></td></tr>
 <tr class="separator:ac3e3883bc160e48f239460e975aaa972 inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf2c9a0c36426ae1f25c1e28da1d2412 inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#abf2c9a0c36426ae1f25c1e28da1d2412">receiveData</a> (std::string &amp;message, <a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> &amp;header)</td></tr>
-<tr class="memdesc:abf2c9a0c36426ae1f25c1e28da1d2412 inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data over the tcp connection.  <a href="classTCP.html#abf2c9a0c36426ae1f25c1e28da1d2412">More...</a><br /></td></tr>
-<tr class="separator:abf2c9a0c36426ae1f25c1e28da1d2412 inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2c657e68c071749b637d9f544cce2e inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a6f2c657e68c071749b637d9f544cce2e">receiveData</a> (unsigned char *message, <a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> &amp;header)</td></tr>
+<tr class="memdesc:a6f2c657e68c071749b637d9f544cce2e inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data over the tcp connection.  <a href="classTCP.html#a6f2c657e68c071749b637d9f544cce2e">More...</a><br /></td></tr>
+<tr class="separator:a6f2c657e68c071749b637d9f544cce2e inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c422b5e5ae8d7b92ff1ae5a18b298fe inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a1c422b5e5ae8d7b92ff1ae5a18b298fe">disconnect</a> ()</td></tr>
 <tr class="memdesc:a1c422b5e5ae8d7b92ff1ae5a18b298fe inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect the active connections.  <a href="classTCP.html#a1c422b5e5ae8d7b92ff1ae5a18b298fe">More...</a><br /></td></tr>
 <tr class="separator:a1c422b5e5ae8d7b92ff1ae5a18b298fe inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -138,9 +143,9 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classTCP"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTCP')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classTCP.html">TCP</a></td></tr>
-<tr class="memitem:aec7694bdaf3c03c9f8ddbe4a476629a1 inherit pro_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#aec7694bdaf3c03c9f8ddbe4a476629a1">receive</a> (std::string &amp;data, <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> size)</td></tr>
-<tr class="memdesc:aec7694bdaf3c03c9f8ddbe4a476629a1 inherit pro_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data from the active socket.  <a href="classTCP.html#aec7694bdaf3c03c9f8ddbe4a476629a1">More...</a><br /></td></tr>
-<tr class="separator:aec7694bdaf3c03c9f8ddbe4a476629a1 inherit pro_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ef56a6cb505dd77c06ba1cd15d5a74 inherit pro_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#aa6ef56a6cb505dd77c06ba1cd15d5a74">receive</a> (unsigned char *data, <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> size)</td></tr>
+<tr class="memdesc:aa6ef56a6cb505dd77c06ba1cd15d5a74 inherit pro_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data from the active socket.  <a href="classTCP.html#aa6ef56a6cb505dd77c06ba1cd15d5a74">More...</a><br /></td></tr>
+<tr class="separator:aa6ef56a6cb505dd77c06ba1cd15d5a74 inherit pro_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b24738fc31b37d92a9117a941347dc3 inherit pro_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a4b24738fc31b37d92a9117a941347dc3">receiveHeader</a> (<a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> *header)</td></tr>
 <tr class="memdesc:a4b24738fc31b37d92a9117a941347dc3 inherit pro_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive the header from the active connection.  <a href="classTCP.html#a4b24738fc31b37d92a9117a941347dc3">More...</a><br /></td></tr>
 <tr class="separator:a4b24738fc31b37d92a9117a941347dc3 inherit pro_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>

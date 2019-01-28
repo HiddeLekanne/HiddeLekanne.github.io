@@ -79,13 +79,26 @@ $(function() {
 Inheritance diagram for mBallDetector:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmBallDetector__inherit__graph.png" border="0" usemap="#mBallDetector_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="mBallDetector_inherit__map" id="mBallDetector_inherit__map">
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="26,5,90,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for mBallDetector:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmBallDetector__coll__graph.png" border="0" usemap="#mBallDetector_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="mBallDetector_coll__map" id="mBallDetector_coll__map">
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="400,5,464,32"/>
+<area shape="rect" id="node3" href="classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="323,56,541,83"/>
+<area shape="rect" id="node4" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,145,269,172"/>
+<area shape="rect" id="node10" href="classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="331,107,533,133"/>
+<area shape="rect" id="node11" href="classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="331,157,533,184"/>
+<area shape="rect" id="node5" href="classMessage.html" title="Message abstract class. " alt="" coords="5,201,80,228"/>
+<area shape="rect" id="node7" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,225,273,252"/>
+<area shape="rect" id="node6" href="classOutputMessage.html" title="OutputMessage\&lt; rBall \&gt;" alt="" coords="350,208,514,235"/>
+<area shape="rect" id="node8" href="classOutputMessage.html" title="OutputMessage\&lt; rRightEye\lLeds \&gt;" alt="" coords="340,259,524,301"/>
+<area shape="rect" id="node9" href="classOutputMessage.html" title="OutputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="325,325,539,352"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -196,6 +209,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a29ff2cb292aa14677b5635c712e5f324"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrLeftEyeLeds.html">rLeftEyeLeds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a29ff2cb292aa14677b5635c712e5f324">left_eye_led_message_</a></td></tr>
 <tr class="memdesc:a29ff2cb292aa14677b5635c712e5f324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing how to left eye led should be set; not if the ball is not seen or red if the ball is seen.  <a href="#a29ff2cb292aa14677b5635c712e5f324">More...</a><br /></td></tr>
 <tr class="separator:a29ff2cb292aa14677b5635c712e5f324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5dd82a0c2856b5f03756724ebd5f844c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrRightEyeLeds.html">rRightEyeLeds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a5dd82a0c2856b5f03756724ebd5f844c">right_eye_led_message_</a></td></tr>
+<tr class="memdesc:a5dd82a0c2856b5f03756724ebd5f844c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing how to right eye led should be set; not if the ball is not seen or red if the ball is seen.  <a href="#a5dd82a0c2856b5f03756724ebd5f844c">More...</a><br /></td></tr>
+<tr class="separator:a5dd82a0c2856b5f03756724ebd5f844c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:addc54af2b89bfca2c993926cf29a22b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrCameraSensor.html">rCameraSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#addc54af2b89bfca2c993926cf29a22b7">camera_sensor_message_</a></td></tr>
 <tr class="memdesc:addc54af2b89bfca2c993926cf29a22b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the CameraSensorRepresentation.  <a href="#addc54af2b89bfca2c993926cf29a22b7">More...</a><br /></td></tr>
 <tr class="separator:addc54af2b89bfca2c993926cf29a22b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -203,7 +219,14 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:af077168c7a31fba66b34f90af23bfade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the JointSensorRepresentation.  <a href="#af077168c7a31fba66b34f90af23bfade">More...</a><br /></td></tr>
 <tr class="separator:af077168c7a31fba66b34f90af23bfade"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff682119795522fb39dae99e9514062c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrJointSensor.html">rJointSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#aff682119795522fb39dae99e9514062c">joint_sensor_representation_</a></td></tr>
+<tr class="memdesc:aff682119795522fb39dae99e9514062c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The representation for the joint sensor values.  <a href="#aff682119795522fb39dae99e9514062c">More...</a><br /></td></tr>
 <tr class="separator:aff682119795522fb39dae99e9514062c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab51d8672014a49efb0dc7eb6c0928070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ab51d8672014a49efb0dc7eb6c0928070">robot_model_message_</a></td></tr>
+<tr class="memdesc:ab51d8672014a49efb0dc7eb6c0928070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the RobotModelRepresentation.  <a href="#ab51d8672014a49efb0dc7eb6c0928070">More...</a><br /></td></tr>
+<tr class="separator:ab51d8672014a49efb0dc7eb6c0928070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abda146c5251b23885d780828228ef63d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#abda146c5251b23885d780828228ef63d">robot_model_representation_</a></td></tr>
+<tr class="memdesc:abda146c5251b23885d780828228ef63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received representation of the robot model (kinematics)  <a href="#abda146c5251b23885d780828228ef63d">More...</a><br /></td></tr>
+<tr class="separator:abda146c5251b23885d780828228ef63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcc330a6deca203e4428ceb0d0a9eae3"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#abcc330a6deca203e4428ceb0d0a9eae3">cv_image_</a></td></tr>
 <tr class="memdesc:abcc330a6deca203e4428ceb0d0a9eae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cv image used for detecting the ball.  <a href="#abcc330a6deca203e4428ceb0d0a9eae3">More...</a><br /></td></tr>
 <tr class="separator:abcc330a6deca203e4428ceb0d0a9eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1142,6 +1165,8 @@ Douwe </dd></dl>
 </table>
 </div><div class="memdoc">
 
+<p>The representation for the joint sensor values. </p>
+
 </div>
 </div>
 <a id="a29ff2cb292aa14677b5635c712e5f324"></a>
@@ -1334,6 +1359,78 @@ Douwe </dd></dl>
 </div><div class="memdoc">
 
 <p>Percentage of overlap between two ROIs. </p>
+
+</div>
+</div>
+<a id="a5dd82a0c2856b5f03756724ebd5f844c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5dd82a0c2856b5f03756724ebd5f844c">&#9670;&nbsp;</a></span>right_eye_led_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt;<a class="el" href="classrRightEyeLeds.html">rRightEyeLeds</a>&gt; mBallDetector::right_eye_led_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Output message containing how to right eye led should be set; not if the ball is not seen or red if the ball is seen. </p>
+
+</div>
+</div>
+<a id="ab51d8672014a49efb0dc7eb6c0928070"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab51d8672014a49efb0dc7eb6c0928070">&#9670;&nbsp;</a></span>robot_model_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrRobotModel.html">rRobotModel</a>&gt; mBallDetector::robot_model_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Input message that contains the RobotModelRepresentation. </p>
+
+</div>
+</div>
+<a id="abda146c5251b23885d780828228ef63d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abda146c5251b23885d780828228ef63d">&#9670;&nbsp;</a></span>robot_model_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrRobotModel.html">rRobotModel</a>&gt; mBallDetector::robot_model_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received representation of the robot model (kinematics) </p>
 
 </div>
 </div>

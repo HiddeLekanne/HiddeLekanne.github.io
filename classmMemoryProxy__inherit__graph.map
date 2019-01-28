@@ -1,5 +1,5 @@
 <map id="mMemoryProxy" name="mMemoryProxy">
-<area shape="rect" id="node3" href="$classmCortexProxy.html" title="mCortexProxy" alt="" coords="5,155,112,181"/>
-<area shape="rect" id="node4" href="$classmMotionProxy.html" title="mMotionProxy" alt="" coords="136,155,243,181"/>
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="92,5,156,32"/>
+<area shape="rect" id="node3" href="$classmCortexProxy.html" title="mRobot: Reads from shared memory and puts the data into Representations used by the cortex thread..." alt="" coords="5,155,112,181"/>
+<area shape="rect" id="node4" href="$classmMotionProxy.html" title="mMotionProxy: Reads from shared memory and puts the data into Representations used by the motion thre..." alt="" coords="136,155,243,181"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="92,5,156,32"/>
 </map>

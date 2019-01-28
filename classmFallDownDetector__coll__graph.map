@@ -1,9 +1,9 @@
 <map id="mFallDownDetector" name="mFallDownDetector">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="5,165,69,191"/>
-<area shape="rect" id="node3" href="$classAngle.html" title="Angle" alt="" coords="94,165,149,191"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="5,165,69,191"/>
+<area shape="rect" id="node3" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="94,165,149,191"/>
 <area shape="rect" id="node4" href="$classOutputMessage.html" title="OutputMessage\&lt; rFallDown\lState \&gt;" alt="" coords="173,157,358,199"/>
-<area shape="rect" id="node5" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="225,81,369,108"/>
-<area shape="rect" id="node6" href="$classMessage.html" title="Message" alt="" coords="360,5,435,32"/>
-<area shape="rect" id="node8" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="397,81,531,108"/>
+<area shape="rect" id="node5" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="232,81,376,108"/>
+<area shape="rect" id="node6" href="$classMessage.html" title="Message abstract class. " alt="" coords="348,5,423,32"/>
+<area shape="rect" id="node8" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="407,81,542,108"/>
 <area shape="rect" id="node7" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="382,165,581,191"/>
 </map>

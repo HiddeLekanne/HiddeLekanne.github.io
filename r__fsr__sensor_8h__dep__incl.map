@@ -1,11 +1,15 @@
 <map id="source/dnt/representations/sensor/r_fsr_sensor.h" name="source/dnt/representations/sensor/r_fsr_sensor.h">
-<area shape="rect" id="node2" href="$m__footsupport__provider_8h.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.h" alt="" coords="35,95,208,151"/>
-<area shape="rect" id="node5" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="391,95,564,151"/>
-<area shape="rect" id="node6" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="239,199,401,255"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="338,317,478,344"/>
-<area shape="rect" id="node4" href="$m__footsupport__provider_8cpp.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.cpp" alt="" coords="28,199,215,255"/>
-<area shape="rect" id="node8" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="623,199,788,255"/>
-<area shape="rect" id="node10" href="$m__memory__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.cpp" alt="" coords="425,199,599,255"/>
-<area shape="rect" id="node7" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="151,303,313,359"/>
-<area shape="rect" id="node9" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="623,303,788,359"/>
+<area shape="rect" id="node2" href="$m__line__model_8h.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.h" alt="" coords="368,95,515,151"/>
+<area shape="rect" id="node5" href="$m__footsupport__provider_8h.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.h" alt="" coords="143,95,316,151"/>
+<area shape="rect" id="node7" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="884,95,1057,151"/>
+<area shape="rect" id="node8" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="749,199,912,255"/>
+<area shape="rect" id="node13" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="539,95,725,151"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="431,317,571,344"/>
+<area shape="rect" id="node4" href="$m__line__model_8cpp.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.cpp" alt="" coords="267,199,413,255"/>
+<area shape="rect" id="node6" href="$m__footsupport__provider_8cpp.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.cpp" alt="" coords="5,199,192,255"/>
+<area shape="rect" id="node10" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="1133,199,1299,255"/>
+<area shape="rect" id="node12" href="$m__memory__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.cpp" alt="" coords="936,199,1109,255"/>
+<area shape="rect" id="node9" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="749,303,912,359"/>
+<area shape="rect" id="node11" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="1133,303,1299,359"/>
+<area shape="rect" id="node14" href="$m__simulation__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.cpp" alt="" coords="539,199,725,255"/>
 </map>

@@ -74,13 +74,35 @@ $(function() {
 Inheritance diagram for mBehaviorEngine:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmBehaviorEngine__inherit__graph.png" border="0" usemap="#mBehaviorEngine_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="mBehaviorEngine_inherit__map" id="mBehaviorEngine_inherit__map">
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="5,5,69,32"/>
+<area shape="rect" id="node3" href="classDecisionEngine.html" title="Lazily selects a Decision with the highest score from an activated subset. " alt="" coords="94,5,207,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for mBehaviorEngine:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmBehaviorEngine__coll__graph.png" border="0" usemap="#mBehaviorEngine_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="mBehaviorEngine_coll__map" id="mBehaviorEngine_coll__map">
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="594,5,658,32"/>
+<area shape="rect" id="node3" href="classDecisionEngine.html" title="Lazily selects a Decision with the highest score from an activated subset. " alt="" coords="569,56,683,83"/>
+<area shape="rect" id="node4" href="classrBehaviorStatus.html" title="A representation containing information about the decisions, considerations and events present in the..." alt="" coords="180,56,295,83"/>
+<area shape="rect" id="node5" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,56,116,83"/>
+<area shape="rect" id="node6" href="classInputMessage.html" title="InputMessage\&lt; rFrameInfo \&gt;" alt="" coords="531,107,721,133"/>
+<area shape="rect" id="node7" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="170,309,305,336"/>
+<area shape="rect" id="node11" href="classInputMessage.html" title="InputMessage\&lt; rButtonSensor \&gt;" alt="" coords="521,157,731,184"/>
+<area shape="rect" id="node13" href="classInputMessage.html" title="InputMessage\&lt; rMicrophone \&gt;" alt="" coords="527,208,725,235"/>
+<area shape="rect" id="node14" href="classInputMessage.html" title="InputMessage\&lt; rGameData \&gt;" alt="" coords="529,259,723,285"/>
+<area shape="rect" id="node15" href="classInputMessage.html" title="InputMessage\&lt; rRobotPosition \&gt;" alt="" coords="519,309,733,336"/>
+<area shape="rect" id="node17" href="classInputMessage.html" title="InputMessage\&lt; rMotion \&gt;" alt="" coords="541,360,711,387"/>
+<area shape="rect" id="node18" href="classInputMessage.html" title="InputMessage\&lt; rFallDownState \&gt;" alt="" coords="517,411,735,437"/>
+<area shape="rect" id="node19" href="classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="549,461,703,488"/>
+<area shape="rect" id="node8" href="classMessage.html" title="Message abstract class. " alt="" coords="23,436,98,463"/>
+<area shape="rect" id="node10" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="165,520,309,547"/>
+<area shape="rect" id="node9" href="classOutputMessage.html" title="OutputMessage\&lt; rBehavior\lStatus \&gt;" alt="" coords="535,513,717,554"/>
+<area shape="rect" id="node16" href="classOutputMessage.html" title="OutputMessage\&lt; rMotionRequest \&gt;" alt="" coords="511,579,741,605"/>
+<area shape="rect" id="node12" href="classLocationMethods.html" title="LocationMethods: Helper functions for behaviours related to location such as walking to a target..." alt="" coords="565,629,687,656"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -184,6 +206,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a08e02107808d75ace5836d05da5c5bce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrMicrophone.html">rMicrophone</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBehaviorEngine.html#a08e02107808d75ace5836d05da5c5bce">microphone_message_</a></td></tr>
 <tr class="memdesc:a08e02107808d75ace5836d05da5c5bce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message containing the representation of the microphone.  <a href="#a08e02107808d75ace5836d05da5c5bce">More...</a><br /></td></tr>
 <tr class="separator:a08e02107808d75ace5836d05da5c5bce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aabf9118509aba4dc059697b6703c91f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotPosition.html">rRobotPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBehaviorEngine.html#aabf9118509aba4dc059697b6703c91f8">robot_position_message_</a></td></tr>
+<tr class="memdesc:aabf9118509aba4dc059697b6703c91f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the robot position representation.  <a href="#aabf9118509aba4dc059697b6703c91f8">More...</a><br /></td></tr>
+<tr class="separator:aabf9118509aba4dc059697b6703c91f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5dcbfff49142f7e29b34c72a379e89b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrRobotPosition.html">rRobotPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBehaviorEngine.html#ae5dcbfff49142f7e29b34c72a379e89b">robot_position_representation_</a></td></tr>
+<tr class="memdesc:ae5dcbfff49142f7e29b34c72a379e89b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received robot position representation.  <a href="#ae5dcbfff49142f7e29b34c72a379e89b">More...</a><br /></td></tr>
+<tr class="separator:ae5dcbfff49142f7e29b34c72a379e89b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d71a33373ba7c669bc92bcadab30a28"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrMicrophone.html">rMicrophone</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBehaviorEngine.html#a8d71a33373ba7c669bc92bcadab30a28">microphone_representation_</a></td></tr>
 <tr class="memdesc:a8d71a33373ba7c669bc92bcadab30a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last provided microphone representation.  <a href="#a8d71a33373ba7c669bc92bcadab30a28">More...</a><br /></td></tr>
 <tr class="separator:a8d71a33373ba7c669bc92bcadab30a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,8 +219,11 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:add1b1cd3462ac5e3e5e29d2601542151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing the behaviour status.  <a href="#add1b1cd3462ac5e3e5e29d2601542151">More...</a><br /></td></tr>
 <tr class="separator:add1b1cd3462ac5e3e5e29d2601542151"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca185339bba52fdb12e8afe7e734adc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrMotionRequest.html">rMotionRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBehaviorEngine.html#aca185339bba52fdb12e8afe7e734adc8">output_motion_request_</a></td></tr>
-<tr class="memdesc:aca185339bba52fdb12e8afe7e734adc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing the motion that should be exected, as well as the motion that is currently being executed.  <a href="#aca185339bba52fdb12e8afe7e734adc8">More...</a><br /></td></tr>
+<tr class="memdesc:aca185339bba52fdb12e8afe7e734adc8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing the motion that should be executed, as well as the motion that is currently being executed.  <a href="#aca185339bba52fdb12e8afe7e734adc8">More...</a><br /></td></tr>
 <tr class="separator:aca185339bba52fdb12e8afe7e734adc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcca9ab9f28e23039c80b0cfa4a6b6fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLocationMethods.html">LocationMethods</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBehaviorEngine.html#adcca9ab9f28e23039c80b0cfa4a6b6fe">location_methods_</a></td></tr>
+<tr class="memdesc:adcca9ab9f28e23039c80b0cfa4a6b6fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper methods for walking around the field.  <a href="#adcca9ab9f28e23039c80b0cfa4a6b6fe">More...</a><br /></td></tr>
+<tr class="separator:adcca9ab9f28e23039c80b0cfa4a6b6fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -664,6 +695,30 @@ Caitlin </dd></dl>
 
 </div>
 </div>
+<a id="adcca9ab9f28e23039c80b0cfa4a6b6fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcca9ab9f28e23039c80b0cfa4a6b6fe">&#9670;&nbsp;</a></span>location_methods_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLocationMethods.html">LocationMethods</a> mBehaviorEngine::location_methods_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Helper methods for walking around the field. </p>
+
+</div>
+</div>
 <a id="a08e02107808d75ace5836d05da5c5bce"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a08e02107808d75ace5836d05da5c5bce">&#9670;&nbsp;</a></span>microphone_message_</h2>
 
@@ -756,7 +811,55 @@ Caitlin </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Output message containing the motion that should be exected, as well as the motion that is currently being executed. </p>
+<p>Output message containing the motion that should be executed, as well as the motion that is currently being executed. </p>
+
+</div>
+</div>
+<a id="aabf9118509aba4dc059697b6703c91f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aabf9118509aba4dc059697b6703c91f8">&#9670;&nbsp;</a></span>robot_position_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrRobotPosition.html">rRobotPosition</a>&gt; mBehaviorEngine::robot_position_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The input message for the robot position representation. </p>
+
+</div>
+</div>
+<a id="ae5dcbfff49142f7e29b34c72a379e89b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5dcbfff49142f7e29b34c72a379e89b">&#9670;&nbsp;</a></span>robot_position_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrRobotPosition.html">rRobotPosition</a>&gt; mBehaviorEngine::robot_position_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received robot position representation. </p>
 
 </div>
 </div>

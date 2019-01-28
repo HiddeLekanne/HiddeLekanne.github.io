@@ -1,7 +1,0 @@
-<map id="wFSRSensor" name="wFSRSensor">
-<area shape="rect" id="node8" href="$classwGraph.html" title="wGraph" alt="" coords="80,171,147,197"/>
-<area shape="rect" id="node3" href="$classCloseButton.html" title="CloseButton" alt="" coords="170,81,265,108"/>
-<area shape="rect" id="node5" href="$classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="373,171,573,197"/>
-<area shape="rect" id="node6" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="406,81,541,108"/>
-<area shape="rect" id="node7" href="$classMessage.html" title="Message" alt="" coords="436,5,511,32"/>
-</map>

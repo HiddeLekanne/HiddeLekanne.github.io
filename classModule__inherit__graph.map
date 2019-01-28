@@ -1,25 +1,32 @@
 <map id="Module" name="Module">
-<area shape="rect" id="node2" href="$classmBallDetector.html" title="mBallDetector" alt="" coords="154,5,259,32"/>
-<area shape="rect" id="node3" href="$classmBehaviorEngine.html" title="mBehaviorEngine" alt="" coords="145,56,269,83"/>
-<area shape="rect" id="node4" href="$classmCamera.html" title="mCamera" alt="" coords="167,107,246,133"/>
-<area shape="rect" id="node5" href="$classmEarIndicators.html" title="mEarIndicators" alt="" coords="151,157,262,184"/>
-<area shape="rect" id="node6" href="$classmFallDownDetector.html" title="mFallDownDetector" alt="" coords="137,208,276,235"/>
-<area shape="rect" id="node7" href="$classmFieldFilter.html" title="mFieldFilter" alt="" coords="161,259,252,285"/>
-<area shape="rect" id="node8" href="$classmFootSupportProvider.html" title="mFootSupportProvider" alt="" coords="131,309,283,336"/>
-<area shape="rect" id="node9" href="$classmGoalDetector.html" title="mGoalDetector" alt="" coords="151,360,262,387"/>
-<area shape="rect" id="node10" href="$classmIMUOdometry.html" title="mIMUOdometry" alt="" coords="149,411,264,437"/>
-<area shape="rect" id="node11" href="$classmInterface.html" title="mInterface" alt="" coords="165,461,249,488"/>
-<area shape="rect" id="node12" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication" alt="" coords="119,512,294,539"/>
-<area shape="rect" id="node13" href="$classmInterpolationEngine.html" title="mInterpolationEngine" alt="" coords="135,563,279,589"/>
-<area shape="rect" id="node14" href="$classmMemoryProxy.html" title="mMemoryProxy" alt="" coords="149,613,264,640"/>
-<area shape="rect" id="node17" href="$classmMicrophone.html" title="mMicrophone" alt="" coords="157,664,257,691"/>
-<area shape="rect" id="node18" href="$classmMotionSelector.html" title="mMotionSelector" alt="" coords="147,715,267,741"/>
-<area shape="rect" id="node19" href="$classmNaoActive.html" title="mNaoActive" alt="" coords="159,765,254,792"/>
-<area shape="rect" id="node20" href="$classModule1.html" title="Module1" alt="" coords="171,816,242,843"/>
-<area shape="rect" id="node21" href="$classModule2.html" title="Module2" alt="" coords="171,867,242,893"/>
-<area shape="rect" id="node22" href="$classmRobotModel.html" title="mRobotModel" alt="" coords="155,917,258,944"/>
-<area shape="rect" id="node23" href="$classmTestShowImage.html" title="mTestShowImage" alt="" coords="143,968,271,995"/>
-<area shape="rect" id="node24" href="$classmWalk2014GeneratorBase.html" title="mWalk2014GeneratorBase" alt="" coords="117,1019,296,1045"/>
-<area shape="rect" id="node15" href="$classmCortexProxy.html" title="mCortexProxy" alt="" coords="344,588,451,615"/>
-<area shape="rect" id="node16" href="$classmMotionProxy.html" title="mMotionProxy" alt="" coords="344,639,451,665"/>
+<area shape="rect" id="node2" href="$classDNTWidget.html" title="DNTWidget: Base class for a dnt widget that extends dockable widget and a DNT Module to receive repre..." alt="" coords="161,56,252,83"/>
+<area shape="rect" id="node6" href="$classDNTWindow.html" title="DNTWindow: Main window that holds all the widgets and the connect button. " alt="" coords="158,107,255,133"/>
+<area shape="rect" id="node7" href="$classmBallDetector.html" title="This module finds balls by processing ROI&#39;s, a ROI is a square which is the size of a ball at a certa..." alt="" coords="154,157,259,184"/>
+<area shape="rect" id="node8" href="$classmBehaviorEngine.html" title="mBehaviorEngine" alt="" coords="145,208,269,235"/>
+<area shape="rect" id="node9" href="$classmCamera.html" title="mCamera: update the camera_sensor_representation with the image captured from the robot and alternate..." alt="" coords="167,259,246,285"/>
+<area shape="rect" id="node10" href="$classmEarIndicators.html" title="mEarIndicators: Module that changes the ear leds to the battery percentage and wifi connection status..." alt="" coords="151,309,262,336"/>
+<area shape="rect" id="node11" href="$classmFallDownDetector.html" title="mFallDownDetector" alt="" coords="137,360,276,387"/>
+<area shape="rect" id="node12" href="$classmFieldFilter.html" title="mFieldFilter: Detects and outputs boundary around the green field. " alt="" coords="161,411,252,437"/>
+<area shape="rect" id="node13" href="$classmFootSupportProvider.html" title="mFootSupportProvider" alt="" coords="131,461,283,488"/>
+<area shape="rect" id="node14" href="$classmGoalDetector.html" title="rGoalDetector: This module finds goalpost by looking at the hsv image. " alt="" coords="151,512,262,539"/>
+<area shape="rect" id="node15" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication: Constructs a TCP server on which representations are sent to a remote client..." alt="" coords="119,563,294,589"/>
+<area shape="rect" id="node16" href="$classmInterpolationEngine.html" title="mInterpolationEngine" alt="" coords="135,613,279,640"/>
+<area shape="rect" id="node17" href="$classmLineModel.html" title="mLineModel: computes what lines the robot should see, given his current position and pose..." alt="" coords="161,664,253,691"/>
+<area shape="rect" id="node18" href="$classmMemoryProxy.html" title="mMemoryProxy: Base class to reads from shared memory and put data into Representations. " alt="" coords="149,715,264,741"/>
+<area shape="rect" id="node21" href="$classmMicrophone.html" title="mMicrophone: update the r_microphone values with the audio data collected by the robot microphone..." alt="" coords="157,765,257,792"/>
+<area shape="rect" id="node22" href="$classmMotionSelector.html" title="mMotionSelector" alt="" coords="147,816,267,843"/>
+<area shape="rect" id="node23" href="$classmNaoActive.html" title="mNaoActive: module that turns the LEDs on top of the head on in a circle. " alt="" coords="159,867,254,893"/>
+<area shape="rect" id="node24" href="$classModule1.html" title="Module1" alt="" coords="171,917,242,944"/>
+<area shape="rect" id="node25" href="$classModule2.html" title="Module2" alt="" coords="171,968,242,995"/>
+<area shape="rect" id="node26" href="$classmParticleFilter.html" title="mParticleFilter: implementation of the particle filter as in Probabilistic Robotics (Thrun..." alt="" coords="153,1019,260,1045"/>
+<area shape="rect" id="node27" href="$classmRobotModel.html" title="The module robotModel&#39;s purpose is to create a forward kinematics model of the whole robot..." alt="" coords="155,1069,258,1096"/>
+<area shape="rect" id="node28" href="$classmSimulationProxy.html" title="mSimulationProxy: a module that fills all sensor representations with values as if the robot would be..." alt="" coords="143,1120,271,1147"/>
+<area shape="rect" id="node29" href="$classmTestForwardKinematics.html" title="mTestForwardKinematics: test module that computes the transformation between the torso and the end ac..." alt="" coords="121,1171,292,1197"/>
+<area shape="rect" id="node30" href="$classmTestShowImage.html" title="mTestShowImage: show that the camera module works, by saving the y channel of the image using opencv..." alt="" coords="143,1221,271,1248"/>
+<area shape="rect" id="node31" href="$classmWalk2014GeneratorBase.html" title="This file declares the UNSW 2014 walk generator. " alt="" coords="117,1272,296,1299"/>
+<area shape="rect" id="node3" href="$classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball and field boundary..." alt="" coords="375,5,484,32"/>
+<area shape="rect" id="node4" href="$classFieldWidget.html" title="FieldWidget: widget that draws the field with the position of the particles and the ball..." alt="" coords="384,56,475,83"/>
+<area shape="rect" id="node5" href="$classHeadLedActuatorsWidget.html" title="HeadLedActuatorsWidget: display the values for the head leds of the robot. " alt="" coords="344,107,515,133"/>
+<area shape="rect" id="node19" href="$classmCortexProxy.html" title="mRobot: Reads from shared memory and puts the data into Representations used by the cortex thread..." alt="" coords="376,689,483,716"/>
+<area shape="rect" id="node20" href="$classmMotionProxy.html" title="mMotionProxy: Reads from shared memory and puts the data into Representations used by the motion thre..." alt="" coords="376,740,483,767"/>
 </map>

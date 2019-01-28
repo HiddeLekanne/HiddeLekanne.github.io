@@ -81,18 +81,23 @@ $(function() {
 Inheritance diagram for Image:</div>
 <div class="dyncontent">
 <div class="center"><img src="classImage__inherit__graph.png" border="0" usemap="#Image_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="Image_inherit__map" id="Image_inherit__map">
+<area shape="rect" id="node2" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="5,5,93,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for Image:</div>
 <div class="dyncontent">
 <div class="center"><img src="classImage__coll__graph.png" border="0" usemap="#Image_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="Image_coll__map" id="Image_coll__map">
+<area shape="rect" id="node2" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="5,5,93,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
 <tr class="memitem:a664d7bef86644158afe8847fedafc5be"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5be">ColorSpace</a> { <a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5bea889574aebacda6bfd3e534e2b49b8028">ColorSpace::RGB</a>, 
+<a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5bea2ad5640ebdec72fc79531d1778c6c2dc">ColorSpace::BGR</a>, 
 <a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5beab915b1a658d4fc573f623f17b1434601">ColorSpace::YUV</a>
  }</td></tr>
 <tr class="separator:a664d7bef86644158afe8847fedafc5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -131,15 +136,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abcd41c8a97de63334cadd72229c1db62"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#abcd41c8a97de63334cadd72229c1db62">getYChannel</a> () const</td></tr>
 <tr class="memdesc:abcd41c8a97de63334cadd72229c1db62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Y channel of the image.  <a href="#abcd41c8a97de63334cadd72229c1db62">More...</a><br /></td></tr>
 <tr class="separator:abcd41c8a97de63334cadd72229c1db62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aade6f65b0642dfe92fd3367194077ca3"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aade6f65b0642dfe92fd3367194077ca3">getUChannel</a> () const</td></tr>
+<tr class="separator:aade6f65b0642dfe92fd3367194077ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a742f4f5f1b84232f276b23aedf78fbfe"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a742f4f5f1b84232f276b23aedf78fbfe">getVChannel</a> () const</td></tr>
+<tr class="separator:a742f4f5f1b84232f276b23aedf78fbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b360f4f13c176c163117f87c966c02a"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a9b360f4f13c176c163117f87c966c02a">getHSVDownsampledImage</a> () const</td></tr>
 <tr class="memdesc:a9b360f4f13c176c163117f87c966c02a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get HSV image which is 4x downsampled from original size.  <a href="#a9b360f4f13c176c163117f87c966c02a">More...</a><br /></td></tr>
 <tr class="separator:a9b360f4f13c176c163117f87c966c02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9de53bd686b270fe26a531902649747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae9de53bd686b270fe26a531902649747">convertFromYCbCrToRGB</a> ()</td></tr>
 <tr class="memdesc:ae9de53bd686b270fe26a531902649747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the image from YCbCr colorspace to RGB.  <a href="#ae9de53bd686b270fe26a531902649747">More...</a><br /></td></tr>
 <tr class="separator:ae9de53bd686b270fe26a531902649747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a296d2d50b967c57a1fdc41655bfddd95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a296d2d50b967c57a1fdc41655bfddd95">fromYUVToRGB</a> (const unsigned char Y, const unsigned char U, const unsigned char V, unsigned char *R, unsigned char *G, unsigned char *B)</td></tr>
-<tr class="memdesc:a296d2d50b967c57a1fdc41655bfddd95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the image from YUV colorspace to RGB.  <a href="#a296d2d50b967c57a1fdc41655bfddd95">More...</a><br /></td></tr>
-<tr class="separator:a296d2d50b967c57a1fdc41655bfddd95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae433f840623bdc04913cae38e6036d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae433f840623bdc04913cae38e6036d9d">convertFromYCbCrToRGB</a> (unsigned char *buffer) const</td></tr>
+<tr class="separator:ae433f840623bdc04913cae38e6036d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81883a8f0096eba67b7ddede83d43a36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a81883a8f0096eba67b7ddede83d43a36">fromYUVToRGB</a> (const unsigned char Y, const unsigned char U, const unsigned char V, unsigned char *R, unsigned char *G, unsigned char *B) const</td></tr>
+<tr class="memdesc:a81883a8f0096eba67b7ddede83d43a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the image from YUV colorspace to RGB.  <a href="#a81883a8f0096eba67b7ddede83d43a36">More...</a><br /></td></tr>
+<tr class="separator:a81883a8f0096eba67b7ddede83d43a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad4d5a05bba71d21b8108568d6890c07e"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ad4d5a05bba71d21b8108568d6890c07e">operator[]</a> (<a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> y)</td></tr>
 <tr class="memdesc:ad4d5a05bba71d21b8108568d6890c07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to the character at y coordinate.  <a href="#ad4d5a05bba71d21b8108568d6890c07e">More...</a><br /></td></tr>
 <tr class="separator:ad4d5a05bba71d21b8108568d6890c07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -262,6 +273,7 @@ Sébastien </dd></dl>
 </div><div class="memdoc">
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a664d7bef86644158afe8847fedafc5bea889574aebacda6bfd3e534e2b49b8028"></a>RGB&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a664d7bef86644158afe8847fedafc5bea2ad5640ebdec72fc79531d1778c6c2dc"></a>BGR&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a664d7bef86644158afe8847fedafc5beab915b1a658d4fc573f623f17b1434601"></a>YUV&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
@@ -346,7 +358,7 @@ Sébastien </dd></dl>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="ae9de53bd686b270fe26a531902649747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9de53bd686b270fe26a531902649747">&#9670;&nbsp;</a></span>convertFromYCbCrToRGB()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9de53bd686b270fe26a531902649747">&#9670;&nbsp;</a></span>convertFromYCbCrToRGB() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -361,6 +373,24 @@ Sébastien </dd></dl>
 </div><div class="memdoc">
 
 <p>Convert the image from YCbCr colorspace to RGB. </p>
+
+</div>
+</div>
+<a id="ae433f840623bdc04913cae38e6036d9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae433f840623bdc04913cae38e6036d9d">&#9670;&nbsp;</a></span>convertFromYCbCrToRGB() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Image::convertFromYCbCrToRGB </td>
+          <td>(</td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>buffer</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -391,8 +421,8 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="a296d2d50b967c57a1fdc41655bfddd95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a296d2d50b967c57a1fdc41655bfddd95">&#9670;&nbsp;</a></span>fromYUVToRGB()</h2>
+<a id="a81883a8f0096eba67b7ddede83d43a36"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81883a8f0096eba67b7ddede83d43a36">&#9670;&nbsp;</a></span>fromYUVToRGB()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -439,7 +469,7 @@ Sébastien </dd></dl>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
   </td>
@@ -541,6 +571,40 @@ Sébastien </dd></dl>
 
 <p>Get the name of this <a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a> class. </p>
 <dl class="section return"><dt>Returns</dt><dd>the name of this <a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a> class. </dd></dl>
+
+</div>
+</div>
+<a id="aade6f65b0642dfe92fd3367194077ca3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aade6f65b0642dfe92fd3367194077ca3">&#9670;&nbsp;</a></span>getUChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const unsigned char * Image::getUChannel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a742f4f5f1b84232f276b23aedf78fbfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a742f4f5f1b84232f276b23aedf78fbfe">&#9670;&nbsp;</a></span>getVChannel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const unsigned char * Image::getVChannel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>

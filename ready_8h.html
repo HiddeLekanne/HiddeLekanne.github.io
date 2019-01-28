@@ -74,19 +74,21 @@ $(function() {
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="ready_8h__dep__incl.png" border="0" usemap="#source_2dnt_2modules_2behavior__engine_2rulesets_2game__states_2ready_8hdep" alt=""/></div>
-<!-- MAP 0 -->
+<map name="source_2dnt_2modules_2behavior__engine_2rulesets_2game__states_2ready_8hdep" id="source_2dnt_2modules_2behavior__engine_2rulesets_2game__states_2ready_8hdep">
+<area shape="rect" id="node2" href="m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="5,109,196,165"/>
+</map>
 </div>
 </div>
 <p><a href="ready_8h_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a6ea30056261f6dab900b136f4070fb81"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ready_8h.html#a6ea30056261f6dab900b136f4070fb81">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Ready walk forward&quot;), description(&quot;walk forward in ready state&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae7d31fc0602fb2ede144d18cdffd816b">Event::Ready</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1.f;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;resetWalk=false;output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkWithSpeed(100.f, 0.f, 0.f);})</td></tr>
-<tr class="separator:a6ea30056261f6dab900b136f4070fb81"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5cdda4760e454d4a104b3085a3fd816c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ready_8h.html#a5cdda4760e454d4a104b3085a3fd816c">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Ready walk forward&quot;), description(&quot;walk forward in ready state&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae7d31fc0602fb2ede144d18cdffd816b">Event::Ready</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1.f;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { location_methods_.walkToReadyPosition(robot_position_representation_-&gt;robot_pose_, output_motion_request_);})</td></tr>
+<tr class="separator:a5cdda4760e454d4a104b3085a3fd816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a6ea30056261f6dab900b136f4070fb81"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ea30056261f6dab900b136f4070fb81">&#9670;&nbsp;</a></span>addDecision()</h2>
+<a id="a5cdda4760e454d4a104b3085a3fd816c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5cdda4760e454d4a104b3085a3fd816c">&#9670;&nbsp;</a></span>addDecision()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,7 +126,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;resetWalk=false;output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkWithSpeed(100.f, 0.f, 0.f);}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { location_methods_.walkToReadyPosition(robot_position_representation_-&gt;robot_pose_, output_motion_request_);}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

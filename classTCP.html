@@ -78,7 +78,11 @@ $(function() {
 Inheritance diagram for TCP:</div>
 <div class="dyncontent">
 <div class="center"><img src="classTCP__inherit__graph.png" border="0" usemap="#TCP_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="TCP_inherit__map" id="TCP_inherit__map">
+<area shape="rect" id="node2" href="classTCPClient.html" title="TCPClient: allows to connect to a TCPServer and send and receive data. " alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="classTCPServer.html" title="TCPServer: allows to setup a connection to a connecting client and then send data to that client..." alt="" coords="113,80,199,107"/>
+<area shape="rect" id="node4" href="classmInterfaceCommunication.html" title="mInterfaceCommunication: Constructs a TCP server on which representations are sent to a remote client..." alt="" coords="69,155,243,181"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -95,9 +99,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3e3883bc160e48f239460e975aaa972"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#ac3e3883bc160e48f239460e975aaa972">sendRepresentation</a> (std::shared_ptr&lt; const <a class="el" href="classStreamableRepresentation.html">StreamableRepresentation</a> &gt; streamable_representation)</td></tr>
 <tr class="memdesc:ac3e3883bc160e48f239460e975aaa972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a streamable representation over the network.  <a href="#ac3e3883bc160e48f239460e975aaa972">More...</a><br /></td></tr>
 <tr class="separator:ac3e3883bc160e48f239460e975aaa972"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf2c9a0c36426ae1f25c1e28da1d2412"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#abf2c9a0c36426ae1f25c1e28da1d2412">receiveData</a> (std::string &amp;message, <a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> &amp;header)</td></tr>
-<tr class="memdesc:abf2c9a0c36426ae1f25c1e28da1d2412"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data over the tcp connection.  <a href="#abf2c9a0c36426ae1f25c1e28da1d2412">More...</a><br /></td></tr>
-<tr class="separator:abf2c9a0c36426ae1f25c1e28da1d2412"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2c657e68c071749b637d9f544cce2e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a6f2c657e68c071749b637d9f544cce2e">receiveData</a> (unsigned char *message, <a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> &amp;header)</td></tr>
+<tr class="memdesc:a6f2c657e68c071749b637d9f544cce2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data over the tcp connection.  <a href="#a6f2c657e68c071749b637d9f544cce2e">More...</a><br /></td></tr>
+<tr class="separator:a6f2c657e68c071749b637d9f544cce2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c422b5e5ae8d7b92ff1ae5a18b298fe"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a1c422b5e5ae8d7b92ff1ae5a18b298fe">disconnect</a> ()</td></tr>
 <tr class="memdesc:a1c422b5e5ae8d7b92ff1ae5a18b298fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect the active connections.  <a href="#a1c422b5e5ae8d7b92ff1ae5a18b298fe">More...</a><br /></td></tr>
 <tr class="separator:a1c422b5e5ae8d7b92ff1ae5a18b298fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -107,9 +111,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:aec7694bdaf3c03c9f8ddbe4a476629a1"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#aec7694bdaf3c03c9f8ddbe4a476629a1">receive</a> (std::string &amp;data, <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> size)</td></tr>
-<tr class="memdesc:aec7694bdaf3c03c9f8ddbe4a476629a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data from the active socket.  <a href="#aec7694bdaf3c03c9f8ddbe4a476629a1">More...</a><br /></td></tr>
-<tr class="separator:aec7694bdaf3c03c9f8ddbe4a476629a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ef56a6cb505dd77c06ba1cd15d5a74"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#aa6ef56a6cb505dd77c06ba1cd15d5a74">receive</a> (unsigned char *data, <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> size)</td></tr>
+<tr class="memdesc:aa6ef56a6cb505dd77c06ba1cd15d5a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data from the active socket.  <a href="#aa6ef56a6cb505dd77c06ba1cd15d5a74">More...</a><br /></td></tr>
+<tr class="separator:aa6ef56a6cb505dd77c06ba1cd15d5a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b24738fc31b37d92a9117a941347dc3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a4b24738fc31b37d92a9117a941347dc3">receiveHeader</a> (<a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> *header)</td></tr>
 <tr class="memdesc:a4b24738fc31b37d92a9117a941347dc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive the header from the active connection.  <a href="#a4b24738fc31b37d92a9117a941347dc3">More...</a><br /></td></tr>
 <tr class="separator:a4b24738fc31b37d92a9117a941347dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -209,8 +213,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aec7694bdaf3c03c9f8ddbe4a476629a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec7694bdaf3c03c9f8ddbe4a476629a1">&#9670;&nbsp;</a></span>receive()</h2>
+<a id="aa6ef56a6cb505dd77c06ba1cd15d5a74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6ef56a6cb505dd77c06ba1cd15d5a74">&#9670;&nbsp;</a></span>receive()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -221,7 +225,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool TCP::receive </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramtype">unsigned char *&#160;</td>
           <td class="paramname"><em>data</em>, </td>
         </tr>
         <tr>
@@ -255,8 +259,8 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abf2c9a0c36426ae1f25c1e28da1d2412"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf2c9a0c36426ae1f25c1e28da1d2412">&#9670;&nbsp;</a></span>receiveData()</h2>
+<a id="a6f2c657e68c071749b637d9f544cce2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f2c657e68c071749b637d9f544cce2e">&#9670;&nbsp;</a></span>receiveData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -264,7 +268,7 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="memname">bool TCP::receiveData </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
+          <td class="paramtype">unsigned char *&#160;</td>
           <td class="paramname"><em>message</em>, </td>
         </tr>
         <tr>

@@ -1,8 +1,11 @@
 <map id="StreamableRepresentation" name="StreamableRepresentation">
-<area shape="rect" id="node4" href="$classrBall.html" title="rBall" alt="" coords="5,155,53,181"/>
-<area shape="rect" id="node5" href="$classrCameraSensor.html" title="rCameraSensor" alt="" coords="78,155,191,181"/>
-<area shape="rect" id="node6" href="$classrFieldBoundary.html" title="rFieldBoundary" alt="" coords="216,155,325,181"/>
-<area shape="rect" id="node7" href="$classrHeadLEDActuators.html" title="rHeadLEDActuators" alt="" coords="349,155,488,181"/>
-<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation" alt="" coords="86,5,197,32"/>
-<area shape="rect" id="node3" href="$classStreamable.html" title="Streamable" alt="" coords="221,5,309,32"/>
+<area shape="rect" id="node4" href="$classrBall.html" title="rBall: representation that holds the information of the ball. " alt="" coords="433,5,481,32"/>
+<area shape="rect" id="node5" href="$classrCameraSensor.html" title="Representation that holds an image from a camera and information about that image. " alt="" coords="401,56,514,83"/>
+<area shape="rect" id="node6" href="$classrFieldBoundary.html" title="rFieldBoundary: representation that holds the information about the field boundary. " alt="" coords="403,107,512,133"/>
+<area shape="rect" id="node7" href="$classrForwardKinematics.html" title="rFowardKinematic: this representation contains the transformation between the torso and the end actua..." alt="" coords="388,157,527,184"/>
+<area shape="rect" id="node8" href="$classrHeadLEDActuators.html" title="rHeadLEDActuators" alt="" coords="388,208,527,235"/>
+<area shape="rect" id="node9" href="$classrLineModel.html" title="rLineModel: representation that holds the line points of the line model. " alt="" coords="415,259,500,285"/>
+<area shape="rect" id="node10" href="$classrRobotPosition.html" title="rRobotPosition: The position of the robot in mm on the field in field coordinates. " alt="" coords="403,309,511,336"/>
+<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,132,116,159"/>
+<area shape="rect" id="node3" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="17,183,105,209"/>
 </map>

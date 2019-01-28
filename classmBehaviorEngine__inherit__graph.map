@@ -1,4 +1,4 @@
 <map id="mBehaviorEngine" name="mBehaviorEngine">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="5,5,69,32"/>
-<area shape="rect" id="node3" href="$classDecisionEngine.html" title="DecisionEngine" alt="" coords="94,5,207,32"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="5,5,69,32"/>
+<area shape="rect" id="node3" href="$classDecisionEngine.html" title="Lazily selects a Decision with the highest score from an activated subset. " alt="" coords="94,5,207,32"/>
 </map>

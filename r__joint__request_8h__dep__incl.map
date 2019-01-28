@@ -1,18 +1,22 @@
 <map id="source/dnt/representations/motion/r_joint_request.h" name="source/dnt/representations/motion/r_joint_request.h">
-<area shape="rect" id="node2" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="771,303,969,359"/>
-<area shape="rect" id="node5" href="$m__motion__selector_8h.html" title="source/dnt/modules\l/motion/m_motion_selector.h" alt="" coords="89,310,280,351"/>
-<area shape="rect" id="node7" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="413,95,578,151"/>
-<area shape="rect" id="node9" href="$r__interpolation__output_8h.html" title="source/dnt/representations\l/motion/r_interpolation\l_output.h" alt="" coords="110,199,286,255"/>
-<area shape="rect" id="node12" href="$r__walk__generator_8h.html" title="source/dnt/representations\l/motion/r_walk_generator.h" alt="" coords="602,102,781,143"/>
-<area shape="rect" id="node16" href="$inverse__kinematics_8h.html" title="source/dnt/tools/math\l/inverse_kinematics.h" alt="" coords="907,102,1057,143"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="443,421,583,448"/>
-<area shape="rect" id="node4" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="822,407,1035,463"/>
-<area shape="rect" id="node6" href="$m__motion__selector_8cpp.html" title="source/dnt/modules\l/motion/m_motion_selector.cpp" alt="" coords="5,414,209,455"/>
-<area shape="rect" id="node8" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="310,199,475,255"/>
-<area shape="rect" id="node10" href="$m__interpolation__engine_8h.html" title="source/dnt/modules\l/motion/interpolation\l/m_interpolation_engine.h" alt="" coords="305,303,475,359"/>
-<area shape="rect" id="node11" href="$m__interpolation__engine_8cpp.html" title="source/dnt/modules\l/motion/interpolation\l/m_interpolation_engine.cpp" alt="" coords="234,407,418,463"/>
-<area shape="rect" id="node13" href="$r__motion__request_8h.html" title="source/dnt/representations\l/motion/r_motion_request.h" alt="" coords="601,206,781,247"/>
-<area shape="rect" id="node14" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="556,303,747,359"/>
-<area shape="rect" id="node15" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="607,407,797,463"/>
-<area shape="rect" id="node17" href="$inverse__kinematics_8cpp.html" title="source/dnt/tools/math\l/inverse_kinematics.cpp" alt="" coords="958,206,1121,247"/>
+<area shape="rect" id="node2" href="$m__motion__selector_8h.html" title="This file handles which motion is executed. " alt="" coords="205,310,396,351"/>
+<area shape="rect" id="node5" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="1148,303,1347,359"/>
+<area shape="rect" id="node7" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="1307,95,1473,151"/>
+<area shape="rect" id="node9" href="$r__interpolation__output_8h.html" title="Represents the output that is given by the InterpolationEngine, which computes joint_angles over time..." alt="" coords="338,199,514,255"/>
+<area shape="rect" id="node12" href="$r__walk__generator_8h.html" title="source/dnt/representations\l/motion/r_walk_generator.h" alt="" coords="767,102,946,143"/>
+<area shape="rect" id="node20" href="$inverse__kinematics_8h.html" title="source/dnt/tools/math\l/inverse_kinematics.h" alt="" coords="970,102,1119,143"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="849,525,989,552"/>
+<area shape="rect" id="node4" href="$m__motion__selector_8cpp.html" title="source/dnt/modules\l/motion/m_motion_selector.cpp" alt="" coords="5,414,209,455"/>
+<area shape="rect" id="node6" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="1047,407,1261,463"/>
+<area shape="rect" id="node8" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="1307,199,1473,255"/>
+<area shape="rect" id="node10" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="421,303,591,359"/>
+<area shape="rect" id="node11" href="$m__interpolation__engine_8cpp.html" title="source/dnt/modules\l/motion/interpolation\l/m_interpolation_engine.cpp" alt="" coords="285,407,469,463"/>
+<area shape="rect" id="node13" href="$m__particle__filter_8h.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.h" alt="" coords="793,199,944,255"/>
+<area shape="rect" id="node15" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="589,206,769,247"/>
+<area shape="rect" id="node14" href="$m__particle__filter_8cpp.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.cpp" alt="" coords="973,303,1124,359"/>
+<area shape="rect" id="node16" href="$location__methods_8h.html" title="source/dnt/modules\l/behavior_engine/behavior\l_functions/location_methods.h" alt="" coords="676,303,875,359"/>
+<area shape="rect" id="node17" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="544,407,735,463"/>
+<area shape="rect" id="node19" href="$location__methods_8cpp.html" title="source/dnt/modules\l/behavior_engine/behavior\l_functions/location_methods.cpp" alt="" coords="759,407,973,463"/>
+<area shape="rect" id="node18" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="544,511,735,567"/>
+<area shape="rect" id="node21" href="$inverse__kinematics_8cpp.html" title="source/dnt/tools/math\l/inverse_kinematics.cpp" alt="" coords="1070,206,1233,247"/>
 </map>

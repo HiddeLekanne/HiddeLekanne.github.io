@@ -1,10 +1,13 @@
 <map id="source/dnt/representations/sensor/r_camera_sensor.h" name="source/dnt/representations/sensor/r_camera_sensor.h">
-<area shape="rect" id="node2" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="260,95,411,136"/>
-<area shape="rect" id="node11" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="625,102,793,129"/>
-<area shape="rect" id="node18" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="435,95,601,136"/>
-<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="113,184,293,211"/>
-<area shape="rect" id="node5" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="318,184,481,211"/>
-<area shape="rect" id="node6" href="$container_8h.html" title="framework/container.h" alt="" coords="316,259,467,285"/>
-<area shape="rect" id="node13" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="989,184,1121,211"/>
-<area shape="rect" id="node19" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="606,184,758,211"/>
+<area shape="rect" id="node2" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="941,95,1092,136"/>
+<area shape="rect" id="node11" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="1117,102,1285,129"/>
+<area shape="rect" id="node18" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="714,95,879,136"/>
+<area shape="rect" id="node24" href="$log_8h.html" title="tools/log.h" alt="" coords="1309,102,1391,129"/>
+<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="955,184,1135,211"/>
+<area shape="rect" id="node5" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="767,184,930,211"/>
+<area shape="rect" id="node6" href="$container_8h.html" title="framework/container.h" alt="" coords="541,259,692,285"/>
+<area shape="rect" id="node13" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="1385,184,1517,211"/>
+<area shape="rect" id="node19" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="275,184,427,211"/>
+<area shape="rect" id="node25" href="$log_2log_8h.html" title="log/log.h" alt="" coords="2049,184,2120,211"/>
+<area shape="rect" id="node29" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="2036,259,2133,285"/>
 </map>

@@ -90,6 +90,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a8d8a7e97f99afb1a444acef6e1dbfc40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModuleGroup.html#a8d8a7e97f99afb1a444acef6e1dbfc40">start</a> ()</td></tr>
 <tr class="memdesc:a8d8a7e97f99afb1a444acef6e1dbfc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start calling the update functions in order of the modules in this group on a separate thread.  <a href="#a8d8a7e97f99afb1a444acef6e1dbfc40">More...</a><br /></td></tr>
 <tr class="separator:a8d8a7e97f99afb1a444acef6e1dbfc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fb9cd33f1f968ef89d2870b569852aa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModuleGroup.html#a7fb9cd33f1f968ef89d2870b569852aa">stop</a> ()</td></tr>
+<tr class="memdesc:a7fb9cd33f1f968ef89d2870b569852aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stop calling the update functions, will block until thread is stopped.  <a href="#a7fb9cd33f1f968ef89d2870b569852aa">More...</a><br /></td></tr>
+<tr class="separator:a7fb9cd33f1f968ef89d2870b569852aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6fcf8fe9575c0271ec997ad75ddc40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModuleGroup.html#a9f6fcf8fe9575c0271ec997ad75ddc40">waitTillFinished</a> ()</td></tr>
 <tr class="memdesc:a9f6fcf8fe9575c0271ec997ad75ddc40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wait until the thread of this group stops.  <a href="#a9f6fcf8fe9575c0271ec997ad75ddc40">More...</a><br /></td></tr>
 <tr class="separator:a9f6fcf8fe9575c0271ec997ad75ddc40"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -123,6 +126,9 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a9c28bd3fea89bef8e47a86ae67941e0a"><td class="memItemLeft" align="right" valign="top">volatile bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModuleGroup.html#a9c28bd3fea89bef8e47a86ae67941e0a">stop_thread</a> = false</td></tr>
+<tr class="memdesc:a9c28bd3fea89bef8e47a86ae67941e0a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicate if the thread of this group should stop.  <a href="#a9c28bd3fea89bef8e47a86ae67941e0a">More...</a><br /></td></tr>
+<tr class="separator:a9c28bd3fea89bef8e47a86ae67941e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59b23bfe5aa97793c104faf5e40945f5"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classModule.html">Module</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classModuleGroup.html#a59b23bfe5aa97793c104faf5e40945f5">modules_</a></td></tr>
 <tr class="memdesc:a59b23bfe5aa97793c104faf5e40945f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">All Modules in this group.  <a href="#a59b23bfe5aa97793c104faf5e40945f5">More...</a><br /></td></tr>
 <tr class="separator:a59b23bfe5aa97793c104faf5e40945f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -345,6 +351,25 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a7fb9cd33f1f968ef89d2870b569852aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7fb9cd33f1f968ef89d2870b569852aa">&#9670;&nbsp;</a></span>stop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ModuleGroup::stop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Stop calling the update functions, will block until thread is stopped. </p>
+
+</div>
+</div>
 <a id="a74487b18359da198c6e636eae3415dd4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a74487b18359da198c6e636eae3415dd4">&#9670;&nbsp;</a></span>update()</h2>
 
@@ -435,6 +460,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>All Modules in this group. </p>
+
+</div>
+</div>
+<a id="a9c28bd3fea89bef8e47a86ae67941e0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c28bd3fea89bef8e47a86ae67941e0a">&#9670;&nbsp;</a></span>stop_thread</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">volatile bool ModuleGroup::stop_thread = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicate if the thread of this group should stop. </p>
 
 </div>
 </div>

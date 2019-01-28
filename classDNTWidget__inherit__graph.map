@@ -1,0 +1,6 @@
+<map id="DNTWidget" name="DNTWidget">
+<area shape="rect" id="node4" href="$classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball and field boundary..." alt="" coords="5,155,115,181"/>
+<area shape="rect" id="node5" href="$classFieldWidget.html" title="FieldWidget: widget that draws the field with the position of the particles and the ball..." alt="" coords="139,155,229,181"/>
+<area shape="rect" id="node6" href="$classHeadLedActuatorsWidget.html" title="HeadLedActuatorsWidget: display the values for the head leds of the robot. " alt="" coords="253,155,424,181"/>
+<area shape="rect" id="node3" href="$classModule.html" title="Module abstract class. " alt="" coords="207,5,271,32"/>
+</map>

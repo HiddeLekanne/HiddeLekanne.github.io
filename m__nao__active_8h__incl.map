@@ -1,11 +1,11 @@
 <map id="source/dnt/modules/m_nao_active.h" name="source/dnt/modules/m_nao_active.h">
-<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="841,102,981,129"/>
-<area shape="rect" id="node24" href="$r__head__led__actuators_8h.html" title="representations/actuators\l/r_head_led_actuators.h" alt="" coords="1076,95,1245,136"/>
-<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="600,266,750,293"/>
-<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="204,184,391,211"/>
-<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="814,184,1008,211"/>
-<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="636,348,751,375"/>
-<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="836,259,986,300"/>
-<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="830,348,992,375"/>
-<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="836,423,986,449"/>
+<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="1017,102,1157,129"/>
+<area shape="rect" id="node24" href="$r__head__led__actuators_8h.html" title="representations/actuators\l/r_head_led_actuators.h" alt="" coords="726,95,895,136"/>
+<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="1175,348,1326,375"/>
+<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="859,266,1045,293"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="855,184,1049,211"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="652,423,767,449"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="538,259,689,300"/>
+<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="315,348,477,375"/>
+<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="321,423,471,449"/>
 </map>

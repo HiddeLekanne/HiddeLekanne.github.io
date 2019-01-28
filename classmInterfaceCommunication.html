@@ -77,13 +77,41 @@ $(function() {
 Inheritance diagram for mInterfaceCommunication:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmInterfaceCommunication__inherit__graph.png" border="0" usemap="#mInterfaceCommunication_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="mInterfaceCommunication_inherit__map" id="mInterfaceCommunication_inherit__map">
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="61,80,125,107"/>
+<area shape="rect" id="node3" href="classTCPServer.html" title="TCPServer: allows to setup a connection to a connecting client and then send data to that client..." alt="" coords="149,80,236,107"/>
+<area shape="rect" id="node4" href="classTCP.html" title="TCP: base class for the tcp client and server, implements sending and receiving data over the tcp con..." alt="" coords="168,5,217,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for mInterfaceCommunication:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmInterfaceCommunication__coll__graph.png" border="0" usemap="#mInterfaceCommunication_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="mInterfaceCommunication_coll__map" id="mInterfaceCommunication_coll__map">
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="418,13,482,40"/>
+<area shape="rect" id="node3" href="classTCPServer.html" title="TCPServer: allows to setup a connection to a connecting client and then send data to that client..." alt="" coords="407,64,493,91"/>
+<area shape="rect" id="node4" href="classTCP.html" title="TCP: base class for the tcp client and server, implements sending and receiving data over the tcp con..." alt="" coords="177,91,226,117"/>
+<area shape="rect" id="node23" href="classTCPClient.html" title="TCPClient: allows to connect to a TCPServer and send and receive data. " alt="" coords="409,115,491,141"/>
+<area shape="rect" id="node5" href="classOutputMessage.html" title="OutputMessage\&lt; rLineModel \&gt;" alt="" coords="349,165,551,192"/>
+<area shape="rect" id="node6" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,368,273,395"/>
+<area shape="rect" id="node8" href="classOutputMessage.html" title="OutputMessage\&lt; rForwardKinematics \&gt;" alt="" coords="323,216,577,243"/>
+<area shape="rect" id="node11" href="classOutputMessage.html" title="OutputMessage\&lt; rBall \&gt;" alt="" coords="368,267,532,293"/>
+<area shape="rect" id="node14" href="classOutputMessage.html" title="OutputMessage\&lt; rCameraSensor \&gt;" alt="" coords="335,317,565,344"/>
+<area shape="rect" id="node16" href="classOutputMessage.html" title="OutputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="337,368,563,395"/>
+<area shape="rect" id="node17" href="classOutputMessage.html" title="OutputMessage\&lt; rRobotPosition \&gt;" alt="" coords="338,419,562,445"/>
+<area shape="rect" id="node18" href="classOutputMessage.html" title="OutputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="323,469,577,496"/>
+<area shape="rect" id="node21" href="classOutputMessage.html" title="OutputMessage\&lt; rClient \&gt;" alt="" coords="362,520,538,547"/>
+<area shape="rect" id="node7" href="classMessage.html" title="Message abstract class. " alt="" coords="5,547,80,573"/>
+<area shape="rect" id="node10" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,723,269,749"/>
+<area shape="rect" id="node9" href="classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="341,571,559,597"/>
+<area shape="rect" id="node12" href="classInputMessage.html" title="InputMessage\&lt; rHost \&gt;" alt="" coords="370,621,530,648"/>
+<area shape="rect" id="node13" href="classInputMessage.html" title="InputMessage\&lt; rRobotPosition \&gt;" alt="" coords="343,672,557,699"/>
+<area shape="rect" id="node15" href="classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="327,723,573,749"/>
+<area shape="rect" id="node19" href="classInputMessage.html" title="InputMessage\&lt; rForwardKinematics \&gt;" alt="" coords="328,773,572,800"/>
+<area shape="rect" id="node20" href="classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="373,824,527,851"/>
+<area shape="rect" id="node22" href="classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="343,875,557,901"/>
+<area shape="rect" id="node24" href="classInputMessage.html" title="InputMessage\&lt; rLineModel \&gt;" alt="" coords="355,925,545,952"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -145,9 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3e3883bc160e48f239460e975aaa972 inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#ac3e3883bc160e48f239460e975aaa972">sendRepresentation</a> (std::shared_ptr&lt; const <a class="el" href="classStreamableRepresentation.html">StreamableRepresentation</a> &gt; streamable_representation)</td></tr>
 <tr class="memdesc:ac3e3883bc160e48f239460e975aaa972 inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Send a streamable representation over the network.  <a href="classTCP.html#ac3e3883bc160e48f239460e975aaa972">More...</a><br /></td></tr>
 <tr class="separator:ac3e3883bc160e48f239460e975aaa972 inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf2c9a0c36426ae1f25c1e28da1d2412 inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#abf2c9a0c36426ae1f25c1e28da1d2412">receiveData</a> (std::string &amp;message, <a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> &amp;header)</td></tr>
-<tr class="memdesc:abf2c9a0c36426ae1f25c1e28da1d2412 inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data over the tcp connection.  <a href="classTCP.html#abf2c9a0c36426ae1f25c1e28da1d2412">More...</a><br /></td></tr>
-<tr class="separator:abf2c9a0c36426ae1f25c1e28da1d2412 inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f2c657e68c071749b637d9f544cce2e inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a6f2c657e68c071749b637d9f544cce2e">receiveData</a> (unsigned char *message, <a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> &amp;header)</td></tr>
+<tr class="memdesc:a6f2c657e68c071749b637d9f544cce2e inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data over the tcp connection.  <a href="classTCP.html#a6f2c657e68c071749b637d9f544cce2e">More...</a><br /></td></tr>
+<tr class="separator:a6f2c657e68c071749b637d9f544cce2e inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1c422b5e5ae8d7b92ff1ae5a18b298fe inherit pub_methods_classTCP"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a1c422b5e5ae8d7b92ff1ae5a18b298fe">disconnect</a> ()</td></tr>
 <tr class="memdesc:a1c422b5e5ae8d7b92ff1ae5a18b298fe inherit pub_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disconnect the active connections.  <a href="classTCP.html#a1c422b5e5ae8d7b92ff1ae5a18b298fe">More...</a><br /></td></tr>
 <tr class="separator:a1c422b5e5ae8d7b92ff1ae5a18b298fe inherit pub_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,9 +185,6 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a18d426fc1d81a955ee1f92317bc39a66"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a18d426fc1d81a955ee1f92317bc39a66">send_upper_</a> = false</td></tr>
-<tr class="memdesc:a18d426fc1d81a955ee1f92317bc39a66"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when upper camera image was sent last.  <a href="#a18d426fc1d81a955ee1f92317bc39a66">More...</a><br /></td></tr>
-<tr class="separator:a18d426fc1d81a955ee1f92317bc39a66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5f9af37aa2266d832157e608dde22f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrHeadLEDActuators.html">rHeadLEDActuators</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#af5f9af37aa2266d832157e608dde22f9">head_led_message_</a></td></tr>
 <tr class="memdesc:af5f9af37aa2266d832157e608dde22f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The head led message.  <a href="#af5f9af37aa2266d832157e608dde22f9">More...</a><br /></td></tr>
 <tr class="separator:af5f9af37aa2266d832157e608dde22f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,12 +203,12 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a3742000ad4462ff11f7905e75cb0b7bd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrLineModel.html">rLineModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a3742000ad4462ff11f7905e75cb0b7bd">line_model_message_</a></td></tr>
 <tr class="memdesc:a3742000ad4462ff11f7905e75cb0b7bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line model input message.  <a href="#a3742000ad4462ff11f7905e75cb0b7bd">More...</a><br /></td></tr>
 <tr class="separator:a3742000ad4462ff11f7905e75cb0b7bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f0f610e518509f3324bce79fa987dfb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotPosition.html">rRobotPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a4f0f610e518509f3324bce79fa987dfb">robot_position_message_</a></td></tr>
+<tr class="memdesc:a4f0f610e518509f3324bce79fa987dfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The robot position input message.  <a href="#a4f0f610e518509f3324bce79fa987dfb">More...</a><br /></td></tr>
+<tr class="separator:a4f0f610e518509f3324bce79fa987dfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9892df36e641f628c98066d6ceb7b1f2"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classInputMessageBase.html">InputMessageBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a9892df36e641f628c98066d6ceb7b1f2">send_messages_</a></td></tr>
 <tr class="memdesc:a9892df36e641f628c98066d6ceb7b1f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Messages that will be sent to the connected client.  <a href="#a9892df36e641f628c98066d6ceb7b1f2">More...</a><br /></td></tr>
 <tr class="separator:a9892df36e641f628c98066d6ceb7b1f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae82d2dabca85e34ea42eeb96ad78a2c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#ae82d2dabca85e34ea42eeb96ad78a2c3">message_send_index_</a></td></tr>
-<tr class="memdesc:ae82d2dabca85e34ea42eeb96ad78a2c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index of the message last sent.  <a href="#ae82d2dabca85e34ea42eeb96ad78a2c3">More...</a><br /></td></tr>
-<tr class="separator:ae82d2dabca85e34ea42eeb96ad78a2c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f88654a169fcac56c5acce12f65b775"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classTCPClient.html">TCPClient</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a9f88654a169fcac56c5acce12f65b775">client_</a> = nullptr</td></tr>
 <tr class="memdesc:a9f88654a169fcac56c5acce12f65b775"><td class="mdescLeft">&#160;</td><td class="mdescRight">The client that holds the connection.  <a href="#a9f88654a169fcac56c5acce12f65b775">More...</a><br /></td></tr>
 <tr class="separator:a9f88654a169fcac56c5acce12f65b775"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -211,6 +236,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aae2172500af22f50752aac355d9bda60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrLineModel.html">rLineModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#aae2172500af22f50752aac355d9bda60">line_model_message_</a></td></tr>
 <tr class="memdesc:aae2172500af22f50752aac355d9bda60"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classrLineModel.html" title="rLineModel: representation that holds the line points of the line model. ">rLineModel</a> output message.  <a href="#aae2172500af22f50752aac355d9bda60">More...</a><br /></td></tr>
 <tr class="separator:aae2172500af22f50752aac355d9bda60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30379b8214fc44d555d5c25e0f4946f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrRobotPosition.html">rRobotPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a30379b8214fc44d555d5c25e0f4946f7">robot_position_message_</a></td></tr>
+<tr class="memdesc:a30379b8214fc44d555d5c25e0f4946f7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classrRobotPosition.html" title="rRobotPosition: The position of the robot in mm on the field in field coordinates. ">rRobotPosition</a> output message.  <a href="#a30379b8214fc44d555d5c25e0f4946f7">More...</a><br /></td></tr>
+<tr class="separator:a30379b8214fc44d555d5c25e0f4946f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a83e754b6467dbbb87c69988951dc3ab2"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, <a class="el" href="classOutputMessageBase.html">OutputMessageBase</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterfaceCommunication.html#a83e754b6467dbbb87c69988951dc3ab2">output_map_</a></td></tr>
 <tr class="memdesc:a83e754b6467dbbb87c69988951dc3ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map from output message representation type name to output message.  <a href="#a83e754b6467dbbb87c69988951dc3ab2">More...</a><br /></td></tr>
 <tr class="separator:a83e754b6467dbbb87c69988951dc3ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,9 +246,9 @@ Private Attributes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pro_methods_classTCP"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_classTCP')"><img src="closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="classTCP.html">TCP</a></td></tr>
-<tr class="memitem:aec7694bdaf3c03c9f8ddbe4a476629a1 inherit pro_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#aec7694bdaf3c03c9f8ddbe4a476629a1">receive</a> (std::string &amp;data, <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> size)</td></tr>
-<tr class="memdesc:aec7694bdaf3c03c9f8ddbe4a476629a1 inherit pro_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data from the active socket.  <a href="classTCP.html#aec7694bdaf3c03c9f8ddbe4a476629a1">More...</a><br /></td></tr>
-<tr class="separator:aec7694bdaf3c03c9f8ddbe4a476629a1 inherit pro_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ef56a6cb505dd77c06ba1cd15d5a74 inherit pro_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#aa6ef56a6cb505dd77c06ba1cd15d5a74">receive</a> (unsigned char *data, <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> size)</td></tr>
+<tr class="memdesc:aa6ef56a6cb505dd77c06ba1cd15d5a74 inherit pro_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive data from the active socket.  <a href="classTCP.html#aa6ef56a6cb505dd77c06ba1cd15d5a74">More...</a><br /></td></tr>
+<tr class="separator:aa6ef56a6cb505dd77c06ba1cd15d5a74 inherit pro_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4b24738fc31b37d92a9117a941347dc3 inherit pro_methods_classTCP"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTCP.html#a4b24738fc31b37d92a9117a941347dc3">receiveHeader</a> (<a class="el" href="structCommunication_1_1Header.html">Communication::Header</a> *header)</td></tr>
 <tr class="memdesc:a4b24738fc31b37d92a9117a941347dc3 inherit pro_methods_classTCP"><td class="mdescLeft">&#160;</td><td class="mdescRight">Receive the header from the active connection.  <a href="classTCP.html#a4b24738fc31b37d92a9117a941347dc3">More...</a><br /></td></tr>
 <tr class="separator:a4b24738fc31b37d92a9117a941347dc3 inherit pro_methods_classTCP"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -844,30 +872,6 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="ae82d2dabca85e34ea42eeb96ad78a2c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae82d2dabca85e34ea42eeb96ad78a2c3">&#9670;&nbsp;</a></span>message_send_index_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> mInterfaceCommunication::message_send_index_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The index of the message last sent. </p>
-
-</div>
-</div>
 <a id="a83e754b6467dbbb87c69988951dc3ab2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a83e754b6467dbbb87c69988951dc3ab2">&#9670;&nbsp;</a></span>output_map_</h2>
 
@@ -892,6 +896,54 @@ Sébastien </dd></dl>
 
 </div>
 </div>
+<a id="a4f0f610e518509f3324bce79fa987dfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f0f610e518509f3324bce79fa987dfb">&#9670;&nbsp;</a></span>robot_position_message_ <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrRobotPosition.html">rRobotPosition</a>&gt; mInterfaceCommunication::robot_position_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The robot position input message. </p>
+
+</div>
+</div>
+<a id="a30379b8214fc44d555d5c25e0f4946f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30379b8214fc44d555d5c25e0f4946f7">&#9670;&nbsp;</a></span>robot_position_message_ <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt;<a class="el" href="classrRobotPosition.html">rRobotPosition</a>&gt; mInterfaceCommunication::robot_position_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classrRobotPosition.html" title="rRobotPosition: The position of the robot in mm on the field in field coordinates. ">rRobotPosition</a> output message. </p>
+
+</div>
+</div>
 <a id="a9892df36e641f628c98066d6ceb7b1f2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9892df36e641f628c98066d6ceb7b1f2">&#9670;&nbsp;</a></span>send_messages_</h2>
 
@@ -913,30 +965,6 @@ Sébastien </dd></dl>
 </div><div class="memdoc">
 
 <p>Messages that will be sent to the connected client. </p>
-
-</div>
-</div>
-<a id="a18d426fc1d81a955ee1f92317bc39a66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18d426fc1d81a955ee1f92317bc39a66">&#9670;&nbsp;</a></span>send_upper_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool mInterfaceCommunication::send_upper_ = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>True when upper camera image was sent last. </p>
 
 </div>
 </div>

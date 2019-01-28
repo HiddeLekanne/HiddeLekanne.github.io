@@ -1,6 +1,6 @@
 <map id="Module1" name="Module1">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="5,157,69,184"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="5,157,69,184"/>
 <area shape="rect" id="node3" href="$classOutputMessage.html" title="OutputMessage\&lt; Representation1 \&gt;" alt="" coords="94,157,327,184"/>
-<area shape="rect" id="node4" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="139,81,283,108"/>
-<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="173,5,248,32"/>
+<area shape="rect" id="node4" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="139,81,283,108"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="173,5,248,32"/>
 </map>

@@ -27,9 +27,10 @@ var searchData=
   ['inputmessage_3c_20rmicrophone_20_3e',['InputMessage&lt; rMicrophone &gt;',['../classInputMessage.html',1,'']]],
   ['inputmessage_3c_20rmotion_20_3e',['InputMessage&lt; rMotion &gt;',['../classInputMessage.html',1,'']]],
   ['inputmessage_3c_20rmotionrequest_20_3e',['InputMessage&lt; rMotionRequest &gt;',['../classInputMessage.html',1,'']]],
+  ['inputmessage_3c_20rrighteyeleds_20_3e',['InputMessage&lt; rRightEyeLeds &gt;',['../classInputMessage.html',1,'']]],
   ['inputmessage_3c_20rrobotmodel_20_3e',['InputMessage&lt; rRobotModel &gt;',['../classInputMessage.html',1,'']]],
+  ['inputmessage_3c_20rrobotposition_20_3e',['InputMessage&lt; rRobotPosition &gt;',['../classInputMessage.html',1,'']]],
   ['inputmessage_3c_20rrobotstatussensor_20_3e',['InputMessage&lt; rRobotStatusSensor &gt;',['../classInputMessage.html',1,'']]],
   ['inputmessage_3c_20rwalkgenerator_20_3e',['InputMessage&lt; rWalkGenerator &gt;',['../classInputMessage.html',1,'']]],
-  ['inputmessagebase',['InputMessageBase',['../classInputMessageBase.html',1,'']]],
-  ['interface',['Interface',['../classInterface.html',1,'']]]
+  ['inputmessagebase',['InputMessageBase',['../classInputMessageBase.html',1,'']]]
 ];

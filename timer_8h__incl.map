@@ -1,7 +1,7 @@
 <map id="source/dnt/tools/timer.h" name="source/dnt/tools/timer.h">
-<area shape="rect" id="node2" href="$timer_2timer_8h.html" title="timer/timer.h" alt="" coords="69,304,163,331"/>
-<area shape="rect" id="node6" href="$scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="221,80,358,107"/>
-<area shape="rect" id="node9" href="$log_8h.html" title="tools/log.h" alt="" coords="200,155,283,181"/>
-<area shape="rect" id="node10" href="$log_2log_8h.html" title="log/log.h" alt="" coords="253,229,323,256"/>
-<area shape="rect" id="node13" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="239,304,337,331"/>
+<area shape="rect" id="node2" href="$timer_2timer_8h.html" title="timer/timer.h" alt="" coords="125,304,219,331"/>
+<area shape="rect" id="node7" href="$scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="254,80,391,107"/>
+<area shape="rect" id="node10" href="$log_8h.html" title="tools/log.h" alt="" coords="240,155,323,181"/>
+<area shape="rect" id="node11" href="$log_2log_8h.html" title="log/log.h" alt="" coords="257,229,327,256"/>
+<area shape="rect" id="node13" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="243,304,341,331"/>
 </map>

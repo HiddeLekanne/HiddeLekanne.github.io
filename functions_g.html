@@ -65,21 +65,26 @@ $(function() {
 <h3><a id="index_g"></a>- g -</h3><ul>
 <li>g_
 : <a class="el" href="classrLeftEyeLeds.html#a886de28fa9f101b21b99d573ae82068e">rLeftEyeLeds</a>
+, <a class="el" href="classrRightEyeLeds.html#a129cdbf3671a318ada13714b6e1b34be">rRightEyeLeds</a>
 </li>
 <li>game_control_data_
 : <a class="el" href="classSharedMemory.html#aa02dbc6ab87185c4b9d0376d34a7a377">SharedMemory</a>
 </li>
 <li>game_data_
-: <a class="el" href="classrGameData.html#a187db4d91ddfc61695bc5e768083d53e">rGameData</a>
+: <a class="el" href="classmMotionSelector.html#abeb7607b12422cd3a2a7874c3dc18390">mMotionSelector</a>
+, <a class="el" href="classrGameData.html#a187db4d91ddfc61695bc5e768083d53e">rGameData</a>
 </li>
 <li>game_data_message_
 : <a class="el" href="classmBehaviorEngine.html#a476004d2f5dd7d4e3bbf4453a193da77">mBehaviorEngine</a>
 , <a class="el" href="classmCortexProxy.html#ab9060157d05b673b7968438cdf14d09c">mCortexProxy</a>
 , <a class="el" href="classmMicrophone.html#aa7cc109e3d001576dbe6fb5ebe14ffe8">mMicrophone</a>
+, <a class="el" href="classmParticleFilter.html#a5c8fa7c4173e549d550e441cbb919970">mParticleFilter</a>
+, <a class="el" href="classmSimulationProxy.html#a134532553b78db177b502d5fe55ddfb7">mSimulationProxy</a>
 </li>
 <li>game_data_representation_
 : <a class="el" href="classmBehaviorEngine.html#ad292c981edd9be04bd304a6929d525be">mBehaviorEngine</a>
 , <a class="el" href="classmMicrophone.html#a76c6525b522888fc7cd5e5ab0ce2d54c">mMicrophone</a>
+, <a class="el" href="classmParticleFilter.html#aaddd23c6cc09daa271385e5cb8547789">mParticleFilter</a>
 </li>
 <li>GameState
 : <a class="el" href="classrGameData.html#a9c3f4c1a6dcf8f358204c475ad7844f1">rGameData</a>
@@ -90,8 +95,14 @@ $(function() {
 <li>generateDependencyMap()
 : <a class="el" href="classModuleGroup.html#a19685d48ec260c69a5884e5eb97ee3bd">ModuleGroup</a>
 </li>
+<li>get()
+: <a class="el" href="classArgumentParser.html#af34ff71809b5dda6b58e72355895386e">ArgumentParser</a>
+</li>
 <li>get_entry()
 : <a class="el" href="classConfiguration_1_1Data.html#a315ed52a07092ddef91e6c3a439f44dd">Configuration::Data</a>
+</li>
+<li>getAccumulatedMotionOdometry()
+: <a class="el" href="classmParticleFilter.html#a3bfbf933b02d972471037feca7be3f33">mParticleFilter</a>
 </li>
 <li>getAction()
 : <a class="el" href="classDecision.html#aa03ede5f45c3bdb683ea7c588cfdcbfa">Decision</a>
@@ -105,8 +116,12 @@ $(function() {
 <li>getAngleAxis()
 : <a class="el" href="classRotationMatrix.html#a4eb0d60a6293726e92bb107e11f40674">RotationMatrix</a>
 </li>
+<li>getAngleToGoal()
+: <a class="el" href="classLocationMethods.html#a42d40467f3df3c15883c7a07685b080f">LocationMethods</a>
+</li>
 <li>getB()
 : <a class="el" href="classrLeftEyeLeds.html#a4a4933ef5073554e0402ea68009ba5cb">rLeftEyeLeds</a>
+, <a class="el" href="classrRightEyeLeds.html#afafe781f1140dc8ebff88c4f74ac5271">rRightEyeLeds</a>
 </li>
 <li>getBehaviorStatus()
 : <a class="el" href="classDecisionEngine.html#a8c92f9f9197925e3bf6e713ad880cb91">DecisionEngine</a>
@@ -122,7 +137,7 @@ $(function() {
 , <a class="el" href="classDecision.html#a5ed2be9a6e26873723882eea74a89008">Decision</a>
 </li>
 <li>getDeviceName()
-: <a class="el" href="classCameraSettings.html#a359dfab3fb0218fa1ddc4a10d29ccad0">CameraSettings</a>
+: <a class="el" href="classCameraSettings.html#a0114b6ddbde68570896067dcb1c1e199">CameraSettings</a>
 </li>
 <li>getDurations()
 : <a class="el" href="classTimer.html#a5121bd6bcc999170b0b6573bc62c6645">Timer</a>
@@ -132,6 +147,7 @@ $(function() {
 </li>
 <li>getG()
 : <a class="el" href="classrLeftEyeLeds.html#aaa660471b456cfbc77e4f301c67a7e63">rLeftEyeLeds</a>
+, <a class="el" href="classrRightEyeLeds.html#a0de62b48abe03b3140b12d5f9e25894b">rRightEyeLeds</a>
 </li>
 <li>getGoalCentre()
 : <a class="el" href="classmGoalDetector.html#a75e5f58fc832f89be491d1d3a22a66e9">mGoalDetector</a>
@@ -165,7 +181,11 @@ $(function() {
 : <a class="el" href="classInputMessage.html#ad1f53038cdab8d780736341ad56a95a6">InputMessage&lt; MessageType &gt;</a>
 </li>
 <li>getName()
-: <a class="el" href="classDecision.html#acedc7e3d8171bdaf25e5186d9dedc142">Decision</a>
+: <a class="el" href="classCameraWidget.html#a0600197bcfbea18a71fc967f10ff2659">CameraWidget</a>
+, <a class="el" href="classDecision.html#acedc7e3d8171bdaf25e5186d9dedc142">Decision</a>
+, <a class="el" href="classDNTWindow.html#a6c0230194c79a6915146d39ce7bc7a3e">DNTWindow</a>
+, <a class="el" href="classFieldWidget.html#aa643ce1fad6a10211f175a92cd2a3e0f">FieldWidget</a>
+, <a class="el" href="classHeadLedActuatorsWidget.html#a67f1b15888f9613ad89996f9d5af9a72">HeadLedActuatorsWidget</a>
 , <a class="el" href="classImage.html#aedcd8ea965e248901a033e78cead6b75">Image</a>
 , <a class="el" href="classmBallDetector.html#a49aded86077a1bc034cbc070057b694f">mBallDetector</a>
 , <a class="el" href="classmBehaviorEngine.html#a5a95cdc54c935f575cf940ff6aa4901e">mBehaviorEngine</a>
@@ -176,7 +196,6 @@ $(function() {
 , <a class="el" href="classmFieldFilter.html#afa24bce38b41992bc5e6716b0b82607a">mFieldFilter</a>
 , <a class="el" href="classmFootSupportProvider.html#a7fcea47dc40730c03237807814c45ba3">mFootSupportProvider</a>
 , <a class="el" href="classmGoalDetector.html#a87c205fd7b5feaca323bc84dc868f97d">mGoalDetector</a>
-, <a class="el" href="classmInterface.html#ab375f7a88b3dac88f19c55efbdf95b75">mInterface</a>
 , <a class="el" href="classmInterfaceCommunication.html#a11f3bcdeb9fb5a637c4ef1844d62b847">mInterfaceCommunication</a>
 , <a class="el" href="classmInterpolationEngine.html#a3eabb6ac31801d2005a899ef75e45254">mInterpolationEngine</a>
 , <a class="el" href="classmLineModel.html#a533730baf5659c9786c42505d20e6012">mLineModel</a>
@@ -187,7 +206,9 @@ $(function() {
 , <a class="el" href="classModule1.html#a8aed603ab0917809f56060fb193a9ec8">Module1</a>
 , <a class="el" href="classModule2.html#a16ed9928d6370a784f6a04e6af222ebd">Module2</a>
 , <a class="el" href="classModule.html#abf08e52096c10431a4381afdb7c17d3b">Module</a>
+, <a class="el" href="classmParticleFilter.html#acb47bb1be430e3e7a2dce19cc6fc7155">mParticleFilter</a>
 , <a class="el" href="classmRobotModel.html#a30df6ad2dd68ee5f295b83a4f8083d5e">mRobotModel</a>
+, <a class="el" href="classmSimulationProxy.html#a981e78d5e315804030ed449a726f828c">mSimulationProxy</a>
 , <a class="el" href="classmTestForwardKinematics.html#a2cba1ad07bfca2ca0f82cef79ee95f87">mTestForwardKinematics</a>
 , <a class="el" href="classmTestShowImage.html#a4299e96cf2668b468e33af3d014ba4a8">mTestShowImage</a>
 , <a class="el" href="classmWalk2014GeneratorBase.html#ad3f157bffd8a0a8e592f87b328f83be8">mWalk2014GeneratorBase</a>
@@ -219,7 +240,9 @@ $(function() {
 , <a class="el" href="classrMicrophone.html#a789222b136781d71fd5707a7ac354df2">rMicrophone</a>
 , <a class="el" href="classrMotion.html#ac8d83929ff8d2313c235b79564bbd905">rMotion</a>
 , <a class="el" href="classrMotionRequest.html#a79e8678ff41f7294897794445ad907bb">rMotionRequest</a>
+, <a class="el" href="classrRightEyeLeds.html#a76ab0624833a15314a0a9aaec4473d4f">rRightEyeLeds</a>
 , <a class="el" href="classrRobotModel.html#a4428e51a9d9e213deddf465f9280a2c7">rRobotModel</a>
+, <a class="el" href="classrRobotPosition.html#afaab26d03b7b6f96b093569d7cd0121b">rRobotPosition</a>
 , <a class="el" href="classrRobotStatusSensor.html#a20c5dd283ff83c7319298833ecfe87cd">rRobotStatusSensor</a>
 , <a class="el" href="classrSonarSensor.html#a53806a7b327fc9bd5ef3d6a2e620ae71">rSonarSensor</a>
 , <a class="el" href="classrStiffnessData.html#a5dbb9bc12500a7cfb197438c7326c208">rStiffnessData</a>
@@ -247,6 +270,10 @@ $(function() {
 </li>
 <li>getR()
 : <a class="el" href="classrLeftEyeLeds.html#a9bc5e002d0679695c879751842643f70">rLeftEyeLeds</a>
+, <a class="el" href="classrRightEyeLeds.html#a8392a4d00ec750f93c6ed1d2bd906d08">rRightEyeLeds</a>
+</li>
+<li>getRelativePosition()
+: <a class="el" href="classrRobotModel.html#a54e9c2ac3b126602beabad278f231eec">rRobotModel</a>
 </li>
 <li>getRepresentation()
 : <a class="el" href="classOutputMessage.html#ae1e617f50ee943282c0eb481cb3cf0ec">OutputMessage&lt; MessageType &gt;</a>
@@ -261,7 +288,7 @@ $(function() {
 : <a class="el" href="classrFrameInfo.html#a7a4c684142ecc4837dd1210230d64f33">rFrameInfo</a>
 </li>
 <li>getTimeSinceExecution()
-: <a class="el" href="classDecision.html#ab1b265c8bdd71b5c4827d4a96d368716">Decision</a>
+: <a class="el" href="classDecision.html#a820d569f1737c32364c2ea77c28c1c02">Decision</a>
 </li>
 <li>getTimestamp()
 : <a class="el" href="classNaoCamera.html#a4e199373ce3a341ee45b5b52c821e841">NaoCamera</a>
@@ -272,11 +299,18 @@ $(function() {
 <li>getTypeName()
 : <a class="el" href="classMessage.html#aa4d8791d140fb07fa13ebac35264d7c3">Message</a>
 </li>
+<li>getUChannel()
+: <a class="el" href="classImage.html#aade6f65b0642dfe92fd3367194077ca3">Image</a>
+</li>
 <li>getUpdateInformations()
 : <a class="el" href="classModuleGroup.html#acf624093cb4c25512f58db953e700c1d">ModuleGroup</a>
 </li>
 <li>getUpdates()
-: <a class="el" href="classmBallDetector.html#a3766ba3bce1be52abbe485688d1bdcaf">mBallDetector</a>
+: <a class="el" href="classCameraWidget.html#a920897ae0e9e180279dd473c2133b237">CameraWidget</a>
+, <a class="el" href="classDNTWindow.html#ab68770b9a7677fa3580f185f0ef3f00e">DNTWindow</a>
+, <a class="el" href="classFieldWidget.html#aef4a087b3b673a28a02a947ac61ae292">FieldWidget</a>
+, <a class="el" href="classHeadLedActuatorsWidget.html#aa7e50077946142ac885c152fc00d24c2">HeadLedActuatorsWidget</a>
+, <a class="el" href="classmBallDetector.html#a3766ba3bce1be52abbe485688d1bdcaf">mBallDetector</a>
 , <a class="el" href="classmBehaviorEngine.html#a23a87901c1563c50e78a7b975216e86b">mBehaviorEngine</a>
 , <a class="el" href="classmCamera.html#a1e1af3ad2329aa3e55112e01eb060a3f">mCamera</a>
 , <a class="el" href="classmCortexProxy.html#a420d9910182d94fd114c3c70b7954c71">mCortexProxy</a>
@@ -285,7 +319,6 @@ $(function() {
 , <a class="el" href="classmFieldFilter.html#a6a76088502a526f33bc7545788aef49d">mFieldFilter</a>
 , <a class="el" href="classmFootSupportProvider.html#a642a5406e221f29b863ab76deb1246c3">mFootSupportProvider</a>
 , <a class="el" href="classmGoalDetector.html#a3841dec4b0beeb22ced5d8c74669f281">mGoalDetector</a>
-, <a class="el" href="classmInterface.html#acb6506584f65ee27162dcb8aa86eacfa">mInterface</a>
 , <a class="el" href="classmInterfaceCommunication.html#a078961ae626a1bf71280c64e6883939d">mInterfaceCommunication</a>
 , <a class="el" href="classmInterpolationEngine.html#a012f02f242d15f0a10dbd6f69c588a15">mInterpolationEngine</a>
 , <a class="el" href="classmLineModel.html#a92e6ee3f60906b2ca5b8b00e75413b14">mLineModel</a>
@@ -296,13 +329,18 @@ $(function() {
 , <a class="el" href="classModule1.html#a8753a5171646159fb7ab7296d6d01696">Module1</a>
 , <a class="el" href="classModule2.html#a66b15a5f38e182357e825291cf76e874">Module2</a>
 , <a class="el" href="classModule.html#aa4196a4ac5fbce5e54cc3bc821c42b85">Module</a>
+, <a class="el" href="classmParticleFilter.html#acf6af38332591251ec463e5e86d2c453">mParticleFilter</a>
 , <a class="el" href="classmRobotModel.html#a1d4fa6d6072533ef2b11140cbb4326e9">mRobotModel</a>
+, <a class="el" href="classmSimulationProxy.html#aa6154f8643b540212028c27bfe2f118e">mSimulationProxy</a>
 , <a class="el" href="classmTestForwardKinematics.html#ad02992a1846c4083aa3e4276448fd297">mTestForwardKinematics</a>
 , <a class="el" href="classmTestShowImage.html#a0fcd054e3595a1665242ade6ad832437">mTestShowImage</a>
 , <a class="el" href="classmWalk2014GeneratorBase.html#a87db5f597d19bb6022fa095a78aed9a3">mWalk2014GeneratorBase</a>
 </li>
 <li>getUtility()
 : <a class="el" href="classDecision.html#a43b3e0a9e130b4366d23c925c27112c8">Decision</a>
+</li>
+<li>getVChannel()
+: <a class="el" href="classImage.html#a742f4f5f1b84232f276b23aedf78fbfe">Image</a>
 </li>
 <li>getWidth()
 : <a class="el" href="classCameraSettings.html#af6cca9a9d5e3e364d34e718a56a104b0">CameraSettings</a>
@@ -320,6 +358,9 @@ $(function() {
 </li>
 <li>getZAngle()
 : <a class="el" href="classRotationMatrix.html#a6f3fee37afb00c3a953bf535ee65fe30">RotationMatrix</a>
+</li>
+<li>globalToRelative()
+: <a class="el" href="classLocationMethods.html#a65fffbc0b7789cfcb350f8b0729c8aef">LocationMethods</a>
 </li>
 <li>goal_
 : <a class="el" href="classrGoal.html#ad7db72f18b7af44c9e353076b8afe667">rGoal</a>
@@ -360,17 +401,11 @@ $(function() {
 : <a class="el" href="classmFieldFilter.html#a6d134d510bcf140d60827ce8b19ef725">mFieldFilter</a>
 , <a class="el" href="classmGoalDetector.html#a153c5ba2eac5cc837ec9d2d45f21b55f">mGoalDetector</a>
 </li>
-<li>green_
-: <a class="el" href="classwCamera.html#a76d23a5c0323840b91a347be9cbf7069">wCamera</a>
-</li>
 <li>GREEN_EDGE_DETECTION_RANGE_
 : <a class="el" href="classmGoalDetector.html#a3bc5671073c1c831cf5ab38046643a5b">mGoalDetector</a>
 </li>
 <li>GREEN_EDGE_MINIMUM_WHITE_
 : <a class="el" href="classmGoalDetector.html#a09636d1ed8f87bd2918666ddf99698f3">mGoalDetector</a>
-</li>
-<li>gui_thread_
-: <a class="el" href="classmInterface.html#a6c80f0727029b5ad59fff618d80fd655">mInterface</a>
 </li>
 <li>gyro_x_sensor_
 : <a class="el" href="classrIMUSensor.html#a3fb5f1330ea2421fcd1e310640643c7c">rIMUSensor</a>

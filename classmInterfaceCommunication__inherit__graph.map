@@ -1,5 +1,5 @@
 <map id="mInterfaceCommunication" name="mInterfaceCommunication">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="61,80,125,107"/>
-<area shape="rect" id="node3" href="$classTCPServer.html" title="TCPServer" alt="" coords="149,80,236,107"/>
-<area shape="rect" id="node4" href="$classTCP.html" title="TCP" alt="" coords="168,5,217,32"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="61,80,125,107"/>
+<area shape="rect" id="node3" href="$classTCPServer.html" title="TCPServer: allows to setup a connection to a connecting client and then send data to that client..." alt="" coords="149,80,236,107"/>
+<area shape="rect" id="node4" href="$classTCP.html" title="TCP: base class for the tcp client and server, implements sending and receiving data over the tcp con..." alt="" coords="168,5,217,32"/>
 </map>

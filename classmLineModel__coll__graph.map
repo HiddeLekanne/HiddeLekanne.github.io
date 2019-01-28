@@ -1,0 +1,10 @@
+<map id="mLineModel" name="mLineModel">
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="400,5,464,32"/>
+<area shape="rect" id="node3" href="$classOutputMessage.html" title="OutputMessage\&lt; rLineModel \&gt;" alt="" coords="331,56,533,83"/>
+<area shape="rect" id="node4" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,87,273,113"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,117,80,144"/>
+<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,141,269,168"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="323,107,541,133"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="332,157,532,184"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="331,208,533,235"/>
+</map>

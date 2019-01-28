@@ -1,0 +1,15 @@
+<map id="source/dnt/modules/perception/line_detector/line_detector.h" name="source/dnt/modules/perception/line_detector/line_detector.h">
+<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="787,117,927,143"/>
+<area shape="rect" id="node24" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="1221,288,1387,329"/>
+<area shape="rect" id="node25" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1344,377,1496,404"/>
+<area shape="rect" id="node31" href="$r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="1112,199,1267,240"/>
+<area shape="rect" id="node34" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="1839,377,1971,404"/>
+<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="629,295,779,322"/>
+<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="337,206,524,233"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="760,206,955,233"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="777,377,892,404"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="803,288,954,329"/>
+<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1032,377,1195,404"/>
+<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="1027,452,1178,479"/>
+<area shape="rect" id="node32" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="1029,295,1197,322"/>
+</map>

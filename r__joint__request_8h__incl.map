@@ -1,6 +1,6 @@
 <map id="source/dnt/representations/motion/r_joint_request.h" name="source/dnt/representations/motion/r_joint_request.h">
-<area shape="rect" id="node2" href="$r__joint__angles_8h.html" title="representations/infrastructure\l/r_joint_angles.h" alt="" coords="167,184,357,225"/>
-<area shape="rect" id="node8" href="$r__stiffness__data_8h.html" title="representations/motion\l/r_stiffness_data.h" alt="" coords="70,95,225,136"/>
+<area shape="rect" id="node2" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="167,184,357,225"/>
+<area shape="rect" id="node8" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="70,95,225,136"/>
 <area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="5,273,185,300"/>
 <area shape="rect" id="node5" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="209,273,339,300"/>
 <area shape="rect" id="node6" href="$constants_8h.html" title="constants.h" alt="" coords="229,348,319,375"/>

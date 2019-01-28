@@ -1,4 +1,4 @@
 <map id="TCPServer" name="TCPServer">
-<area shape="rect" id="node3" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication" alt="" coords="5,155,180,181"/>
-<area shape="rect" id="node2" href="$classTCP.html" title="TCP" alt="" coords="68,5,117,32"/>
+<area shape="rect" id="node3" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication: Constructs a TCP server on which representations are sent to a remote client..." alt="" coords="5,155,180,181"/>
+<area shape="rect" id="node2" href="$classTCP.html" title="TCP: base class for the tcp client and server, implements sending and receiving data over the tcp con..." alt="" coords="68,5,117,32"/>
 </map>

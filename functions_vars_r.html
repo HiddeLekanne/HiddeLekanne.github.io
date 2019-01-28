@@ -65,9 +65,16 @@ $(function() {
 <h3><a id="index_r"></a>- r -</h3><ul>
 <li>r_
 : <a class="el" href="classrLeftEyeLeds.html#a11f5832f1d80307b2b85569dcf0b9cc2">rLeftEyeLeds</a>
+, <a class="el" href="classrRightEyeLeds.html#a331377a6948749c3f56a01a38815832c">rRightEyeLeds</a>
 </li>
 <li>radius_
 : <a class="el" href="classrBall.html#abf55e1b4499598621afaba25626480c7">rBall</a>
+</li>
+<li>random_device_
+: <a class="el" href="classmParticleFilter.html#a0e325fe18b854c45be21af53e71b9ca7">mParticleFilter</a>
+</li>
+<li>random_generator_
+: <a class="el" href="classmParticleFilter.html#a9d24a69379974a4deb7003f21b6cc8b4">mParticleFilter</a>
 </li>
 <li>RANSAC_ITERATIONS_
 : <a class="el" href="classmFieldFilter.html#a98fbfef7f83cf0a082b2825a16ff327f">mFieldFilter</a>
@@ -78,8 +85,11 @@ $(function() {
 <li>rd_
 : <a class="el" href="classmFieldFilter.html#a90e8ca7ecd36dee306914e403a1d7307">mFieldFilter</a>
 </li>
-<li>red_
-: <a class="el" href="classwCamera.html#a245f0ed0529a0512d2b946016c7625fa">wCamera</a>
+<li>ready_pose_
+: <a class="el" href="classLocationMethods.html#a21f857edd10207b5eed967e33925bd84">LocationMethods</a>
+</li>
+<li>relative_position_
+: <a class="el" href="classrBall.html#afaf7bc6a77f8943e03901dd8c4e7f4b9">rBall</a>
 </li>
 <li>representation_
 : <a class="el" href="classOutputMessage.html#a9015a94c6c78a2a8beb7d9c60df9ba91">OutputMessage&lt; MessageType &gt;</a>
@@ -96,6 +106,12 @@ $(function() {
 <li>right_arm_
 : <a class="el" href="classmRobotModel.html#a7cb1d3dc70cff5832b6b9d5ec1b78db7">mRobotModel</a>
 , <a class="el" href="classrForwardKinematics.html#ad2620ab7e92ad3c97d524827a520c86d">rForwardKinematics</a>
+</li>
+<li>right_eye_led_message_
+: <a class="el" href="classmBallDetector.html#a5dd82a0c2856b5f03756724ebd5f844c">mBallDetector</a>
+</li>
+<li>right_eye_leds_message_
+: <a class="el" href="classmCortexProxy.html#a4daee7edb5b2d65d868615ef5ca79181">mCortexProxy</a>
 </li>
 <li>right_foot_left_pressed_
 : <a class="el" href="classrButtonSensor.html#a4f8eff435bedee0e0bf94d74d0aced2f">rButtonSensor</a>
@@ -189,11 +205,13 @@ $(function() {
 : <a class="el" href="classRobotPreviewWidget.html#ab61bb71274de8063f3a2c86932237fe8">RobotPreviewWidget</a>
 </li>
 <li>robot_model_message_
-: <a class="el" href="classmLineModel.html#a86ddff5d363ae853f350e3c2de5982f6">mLineModel</a>
+: <a class="el" href="classmBallDetector.html#ab51d8672014a49efb0dc7eb6c0928070">mBallDetector</a>
+, <a class="el" href="classmLineModel.html#a86ddff5d363ae853f350e3c2de5982f6">mLineModel</a>
 , <a class="el" href="classmTestForwardKinematics.html#a8176c64fea084db6e9106d850814dff4">mTestForwardKinematics</a>
 </li>
 <li>robot_model_representation_
-: <a class="el" href="classmLineModel.html#a653bc09e8c89dd4dcea37714eef80a93">mLineModel</a>
+: <a class="el" href="classmBallDetector.html#abda146c5251b23885d780828228ef63d">mBallDetector</a>
+, <a class="el" href="classmLineModel.html#a653bc09e8c89dd4dcea37714eef80a93">mLineModel</a>
 </li>
 <li>robot_name_
 : <a class="el" href="classRobotWidget.html#a2201538575eea0c2afa052c1ab7e9ee5">RobotWidget</a>
@@ -201,18 +219,38 @@ $(function() {
 <li>robot_name_label_
 : <a class="el" href="classRobotWidget.html#af6387b25c0c65c852a4e1b8d81841b1b">RobotWidget</a>
 </li>
-<li>robot_names_combobox_
-: <a class="el" href="classwConnect.html#ac721a62f4c63dbbbba534a39ec96f54c">wConnect</a>
+<li>robot_pose_
+: <a class="el" href="classrRobotPosition.html#a8981a2b7a6b30066b707670fd210bc11">rRobotPosition</a>
+</li>
+<li>robot_position_message_
+: <a class="el" href="classFieldWidget.html#abd577de2ed6f3d8c5af0e82671edd7b0">FieldWidget</a>
+, <a class="el" href="classmBehaviorEngine.html#aabf9118509aba4dc059697b6703c91f8">mBehaviorEngine</a>
+, <a class="el" href="classmInterfaceCommunication.html#a4f0f610e518509f3324bce79fa987dfb">mInterfaceCommunication</a>
+, <a class="el" href="classmParticleFilter.html#aa29cdc42d21cf5296bfb35bd0b0d35ea">mParticleFilter</a>
+</li>
+<li>robot_position_representation_
+: <a class="el" href="classFieldWidget.html#aef9a44206f6c77ce9db619d092fc92e9">FieldWidget</a>
+, <a class="el" href="classmBehaviorEngine.html#ae5dcbfff49142f7e29b34c72a379e89b">mBehaviorEngine</a>
 </li>
 <li>robot_status_message_
 : <a class="el" href="classmEarIndicators.html#af8cce369b6d8604341466cf02f388bb3">mEarIndicators</a>
 , <a class="el" href="classmMotionProxy.html#a3fb648afd6ab854b8a3edc7f4886e991">mMotionProxy</a>
+, <a class="el" href="classmSimulationProxy.html#a124aad5d2176f94af30bb75bb3369fa0">mSimulationProxy</a>
 </li>
 <li>robot_widgets_
 : <a class="el" href="classTeamWidget.html#a2aa3096ed77cb347d80898e6bbd6fc58">TeamWidget</a>
 </li>
 <li>robotModel_message_
 : <a class="el" href="classmRobotModel.html#a4cd32744ef0888052494e81759bc5a17">mRobotModel</a>
+</li>
+<li>robots_box_
+: <a class="el" href="classDNTWindow.html#a1b3279581f64fbb0ae1e28b6da05d32b">DNTWindow</a>
+</li>
+<li>rot_rot_noise_
+: <a class="el" href="classmParticleFilter.html#afde1013aec346ecbb94c5d78d4e65015">mParticleFilter</a>
+</li>
+<li>rot_trans_noise_
+: <a class="el" href="classmParticleFilter.html#a9200fd469e840246363b7d929e2ec947">mParticleFilter</a>
 </li>
 <li>rotation
 : <a class="el" href="classPose2f.html#a1a287a08ae45e8ed82e9218fa09c21b3">Pose2f</a>

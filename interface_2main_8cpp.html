@@ -70,34 +70,66 @@ $(function() {
 <div class="title">main.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="log_8h_source.html">tools/log.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;QtWidgets&gt;</code><br />
 <code>#include &quot;<a class="el" href="module__manager_8h_source.html">framework/module_manager.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="m__nao__active_8h_source.html">modules/m_nao_active.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="m__camera_8h_source.html">modules/camera/m_camera.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="interface_2modules_2m__interface__communication_8h_source.html">modules/m_interface_communication.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="m__interface_8h_source.html">modules/m_interface.h</a>&quot;</code><br />
-<code>#include &lt;thread&gt;</code><br />
-<code>#include &lt;queue&gt;</code><br />
-<code>#include &lt;csignal&gt;</code><br />
+<code>#include &quot;<a class="el" href="m__window_8h_source.html">modules/m_window.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="argument__parser_8h_source.html">tools/argument_parser.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="w__camera_8h_source.html">widgets/w_camera.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="w__field_8h_source.html">widgets/w_field.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="w__head__led__actuators_8h_source.html">widgets/w_head_led_actuators.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="interface_2main_8cpp__incl.png" border="0" usemap="#source_2interface_2main_8cpp" alt=""/></div>
-<!-- MAP 0 -->
+<map name="source_2interface_2main_8cpp" id="source_2interface_2main_8cpp">
+<area shape="rect" id="node3" href="module__manager_8h.html" title="framework/module_manager.h" alt="" coords="2272,177,2469,203"/>
+<area shape="rect" id="node24" href="interface_2modules_2m__interface__communication_8h.html" title="modules/m_interface\l_communication.h" alt="" coords="1355,80,1498,121"/>
+<area shape="rect" id="node41" href="m__window_8h.html" title="modules/m_window.h" alt="" coords="1566,177,1714,203"/>
+<area shape="rect" id="node42" href="argument__parser_8h.html" title="tools/argument_parser.h" alt="" coords="1188,266,1351,293"/>
+<area shape="rect" id="node46" href="w__camera_8h.html" title="widgets/w_camera.h" alt="" coords="866,177,1009,203"/>
+<area shape="rect" id="node49" href="w__field_8h.html" title="widgets/w_field.h" alt="" coords="449,177,572,203"/>
+<area shape="rect" id="node50" href="w__head__led__actuators_8h.html" title="widgets/w_head_led\l_actuators.h" alt="" coords="1625,80,1765,121"/>
+<area shape="rect" id="node7" href="representation_8h.html" title="framework/representation.h" alt="" coords="1885,691,2065,717"/>
+<area shape="rect" id="node9" href="message_8h.html" title="framework/message.h" alt="" coords="2359,616,2510,643"/>
+<area shape="rect" id="node12" href="module_8h.html" title="framework/module.h" alt="" coords="2365,355,2505,382"/>
+<area shape="rect" id="node20" href="module__group_8h.html" title="framework/module_group.h" alt="" coords="2396,266,2575,293"/>
+<area shape="rect" id="node14" href="input__message_8h.html" title="framework/input_message.h" alt="" coords="2211,534,2397,561"/>
+<area shape="rect" id="node18" href="output__message_8h.html" title="framework/output_message.h" alt="" coords="2324,445,2519,471"/>
+<area shape="rect" id="node19" href="streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1033,527,1183,568"/>
+<area shape="rect" id="node22" href="log_8h.html" title="tools/log.h" alt="" coords="1901,355,1984,382"/>
+<area shape="rect" id="node23" href="log_2log_8h.html" title="log/log.h" alt="" coords="1906,445,1977,471"/>
+<area shape="rect" id="node25" href="r__head__led__actuators_8h.html" title="representations/actuators\l/r_head_led_actuators.h" alt="" coords="181,169,350,211"/>
+<area shape="rect" id="node26" href="r__forward__kinematics_8h.html" title="representations/modelling\l/r_forward_kinematics.h" alt="" coords="1184,348,1355,389"/>
+<area shape="rect" id="node28" href="r__line__model_8h.html" title="representations/modelling\l/r_line_model.h" alt="" coords="852,259,1023,300"/>
+<area shape="rect" id="node29" href="r__ball_8h.html" title="representations/perception\l/r_ball.h" alt="" coords="198,259,373,300"/>
+<area shape="rect" id="node30" href="r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="1655,437,1830,479"/>
+<area shape="rect" id="node31" href="r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="601,259,756,300"/>
+<area shape="rect" id="node35" href="r__robot__position_8h.html" title="representations/localisation\l/r_robot_position.h" alt="" coords="397,259,577,300"/>
+<area shape="rect" id="node37" href="r__host_8h.html" title="representations/r_host.h" alt="" coords="1476,266,1639,293"/>
+<area shape="rect" id="node38" href="r__client_8h.html" title="representations/r_client.h" alt="" coords="1663,266,1831,293"/>
+<area shape="rect" id="node39" href="tcp__client_8h.html" title="tools/communication\l/tcp_client.h" alt="" coords="1738,169,1881,211"/>
+<area shape="rect" id="node27" href="dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="632,445,784,471"/>
+<area shape="rect" id="node32" href="image_8h.html" title="modules/camera/image.h" alt="" coords="5,691,173,717"/>
+<area shape="rect" id="node33" href="camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="621,348,787,389"/>
+<area shape="rect" id="node36" href="particle_8h.html" title="modules/modelling/localisation\l/particle.h" alt="" coords="349,348,547,389"/>
+<area shape="rect" id="node40" href="tcp_8h.html" title="tcp.h" alt="" coords="1580,445,1631,471"/>
+<area shape="rect" id="node43" href="configuration_8h.html" title="tools/configuration.h" alt="" coords="2059,266,2197,293"/>
+<area shape="rect" id="node44" href="public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="2059,348,2194,389"/>
+<area shape="rect" id="node45" href="toml__value_8h.html" title="toml_value.h" alt="" coords="2103,445,2199,471"/>
+<area shape="rect" id="node48" href="w__dnt_8h.html" title="widgets/w_dnt.h" alt="" coords="1047,266,1164,293"/>
+</map>
 </div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a829014e7f6d2dbddfad275d542d39465"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_2main_8cpp.html#a829014e7f6d2dbddfad275d542d39465">sigpipe_handler</a> (int)</td></tr>
-<tr class="memdesc:a829014e7f6d2dbddfad275d542d39465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main: running the interface.  <a href="#a829014e7f6d2dbddfad275d542d39465">More...</a><br /></td></tr>
-<tr class="separator:a829014e7f6d2dbddfad275d542d39465"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_2main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
-<tr class="memdesc:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Start interface and modules.  <a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">More...</a><br /></td></tr>
-<tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ddf1224851353fc92bfbff6f499fa97"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_2main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97">main</a> (int argc, char *argv[])</td></tr>
+<tr class="memdesc:a0ddf1224851353fc92bfbff6f499fa97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Main: running the interface.  <a href="#a0ddf1224851353fc92bfbff6f499fa97">More...</a><br /></td></tr>
+<tr class="separator:a0ddf1224851353fc92bfbff6f499fa97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
+<a id="a0ddf1224851353fc92bfbff6f499fa97"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ddf1224851353fc92bfbff6f499fa97">&#9670;&nbsp;</a></span>main()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -105,35 +137,26 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">int main </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Start interface and modules. </p>
-<dl class="section return"><dt>Returns</dt><dd>Exit code </dd></dl>
-
-</div>
-</div>
-<a id="a829014e7f6d2dbddfad275d542d39465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a829014e7f6d2dbddfad275d542d39465">&#9670;&nbsp;</a></span>sigpipe_handler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void sigpipe_handler </td>
-          <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>argv</em>[]&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Main: running the interface. </p>
-<dl class="section author"><dt>Author</dt><dd>Caitlin Function called when sigpipe signal is send when writing to a disconnected socket. </dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Caitlin, Sébastien Start interface and modules. </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>Exit code </dd></dl>
 
 </div>
 </div>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classRobotPreviewWidget.html" title="RobotPreviewWidget" alt="" coords="148,5,293,32"/>
+<area shape="rect" id="node2" href="$classRobotWidget.html" title="RobotWidget: Display detailed information about the selected robots. " alt="" coords="144,5,243,32"/>
+<area shape="rect" id="node3" href="$classTeamWidget.html" title="TeamWidget: Displays 6 RobotWidgets and their player numbers. " alt="" coords="145,56,241,83"/>
 </map>

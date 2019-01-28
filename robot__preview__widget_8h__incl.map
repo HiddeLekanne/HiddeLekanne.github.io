@@ -1,7 +1,7 @@
 <map id="source/teamcopy/widgets/robot_preview_widget.h" name="source/teamcopy/widgets/robot_preview_widget.h">
 <area shape="rect" id="node5" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="317,95,455,121"/>
 <area shape="rect" id="node6" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="371,169,505,211"/>
-<area shape="rect" id="node12" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="305,333,401,360"/>
+<area shape="rect" id="node12" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="303,333,399,360"/>
 <area shape="rect" id="node11" href="$data_8h.html" title="data.h" alt="" coords="237,259,295,285"/>
-<area shape="rect" id="node15" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="554,333,661,360"/>
+<area shape="rect" id="node15" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="553,333,659,360"/>
 </map>

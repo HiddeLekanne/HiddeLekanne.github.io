@@ -1,3 +1,3 @@
 <map id="TeamWidget" name="TeamWidget">
-<area shape="rect" id="node3" href="$classRobotWidget.html" title="RobotWidget" alt="" coords="69,81,168,108"/>
+<area shape="rect" id="node3" href="$classRobotWidget.html" title="RobotWidget: Display detailed information about the selected robots. " alt="" coords="72,81,171,108"/>
 </map>

@@ -129,6 +129,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:acd3ac4a20543b3fee48837082a26cc32"><td class="memItemLeft" align="right" valign="top">std::map&lt; std::string, unsigned int &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#acd3ac4a20543b3fee48837082a26cc32">durations_</a></td></tr>
 <tr class="memdesc:acd3ac4a20543b3fee48837082a26cc32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Map between the timer names and their durations.  <a href="#acd3ac4a20543b3fee48837082a26cc32">More...</a><br /></td></tr>
 <tr class="separator:acd3ac4a20543b3fee48837082a26cc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a497324ba53f1a1fdac30e4485bf850d0"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTimer.html#a497324ba53f1a1fdac30e4485bf850d0">maps_mutex_</a></td></tr>
+<tr class="memdesc:a497324ba53f1a1fdac30e4485bf850d0"><td class="mdescLeft">&#160;</td><td class="mdescRight">A mutex to protect all maps from being accessed at the same time.  <a href="#a497324ba53f1a1fdac30e4485bf850d0">More...</a><br /></td></tr>
+<tr class="separator:a497324ba53f1a1fdac30e4485bf850d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classTimer.html" title="Timer: timer used to time parts of the code. ">Timer</a>: timer used to time parts of the code. </p>
@@ -215,6 +218,7 @@ Sébastien </dd></dl>
 </div><div class="memdoc">
 
 <p>Get the timer names and their durations. </p>
+<p>Note: copy of the internal values is returned.</p>
 <dl class="section return"><dt>Returns</dt><dd>Map between the timer names and their durations. </dd></dl>
 
 </div>
@@ -535,6 +539,30 @@ Sébastien </dd></dl>
 </div><div class="memdoc">
 
 <p>Map between the timer names and their durations. </p>
+
+</div>
+</div>
+<a id="a497324ba53f1a1fdac30e4485bf850d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a497324ba53f1a1fdac30e4485bf850d0">&#9670;&nbsp;</a></span>maps_mutex_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::mutex Timer::maps_mutex_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>A mutex to protect all maps from being accessed at the same time. </p>
 
 </div>
 </div>

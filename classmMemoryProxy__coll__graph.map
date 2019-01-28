@@ -1,5 +1,5 @@
 <map id="mMemoryProxy" name="mMemoryProxy">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="5,95,69,121"/>
-<area shape="rect" id="node3" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="94,95,205,121"/>
-<area shape="rect" id="node4" href="$structWalkCommand.html" title="WalkCommand" alt="" coords="93,5,205,32"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="9,95,73,121"/>
+<area shape="rect" id="node3" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="98,95,209,121"/>
+<area shape="rect" id="node4" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="97,5,209,32"/>
 </map>

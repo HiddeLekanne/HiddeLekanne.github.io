@@ -18,7 +18,7 @@ var searchData=
   ['difference_5fpole_5fheight_5ferror_5f',['DIFFERENCE_POLE_HEIGHT_ERROR_',['../classmGoalDetector.html#aaa88ffe8cd148ba6700349acc1fe5d84',1,'mGoalDetector']]],
   ['direction',['direction',['../classrFallDownState.html#a771984e62ed62ca88d96d2402993a603',1,'rFallDownState']]],
   ['disconnected_5ficon_5f',['disconnected_icon_',['../classRobotPreviewWidget.html#a7839a61790705277c00ca9849cf54f42',1,'RobotPreviewWidget']]],
-  ['dnt_5finterface_5f',['dnt_interface_',['../classmInterface.html#a3a55afc3c0d9d9e80b0fdb8542666e63',1,'mInterface']]],
+  ['dnt_5ficon_5f',['dnt_icon_',['../classDNTWindow.html#a1f40bf906d762bf81b2ee1399bc0420f',1,'DNTWindow']]],
   ['dnt_5fmake_5faction_5f',['dnt_make_action_',['../classSettingsToolbar.html#ae6f1f47991ae5e3d7f097f4ccebd4aa4',1,'SettingsToolbar']]],
   ['dnt_5fport',['DNT_PORT',['../namespaceCommunication.html#a14ab297eaf9df4de4cfeea53cccde2b5',1,'Communication']]],
   ['dnt_5frestart_5fcheckbox_5f',['dnt_restart_checkbox_',['../classSettingsToolbar.html#a05565e1ef5c8dbee9cc388cb264da5a8',1,'SettingsToolbar']]],

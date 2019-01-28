@@ -1,4 +1,4 @@
 <map id="NaoCamera" name="NaoCamera">
-<area shape="rect" id="node2" href="$classCameraSettings.html" title="CameraSettings" alt="" coords="5,81,121,108"/>
-<area shape="rect" id="node3" href="$classStreamable.html" title="Streamable" alt="" coords="19,5,107,32"/>
+<area shape="rect" id="node2" href="$classCameraSettings.html" title="CameraSettings: Contains the settings of a camera. " alt="" coords="5,81,121,108"/>
+<area shape="rect" id="node3" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="19,5,107,32"/>
 </map>

@@ -70,7 +70,6 @@ $(function() {
 , <a class="el" href="classmFieldFilter.html#aa4caff372db69e04a3c0c6e45713b30c">mFieldFilter</a>
 , <a class="el" href="classmFootSupportProvider.html#a80f00fe35a2d94456fa4bc5916046189">mFootSupportProvider</a>
 , <a class="el" href="classmGoalDetector.html#acb76ccfec3ba9d262238492c0b210cc1">mGoalDetector</a>
-, <a class="el" href="classmInterface.html#aa3078239429a207a9b9697dc4272fcac">mInterface</a>
 , <a class="el" href="classmInterfaceCommunication.html#a03c08e1d4d1e692aef53972667e4bb7d">mInterfaceCommunication</a>
 , <a class="el" href="classmInterpolationEngine.html#a84c0f5637c40817bc9aa951f28c0e5ed">mInterpolationEngine</a>
 , <a class="el" href="classmMotionSelector.html#a3f899f175c05e82201359bcde977dfc3">mMotionSelector</a>
@@ -80,6 +79,7 @@ $(function() {
 , <a class="el" href="classModuleGroup.html#a74487b18359da198c6e636eae3415dd4">ModuleGroup</a>
 , <a class="el" href="classModuleManager.html#af383f0526eec4da2ef55880e8472c713">ModuleManager</a>
 , <a class="el" href="classmRobotModel.html#acc449a0b56de4c0656ceb84532852e73">mRobotModel</a>
+, <a class="el" href="classmSimulationProxy.html#a5c8d4e0495417bcb3681bf0ed9fe3b61">mSimulationProxy</a>
 , <a class="el" href="classmTestShowImage.html#aa8c3321426f0a082dc2db8c7e861c1d3">mTestShowImage</a>
 , <a class="el" href="classmWalk2014GeneratorBase.html#a34b8a11197c4fb7b99b4ee7e36422060">mWalk2014GeneratorBase</a>
 </li>
@@ -96,8 +96,14 @@ $(function() {
 <li>updateBehaviorStatus()
 : <a class="el" href="classDecisionEngine.html#aa0c8b79e449b09ccf144bef4318f8db9">DecisionEngine</a>
 </li>
+<li>updateButton()
+: <a class="el" href="classmSimulationProxy.html#a12852abdba80dbae80a776a5bc658f96">mSimulationProxy</a>
+</li>
 <li>updateButtonSensorValues()
 : <a class="el" href="classmMotionProxy.html#aa4ae415b832fd1852ba632a4548ab1b4">mMotionProxy</a>
+</li>
+<li>updateCameraWidget()
+: <a class="el" href="classCameraWidget.html#a658169b7f30ee586c5f9d9882b9e24e5">CameraWidget</a>
 </li>
 <li>updateConsole()
 : <a class="el" href="classDNTWindow.html#acacee0aff7bdc0903065fd693389d001">DNTWindow</a>
@@ -111,6 +117,10 @@ $(function() {
 <li>updateFrameInfo()
 : <a class="el" href="classmCortexProxy.html#a93f5d44f2cab874e6c2fb13353ce467c">mCortexProxy</a>
 , <a class="el" href="classmMotionProxy.html#a58d860df15f4f73cffe725263e7114be">mMotionProxy</a>
+, <a class="el" href="classmSimulationProxy.html#a3f946dd01cb3f8550d1f8b82f84155d3">mSimulationProxy</a>
+</li>
+<li>updateFSR()
+: <a class="el" href="classmSimulationProxy.html#a837cf83ac118b4195443242e59baf5ea">mSimulationProxy</a>
 </li>
 <li>updateFSRSensorValues()
 : <a class="el" href="classmMotionProxy.html#a36ed06d94c4c006accfdb0a8bd2864d3">mMotionProxy</a>
@@ -120,15 +130,22 @@ $(function() {
 </li>
 <li>updateGameData()
 : <a class="el" href="classmCortexProxy.html#a4992038677a0999217d5ae12eb988d07">mCortexProxy</a>
+, <a class="el" href="classmSimulationProxy.html#a171fb43f87d295c12b2f0477b5b7eb3e">mSimulationProxy</a>
 </li>
 <li>updateImageRepresentation()
 : <a class="el" href="classmCamera.html#a2e019fcfd7c313f7467daa992fed54c8">mCamera</a>
+</li>
+<li>updateIMU()
+: <a class="el" href="classmSimulationProxy.html#a7c63fbae59a74f0d75bf0737bc9ab744">mSimulationProxy</a>
 </li>
 <li>updateIMUSensorValues()
 : <a class="el" href="classmMotionProxy.html#a904773c813336ed51ca27d27352ad739">mMotionProxy</a>
 </li>
 <li>updateJointData()
 : <a class="el" href="classmInterpolationEngine.html#ae0972e8afeabeb67d2f2218ec010b64c">mInterpolationEngine</a>
+</li>
+<li>updateJointSensor()
+: <a class="el" href="classmSimulationProxy.html#a6e69acb67750e6593b75a09f0cf46639">mSimulationProxy</a>
 </li>
 <li>updateJointSensorValues()
 : <a class="el" href="classmMotionProxy.html#a13b7534f041aad7403d159137b3e4a27">mMotionProxy</a>
@@ -151,17 +168,35 @@ $(function() {
 <li>updateOnce()
 : <a class="el" href="classModuleGroup.html#a3bc2cbe7769a48d28712845af45aa8d3">ModuleGroup</a>
 </li>
+<li>updateParticles()
+: <a class="el" href="classmParticleFilter.html#a16fb46610e723ab4187de03b32eb8bf8">mParticleFilter</a>
+</li>
+<li>updateRobotPosition()
+: <a class="el" href="classFieldWidget.html#ae53ebcba3b657c0486d55f31a0ea89b5">FieldWidget</a>
+</li>
+<li>updateRobotStatus()
+: <a class="el" href="classmSimulationProxy.html#a23a995c0030c755622ec0469130cb5ca">mSimulationProxy</a>
+</li>
 <li>updateRobotStatusSensorValues()
 : <a class="el" href="classmMotionProxy.html#a14754e4a2760882eb9c8e26638205751">mMotionProxy</a>
 </li>
 <li>updateSensorValues()
 : <a class="el" href="classALRobot.html#ab121d12fbef2969c60c1b9bd73fbf12c">ALRobot</a>
 </li>
+<li>updateSonar()
+: <a class="el" href="classmSimulationProxy.html#af7ccac1776d0b76936128d2d76f681f3">mSimulationProxy</a>
+</li>
 <li>updateSonarSensorValues()
 : <a class="el" href="classmMotionProxy.html#a78ea091d69704d702513035fef37ff5d">mMotionProxy</a>
 </li>
 <li>updateStiffnessValues()
 : <a class="el" href="classALRobot.html#a9b6b5584025dbd28d7ea18f81f25483c">ALRobot</a>
+</li>
+<li>updateWidget()
+: <a class="el" href="classHeadLedActuatorsWidget.html#a5cad5600ec61cd17c0e5a188a3dfe122">HeadLedActuatorsWidget</a>
+</li>
+<li>updateWindow()
+: <a class="el" href="classDNTWindow.html#ab4c53881f68f6b024024a51874ba5e53">DNTWindow</a>
 </li>
 <li>upscaleBoundary()
 : <a class="el" href="classmFieldFilter.html#aee5ced1334c22f536c00beb5ccbc3435">mFieldFilter</a>

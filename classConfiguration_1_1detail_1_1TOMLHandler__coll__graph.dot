@@ -1,8 +1,0 @@
-digraph "Configuration::detail::TOMLHandler"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  Node1 [label="Configuration::detail\l::TOMLHandler",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node2 -> Node1 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" configs_" ,fontname="Helvetica"];
-  Node2 [label="Configuration::Data",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classConfiguration_1_1Data.html",tooltip="Stores configuration data, which can be looked up like a std::map. "];
-}

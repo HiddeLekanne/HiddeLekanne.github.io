@@ -1,7 +1,0 @@
-<map id="wSonarSensor" name="wSonarSensor">
-<area shape="rect" id="node5" href="$classwGraph.html" title="wGraph" alt="" coords="72,171,139,197"/>
-<area shape="rect" id="node3" href="$classCloseButton.html" title="CloseButton" alt="" coords="140,81,234,108"/>
-<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rSonarSensor \&gt;" alt="" coords="345,171,552,197"/>
-<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="381,81,516,108"/>
-<area shape="rect" id="node8" href="$classMessage.html" title="Message" alt="" coords="411,5,486,32"/>
-</map>

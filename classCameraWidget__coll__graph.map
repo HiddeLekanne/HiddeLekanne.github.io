@@ -1,0 +1,10 @@
+<map id="CameraWidget" name="CameraWidget">
+<area shape="rect" id="node2" href="$classDNTWidget.html" title="DNTWidget: Base class for a dnt widget that extends dockable widget and a DNT Module to receive repre..." alt="" coords="377,13,468,40"/>
+<area shape="rect" id="node4" href="$classModule.html" title="Module abstract class. " alt="" coords="165,56,229,83"/>
+<area shape="rect" id="node5" href="$classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="313,64,532,91"/>
+<area shape="rect" id="node6" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="129,139,264,165"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="345,115,500,141"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="315,165,530,192"/>
+<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rLineModel \&gt;" alt="" coords="327,216,518,243"/>
+<area shape="rect" id="node7" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,139,80,165"/>
+</map>

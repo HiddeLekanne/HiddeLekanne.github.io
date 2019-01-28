@@ -1,6 +1,11 @@
 var searchData=
 [
+  ['particles_5f',['particles_',['../classmParticleFilter.html#a768f62e694d916f89fc9be78c16335ef',1,'mParticleFilter::particles_()'],['../classrRobotPosition.html#ae4ad2081b7b47b0689d35bb3800dcac4',1,'rRobotPosition::particles_()']]],
   ['penalized_5f',['penalized_',['../classrGameData.html#af3e016f77c5a5a8d6a15b7cde5eb7006',1,'rGameData']]],
+  ['penalty_5fbox_5flength_5f',['penalty_box_length_',['../classLocationMethods.html#a349773025e938a2efdd7d2718eef92dc',1,'LocationMethods::penalty_box_length_()'],['../classFieldWidget.html#aacf2ea047948765a04448b8311b4e1d6',1,'FieldWidget::penalty_box_length_()']]],
+  ['penalty_5fbox_5fwidth_5f',['penalty_box_width_',['../classLocationMethods.html#a41ce13e6cbc732391225f882712662a9',1,'LocationMethods::penalty_box_width_()'],['../classFieldWidget.html#a124c0ef2634448b38acc33e06b32b2d4',1,'FieldWidget::penalty_box_width_()']]],
+  ['penalty_5fmarker_5fdistance_5f',['penalty_marker_distance_',['../classLocationMethods.html#a6b5f760bea1650e5d01abc62d00f07d1',1,'LocationMethods::penalty_marker_distance_()'],['../classFieldWidget.html#a2857636d8b6bff88d1a6a35ac93e5171',1,'FieldWidget::penalty_marker_distance_()']]],
+  ['penalty_5fpositions_5f',['penalty_positions_',['../classmParticleFilter.html#a172e3f67e9aa71940379feb5757d202b',1,'mParticleFilter']]],
   ['percentage_5foverlap_5f',['PERCENTAGE_OVERLAP_',['../classmBallDetector.html#a5c3fc1cd7fce13f6dfd293cc8283cc55',1,'mBallDetector']]],
   ['pi',['pi',['../namespaceConstants.html#a886aef527256b6e4d99be742e1cb7c6f',1,'Constants']]],
   ['pi2',['pi2',['../namespaceConstants.html#a9b5b5077ded731b557c8ab7a1e481396',1,'Constants']]],
@@ -17,6 +22,7 @@ var searchData=
   ['pole_5fheight_5fto_5fbar_5fheight_5ferror_5f',['POLE_HEIGHT_TO_BAR_HEIGHT_ERROR_',['../classmGoalDetector.html#a0dd87be8c0a9729c2a9c19bbd108150a',1,'mGoalDetector']]],
   ['pole_5fheight_5fto_5fbar_5fwidth_5f',['POLE_HEIGHT_TO_BAR_WIDTH_',['../classmGoalDetector.html#a049c598fc4877261c1f8472f99653b2c',1,'mGoalDetector']]],
   ['port_5f',['port_',['../classTCPClient.html#a9c4fca62f1c81666f29c7abb957dda47',1,'TCPClient::port_()'],['../classTCPServer.html#a4a76f5410bb43cb46542fd6d56df75aa',1,'TCPServer::port_()']]],
+  ['pose_5f',['pose_',['../classParticle.html#ab2d1b92c64749270b8c1788fe67e6494',1,'Particle']]],
   ['prevforwardl',['prevForwardL',['../classmWalk2014GeneratorBase.html#a238ff2cb4a81c6b0b9badb4617754ddf',1,'mWalk2014GeneratorBase']]],
   ['prevforwardr',['prevForwardR',['../classmWalk2014GeneratorBase.html#a97c84687a6395ed46ad7f108417f7bc2',1,'mWalk2014GeneratorBase']]],
   ['previous_5ftimes_5f',['previous_times_',['../classmInterpolationEngine.html#af9cd4d98a39259287307eda7d9b6dfdc',1,'mInterpolationEngine']]],

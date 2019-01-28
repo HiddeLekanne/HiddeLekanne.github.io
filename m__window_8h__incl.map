@@ -1,0 +1,11 @@
+<map id="source/interface/modules/m_window.h" name="source/interface/modules/m_window.h">
+<area shape="rect" id="node2" href="$r__client_8h.html" title="representations/r_client.h" alt="" coords="87,95,255,121"/>
+<area shape="rect" id="node5" href="$r__host_8h.html" title="representations/r_host.h" alt="" coords="279,95,442,121"/>
+<area shape="rect" id="node6" href="$argument__parser_8h.html" title="tools/argument_parser.h" alt="" coords="650,95,813,121"/>
+<area shape="rect" id="node9" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="466,95,605,121"/>
+<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="81,177,261,203"/>
+<area shape="rect" id="node10" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="427,169,561,211"/>
+<area shape="rect" id="node15" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="474,333,570,360"/>
+<area shape="rect" id="node14" href="$data_8h.html" title="data.h" alt="" coords="511,259,570,285"/>
+<area shape="rect" id="node18" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="229,333,335,360"/>
+</map>

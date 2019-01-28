@@ -7,5 +7,6 @@ var searchData=
   ['decisionexception',['DecisionException',['../classDecisionException.html',1,'']]],
   ['description',['description',['../classdescription.html',1,'']]],
   ['dhframe',['DHFrame',['../classDHFrame.html',1,'']]],
+  ['dntwidget',['DNTWidget',['../classDNTWidget.html',1,'']]],
   ['dntwindow',['DNTWindow',['../classDNTWindow.html',1,'']]]
 ];

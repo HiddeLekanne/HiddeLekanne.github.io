@@ -1,7 +1,11 @@
-<map id="source/dnt/representations/motion/r_robot_model.h" name="source/dnt/representations/motion/r_robot_model.h">
-<area shape="rect" id="node2" href="$m__imu__odometry_8h.html" title="source/dnt/modules\l/modeling/m_imu_odometry.h" alt="" coords="100,95,293,136"/>
-<area shape="rect" id="node5" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modeling/m_robot_model.h" alt="" coords="317,95,500,136"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="236,191,376,218"/>
-<area shape="rect" id="node4" href="$m__imu__odometry_8cpp.html" title="source/dnt/modules\l/modeling/m_imu_odometry.cpp" alt="" coords="5,184,212,225"/>
-<area shape="rect" id="node6" href="$m__robot__model_8cpp.html" title="source/dnt/modules\l/modeling/m_robot_model.cpp" alt="" coords="400,184,596,225"/>
+<map id="source/dnt/representations/modelling/r_robot_model.h" name="source/dnt/representations/modelling/r_robot_model.h">
+<area shape="rect" id="node2" href="$m__line__model_8h.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.h" alt="" coords="697,95,843,151"/>
+<area shape="rect" id="node5" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="100,102,285,143"/>
+<area shape="rect" id="node7" href="$m__test__forward__kinematics_8h.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.h" alt="" coords="309,95,484,151"/>
+<area shape="rect" id="node9" href="$m__ball__detector_8h.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.h" alt="" coords="508,95,672,151"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="427,213,567,240"/>
+<area shape="rect" id="node4" href="$m__line__model_8cpp.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.cpp" alt="" coords="779,199,926,255"/>
+<area shape="rect" id="node6" href="$m__robot__model_8cpp.html" title="source/dnt/modules\l/modelling/m_robot_model.cpp" alt="" coords="5,206,204,247"/>
+<area shape="rect" id="node8" href="$m__test__forward__kinematics_8cpp.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.cpp" alt="" coords="228,199,403,255"/>
+<area shape="rect" id="node10" href="$m__ball__detector_8cpp.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.cpp" alt="" coords="591,199,755,255"/>
 </map>

@@ -78,13 +78,17 @@ $(function() {
 Inheritance diagram for rRobotModel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrRobotModel__inherit__graph.png" border="0" usemap="#rRobotModel_inherit__map" alt="Inheritance graph"/></div>
-<!-- MAP 0 -->
+<map name="rRobotModel_inherit__map" id="rRobotModel_inherit__map">
+<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for rRobotModel:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrRobotModel__coll__graph.png" border="0" usemap="#rRobotModel_coll__map" alt="Collaboration graph"/></div>
-<!-- MAP 1 -->
+<map name="rRobotModel_coll__map" id="rRobotModel_coll__map">
+<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+</map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -114,6 +118,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acdb0459664aacff739668994b327f6dd"><td class="memItemLeft" align="right" valign="top">Eigen::Affine3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrRobotModel.html#acdb0459664aacff739668994b327f6dd">transform</a> (<a class="el" href="classrRobotModel.html#aa1b6a1e9a3efea8ed2c503b459921c91">RobotFrames</a> from, <a class="el" href="classrRobotModel.html#aa1b6a1e9a3efea8ed2c503b459921c91">RobotFrames</a> to) const</td></tr>
 <tr class="memdesc:acdb0459664aacff739668994b327f6dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">transform accept two elements from the enumerator RobotFrames and extracts those from the unordered map robotrepresentation by accessing it by key-value pair in a hash map.  <a href="#acdb0459664aacff739668994b327f6dd">More...</a><br /></td></tr>
 <tr class="separator:acdb0459664aacff739668994b327f6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54e9c2ac3b126602beabad278f231eec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a">Eigen::Vector2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrRobotModel.html#a54e9c2ac3b126602beabad278f231eec">getRelativePosition</a> (const int pixel_x, const int pixel_y, const <a class="el" href="classCameraSettings.html">CameraSettings</a> &amp;camera_settings) const</td></tr>
+<tr class="memdesc:a54e9c2ac3b126602beabad278f231eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the relative position of an object to the robot by projecting the point onto the ground.  <a href="#a54e9c2ac3b126602beabad278f231eec">More...</a><br /></td></tr>
+<tr class="separator:a54e9c2ac3b126602beabad278f231eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4428e51a9d9e213deddf465f9280a2c7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrRobotModel.html#a4428e51a9d9e213deddf465f9280a2c7">getName</a> () const</td></tr>
 <tr class="memdesc:a4428e51a9d9e213deddf465f9280a2c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the <a class="el" href="classRepresentation.html" title="Representation abstract class. ">Representation</a> object.  <a href="#a4428e51a9d9e213deddf465f9280a2c7">More...</a><br /></td></tr>
 <tr class="separator:a4428e51a9d9e213deddf465f9280a2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -221,6 +228,60 @@ Jier Nzuanzu </dd></dl>
 <dl class="section return"><dt>Returns</dt><dd>The name of the <a class="el" href="classRepresentation.html" title="Representation abstract class. ">Representation</a> object. </dd></dl>
 
 <p>Implements <a class="el" href="classRepresentation.html#a50fca7544d2dba4212d693df0a59f351">Representation</a>.</p>
+
+</div>
+</div>
+<a id="a54e9c2ac3b126602beabad278f231eec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54e9c2ac3b126602beabad278f231eec">&#9670;&nbsp;</a></span>getRelativePosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a">Eigen::Vector2f</a> rRobotModel::getRelativePosition </td>
+          <td>(</td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>pixel_x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const int&#160;</td>
+          <td class="paramname"><em>pixel_y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classCameraSettings.html">CameraSettings</a> &amp;&#160;</td>
+          <td class="paramname"><em>camera_settings</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compute the relative position of an object to the robot by projecting the point onto the ground. </p>
+<p>NOTE: computes the distance to the given point, which projects the pixel to the ground, if you give the centre of an object, the point will be projected on the ground behind the real object for points far away, thus the distance will be overestimated For example if you give the centre of the ball, it will overestimate the distance, since it projects that point to the ground behind the ball</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pixel_x</td><td>x position in the image. </td></tr>
+    <tr><td class="paramname">pixel_y</td><td>y position in the image. </td></tr>
+    <tr><td class="paramname">camera_settings</td><td>camera settings of the current cycle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The relative position of the pixel on the ground plane to the robot in mm. </dd></dl>
 
 </div>
 </div>

@@ -1,0 +1,29 @@
+<map id="source/dnt/modules/modelling/localisation/m_particle_filter.cpp" name="source/dnt/modules/modelling/localisation/m_particle_filter.cpp">
+<area shape="rect" id="node2" href="$r__game__data_8h.html" title="representations/infrastructure\l/r_game_data.h" alt="" coords="1455,109,1645,151"/>
+<area shape="rect" id="node6" href="$m__particle__filter_8h.html" title="m_particle_filter.h" alt="" coords="389,117,514,143"/>
+<area shape="rect" id="node38" href="$log_8h.html" title="tools/log.h" alt="" coords="1670,117,1753,143"/>
+<area shape="rect" id="node43" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="2085,117,2223,143"/>
+<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="839,556,1019,583"/>
+<area shape="rect" id="node7" href="$particle_8h.html" title="particle.h" alt="" coords="202,295,277,322"/>
+<area shape="rect" id="node8" href="$Eigen_8h.html" title="tools/Eigen.h" alt="" coords="115,385,214,411"/>
+<area shape="rect" id="node17" href="$module_8h.html" title="framework/module.h" alt="" coords="1303,206,1443,233"/>
+<area shape="rect" id="node31" href="$r__robot__position_8h.html" title="representations/localisation\l/r_robot_position.h" alt="" coords="265,199,445,240"/>
+<area shape="rect" id="node32" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="470,199,625,240"/>
+<area shape="rect" id="node15" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="386,474,549,501"/>
+<area shape="rect" id="node11" href="$dnt__math_8h.html" title="math/dnt_math.h" alt="" coords="242,474,362,501"/>
+<area shape="rect" id="node16" href="$container_8h.html" title="framework/container.h" alt="" coords="415,556,565,583"/>
+<area shape="rect" id="node20" href="$message_8h.html" title="framework/message.h" alt="" coords="1365,474,1516,501"/>
+<area shape="rect" id="node23" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1167,385,1354,411"/>
+<area shape="rect" id="node29" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1055,295,1250,322"/>
+<area shape="rect" id="node30" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="403,377,553,419"/>
+<area shape="rect" id="node33" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="625,288,779,329"/>
+<area shape="rect" id="node37" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="439,295,578,322"/>
+<area shape="rect" id="node34" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="675,467,865,508"/>
+<area shape="rect" id="node35" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="661,377,815,419"/>
+<area shape="rect" id="node39" href="$log_2log_8h.html" title="log/log.h" alt="" coords="1676,295,1747,322"/>
+<area shape="rect" id="node42" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="1732,385,1829,411"/>
+<area shape="rect" id="node44" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="2215,199,2349,240"/>
+<area shape="rect" id="node47" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="2141,385,2237,411"/>
+<area shape="rect" id="node46" href="$data_8h.html" title="data.h" alt="" coords="2049,295,2107,322"/>
+<area shape="rect" id="node50" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="2343,385,2450,411"/>
+</map>

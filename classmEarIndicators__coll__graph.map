@@ -1,9 +1,9 @@
 <map id="mEarIndicators" name="mEarIndicators">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="413,5,477,32"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="413,5,477,32"/>
 <area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rFrameInfo \&gt;" alt="" coords="349,56,540,83"/>
-<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessageBase" alt="" coords="134,115,269,141"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,115,269,141"/>
 <area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rRobotStatus\lSensor \&gt;" alt="" coords="348,107,541,149"/>
-<area shape="rect" id="node5" href="$classMessage.html" title="Message" alt="" coords="5,139,80,165"/>
-<area shape="rect" id="node8" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="129,167,273,193"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,143,80,169"/>
+<area shape="rect" id="node8" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,167,273,193"/>
 <area shape="rect" id="node7" href="$classOutputMessage.html" title="OutputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="323,173,567,200"/>
 </map>

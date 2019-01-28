@@ -1,9 +1,9 @@
 <map id="mCamera" name="mCamera">
-<area shape="rect" id="node2" href="$classModule.html" title="Module" alt="" coords="5,171,69,197"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="5,171,69,197"/>
 <area shape="rect" id="node3" href="$classNaoCamera.html" title="NaoCamera" alt="" coords="94,171,186,197"/>
-<area shape="rect" id="node4" href="$classCameraSettings.html" title="CameraSettings" alt="" coords="82,81,198,108"/>
-<area shape="rect" id="node5" href="$classStreamable.html" title="Streamable" alt="" coords="96,5,184,32"/>
+<area shape="rect" id="node4" href="$classCameraSettings.html" title="CameraSettings: Contains the settings of a camera. " alt="" coords="82,81,198,108"/>
+<area shape="rect" id="node5" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="96,5,184,32"/>
 <area shape="rect" id="node6" href="$classOutputMessage.html" title="OutputMessage\&lt; rCameraSensor \&gt;" alt="" coords="211,171,440,197"/>
-<area shape="rect" id="node7" href="$classOutputMessageBase.html" title="OutputMessageBase" alt="" coords="253,81,397,108"/>
-<area shape="rect" id="node8" href="$classMessage.html" title="Message" alt="" coords="288,5,363,32"/>
+<area shape="rect" id="node7" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="253,81,397,108"/>
+<area shape="rect" id="node8" href="$classMessage.html" title="Message abstract class. " alt="" coords="288,5,363,32"/>
 </map>

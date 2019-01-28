@@ -1,7 +1,9 @@
 <map id="source/dnt/representations/sensing/r_falldown_state.h" name="source/dnt/representations/sensing/r_falldown_state.h">
-<area shape="rect" id="node2" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="87,95,277,151"/>
-<area shape="rect" id="node5" href="$m__falldown__detector_8h.html" title="source/dnt/modules\l/sensing/m_falldown\l_detector.h" alt="" coords="302,95,443,151"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="220,213,360,240"/>
-<area shape="rect" id="node4" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="5,199,196,255"/>
-<area shape="rect" id="node6" href="$m__falldown__detector_8cpp.html" title="source/dnt/modules\l/sensing/m_falldown\l_detector.cpp" alt="" coords="385,199,526,255"/>
+<area shape="rect" id="node2" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="481,95,672,151"/>
+<area shape="rect" id="node5" href="$m__motion__selector_8h.html" title="This file handles which motion is executed. " alt="" coords="100,102,291,143"/>
+<area shape="rect" id="node7" href="$m__falldown__detector_8h.html" title="Detect whether the robot has fallen over. " alt="" coords="315,95,457,151"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="233,213,373,240"/>
+<area shape="rect" id="node4" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="564,199,755,255"/>
+<area shape="rect" id="node6" href="$m__motion__selector_8cpp.html" title="source/dnt/modules\l/motion/m_motion_selector.cpp" alt="" coords="5,206,209,247"/>
+<area shape="rect" id="node8" href="$m__falldown__detector_8cpp.html" title="Detect whether the robot has fallen over. " alt="" coords="398,199,539,255"/>
 </map>

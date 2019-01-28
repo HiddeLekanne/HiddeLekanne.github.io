@@ -1,6 +1,12 @@
 <map id="DNTWindow" name="DNTWindow">
-<area shape="rect" id="node3" href="$classConsoleWidget.html" title="ConsoleWidget" alt="" coords="137,171,247,197"/>
-<area shape="rect" id="node5" href="$classTeamWidget.html" title="TeamWidget" alt="" coords="276,171,372,197"/>
-<area shape="rect" id="node7" href="$classRobotWidget.html" title="RobotWidget" alt="" coords="304,81,403,108"/>
-<area shape="rect" id="node8" href="$classSettingsToolbar.html" title="SettingsToolbar" alt="" coords="405,171,518,197"/>
+<area shape="rect" id="node3" href="$classModule.html" title="Module abstract class. " alt="" coords="484,56,548,83"/>
+<area shape="rect" id="node4" href="$classOutputMessage.html" title="OutputMessage\&lt; rHost \&gt;" alt="" coords="431,107,601,133"/>
+<area shape="rect" id="node5" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="145,107,289,133"/>
+<area shape="rect" id="node6" href="$classMessage.html" title="Message abstract class. " alt="" coords="13,133,88,160"/>
+<area shape="rect" id="node15" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="150,157,285,184"/>
+<area shape="rect" id="node7" href="$classConsoleWidget.html" title="ConsoleWidget: Displays a text area in which messages can be showed. " alt="" coords="461,208,571,235"/>
+<area shape="rect" id="node9" href="$classTeamWidget.html" title="TeamWidget: Displays 6 RobotWidgets and their player numbers. " alt="" coords="468,259,564,285"/>
+<area shape="rect" id="node11" href="$classRobotWidget.html" title="RobotWidget: Display detailed information about the selected robots. " alt="" coords="168,309,267,336"/>
+<area shape="rect" id="node12" href="$classSettingsToolbar.html" title="SettingsToolbar" alt="" coords="459,335,573,361"/>
+<area shape="rect" id="node14" href="$classInputMessage.html" title="InputMessage\&lt; rClient \&gt;" alt="" coords="433,157,599,184"/>
 </map>

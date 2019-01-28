@@ -1,5 +1,5 @@
 <map id="TCP" name="TCP">
-<area shape="rect" id="node2" href="$classTCPClient.html" title="TCPClient" alt="" coords="5,80,88,107"/>
-<area shape="rect" id="node3" href="$classTCPServer.html" title="TCPServer" alt="" coords="113,80,199,107"/>
-<area shape="rect" id="node4" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication" alt="" coords="69,155,243,181"/>
+<area shape="rect" id="node2" href="$classTCPClient.html" title="TCPClient: allows to connect to a TCPServer and send and receive data. " alt="" coords="5,80,88,107"/>
+<area shape="rect" id="node3" href="$classTCPServer.html" title="TCPServer: allows to setup a connection to a connecting client and then send data to that client..." alt="" coords="113,80,199,107"/>
+<area shape="rect" id="node4" href="$classmInterfaceCommunication.html" title="mInterfaceCommunication: Constructs a TCP server on which representations are sent to a remote client..." alt="" coords="69,155,243,181"/>
 </map>
