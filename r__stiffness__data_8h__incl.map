@@ -1,6 +1,9 @@
 <map id="source/dnt/representations/motion/r_stiffness_data.h" name="source/dnt/representations/motion/r_stiffness_data.h">
-<area shape="rect" id="node2" href="$representation_8h.html" title="framework/representation.h" alt="" coords="5,184,185,211"/>
-<area shape="rect" id="node4" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="167,95,357,136"/>
-<area shape="rect" id="node5" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="209,184,339,211"/>
-<area shape="rect" id="node6" href="$constants_8h.html" title="constants.h" alt="" coords="229,259,319,285"/>
+<area shape="rect" id="node2" href="$representation_8h.html" title="framework/representation.h" alt="" coords="280,273,460,300"/>
+<area shape="rect" id="node4" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="480,95,671,136"/>
+<area shape="rect" id="node5" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="408,184,559,225"/>
+<area shape="rect" id="node14" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="583,191,712,218"/>
+<area shape="rect" id="node6" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="485,273,647,300"/>
+<area shape="rect" id="node7" href="$container_8h.html" title="framework/container.h" alt="" coords="491,348,641,375"/>
+<area shape="rect" id="node15" href="$constants_8h.html" title="constants.h" alt="" coords="671,273,762,300"/>
 </map>

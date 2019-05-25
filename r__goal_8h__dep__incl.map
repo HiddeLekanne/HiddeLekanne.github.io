@@ -1,6 +1,6 @@
 <map id="source/dnt/representations/perception/r_goal.h" name="source/dnt/representations/perception/r_goal.h">
-<area shape="rect" id="node2" href="$goal__detector_8h.html" title="source/dnt/modules\l/perception/goal_detector\l/goal_detector.h" alt="" coords="170,95,338,151"/>
+<area shape="rect" id="node2" href="$m__goal__detector_8h.html" title="source/dnt/modules\l/perception/goal_detector\l/m_goal_detector.h" alt="" coords="170,95,338,151"/>
 <area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="5,213,145,240"/>
-<area shape="rect" id="node4" href="$goal__detector_8cpp.html" title="source/dnt/modules\l/perception/goal_detector\l/goal_detector.cpp" alt="" coords="170,199,338,255"/>
-<area shape="rect" id="node5" href="$goal__detector__test_8cpp.html" title="source/dnt/modules\l/perception/goal_detector\l/goal_detector_test.cpp" alt="" coords="362,199,530,255"/>
+<area shape="rect" id="node4" href="$goal__detector__test_8cpp.html" title="source/dnt/modules\l/perception/goal_detector\l/goal_detector_test.cpp" alt="" coords="170,199,338,255"/>
+<area shape="rect" id="node5" href="$m__goal__detector_8cpp.html" title="source/dnt/modules\l/perception/goal_detector\l/m_goal_detector.cpp" alt="" coords="362,199,530,255"/>
 </map>

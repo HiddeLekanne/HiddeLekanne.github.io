@@ -1,3 +1,6 @@
 <map id="SharedMemory" name="SharedMemory">
-<area shape="rect" id="node2" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="5,5,117,32"/>
+<area shape="rect" id="node2" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="5,184,188,211"/>
+<area shape="rect" id="node3" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="58,95,135,121"/>
+<area shape="rect" id="node4" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="57,5,136,32"/>
+<area shape="rect" id="node5" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="213,184,325,211"/>
 </map>

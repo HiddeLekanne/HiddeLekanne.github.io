@@ -1,11 +1,11 @@
 <map id="source/dnt/tools/communication/tcp_server.h" name="source/dnt/tools/communication/tcp_server.h">
-<area shape="rect" id="node2" href="$tcp_8h.html" title="tcp.h" alt="" coords="414,95,465,121"/>
-<area shape="rect" id="node4" href="$communication_2communication_8h.html" title="communication.h" alt="" coords="379,177,500,203"/>
-<area shape="rect" id="node20" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="876,169,1027,211"/>
-<area shape="rect" id="node13" href="$log_8h.html" title="tools/log.h" alt="" coords="187,259,270,285"/>
-<area shape="rect" id="node14" href="$log_2log_8h.html" title="log/log.h" alt="" coords="193,333,264,360"/>
-<area shape="rect" id="node18" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="201,408,299,435"/>
-<area shape="rect" id="node21" href="$representation_8h.html" title="framework/representation.h" alt="" coords="1093,333,1273,360"/>
-<area shape="rect" id="node22" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="870,259,1033,285"/>
-<area shape="rect" id="node23" href="$container_8h.html" title="framework/container.h" alt="" coords="855,333,1005,360"/>
+<area shape="rect" id="node2" href="$tcp_8h.html" title="tcp.h" alt="" coords="497,95,548,121"/>
+<area shape="rect" id="node4" href="$communication_2communication_8h.html" title="communication.h" alt="" coords="462,177,583,203"/>
+<area shape="rect" id="node20" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="886,169,1037,211"/>
+<area shape="rect" id="node13" href="$log_8h.html" title="tools/log.h" alt="" coords="432,259,515,285"/>
+<area shape="rect" id="node14" href="$log_2log_8h.html" title="log/log.h" alt="" coords="491,333,562,360"/>
+<area shape="rect" id="node18" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="565,408,662,435"/>
+<area shape="rect" id="node21" href="$representation_8h.html" title="framework/representation.h" alt="" coords="871,333,1051,360"/>
+<area shape="rect" id="node22" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1144,259,1307,285"/>
+<area shape="rect" id="node23" href="$container_8h.html" title="framework/container.h" alt="" coords="1294,333,1445,360"/>
 </map>

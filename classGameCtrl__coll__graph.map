@@ -1,0 +1,6 @@
+<map id="GameCtrl" name="GameCtrl">
+<area shape="rect" id="node2" href="$classUdpComm.html" title="UdpComm" alt="" coords="5,184,91,211"/>
+<area shape="rect" id="node3" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="115,184,298,211"/>
+<area shape="rect" id="node4" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="168,95,245,121"/>
+<area shape="rect" id="node5" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="167,5,246,32"/>
+</map>

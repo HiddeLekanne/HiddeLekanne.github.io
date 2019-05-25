@@ -92,11 +92,16 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a1e24ed3a55686069d245b63fbc69a62d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62d">Level</a> { <a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62daa603905470e2a5b8c13e96b579ef0dba">Level::Debug</a>, 
-<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62da902b0d55fddef6f8d651fe1035b7d4bd">Level::Error</a>, 
+<tr class="memitem:a1e24ed3a55686069d245b63fbc69a62d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62d">Level</a> { <br />
+&#160;&#160;<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62dab1c94ca2fbc3e78fc30069c8d0f01680">Level::All</a>, 
+<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62daa603905470e2a5b8c13e96b579ef0dba">Level::Debug</a>, 
+<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62da4059b0251f66a18cb56f544728796875">Level::Info</a>, 
 <a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62da0eaadb4fcb48a0a0ed7bc9868be9fbaa">Level::Warning</a>, 
-<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62da4059b0251f66a18cb56f544728796875">Level::Info</a>
- }<tr class="memdesc:a1e24ed3a55686069d245b63fbc69a62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different levels of logging.  <a href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62d">More...</a><br /></td></tr>
+<br />
+&#160;&#160;<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62da902b0d55fddef6f8d651fe1035b7d4bd">Level::Error</a>, 
+<a class="el" href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62dad15305d7a4e34e02489c74a5ef542f36">Level::Off</a>
+<br />
+ }<tr class="memdesc:a1e24ed3a55686069d245b63fbc69a62d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The different levels of logging, ranked by their "importance".  <a href="classLogStream.html#a1e24ed3a55686069d245b63fbc69a62d">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:a1e24ed3a55686069d245b63fbc69a62d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a542fe50700ba2608127326874007087a"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="classLogStream.html">LogStream</a> &amp;(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a542fe50700ba2608127326874007087a">LogStreamManipulator</a>) (<a class="el" href="classLogStream.html">LogStream</a> &amp;)</td></tr>
@@ -108,6 +113,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a50fec02b656c1be7e1e3cbaee0f6a136"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a50fec02b656c1be7e1e3cbaee0f6a136">LogStream</a> (<a class="el" href="structLogStream_1_1DebugLevel.html">DebugLevel</a> level)</td></tr>
 <tr class="memdesc:a50fec02b656c1be7e1e3cbaee0f6a136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, sets the information for this <a class="el" href="classLogStream.html">LogStream</a>.  <a href="#a50fec02b656c1be7e1e3cbaee0f6a136">More...</a><br /></td></tr>
 <tr class="separator:a50fec02b656c1be7e1e3cbaee0f6a136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fe71e1187c6ef2f922dfb62fdef35d2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a0fe71e1187c6ef2f922dfb62fdef35d2">LogStream</a> (<a class="el" href="structLogStream_1_1DebugLevel.html">DebugLevel</a> level, bool <a class="el" href="classLogStream.html#afa0b65da0ba16371e30fee6fb1b9c0e0">disable</a>)</td></tr>
+<tr class="memdesc:a0fe71e1187c6ef2f922dfb62fdef35d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor, set the debug level information for this <a class="el" href="classLogStream.html">LogStream</a> and start the <a class="el" href="classLogStream.html">LogStream</a> either enabled or disabled.  <a href="#a0fe71e1187c6ef2f922dfb62fdef35d2">More...</a><br /></td></tr>
+<tr class="separator:a0fe71e1187c6ef2f922dfb62fdef35d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a97e1b6bec3fd66551ab5037a040deb41"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLogStream.html">LogStream</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a97e1b6bec3fd66551ab5037a040deb41">operator&lt;&lt;</a> (<a class="el" href="classLogStream.html#a542fe50700ba2608127326874007087a">LogStreamManipulator</a> manipulator)</td></tr>
 <tr class="memdesc:a97e1b6bec3fd66551ab5037a040deb41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operator to execute functions on the stream (such as endl).  <a href="#a97e1b6bec3fd66551ab5037a040deb41">More...</a><br /></td></tr>
 <tr class="separator:a97e1b6bec3fd66551ab5037a040deb41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -115,6 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac2c380fa9a4b77e9fe4ca902f14e4285"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="classLogStream.html">LogStream</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classLogStream.html#ac2c380fa9a4b77e9fe4ca902f14e4285">operator&lt;&lt;</a> (const T &amp;message)</td></tr>
 <tr class="memdesc:ac2c380fa9a4b77e9fe4ca902f14e4285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Transform any class into a streamable and output it to the stream.  <a href="#ac2c380fa9a4b77e9fe4ca902f14e4285">More...</a><br /></td></tr>
 <tr class="separator:ac2c380fa9a4b77e9fe4ca902f14e4285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9410ad65bb8fe6fb5b30ea71a7acffe9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a9410ad65bb8fe6fb5b30ea71a7acffe9">enable</a> ()</td></tr>
+<tr class="memdesc:a9410ad65bb8fe6fb5b30ea71a7acffe9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enable the <a class="el" href="classLogStream.html">LogStream</a>: make it actually print out buffers again.  <a href="#a9410ad65bb8fe6fb5b30ea71a7acffe9">More...</a><br /></td></tr>
+<tr class="separator:a9410ad65bb8fe6fb5b30ea71a7acffe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa0b65da0ba16371e30fee6fb1b9c0e0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#afa0b65da0ba16371e30fee6fb1b9c0e0">disable</a> ()</td></tr>
+<tr class="memdesc:afa0b65da0ba16371e30fee6fb1b9c0e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disable the <a class="el" href="classLogStream.html">LogStream</a>: prevent it from forwarding the fully created message to the output stream.  <a href="#afa0b65da0ba16371e30fee6fb1b9c0e0">More...</a><br /></td></tr>
+<tr class="separator:afa0b65da0ba16371e30fee6fb1b9c0e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -127,6 +141,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a158713842d7588cec0f5bb82748f14d5"><td class="memItemLeft" align="right" valign="top">std::ostream *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a158713842d7588cec0f5bb82748f14d5">stream_</a></td></tr>
 <tr class="memdesc:a158713842d7588cec0f5bb82748f14d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stream where the fully created message full be printed to.  <a href="#a158713842d7588cec0f5bb82748f14d5">More...</a><br /></td></tr>
 <tr class="separator:a158713842d7588cec0f5bb82748f14d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aace966858de78864c8ec33b2f41e2a91"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#aace966858de78864c8ec33b2f41e2a91">enabled_</a> = true</td></tr>
+<tr class="memdesc:aace966858de78864c8ec33b2f41e2a91"><td class="mdescLeft">&#160;</td><td class="mdescRight">Whether the <a class="el" href="classLogStream.html">LogStream</a> is enabled for outputting buffers or not.  <a href="#aace966858de78864c8ec33b2f41e2a91">More...</a><br /></td></tr>
+<tr class="separator:aace966858de78864c8ec33b2f41e2a91"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82a872d54ddf182923a50d107443ae52"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLogStream.html#a82a872d54ddf182923a50d107443ae52">header_</a></td></tr>
 <tr class="memdesc:a82a872d54ddf182923a50d107443ae52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The string that will be added before every message.  <a href="#a82a872d54ddf182923a50d107443ae52">More...</a><br /></td></tr>
 <tr class="separator:a82a872d54ddf182923a50d107443ae52"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,19 +204,22 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The different levels of logging. </p>
+<p>The different levels of logging, ranked by their "importance". </p>
+<p>The ordering here matters, as setting the logging level to Info will disable all log messages of levels before that. </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62daa603905470e2a5b8c13e96b579ef0dba"></a>Debug&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62da902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62da0eaadb4fcb48a0a0ed7bc9868be9fbaa"></a>Warning&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62dab1c94ca2fbc3e78fc30069c8d0f01680"></a>All&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62daa603905470e2a5b8c13e96b579ef0dba"></a>Debug&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62da4059b0251f66a18cb56f544728796875"></a>Info&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62da0eaadb4fcb48a0a0ed7bc9868be9fbaa"></a>Warning&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62da902b0d55fddef6f8d651fe1035b7d4bd"></a>Error&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a1e24ed3a55686069d245b63fbc69a62dad15305d7a4e34e02489c74a5ef542f36"></a>Off&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a50fec02b656c1be7e1e3cbaee0f6a136"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50fec02b656c1be7e1e3cbaee0f6a136">&#9670;&nbsp;</a></span>LogStream()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fec02b656c1be7e1e3cbaee0f6a136">&#9670;&nbsp;</a></span>LogStream() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +244,82 @@ Friends</h2></td></tr>
 
 </div>
 </div>
+<a id="a0fe71e1187c6ef2f922dfb62fdef35d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fe71e1187c6ef2f922dfb62fdef35d2">&#9670;&nbsp;</a></span>LogStream() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">LogStream::LogStream </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structLogStream_1_1DebugLevel.html">DebugLevel</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>disable</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructor, set the debug level information for this <a class="el" href="classLogStream.html">LogStream</a> and start the <a class="el" href="classLogStream.html">LogStream</a> either enabled or disabled. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">level</td><td><a class="el" href="structLogStream_1_1DebugLevel.html" title="A struct that holds all the information about a debug level. ">DebugLevel</a> information relevant for this stream </td></tr>
+    <tr><td class="paramname">disable</td><td>True if we want to disable this stream (produce no output) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="afa0b65da0ba16371e30fee6fb1b9c0e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa0b65da0ba16371e30fee6fb1b9c0e0">&#9670;&nbsp;</a></span>disable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LogStream::disable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Disable the <a class="el" href="classLogStream.html">LogStream</a>: prevent it from forwarding the fully created message to the output stream. </p>
+
+</div>
+</div>
+<a id="a9410ad65bb8fe6fb5b30ea71a7acffe9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9410ad65bb8fe6fb5b30ea71a7acffe9">&#9670;&nbsp;</a></span>enable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LogStream::enable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Enable the <a class="el" href="classLogStream.html">LogStream</a>: make it actually print out buffers again. </p>
+
+</div>
+</div>
 <a id="a97e1b6bec3fd66551ab5037a040deb41"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a97e1b6bec3fd66551ab5037a040deb41">&#9670;&nbsp;</a></span>operator<<() <span class="overload">[1/2]</span></h2>
 
@@ -342,8 +437,6 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Static mutex that only one instance of <a class="el" href="classLogStream.html">LogStream</a> can write to std::cout. </p>
-<p><a class="el" href="classLogStream.html">LogStream</a>: Buffers every instance of &lt;&lt; operator per thread and debug level until endl is called on that thread and debug level.</p>
-<dl class="section author"><dt>Author</dt><dd>Sébastien </dd></dl>
 
 </div>
 </div>
@@ -368,6 +461,30 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>The debug level of this <a class="el" href="classLogStream.html">LogStream</a> instance. </p>
+
+</div>
+</div>
+<a id="aace966858de78864c8ec33b2f41e2a91"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aace966858de78864c8ec33b2f41e2a91">&#9670;&nbsp;</a></span>enabled_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LogStream::enabled_ = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Whether the <a class="el" href="classLogStream.html">LogStream</a> is enabled for outputting buffers or not. </p>
 
 </div>
 </div>

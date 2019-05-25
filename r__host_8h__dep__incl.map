@@ -1,7 +1,12 @@
 <map id="source/interface/representations/r_host.h" name="source/interface/representations/r_host.h">
-<area shape="rect" id="node2" href="$interface_2modules_2m__interface__communication_8h.html" title="source/interface/modules\l/m_interface_communication.h" alt="" coords="172,95,372,136"/>
-<area shape="rect" id="node6" href="$m__window_8h.html" title="source/interface/modules\l/m_window.h" alt="" coords="399,95,567,136"/>
-<area shape="rect" id="node3" href="$tcp__client__test_8cpp.html" title="source/dnt/test/tcp\l_client_test.cpp" alt="" coords="5,184,136,225"/>
-<area shape="rect" id="node4" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="399,191,571,218"/>
-<area shape="rect" id="node5" href="$interface_2modules_2m__interface__communication_8cpp.html" title="source/interface/modules\l/m_interface_communication.cpp" alt="" coords="161,184,375,225"/>
+<area shape="rect" id="node2" href="$interface_2modules_2m__interface__communication_8h.html" title="source/interface/modules\l/m_interface_communication.h" alt="" coords="262,95,462,136"/>
+<area shape="rect" id="node6" href="$m__window_8h.html" title="source/interface/modules\l/m_window.h" alt="" coords="569,95,737,136"/>
+<area shape="rect" id="node3" href="$tcp__client__test_8cpp.html" title="source/dnt/test/tcp\l_client_test.cpp" alt="" coords="245,184,375,225"/>
+<area shape="rect" id="node4" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="531,281,703,307"/>
+<area shape="rect" id="node5" href="$interface_2modules_2m__interface__communication_8cpp.html" title="source/interface/modules\l/m_interface_communication.cpp" alt="" coords="5,184,220,225"/>
+<area shape="rect" id="node7" href="$w__camera_8h.html" title="source/interface/widgets\l/camera/w_camera.h" alt="" coords="451,184,615,225"/>
+<area shape="rect" id="node9" href="$w__field_8h.html" title="source/interface/widgets\l/w_field.h" alt="" coords="691,184,855,225"/>
+<area shape="rect" id="node11" href="$m__window_8cpp.html" title="source/interface/modules\l/m_window.cpp" alt="" coords="879,184,1047,225"/>
+<area shape="rect" id="node8" href="$w__camera_8cpp.html" title="source/interface/widgets\l/camera/w_camera.cpp" alt="" coords="343,273,507,315"/>
+<area shape="rect" id="node10" href="$w__field_8cpp.html" title="source/interface/widgets\l/w_field.cpp" alt="" coords="727,273,891,315"/>
 </map>

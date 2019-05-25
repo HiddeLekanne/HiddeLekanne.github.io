@@ -1,7 +1,9 @@
 <map id="rInterpolationOutput" name="rInterpolationOutput">
-<area shape="rect" id="node2" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="95,183,197,209"/>
-<area shape="rect" id="node3" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node4" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="123,5,233,32"/>
-<area shape="rect" id="node5" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="125,81,231,108"/>
-<area shape="rect" id="node6" href="$classrMotion.html" title="rMotion" alt="" coords="236,132,301,159"/>
+<area shape="rect" id="node2" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="138,284,241,311"/>
+<area shape="rect" id="node3" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="46,183,141,209"/>
+<area shape="rect" id="node4" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="5,81,181,108"/>
+<area shape="rect" id="node5" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="163,5,274,32"/>
+<area shape="rect" id="node7" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="151,132,257,159"/>
+<area shape="rect" id="node8" href="$classrMotion.html" title="rMotion" alt="" coords="271,233,337,260"/>
+<area shape="rect" id="node6" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="49,5,137,32"/>
 </map>

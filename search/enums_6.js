@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['ledids',['LEDIds',['../namespaceLEDIds.html#adcac0055c3474f2ab012d1b1d419fea6',1,'LEDIds']]],
-  ['lednames',['LEDNames',['../namespaceHeadLEDIds.html#acee2f504d97158ec0687a05e6e8e9ab1',1,'HeadLEDIds']]],
-  ['leg',['Leg',['../namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530',1,'Legs']]],
-  ['level',['Level',['../classLogStream.html#a1e24ed3a55686069d245b63fbc69a62d',1,'LogStream']]]
+  ['jointids',['JointIds',['../namespaceJointIds.html#a412b4d44362831bd71d0ac528fedc6b6',1,'JointIds']]],
+  ['joints',['Joints',['../classrJointAngles.html#a70f8d2cfd3adfabeac345a9ba91c9749',1,'rJointAngles::Joints()'],['../namespaceJoints.html#a0f726310bc48ef13d5b09b79fb6cd45d',1,'Joints::Joints()'],['../namespaceJoints.html#a0f726310bc48ef13d5b09b79fb6cd45d',1,'Joints::Joints()']]]
 ];

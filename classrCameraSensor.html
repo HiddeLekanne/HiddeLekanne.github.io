@@ -63,7 +63,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classrCameraSensor-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -94,7 +93,7 @@ Collaboration diagram for rCameraSensor:</div>
 <area shape="rect" id="node3" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="38,5,149,32"/>
 <area shape="rect" id="node4" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="220,5,308,32"/>
 <area shape="rect" id="node5" href="classCameraSettings.html" title="CameraSettings: Contains the settings of a camera. " alt="" coords="206,81,322,108"/>
-<area shape="rect" id="node6" href="classImage.html" title="Image: class that contains the information of an image. " alt="" coords="347,81,405,108"/>
+<area shape="rect" id="node6" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ..." alt="" coords="347,81,405,108"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -169,24 +168,6 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a963d77c9305c7f29622f554fe4000bf6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrCameraSensor.html#a963d77c9305c7f29622f554fe4000bf6">is_upper_</a></td></tr>
 <tr class="memdesc:a963d77c9305c7f29622f554fe4000bf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this is the upper or lower camera image.  <a href="#a963d77c9305c7f29622f554fe4000bf6">More...</a><br /></td></tr>
 <tr class="separator:a963d77c9305c7f29622f554fe4000bf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af676bf23aff0f1105639d22f6f11e66f"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrCameraSensor.html#af676bf23aff0f1105639d22f6f11e66f">compressed_image</a> = nullptr</td></tr>
-<tr class="memdesc:af676bf23aff0f1105639d22f6f11e66f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer to the compressed image.  <a href="#af676bf23aff0f1105639d22f6f11e66f">More...</a><br /></td></tr>
-<tr class="separator:af676bf23aff0f1105639d22f6f11e66f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa64a46eec14026a4b0522dba6c57488d"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrCameraSensor.html#aa64a46eec14026a4b0522dba6c57488d">buffer</a> = nullptr</td></tr>
-<tr class="memdesc:aa64a46eec14026a4b0522dba6c57488d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buffer for storing the image in another colorspace.  <a href="#aa64a46eec14026a4b0522dba6c57488d">More...</a><br /></td></tr>
-<tr class="separator:aa64a46eec14026a4b0522dba6c57488d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf776c88432b6f6a0af8e8db75f1b411"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrCameraSensor.html#abf776c88432b6f6a0af8e8db75f1b411">compressed_size</a> = 0</td></tr>
-<tr class="memdesc:abf776c88432b6f6a0af8e8db75f1b411"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the compressed image in bytes.  <a href="#abf776c88432b6f6a0af8e8db75f1b411">More...</a><br /></td></tr>
-<tr class="separator:abf776c88432b6f6a0af8e8db75f1b411"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:ab0086fcf8a59cd9cf28660042d755c68"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrCameraSensor.html#ab0086fcf8a59cd9cf28660042d755c68">JPEG_QUALITY</a> = 25</td></tr>
-<tr class="memdesc:ab0086fcf8a59cd9cf28660042d755c68"><td class="mdescLeft">&#160;</td><td class="mdescRight">The JPEG quality (0-100) of the image after compression.  <a href="#ab0086fcf8a59cd9cf28660042d755c68">More...</a><br /></td></tr>
-<tr class="separator:ab0086fcf8a59cd9cf28660042d755c68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68dadc2fb874e2dccb1c50acd965afd8"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrCameraSensor.html#a68dadc2fb874e2dccb1c50acd965afd8">COLOR_COMPONENTS</a> = 3</td></tr>
-<tr class="memdesc:a68dadc2fb874e2dccb1c50acd965afd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of components in the color space(s).  <a href="#a68dadc2fb874e2dccb1c50acd965afd8">More...</a><br /></td></tr>
-<tr class="separator:a68dadc2fb874e2dccb1c50acd965afd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
@@ -196,9 +177,12 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classRepresentation.html" title="Representation abstract class. ">Representation</a> that holds an image from a camera and information about that image. </p>
+<p>When loaded/saved, it adds JPEG compression on the image to reduce the amount of bytes to transfer.</p>
 <dl class="section author"><dt>Author</dt><dd>Caitlin </dd>
 <dd>
-Sébastien </dd></dl>
+Sébastien </dd>
+<dd>
+<a href="#" onclick="location.href='mai'+'lto:'+'mic'+'hi'+'el@'+'du'+'tch'+'na'+'ote'+'am'+'.nl'; return false;">Michiel</a> </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a8bdd2031ff7b04d3ae64c7898f6d9274"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8bdd2031ff7b04d3ae64c7898f6d9274">&#9670;&nbsp;</a></span>rCameraSensor()</h2>
@@ -369,7 +353,7 @@ template&lt;class Container &gt; </div>
 </div><div class="memdoc">
 
 <p>Load the class member variables from something that can be sent over the network. </p>
-<p>Also performs decompression on the image. </p><dl class="tparams"><dt>Template Parameters</dt><dd>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Container</td><td>Types of the class member variables. </td></tr>
   </table>
@@ -411,7 +395,6 @@ template&lt;class Container &gt; </div>
 </div><div class="memdoc">
 
 <p>Save the class member variables to a something that can be sent over the network. </p>
-<p>Also performs a JPEG compression on the image.</p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">Container</td><td>Types of the class member variables. </td></tr>
@@ -462,30 +445,6 @@ template&lt;class Container &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa64a46eec14026a4b0522dba6c57488d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa64a46eec14026a4b0522dba6c57488d">&#9670;&nbsp;</a></span>buffer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned char* rCameraSensor::buffer = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Buffer for storing the image in another colorspace. </p>
-
-</div>
-</div>
 <a id="add891c3dd94292f67665b3ab6ec73f20"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add891c3dd94292f67665b3ab6ec73f20">&#9670;&nbsp;</a></span>camera_settings_</h2>
 
@@ -507,78 +466,6 @@ template&lt;class Container &gt; </div>
 </div><div class="memdoc">
 
 <p>The settings of the camera such as the image resolution. </p>
-
-</div>
-</div>
-<a id="a68dadc2fb874e2dccb1c50acd965afd8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68dadc2fb874e2dccb1c50acd965afd8">&#9670;&nbsp;</a></span>COLOR_COMPONENTS</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int rCameraSensor::COLOR_COMPONENTS = 3</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Amount of components in the color space(s). </p>
-
-</div>
-</div>
-<a id="af676bf23aff0f1105639d22f6f11e66f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af676bf23aff0f1105639d22f6f11e66f">&#9670;&nbsp;</a></span>compressed_image</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned char* rCameraSensor::compressed_image = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Buffer to the compressed image. </p>
-
-</div>
-</div>
-<a id="abf776c88432b6f6a0af8e8db75f1b411"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf776c88432b6f6a0af8e8db75f1b411">&#9670;&nbsp;</a></span>compressed_size</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned int rCameraSensor::compressed_size = 0</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">mutable</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Size of the compressed image in bytes. </p>
 
 </div>
 </div>
@@ -611,30 +498,6 @@ template&lt;class Container &gt; </div>
 </div><div class="memdoc">
 
 <p>If this is the upper or lower camera image. </p>
-
-</div>
-</div>
-<a id="ab0086fcf8a59cd9cf28660042d755c68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0086fcf8a59cd9cf28660042d755c68">&#9670;&nbsp;</a></span>JPEG_QUALITY</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int rCameraSensor::JPEG_QUALITY = 25</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The JPEG quality (0-100) of the image after compression. </p>
 
 </div>
 </div>

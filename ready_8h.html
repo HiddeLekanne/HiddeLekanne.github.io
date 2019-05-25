@@ -83,12 +83,14 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a5cdda4760e454d4a104b3085a3fd816c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ready_8h.html#a5cdda4760e454d4a104b3085a3fd816c">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Ready walk forward&quot;), description(&quot;walk forward in ready state&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae7d31fc0602fb2ede144d18cdffd816b">Event::Ready</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1.f;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { location_methods_.walkToReadyPosition(robot_position_representation_-&gt;robot_pose_, output_motion_request_);})</td></tr>
-<tr class="separator:a5cdda4760e454d4a104b3085a3fd816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0651cfa3861bab7232614780ba4637fc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ready_8h.html#a0651cfa3861bab7232614780ba4637fc">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk to ready position&quot;), description(&quot;Walk to ready position&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae7d31fc0602fb2ede144d18cdffd816b">Event::Ready</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1.f;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { location_methods_.walkToReadyPosition(robot_position_representation_-&gt;robot_pose_, output_motion_request_);})</td></tr>
+<tr class="separator:a0651cfa3861bab7232614780ba4637fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1160b5fcc2b12dc79cb1447174d9141c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="ready_8h.html#a1160b5fcc2b12dc79cb1447174d9141c">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Stand still to localize&quot;), description(&quot;stand still every X seconds to localize&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae7d31fc0602fb2ede144d18cdffd816b">Event::Ready</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>&lt; <a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>()||last_stood_still_==0;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;output_motion_request_-&gt;reset_walk_=true;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=true;unsigned long long int current_time=<a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>();if(last_stood_still_==0) { last_stood_still_=current_time - <a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>;} if(last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>+<a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>&lt; current_time) { last_stood_still_=current_time;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=false;} })</td></tr>
+<tr class="separator:a1160b5fcc2b12dc79cb1447174d9141c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5cdda4760e454d4a104b3085a3fd816c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5cdda4760e454d4a104b3085a3fd816c">&#9670;&nbsp;</a></span>addDecision()</h2>
+<a id="a0651cfa3861bab7232614780ba4637fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0651cfa3861bab7232614780ba4637fc">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -96,13 +98,13 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">addDecision </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classname.html">name</a>(&quot;Ready walk forward&quot;)&#160;</td>
+          <td class="paramtype"><a class="el" href="classname.html">name</a>(&quot;Walk to ready position&quot;)&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classdescription.html">description</a>(&quot;walk forward in ready state&quot;)&#160;</td>
+          <td class="paramtype"><a class="el" href="classdescription.html">description</a>(&quot;Walk to ready position&quot;)&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -127,6 +129,58 @@ Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { location_methods_.walkToReadyPosition(robot_position_representation_-&gt;robot_pose_, output_motion_request_);}&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1160b5fcc2b12dc79cb1447174d9141c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1160b5fcc2b12dc79cb1447174d9141c">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">addDecision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classname.html">name</a>(&quot;Stand still to localize&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdescription.html">description</a>(&quot;stand still every X seconds to localize&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a7da1da5b2a5be58e2914b3680e3077ac">UtilityScore::MostUseful</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae7d31fc0602fb2ede144d18cdffd816b">Event::Ready</a>}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>&lt; <a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>()||last_stood_still_==0;})}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;output_motion_request_-&gt;reset_walk_=true;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=true;unsigned long long int current_time=<a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>();if(last_stood_still_==0) { last_stood_still_=current_time - <a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>;} if(last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>+<a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>&lt; current_time) { last_stood_still_=current_time;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=false;} }&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

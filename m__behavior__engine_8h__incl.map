@@ -1,32 +1,35 @@
 <map id="source/dnt/modules/behavior_engine/m_behavior_engine.h" name="source/dnt/modules/behavior_engine/m_behavior_engine.h">
-<area shape="rect" id="node2" href="$location__methods_8h.html" title="behavior_functions\l/location_methods.h" alt="" coords="411,109,550,151"/>
-<area shape="rect" id="node17" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="571,199,726,240"/>
-<area shape="rect" id="node22" href="$r__ball_8h.html" title="representations/perception\l/r_ball.h" alt="" coords="111,199,285,240"/>
-<area shape="rect" id="node31" href="$module_8h.html" title="framework/module.h" alt="" coords="1903,117,2043,143"/>
-<area shape="rect" id="node33" href="$r__behavior__status_8h.html" title="representations/behavior\l/r_behavior_status.h" alt="" coords="2112,377,2276,419"/>
-<area shape="rect" id="node34" href="$r__falldown__state_8h.html" title="Information about the falldown state of the robot: whether it is standing, falling over..." alt="" coords="661,109,821,151"/>
-<area shape="rect" id="node35" href="$r__button__sensor_8h.html" title="representations/sensor\l/r_button_sensor.h" alt="" coords="845,109,999,151"/>
-<area shape="rect" id="node36" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="1443,109,1633,151"/>
-<area shape="rect" id="node38" href="$r__game__data_8h.html" title="representations/infrastructure\l/r_game_data.h" alt="" coords="1657,109,1848,151"/>
-<area shape="rect" id="node40" href="$r__microphone_8h.html" title="Information about the audio data captured and the whether the whistle was detected or not..." alt="" coords="1228,109,1419,151"/>
-<area shape="rect" id="node41" href="$r__robot__position_8h.html" title="representations/localisation\l/r_robot_position.h" alt="" coords="1024,109,1204,151"/>
-<area shape="rect" id="node43" href="$decision__engine_8h.html" title="tools/decision_engine\l/decision_engine.h" alt="" coords="2555,199,2702,240"/>
-<area shape="rect" id="node3" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="375,295,514,322"/>
-<area shape="rect" id="node9" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="251,467,403,493"/>
-<area shape="rect" id="node15" href="$log_8h.html" title="tools/log.h" alt="" coords="361,206,443,233"/>
-<area shape="rect" id="node24" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1333,206,1527,233"/>
-<area shape="rect" id="node4" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="640,377,775,419"/>
-<area shape="rect" id="node8" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="745,467,841,493"/>
-<area shape="rect" id="node16" href="$log_2log_8h.html" title="log/log.h" alt="" coords="533,467,604,493"/>
-<area shape="rect" id="node18" href="$representation_8h.html" title="framework/representation.h" alt="" coords="1155,467,1335,493"/>
-<area shape="rect" id="node19" href="$r__motion_8h.html" title="representations/motion\l/r_motion.h" alt="" coords="901,377,1055,419"/>
-<area shape="rect" id="node20" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="589,288,743,329"/>
-<area shape="rect" id="node21" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="426,385,565,411"/>
-<area shape="rect" id="node23" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1056,288,1207,329"/>
-<area shape="rect" id="node25" href="$message_8h.html" title="framework/message.h" alt="" coords="1384,385,1535,411"/>
-<area shape="rect" id="node28" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1495,295,1682,322"/>
-<area shape="rect" id="node42" href="$particle_8h.html" title="modules/modelling/localisation\l/particle.h" alt="" coords="1009,199,1208,240"/>
-<area shape="rect" id="node48" href="$consideration_8h.html" title="consideration.h" alt="" coords="2831,385,2941,411"/>
-<area shape="rect" id="node49" href="$spline_8h.html" title="spline.h" alt="" coords="2830,467,2897,493"/>
-<area shape="rect" id="node50" href="$decision_8h.html" title="decision.h" alt="" coords="2811,295,2892,322"/>
+<area shape="rect" id="node2" href="$location__methods_8h.html" title="behavior_functions\l/location_methods.h" alt="" coords="375,109,513,151"/>
+<area shape="rect" id="node16" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="40,206,195,247"/>
+<area shape="rect" id="node21" href="$r__ball_8h.html" title="representations/perception\l/r_ball.h" alt="" coords="814,206,989,247"/>
+<area shape="rect" id="node29" href="$module_8h.html" title="framework/module.h" alt="" coords="1830,117,1970,143"/>
+<area shape="rect" id="node31" href="$r__behavior__status_8h.html" title="representations/behavior\l/r_behavior_status.h" alt="" coords="2141,303,2305,344"/>
+<area shape="rect" id="node33" href="$r__stance_8h.html" title="Information about the stance of the robot: whether it is standing, falling over, has fallen over..." alt="" coords="935,109,1095,151"/>
+<area shape="rect" id="node34" href="$r__button__sensor_8h.html" title="representations/sensor\l/r_button_sensor.h" alt="" coords="1404,303,1559,344"/>
+<area shape="rect" id="node35" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="1119,109,1310,151"/>
+<area shape="rect" id="node37" href="$r__game__data_8h.html" title="representations/infrastructure\l/r_game_data.h" alt="" coords="1334,109,1525,151"/>
+<area shape="rect" id="node39" href="$r__microphone_8h.html" title="Information about the audio data captured and the whether the whistle was detected or not..." alt="" coords="1994,109,2185,151"/>
+<area shape="rect" id="node40" href="$r__robot__position_8h.html" title="representations/localisation\l/r_robot_position.h" alt="" coords="645,109,825,151"/>
+<area shape="rect" id="node43" href="$decision__engine_8h.html" title="tools/decision_engine\l/decision_engine.h" alt="" coords="2551,206,2697,247"/>
+<area shape="rect" id="node3" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="269,310,408,337"/>
+<area shape="rect" id="node9" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="156,481,308,508"/>
+<area shape="rect" id="node15" href="$log_8h.html" title="tools/log.h" alt="" coords="324,213,407,240"/>
+<area shape="rect" id="node25" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1617,213,1812,240"/>
+<area shape="rect" id="node4" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="711,392,846,433"/>
+<area shape="rect" id="node8" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="929,481,1025,508"/>
+<area shape="rect" id="node17" href="$representation_8h.html" title="framework/representation.h" alt="" coords="1238,481,1418,508"/>
+<area shape="rect" id="node18" href="$r__motion_8h.html" title="representations/motion\l/r_motion.h" alt="" coords="972,392,1127,433"/>
+<area shape="rect" id="node19" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="40,303,195,344"/>
+<area shape="rect" id="node20" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="5,399,144,426"/>
+<area shape="rect" id="node22" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1253,392,1403,433"/>
+<area shape="rect" id="node23" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="785,310,917,337"/>
+<area shape="rect" id="node24" href="$roi_8h.html" title="modules/perception\l/ball_detector/roi.h" alt="" coords="941,303,1075,344"/>
+<area shape="rect" id="node26" href="$message_8h.html" title="framework/message.h" alt="" coords="1589,399,1739,426"/>
+<area shape="rect" id="node27" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1727,310,1913,337"/>
+<area shape="rect" id="node38" href="$RoboCupGameControlData_8h.html" title="modules/infrastructure\l/game_state/RoboCupGameControl\lData.h" alt="" coords="1311,199,1542,255"/>
+<area shape="rect" id="node41" href="$particle_8h.html" title="modules/modelling/localisation\l/particle.h" alt="" coords="591,206,790,247"/>
+<area shape="rect" id="node42" href="$r__lines_8h.html" title="representations/perception\l/r_lines.h" alt="" coords="534,303,709,344"/>
+<area shape="rect" id="node48" href="$consideration_8h.html" title="consideration.h" alt="" coords="2735,399,2846,426"/>
+<area shape="rect" id="node49" href="$spline_8h.html" title="spline.h" alt="" coords="2735,481,2801,508"/>
+<area shape="rect" id="node50" href="$decision_8h.html" title="decision.h" alt="" coords="2533,310,2614,337"/>
 </map>

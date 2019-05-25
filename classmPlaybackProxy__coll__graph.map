@@ -1,0 +1,14 @@
+<map id="mPlaybackProxy" name="mPlaybackProxy">
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="405,8,469,35"/>
+<area shape="rect" id="node3" href="$classOutputMessage.html" title="OutputMessage\&lt; rButtonSensor \&gt;" alt="" coords="327,59,548,85"/>
+<area shape="rect" id="node4" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,277,273,304"/>
+<area shape="rect" id="node6" href="$classOutputMessage.html" title="OutputMessage\&lt; rIMUSensor \&gt;" alt="" coords="333,109,541,136"/>
+<area shape="rect" id="node7" href="$classOutputMessage.html" title="OutputMessage\&lt; rFSRSensor \&gt;" alt="" coords="332,160,543,187"/>
+<area shape="rect" id="node8" href="$classOutputMessage.html" title="OutputMessage\&lt; rRobotStatus\lSensor \&gt;" alt="" coords="336,211,539,253"/>
+<area shape="rect" id="node9" href="$classOutputMessage.html" title="OutputMessage\&lt; rCameraSensor \&gt;" alt="" coords="323,277,552,304"/>
+<area shape="rect" id="node10" href="$classOutputMessage.html" title="OutputMessage\&lt; rSonarSensor \&gt;" alt="" coords="329,328,546,355"/>
+<area shape="rect" id="node11" href="$classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="335,379,540,405"/>
+<area shape="rect" id="node12" href="$classOutputMessage.html" title="OutputMessage\&lt; rJointSensor \&gt;" alt="" coords="332,429,543,456"/>
+<area shape="rect" id="node13" href="$classOutputMessage.html" title="OutputMessage\&lt; rFrameInfo \&gt;" alt="" coords="337,480,538,507"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,277,80,304"/>
+</map>

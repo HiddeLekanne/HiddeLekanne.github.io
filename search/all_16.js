@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['v_5fchannel_5f',['v_channel_',['../classImage.html#a9ca0c556f7c9f9a7ec1ad5d24da2c360',1,'Image']]],
   ['v_5fhead_5fchain_5f',['v_head_chain_',['../classmRobotModel.html#a517cde86f53fd2412371e189701ff0f8',1,'mRobotModel']]],
   ['v_5fl_5farm_5fchain_5f',['v_l_arm_chain_',['../classmRobotModel.html#a3a877b6fb283f9c0cb7f46e5d141ac67',1,'mRobotModel']]],
   ['v_5fl_5fleg_5fchain_5f',['v_l_leg_chain_',['../classmRobotModel.html#a9d078e889c200cfab97efaeebf0bbb45',1,'mRobotModel']]],
@@ -8,7 +7,6 @@ var searchData=
   ['v_5fr_5fleg_5fchain_5f',['v_r_leg_chain_',['../classmRobotModel.html#a6b19a5c57ed0745a6ef874f45f6a6183',1,'mRobotModel']]],
   ['valid_5f',['valid_',['../structROI.html#a9aeceed9609c4db58afb71f78fb7c1d6',1,'ROI']]],
   ['value',['value',['../classAngle.html#a2c87c576d0f13d10c79d388c4fce911e',1,'Angle::value()'],['../classConfiguration_1_1Data.html#a58aa4d764dc0e5cf780670881a3e85d3',1,'Configuration::Data::Value()']]],
-  ['vcoeff',['vCoeff',['../classImage.html#a54985285ed99b7b03de6a6935b362c08',1,'Image']]],
   ['vector2a',['Vector2a',['../math_2Eigen_8h.html#ade6be767b2c2c735ec150ad512752a37',1,'Eigen.h']]],
   ['vector2d',['Vector2d',['../math_2Eigen_8h.html#a824159f5c2a14336f9082b0e04374fdc',1,'Eigen.h']]],
   ['vector2f',['Vector2f',['../math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a',1,'Eigen.h']]],
@@ -31,11 +29,19 @@ var searchData=
   ['vector6f',['Vector6f',['../math_2Eigen_8h.html#a3f222de01a65ed73df561d882a47b7f1',1,'Eigen.h']]],
   ['vectorxd',['VectorXd',['../math_2Eigen_8h.html#a73c1535cdfdd552cd04f7676926858b6',1,'Eigen.h']]],
   ['vectorxf',['VectorXf',['../math_2Eigen_8h.html#ab1cfd56887f8138b4277d25817402296',1,'Eigen.h']]],
+  ['version',['version',['../structRoboCupGameControlData.html#acb95e2b8d91bd9e3088527ff0aca71ff',1,'RoboCupGameControlData::version()'],['../structRoboCupGameControlReturnData.html#ab312e59ab0c085a4fbf3357820d8febf',1,'RoboCupGameControlReturnData::version()'],['../structSPLStandardMessage.html#abf854554223618a759311ef698391ece',1,'SPLStandardMessage::version()'],['../namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a8a8c10da827781bf49a99b952d8f43b2',1,'SelectorSize::version()'],['../namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447a9af79f37a4ec18c5e48f228f656fec63',1,'SelectorNumber::version()']]],
+  ['version_5f',['version_',['../classmPlaybackProxy.html#aab4fcd0ee8abd6c7a6e3edb4d44d4365',1,'mPlaybackProxy']]],
+  ['vertical_5fflip',['vertical_flip',['../namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a8c8895a5db8678ac39b5d2239180ed41',1,'SelectorSize::vertical_flip()'],['../namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447ac5f50abb23288cde6b98cd959e53d3a8',1,'SelectorNumber::vertical_flip()']]],
   ['vertical_5fview_5fangle_5f',['VERTICAL_VIEW_ANGLE_',['../classCameraSettings.html#a29be960d662fe20bc495bace672bd758',1,'CameraSettings']]],
   ['veryuseful',['VeryUseful',['../decision_8h.html#a7ddfdc0b3f99a542161130db594afe06ab8c5d9f3b73ac014974579b010225e82',1,'decision.h']]],
-  ['view_5fangle_5fhalf_5fhor_5f',['VIEW_ANGLE_HALF_HOR_',['../classmLineModel.html#aee0f4949545a2f66b2514e282f6bebcf',1,'mLineModel']]],
-  ['view_5fangle_5fhalf_5fver_5f',['VIEW_ANGLE_HALF_VER_',['../classmLineModel.html#a6367caf12d64a6115557067a7ab117a4',1,'mLineModel']]],
+  ['view_5fangle_5fhalf_5fhor_5f',['VIEW_ANGLE_HALF_HOR_',['../classLineModel.html#a48a38ecdc8ba83fe4dee2cc1ad9ca85f',1,'LineModel']]],
+  ['view_5fangle_5fhalf_5fver_5f',['VIEW_ANGLE_HALF_VER_',['../classLineModel.html#a449b9078d8f08165249246c2847e328f',1,'LineModel']]],
   ['vision',['Vision',['../classModuleManager.html#a63bb13b1f39ca4abbe8fc0e268a58714a489f50e5bcc4ab845ac324cd5756fefc',1,'ModuleManager']]],
+  ['visit_5ffloat32',['visit_float32',['../classLolaVisitor.html#a1b4919ae1334b4b68687bb1e03651a13',1,'LolaVisitor']]],
+  ['visit_5fstr',['visit_str',['../classLolaVisitor.html#a19a8e867e8960ab4cf5862d01de9d1b0',1,'LolaVisitor']]],
+  ['visual_5flocalisation_5frequest_5f',['visual_localisation_request_',['../classmParticleFilter.html#a6104b1f6a677007a09d2008b821e3cdc',1,'mParticleFilter']]],
+  ['visualisations_5fcollaps_5f',['visualisations_collaps_',['../classCameraWidget.html#ad554d1dc07fafab8fc88b6c54d94d716',1,'CameraWidget']]],
+  ['visualisations_5flayout_5f',['visualisations_layout_',['../classCameraWidget.html#a83d25846b899d940b55e6dd59573eda3',1,'CameraWidget']]],
   ['volume_5frx',['VOLUME_RX',['../r__microphone_8h.html#aa5345c28f090d70d4431176ac8c8d365',1,'r_microphone.h']]],
   ['volume_5fslider_5f',['volume_slider_',['../classSettingsToolbar.html#a508162bc01751cce47bea53a93c1cd7c',1,'SettingsToolbar']]]
 ];

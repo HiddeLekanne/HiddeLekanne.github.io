@@ -1,51 +1,51 @@
 <map id="source/dnt/tools/system_tools.h" name="source/dnt/tools/system_tools.h">
-<area shape="rect" id="node2" href="$input__message_8h.html" title="source/dnt/framework\l/input_message.h" alt="" coords="3895,95,4043,136"/>
-<area shape="rect" id="node12" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="5163,571,5354,627"/>
-<area shape="rect" id="node14" href="$m__camera_8cpp.html" title="source/dnt/modules\l/camera/m_camera.cpp" alt="" coords="7,474,166,515"/>
-<area shape="rect" id="node25" href="$m__interpolation__engine_8cpp.html" title="source/dnt/modules\l/motion/interpolation\l/m_interpolation_engine.cpp" alt="" coords="4633,467,4817,523"/>
-<area shape="rect" id="node29" href="$m__ball__detector_8cpp.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.cpp" alt="" coords="5057,467,5221,523"/>
-<area shape="rect" id="node32" href="$field__filter__test_8cpp.html" title="source/dnt/modules\l/perception/field_filter\l/field_filter_test.cpp" alt="" coords="1177,467,1324,523"/>
-<area shape="rect" id="node34" href="$goal__detector_8cpp.html" title="source/dnt/modules\l/perception/goal_detector\l/goal_detector.cpp" alt="" coords="2143,467,2311,523"/>
-<area shape="rect" id="node39" href="$m__falldown__detector_8cpp.html" title="Detect whether the robot has fallen over. " alt="" coords="277,467,419,523"/>
-<area shape="rect" id="node43" href="$nao__camera_8cpp.html" title="source/dnt/modules\l/camera/nao_camera.cpp" alt="" coords="5297,370,5466,411"/>
-<area shape="rect" id="node44" href="$config__finder_8h.html" title="source/dnt/tools/configuration\l/config_finder.h" alt="" coords="5643,95,5837,136"/>
-<area shape="rect" id="node46" href="$configuration_8cpp.html" title="source/dnt/tools/configuration\l/configuration.cpp" alt="" coords="5643,370,5837,411"/>
-<area shape="rect" id="node49" href="$sound__player_8cpp.html" title="source/dnt/tools/sound\l_player/sound_player.cpp" alt="" coords="5861,95,6032,136"/>
-<area shape="rect" id="node50" href="$timer_8cpp.html" title="source/dnt/tools/timer\l/timer.cpp" alt="" coords="6057,95,6205,136"/>
-<area shape="rect" id="node3" href="$module_8h.html" title="source/dnt/framework\l/module.h" alt="" coords="2979,273,3127,315"/>
-<area shape="rect" id="node41" href="$output__message_8h.html" title="source/dnt/framework\l/output_message.h" alt="" coords="3895,184,4043,225"/>
-<area shape="rect" id="node4" href="$module__group_8h.html" title="source/dnt/framework\l/module_group.h" alt="" coords="3891,370,4039,411"/>
-<area shape="rect" id="node6" href="$module__manager_8h.html" title="source/dnt/framework\l/module_manager.h" alt="" coords="3973,474,4121,515"/>
-<area shape="rect" id="node8" href="$queue__test_8cpp.html" title="source/dnt/test/queue\l_test.cpp" alt="" coords="3673,578,3821,619"/>
-<area shape="rect" id="node9" href="$tcp__client__test_8cpp.html" title="source/dnt/test/tcp\l_client_test.cpp" alt="" coords="3968,675,4099,716"/>
-<area shape="rect" id="node10" href="$interface_2modules_2m__interface__communication_8h.html" title="source/interface/modules\l/m_interface_communication.h" alt="" coords="4071,578,4271,619"/>
-<area shape="rect" id="node11" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="4842,467,5033,523"/>
-<area shape="rect" id="node13" href="$m__camera_8h.html" title="source/dnt/modules\l/camera/m_camera.h" alt="" coords="94,370,239,411"/>
-<area shape="rect" id="node15" href="$dnt_2modules_2communication_2m__interface__communication_8h.html" title="source/dnt/modules\l/communication/m_interface\l_communication.h" alt="" coords="531,363,717,419"/>
-<area shape="rect" id="node16" href="$m__nao__active_8h.html" title="source/dnt/modules\l/m_nao_active.h" alt="" coords="741,370,877,411"/>
-<area shape="rect" id="node17" href="$m__test__show__image_8h.html" title="source/dnt/modules\l/m_test_show_image.h" alt="" coords="901,370,1059,411"/>
-<area shape="rect" id="node18" href="$m__microphone_8h.html" title="source/dnt/modules\l/microphone/m_microphone.h" alt="" coords="1083,370,1277,411"/>
-<area shape="rect" id="node19" href="$m__line__model_8h.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.h" alt="" coords="4651,363,4797,419"/>
-<area shape="rect" id="node20" href="$m__particle__filter_8h.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.h" alt="" coords="1301,363,1451,419"/>
-<area shape="rect" id="node21" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="1475,370,1661,411"/>
-<area shape="rect" id="node22" href="$m__test__forward__kinematics_8h.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.h" alt="" coords="1685,363,1859,419"/>
-<area shape="rect" id="node23" href="$m__footsupport__provider_8h.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.h" alt="" coords="1884,363,2057,419"/>
-<area shape="rect" id="node24" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="4216,363,4387,419"/>
-<area shape="rect" id="node26" href="$m__motion__selector_8h.html" title="This file handles which motion is executed. " alt="" coords="2325,370,2515,411"/>
-<area shape="rect" id="node27" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="2539,363,2738,419"/>
-<area shape="rect" id="node28" href="$m__ball__detector_8h.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.h" alt="" coords="4462,363,4626,419"/>
-<area shape="rect" id="node30" href="$field__filter_8h.html" title="source/dnt/modules\l/perception/field_filter\l/field_filter.h" alt="" coords="3619,363,3765,419"/>
-<area shape="rect" id="node31" href="$field__filter_8cpp.html" title="source/dnt/modules\l/perception/field_filter\l/field_filter.cpp" alt="" coords="4196,467,4343,523"/>
-<area shape="rect" id="node33" href="$goal__detector_8h.html" title="source/dnt/modules\l/perception/goal_detector\l/goal_detector.h" alt="" coords="2081,363,2249,419"/>
-<area shape="rect" id="node35" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="2763,363,2936,419"/>
-<area shape="rect" id="node36" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="2961,363,3146,419"/>
-<area shape="rect" id="node37" href="$m__ear__indicators_8h.html" title="source/dnt/modules\l/sensing/m_ear_indicators.h" alt="" coords="3170,370,3355,411"/>
-<area shape="rect" id="node38" href="$m__falldown__detector_8h.html" title="Detect whether the robot has fallen over. " alt="" coords="365,363,507,419"/>
-<area shape="rect" id="node40" href="$w__dnt_8h.html" title="source/interface/widgets\l/w_dnt.h" alt="" coords="3379,370,3543,411"/>
-<area shape="rect" id="node5" href="$module__group_8cpp.html" title="source/dnt/framework\l/module_group.cpp" alt="" coords="3801,474,3949,515"/>
-<area shape="rect" id="node7" href="$module__manager_8cpp.html" title="source/dnt/framework\l/module_manager.cpp" alt="" coords="3845,578,3995,619"/>
-<area shape="rect" id="node42" href="$location__methods_8h.html" title="source/dnt/modules\l/behavior_engine/behavior\l_functions/location_methods.h" alt="" coords="4973,363,5171,419"/>
-<area shape="rect" id="node45" href="$public__interface_8h.html" title="source/dnt/tools/configuration\l/public_interface.h" alt="" coords="5694,184,5887,225"/>
-<area shape="rect" id="node47" href="$toml__handler_8h.html" title="source/dnt/tools/configuration\l/toml_handler.h" alt="" coords="5694,273,5887,315"/>
-<area shape="rect" id="node48" href="$configuration_8h.html" title="source/dnt/tools/configuration.h" alt="" coords="4970,281,5174,307"/>
+<area shape="rect" id="node2" href="$input__message_8h.html" title="source/dnt/framework\l/input_message.h" alt="" coords="2203,95,2351,136"/>
+<area shape="rect" id="node9" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="1247,467,1438,523"/>
+<area shape="rect" id="node11" href="$m__camera_8cpp.html" title="source/dnt/modules\l/camera/m_camera.cpp" alt="" coords="3642,474,3801,515"/>
+<area shape="rect" id="node14" href="$m__save__representations_8cpp.html" title="source/dnt/modules\l/communication/m_save\l_representations.cpp" alt="" coords="3143,467,3307,523"/>
+<area shape="rect" id="node25" href="$m__interpolation__engine_8cpp.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="3383,467,3567,523"/>
+<area shape="rect" id="node29" href="$m__ball__detector_8cpp.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.cpp" alt="" coords="3877,467,4041,523"/>
+<area shape="rect" id="node31" href="$field__filter__test_8cpp.html" title="source/dnt/modules\l/perception/field_filter\l/field_filter_test.cpp" alt="" coords="259,467,405,523"/>
+<area shape="rect" id="node32" href="$line__detector__test_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/line_detector_test.cpp" alt="" coords="481,467,645,523"/>
+<area shape="rect" id="node34" href="$m__goal__detector_8cpp.html" title="source/dnt/modules\l/perception/goal_detector\l/m_goal_detector.cpp" alt="" coords="5,467,173,523"/>
+<area shape="rect" id="node41" href="$m__stance__detector_8cpp.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="4289,474,4500,515"/>
+<area shape="rect" id="node42" href="$m__framerate_8h.html" title="source/interface/modules\l/m_framerate.h" alt="" coords="4493,370,4661,411"/>
+<area shape="rect" id="node45" href="$config__finder_8h.html" title="source/dnt/tools/configuration\l/config_finder.h" alt="" coords="4099,95,4293,136"/>
+<area shape="rect" id="node47" href="$configuration_8cpp.html" title="source/dnt/tools/configuration\l/configuration.cpp" alt="" coords="4234,273,4427,315"/>
+<area shape="rect" id="node48" href="$sound__player_8cpp.html" title="source/dnt/tools/sound\l_player/sound_player.cpp" alt="" coords="4393,95,4564,136"/>
+<area shape="rect" id="node49" href="$timer_8cpp.html" title="source/dnt/tools/timer\l/timer.cpp" alt="" coords="4589,95,4737,136"/>
+<area shape="rect" id="node50" href="$robot__v6_8cpp.html" title="source/robot/v6/robot\l_v6.cpp" alt="" coords="4761,95,4906,136"/>
+<area shape="rect" id="node3" href="$module_8h.html" title="source/dnt/framework\l/module.h" alt="" coords="2091,273,2239,315"/>
+<area shape="rect" id="node44" href="$output__message_8h.html" title="source/dnt/framework\l/output_message.h" alt="" coords="2091,184,2239,225"/>
+<area shape="rect" id="node4" href="$module__group_8h.html" title="source/dnt/framework\l/module_group.h" alt="" coords="4219,370,4367,411"/>
+<area shape="rect" id="node5" href="$module__manager_8h.html" title="source/dnt/framework\l/module_manager.h" alt="" coords="4117,474,4265,515"/>
+<area shape="rect" id="node8" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="1679,363,1870,419"/>
+<area shape="rect" id="node10" href="$m__camera_8h.html" title="source/dnt/modules\l/camera/m_camera.h" alt="" coords="3537,370,3682,411"/>
+<area shape="rect" id="node12" href="$dnt_2modules_2communication_2m__interface__communication_8h.html" title="source/dnt/modules\l/communication/m_interface\l_communication.h" alt="" coords="2599,467,2785,523"/>
+<area shape="rect" id="node13" href="$m__save__representations_8h.html" title="source/dnt/modules\l/communication/m_save\l_representations.h" alt="" coords="3051,363,3215,419"/>
+<area shape="rect" id="node15" href="$m__game__state_8h.html" title="source/dnt/modules\l/infrastructure/game\l_state/m_game_state.h" alt="" coords="962,467,1121,523"/>
+<area shape="rect" id="node16" href="$m__nao__active_8h.html" title="source/dnt/modules\l/m_nao_active.h" alt="" coords="1711,474,1847,515"/>
+<area shape="rect" id="node17" href="$m__test__show__image_8h.html" title="source/dnt/modules\l/m_test_show_image.h" alt="" coords="2809,474,2967,515"/>
+<area shape="rect" id="node18" href="$m__microphone_8h.html" title="source/dnt/modules\l/microphone/m_microphone.h" alt="" coords="1871,474,2065,515"/>
+<area shape="rect" id="node19" href="$m__particle__filter_8h.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.h" alt="" coords="1505,363,1655,419"/>
+<area shape="rect" id="node20" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="2089,474,2274,515"/>
+<area shape="rect" id="node21" href="$m__test__forward__kinematics_8h.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.h" alt="" coords="2298,467,2473,523"/>
+<area shape="rect" id="node22" href="$m__footsupport__provider_8h.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.h" alt="" coords="1513,467,1687,523"/>
+<area shape="rect" id="node23" href="$m__head__motion_8h.html" title="source/dnt/modules\l/motion/head_motion\l/m_head_motion.h" alt="" coords="2149,363,2291,419"/>
+<area shape="rect" id="node24" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="3291,363,3461,419"/>
+<area shape="rect" id="node26" href="$m__motion__selector_8h.html" title="This file handles which motion is executed. " alt="" coords="2627,370,2818,411"/>
+<area shape="rect" id="node27" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="1083,363,1282,419"/>
+<area shape="rect" id="node28" href="$m__ball__detector_8h.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.h" alt="" coords="3758,363,3922,419"/>
+<area shape="rect" id="node30" href="$m__field__filter_8h.html" title="source/dnt/modules\l/perception/field_filter\l/m_field_filter.h" alt="" coords="369,363,516,419"/>
+<area shape="rect" id="node33" href="$m__goal__detector_8h.html" title="source/dnt/modules\l/perception/goal_detector\l/m_goal_detector.h" alt="" coords="127,363,295,419"/>
+<area shape="rect" id="node35" href="$m__line__detector_8h.html" title="source/dnt/modules\l/perception/line_detector\l/m_line_detector.h" alt="" coords="591,363,755,419"/>
+<area shape="rect" id="node36" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="1307,363,1480,419"/>
+<area shape="rect" id="node37" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="2842,363,3027,419"/>
+<area shape="rect" id="node38" href="$m__playback__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_playback\l_proxy.h" alt="" coords="780,363,959,419"/>
+<area shape="rect" id="node39" href="$m__ear__indicators_8h.html" title="source/dnt/modules\l/sensing/m_ear_indicators.h" alt="" coords="2315,370,2501,411"/>
+<area shape="rect" id="node40" href="$m__stance__detector_8h.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="3997,370,4195,411"/>
+<area shape="rect" id="node6" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="2378,571,2518,597"/>
+<area shape="rect" id="node7" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="4399,571,4571,597"/>
+<area shape="rect" id="node43" href="$m__framerate_8cpp.html" title="source/interface/modules\l/m_framerate.cpp" alt="" coords="4575,474,4743,515"/>
+<area shape="rect" id="node46" href="$public__interface_8h.html" title="source/dnt/tools/configuration\l/public_interface.h" alt="" coords="4099,184,4293,225"/>
 </map>

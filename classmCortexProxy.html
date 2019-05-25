@@ -87,19 +87,23 @@ Collaboration diagram for mCortexProxy:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmCortexProxy__coll__graph.png" border="0" usemap="#mCortexProxy_coll__map" alt="Collaboration graph"/></div>
 <map name="mCortexProxy_coll__map" id="mCortexProxy_coll__map">
-<area shape="rect" id="node2" href="classmMemoryProxy.html" title="mMemoryProxy: Base class to reads from shared memory and put data into Representations. " alt="" coords="584,13,699,40"/>
-<area shape="rect" id="node3" href="classModule.html" title="Module abstract class. " alt="" coords="308,5,372,32"/>
-<area shape="rect" id="node4" href="classSharedMemory.html" title="SharedMemory" alt="" coords="285,56,395,83"/>
-<area shape="rect" id="node5" href="structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="5,56,117,83"/>
-<area shape="rect" id="node6" href="classInputMessage.html" title="InputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="539,64,744,91"/>
-<area shape="rect" id="node7" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="273,165,407,192"/>
-<area shape="rect" id="node9" href="classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="519,115,764,141"/>
-<area shape="rect" id="node13" href="classInputMessage.html" title="InputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="524,165,759,192"/>
-<area shape="rect" id="node14" href="classInputMessage.html" title="InputMessage\&lt; rRightEyeLeds \&gt;" alt="" coords="534,216,749,243"/>
-<area shape="rect" id="node8" href="classMessage.html" title="Message abstract class. " alt="" coords="24,224,99,251"/>
-<area shape="rect" id="node11" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="268,267,412,293"/>
-<area shape="rect" id="node10" href="classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="539,267,744,293"/>
-<area shape="rect" id="node12" href="classOutputMessage.html" title="OutputMessage\&lt; rFrameInfo \&gt;" alt="" coords="541,317,742,344"/>
+<area shape="rect" id="node2" href="classmMemoryProxy.html" title="mMemoryProxy: Base class to reads from shared memory and put data into Representations. " alt="" coords="1013,21,1128,48"/>
+<area shape="rect" id="node3" href="classModule.html" title="Module abstract class. " alt="" coords="737,5,801,32"/>
+<area shape="rect" id="node4" href="classSharedMemory.html" title="SharedMemory" alt="" coords="714,56,825,83"/>
+<area shape="rect" id="node5" href="structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="345,28,528,55"/>
+<area shape="rect" id="node6" href="structTeamInfo.html" title="TeamInfo" alt="" coords="179,28,256,55"/>
+<area shape="rect" id="node7" href="structRobotInfo.html" title="RobotInfo" alt="" coords="5,28,84,55"/>
+<area shape="rect" id="node8" href="structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="381,79,493,105"/>
+<area shape="rect" id="node9" href="classInputMessage.html" title="InputMessage\&lt; rGameControl\lLeds \&gt;" alt="" coords="972,73,1169,114"/>
+<area shape="rect" id="node10" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="702,215,837,241"/>
+<area shape="rect" id="node12" href="classInputMessage.html" title="InputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="968,139,1173,165"/>
+<area shape="rect" id="node13" href="classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="948,189,1193,216"/>
+<area shape="rect" id="node17" href="classInputMessage.html" title="InputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="953,240,1188,267"/>
+<area shape="rect" id="node18" href="classInputMessage.html" title="InputMessage\&lt; rRightEyeLeds \&gt;" alt="" coords="963,291,1178,317"/>
+<area shape="rect" id="node11" href="classMessage.html" title="Message abstract class. " alt="" coords="399,265,474,292"/>
+<area shape="rect" id="node15" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="697,341,841,368"/>
+<area shape="rect" id="node14" href="classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="968,341,1173,368"/>
+<area shape="rect" id="node16" href="classOutputMessage.html" title="OutputMessage\&lt; rFrameInfo \&gt;" alt="" coords="970,392,1171,419"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -108,9 +112,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a378cbce5524e75480d5dbc1efa0724ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#a378cbce5524e75480d5dbc1efa0724ab">mCortexProxy</a> ()</td></tr>
 <tr class="memdesc:a378cbce5524e75480d5dbc1efa0724ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor.  <a href="#a378cbce5524e75480d5dbc1efa0724ab">More...</a><br /></td></tr>
 <tr class="separator:a378cbce5524e75480d5dbc1efa0724ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4992038677a0999217d5ae12eb988d07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#a4992038677a0999217d5ae12eb988d07">updateGameData</a> ()</td></tr>
-<tr class="memdesc:a4992038677a0999217d5ae12eb988d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read game data from the gamecontroller from shared memory into <a class="el" href="classrGameData.html" title="This file is a representation for gamecontrol data. ">rGameData</a>.  <a href="#a4992038677a0999217d5ae12eb988d07">More...</a><br /></td></tr>
-<tr class="separator:a4992038677a0999217d5ae12eb988d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93f5d44f2cab874e6c2fb13353ce467c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#a93f5d44f2cab874e6c2fb13353ce467c">updateFrameInfo</a> ()</td></tr>
 <tr class="memdesc:a93f5d44f2cab874e6c2fb13353ce467c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the current frame information.  <a href="#a93f5d44f2cab874e6c2fb13353ce467c">More...</a><br /></td></tr>
 <tr class="separator:a93f5d44f2cab874e6c2fb13353ce467c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -136,6 +137,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a92ecf39764b4f0983c3a4038fb02dcb0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing the frame info.  <a href="#a92ecf39764b4f0983c3a4038fb02dcb0">More...</a><br /></td></tr>
 <tr class="separator:a92ecf39764b4f0983c3a4038fb02dcb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c628e82017244970b1802788c29d9f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrHeadLEDActuators.html">rHeadLEDActuators</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#a5c628e82017244970b1802788c29d9f1">head_led_actuators_message_</a></td></tr>
+<tr class="memdesc:a5c628e82017244970b1802788c29d9f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input messages for the cortex proxy.  <a href="#a5c628e82017244970b1802788c29d9f1">More...</a><br /></td></tr>
 <tr class="separator:a5c628e82017244970b1802788c29d9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a311e5755add0eece2ad6deac3178815b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrLeftEyeLeds.html">rLeftEyeLeds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#a311e5755add0eece2ad6deac3178815b">left_eye_leds_message_</a></td></tr>
 <tr class="separator:a311e5755add0eece2ad6deac3178815b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -143,6 +145,8 @@ Private Attributes</h2></td></tr>
 <tr class="separator:a4daee7edb5b2d65d868615ef5ca79181"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39d4f69a10a01669d359023e3dc5206c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrEarLEDActuators.html">rEarLEDActuators</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#a39d4f69a10a01669d359023e3dc5206c">ear_led_actuators_message_</a></td></tr>
 <tr class="separator:a39d4f69a10a01669d359023e3dc5206c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa54f0878fccb6a5a48d67ed9737fc64a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrGameControlLeds.html">rGameControlLeds</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmCortexProxy.html#aa54f0878fccb6a5a48d67ed9737fc64a">game_control_leds_</a></td></tr>
+<tr class="separator:aa54f0878fccb6a5a48d67ed9737fc64a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -288,25 +292,6 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
-<a id="a4992038677a0999217d5ae12eb988d07"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4992038677a0999217d5ae12eb988d07">&#9670;&nbsp;</a></span>updateGameData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void mCortexProxy::updateGameData </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Read game data from the gamecontroller from shared memory into <a class="el" href="classrGameData.html" title="This file is a representation for gamecontrol data. ">rGameData</a>. </p>
-
-</div>
-</div>
 <h2 class="groupheader">Member Data Documentation</h2>
 <a id="a39d4f69a10a01669d359023e3dc5206c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a39d4f69a10a01669d359023e3dc5206c">&#9670;&nbsp;</a></span>ear_led_actuators_message_</h2>
@@ -354,6 +339,28 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="aa54f0878fccb6a5a48d67ed9737fc64a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa54f0878fccb6a5a48d67ed9737fc64a">&#9670;&nbsp;</a></span>game_control_leds_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrGameControlLeds.html">rGameControlLeds</a>&gt; mCortexProxy::game_control_leds_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab9060157d05b673b7968438cdf14d09c"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab9060157d05b673b7968438cdf14d09c">&#9670;&nbsp;</a></span>game_data_message_</h2>
 
@@ -395,6 +402,8 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Input messages for the cortex proxy. </p>
 
 </div>
 </div>

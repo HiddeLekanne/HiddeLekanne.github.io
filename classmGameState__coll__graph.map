@@ -1,0 +1,14 @@
+<map id="mGameState" name="mGameState">
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="751,5,815,32"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rButtonSensor \&gt;" alt="" coords="677,56,888,83"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="369,56,504,83"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="180,87,255,113"/>
+<area shape="rect" id="node7" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="365,107,509,133"/>
+<area shape="rect" id="node6" href="$classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="680,107,885,133"/>
+<area shape="rect" id="node13" href="$classOutputMessage.html" title="OutputMessage\&lt; rGameControl\lLeds \&gt;" alt="" coords="679,158,886,199"/>
+<area shape="rect" id="node8" href="$classGameCtrl.html" title="GameCtrl" alt="" coords="743,224,822,251"/>
+<area shape="rect" id="node9" href="$classUdpComm.html" title="UdpComm" alt="" coords="394,177,479,204"/>
+<area shape="rect" id="node10" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="345,228,528,255"/>
+<area shape="rect" id="node11" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="179,228,256,255"/>
+<area shape="rect" id="node12" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="5,228,84,255"/>
+</map>

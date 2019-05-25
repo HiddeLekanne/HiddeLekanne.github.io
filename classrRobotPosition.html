@@ -148,8 +148,14 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:ae4ad2081b7b47b0689d35bb3800dcac4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current particles.  <a href="#ae4ad2081b7b47b0689d35bb3800dcac4">More...</a><br /></td></tr>
 <tr class="separator:ae4ad2081b7b47b0689d35bb3800dcac4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8981a2b7a6b30066b707670fd210bc11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="math_2Eigen_8h.html#a28a50d6df2d99beaa9f68f926cb8f4ca">Eigen::Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrRobotPosition.html#a8981a2b7a6b30066b707670fd210bc11">robot_pose_</a></td></tr>
-<tr class="memdesc:a8981a2b7a6b30066b707670fd210bc11"><td class="mdescLeft">&#160;</td><td class="mdescRight">Robot position with highest weight (most probability) in mm.  <a href="#a8981a2b7a6b30066b707670fd210bc11">More...</a><br /></td></tr>
+<tr class="memdesc:a8981a2b7a6b30066b707670fd210bc11"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classRobot.html">Robot</a> position with highest weight (most probability) in mm.  <a href="#a8981a2b7a6b30066b707670fd210bc11">More...</a><br /></td></tr>
 <tr class="separator:a8981a2b7a6b30066b707670fd210bc11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f329d5793fe09e012d43f2a7602a1b7"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrRobotPosition.html#a6f329d5793fe09e012d43f2a7602a1b7">line_model_</a></td></tr>
+<tr class="memdesc:a6f329d5793fe09e012d43f2a7602a1b7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLine.html" title="rLines: representation that holds the information of the detected lines. ">Line</a> model from the robot pose position.  <a href="#a6f329d5793fe09e012d43f2a7602a1b7">More...</a><br /></td></tr>
+<tr class="separator:a6f329d5793fe09e012d43f2a7602a1b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0de4dffb001a855d13e15ff45bc6a518"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrRobotPosition.html#a0de4dffb001a855d13e15ff45bc6a518">is_upper_</a></td></tr>
+<tr class="memdesc:a0de4dffb001a855d13e15ff45bc6a518"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean indicating if camera used is upper (true) or lower (false).  <a href="#a0de4dffb001a855d13e15ff45bc6a518">More...</a><br /></td></tr>
+<tr class="separator:a0de4dffb001a855d13e15ff45bc6a518"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classrRobotPosition.html" title="rRobotPosition: The position of the robot in mm on the field in field coordinates. ">rRobotPosition</a>: The position of the robot in mm on the field in field coordinates. </p>
@@ -271,6 +277,38 @@ template&lt;class Container &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a0de4dffb001a855d13e15ff45bc6a518"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0de4dffb001a855d13e15ff45bc6a518">&#9670;&nbsp;</a></span>is_upper_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rRobotPosition::is_upper_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Boolean indicating if camera used is upper (true) or lower (false). </p>
+
+</div>
+</div>
+<a id="a6f329d5793fe09e012d43f2a7602a1b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f329d5793fe09e012d43f2a7602a1b7">&#9670;&nbsp;</a></span>line_model_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;<a class="el" href="classLine.html">Line</a>&gt; rRobotPosition::line_model_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classLine.html" title="rLines: representation that holds the information of the detected lines. ">Line</a> model from the robot pose position. </p>
+
+</div>
+</div>
 <a id="ae4ad2081b7b47b0689d35bb3800dcac4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4ad2081b7b47b0689d35bb3800dcac4">&#9670;&nbsp;</a></span>particles_</h2>
 
@@ -299,7 +337,7 @@ template&lt;class Container &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Robot position with highest weight (most probability) in mm. </p>
+<p><a class="el" href="classRobot.html">Robot</a> position with highest weight (most probability) in mm. </p>
 
 </div>
 </div>

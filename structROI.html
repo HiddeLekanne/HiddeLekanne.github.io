@@ -86,9 +86,20 @@ Collaboration diagram for ROI:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a6ffc2ef5a1a5761abb05a71a2706cde9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structROI.html#a6ffc2ef5a1a5761abb05a71a2706cde9">ROI</a> ()=default</td></tr>
+<tr class="memdesc:a6ffc2ef5a1a5761abb05a71a2706cde9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor does nothing.  <a href="#a6ffc2ef5a1a5761abb05a71a2706cde9">More...</a><br /></td></tr>
+<tr class="separator:a6ffc2ef5a1a5761abb05a71a2706cde9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af553cebd289a5e283e380ebc0b5f6551"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structROI.html#af553cebd289a5e283e380ebc0b5f6551">ROI</a> (int x, int y, int width, bool valid=false)</td></tr>
 <tr class="memdesc:af553cebd289a5e283e380ebc0b5f6551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Create an opencv Rect from the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> and add if its valid or not.  <a href="#af553cebd289a5e283e380ebc0b5f6551">More...</a><br /></td></tr>
 <tr class="separator:af553cebd289a5e283e380ebc0b5f6551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95d0516f163ffd1383245df3f596193a"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a95d0516f163ffd1383245df3f596193a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structROI.html#a95d0516f163ffd1383245df3f596193a">save</a> (Archive &amp;archive) const</td></tr>
+<tr class="memdesc:a95d0516f163ffd1383245df3f596193a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save function to allow for serialization.  <a href="#a95d0516f163ffd1383245df3f596193a">More...</a><br /></td></tr>
+<tr class="separator:a95d0516f163ffd1383245df3f596193a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50da8103072b511ead608e441ce0fd6b"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a50da8103072b511ead608e441ce0fd6b"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structROI.html#a50da8103072b511ead608e441ce0fd6b">load</a> (Archive &amp;archive)</td></tr>
+<tr class="memdesc:a50da8103072b511ead608e441ce0fd6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load function to allow for serialization.  <a href="#a50da8103072b511ead608e441ce0fd6b">More...</a><br /></td></tr>
+<tr class="separator:a50da8103072b511ead608e441ce0fd6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -102,8 +113,35 @@ Public Attributes</h2></td></tr>
 <dd>
 Douwe </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6ffc2ef5a1a5761abb05a71a2706cde9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ffc2ef5a1a5761abb05a71a2706cde9">&#9670;&nbsp;</a></span>ROI() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ROI::ROI </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructor does nothing. </p>
+
+</div>
+</div>
 <a id="af553cebd289a5e283e380ebc0b5f6551"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af553cebd289a5e283e380ebc0b5f6551">&#9670;&nbsp;</a></span>ROI()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#af553cebd289a5e283e380ebc0b5f6551">&#9670;&nbsp;</a></span>ROI() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -158,6 +196,67 @@ Douwe </dd></dl>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a50da8103072b511ead608e441ce0fd6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50da8103072b511ead608e441ce0fd6b">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ROI::load </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Load function to allow for serialization. </p>
+
+</div>
+</div>
+<a id="a95d0516f163ffd1383245df3f596193a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95d0516f163ffd1383245df3f596193a">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ROI::save </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save function to allow for serialization. </p>
 
 </div>
 </div>

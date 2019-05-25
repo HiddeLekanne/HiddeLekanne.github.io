@@ -1,31 +1,32 @@
 <map id="source/dnt/modules/motion/walking_engine/m_walk2014generator_base.h" name="source/dnt/modules/motion/walking_engine/m_walk2014generator_base.h">
-<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="2130,206,2270,233"/>
-<area shape="rect" id="node19" href="$r__foot__support_8h.html" title="representations/sensing\l/r_foot_support.h" alt="" coords="1608,109,1768,151"/>
-<area shape="rect" id="node20" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="1249,288,1404,329"/>
-<area shape="rect" id="node22" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="299,556,429,583"/>
-<area shape="rect" id="node23" href="$constants_8h.html" title="constants.h" alt="" coords="319,631,409,657"/>
-<area shape="rect" id="node25" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1539,377,1693,419"/>
-<area shape="rect" id="node27" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="1173,109,1328,151"/>
-<area shape="rect" id="node29" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="1088,199,1243,240"/>
-<area shape="rect" id="node30" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="840,385,992,411"/>
-<area shape="rect" id="node36" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="755,295,893,322"/>
-<area shape="rect" id="node42" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="1360,377,1515,419"/>
-<area shape="rect" id="node43" href="$r__imu__sensor_8h.html" title="representations/sensor\l/r_imu_sensor.h" alt="" coords="1792,109,1947,151"/>
-<area shape="rect" id="node44" href="$inverse__kinematics_8h.html" title="tools/math/inverse\l_kinematics.h" alt="" coords="969,109,1098,151"/>
-<area shape="rect" id="node47" href="$Rotation_8h.html" title="tools/math/Rotation.h" alt="" coords="309,295,456,322"/>
-<area shape="rect" id="node48" href="$timer_8h.html" title="tools/timer.h" alt="" coords="2630,295,2725,322"/>
-<area shape="rect" id="node7" href="$message_8h.html" title="framework/message.h" alt="" coords="2123,474,2274,501"/>
-<area shape="rect" id="node11" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="2397,385,2584,411"/>
-<area shape="rect" id="node17" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="2253,295,2448,322"/>
-<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="1749,556,1864,583"/>
-<area shape="rect" id="node18" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="2171,377,2322,419"/>
-<area shape="rect" id="node21" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1350,467,1541,508"/>
-<area shape="rect" id="node28" href="$r__motion_8h.html" title="representations/motion\l/r_motion.h" alt="" coords="1479,199,1633,240"/>
-<area shape="rect" id="node37" href="$math_2Eigen_8h.html" title="Eigen.h" alt="" coords="495,385,561,411"/>
-<area shape="rect" id="node39" href="$Approx_8h.html" title="tools/math/Approx.h" alt="" coords="295,385,433,411"/>
-<area shape="rect" id="node40" href="$BHMath_8h.html" title="BHMath.h" alt="" coords="323,474,405,501"/>
-<area shape="rect" id="node45" href="$Pose3f_8h.html" title="Pose3f.h" alt="" coords="588,206,663,233"/>
-<area shape="rect" id="node46" href="$RotationMatrix_8h.html" title="RotationMatrix.h" alt="" coords="566,295,685,322"/>
-<area shape="rect" id="node49" href="$timer_2timer_8h.html" title="timer/timer.h" alt="" coords="2770,385,2865,411"/>
-<area shape="rect" id="node50" href="$scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="2609,385,2746,411"/>
+<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="1943,295,2083,322"/>
+<area shape="rect" id="node22" href="$r__foot__support_8h.html" title="representations/sensing\l/r_foot_support.h" alt="" coords="1523,109,1683,151"/>
+<area shape="rect" id="node23" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="1085,288,1240,329"/>
+<area shape="rect" id="node25" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="678,563,807,590"/>
+<area shape="rect" id="node26" href="$constants_8h.html" title="constants.h" alt="" coords="211,645,301,672"/>
+<area shape="rect" id="node28" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1269,377,1424,419"/>
+<area shape="rect" id="node30" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="788,109,943,151"/>
+<area shape="rect" id="node32" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="592,199,747,240"/>
+<area shape="rect" id="node33" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="487,385,639,411"/>
+<area shape="rect" id="node38" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="493,295,632,322"/>
+<area shape="rect" id="node42" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="1448,377,1603,419"/>
+<area shape="rect" id="node43" href="$r__imu__sensor_8h.html" title="representations/sensor\l/r_imu_sensor.h" alt="" coords="1200,199,1355,240"/>
+<area shape="rect" id="node44" href="$inverse__kinematics_8h.html" title="tools/math/inverse\l_kinematics.h" alt="" coords="967,109,1097,151"/>
+<area shape="rect" id="node47" href="$Rotation_8h.html" title="tools/math/Rotation.h" alt="" coords="269,295,416,322"/>
+<area shape="rect" id="node48" href="$timer_8h.html" title="tools/timer.h" alt="" coords="2261,385,2355,411"/>
+<area shape="rect" id="node7" href="$message_8h.html" title="framework/message.h" alt="" coords="1743,563,1894,590"/>
+<area shape="rect" id="node11" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="2049,474,2236,501"/>
+<area shape="rect" id="node17" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1781,385,1976,411"/>
+<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="1492,645,1607,672"/>
+<area shape="rect" id="node18" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1235,556,1386,597"/>
+<area shape="rect" id="node19" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="669,645,832,672"/>
+<area shape="rect" id="node20" href="$container_8h.html" title="framework/container.h" alt="" coords="673,720,823,747"/>
+<area shape="rect" id="node24" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1219,467,1410,508"/>
+<area shape="rect" id="node31" href="$r__motion_8h.html" title="representations/motion\l/r_motion.h" alt="" coords="869,199,1024,240"/>
+<area shape="rect" id="node39" href="$math_2Eigen_8h.html" title="Eigen.h" alt="" coords="816,385,883,411"/>
+<area shape="rect" id="node41" href="$Approx_8h.html" title="tools/math/Approx.h" alt="" coords="273,385,412,411"/>
+<area shape="rect" id="node45" href="$Pose3f_8h.html" title="Pose3f.h" alt="" coords="771,206,845,233"/>
+<area shape="rect" id="node46" href="$RotationMatrix_8h.html" title="RotationMatrix.h" alt="" coords="790,295,909,322"/>
+<area shape="rect" id="node49" href="$timer_2timer_8h.html" title="timer/timer.h" alt="" coords="2261,474,2355,501"/>
+<area shape="rect" id="node50" href="$scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="2379,474,2517,501"/>
 </map>

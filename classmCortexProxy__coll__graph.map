@@ -1,15 +1,19 @@
 <map id="mCortexProxy" name="mCortexProxy">
-<area shape="rect" id="node2" href="$classmMemoryProxy.html" title="mMemoryProxy: Base class to reads from shared memory and put data into Representations. " alt="" coords="584,13,699,40"/>
-<area shape="rect" id="node3" href="$classModule.html" title="Module abstract class. " alt="" coords="308,5,372,32"/>
-<area shape="rect" id="node4" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="285,56,395,83"/>
-<area shape="rect" id="node5" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="5,56,117,83"/>
-<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="539,64,744,91"/>
-<area shape="rect" id="node7" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="273,165,407,192"/>
-<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="519,115,764,141"/>
-<area shape="rect" id="node13" href="$classInputMessage.html" title="InputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="524,165,759,192"/>
-<area shape="rect" id="node14" href="$classInputMessage.html" title="InputMessage\&lt; rRightEyeLeds \&gt;" alt="" coords="534,216,749,243"/>
-<area shape="rect" id="node8" href="$classMessage.html" title="Message abstract class. " alt="" coords="24,224,99,251"/>
-<area shape="rect" id="node11" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="268,267,412,293"/>
-<area shape="rect" id="node10" href="$classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="539,267,744,293"/>
-<area shape="rect" id="node12" href="$classOutputMessage.html" title="OutputMessage\&lt; rFrameInfo \&gt;" alt="" coords="541,317,742,344"/>
+<area shape="rect" id="node2" href="$classmMemoryProxy.html" title="mMemoryProxy: Base class to reads from shared memory and put data into Representations. " alt="" coords="1013,21,1128,48"/>
+<area shape="rect" id="node3" href="$classModule.html" title="Module abstract class. " alt="" coords="737,5,801,32"/>
+<area shape="rect" id="node4" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="714,56,825,83"/>
+<area shape="rect" id="node5" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="345,28,528,55"/>
+<area shape="rect" id="node6" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="179,28,256,55"/>
+<area shape="rect" id="node7" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="5,28,84,55"/>
+<area shape="rect" id="node8" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="381,79,493,105"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rGameControl\lLeds \&gt;" alt="" coords="972,73,1169,114"/>
+<area shape="rect" id="node10" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="702,215,837,241"/>
+<area shape="rect" id="node12" href="$classInputMessage.html" title="InputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="968,139,1173,165"/>
+<area shape="rect" id="node13" href="$classInputMessage.html" title="InputMessage\&lt; rHeadLEDActuators \&gt;" alt="" coords="948,189,1193,216"/>
+<area shape="rect" id="node17" href="$classInputMessage.html" title="InputMessage\&lt; rEarLEDActuators \&gt;" alt="" coords="953,240,1188,267"/>
+<area shape="rect" id="node18" href="$classInputMessage.html" title="InputMessage\&lt; rRightEyeLeds \&gt;" alt="" coords="963,291,1178,317"/>
+<area shape="rect" id="node11" href="$classMessage.html" title="Message abstract class. " alt="" coords="399,265,474,292"/>
+<area shape="rect" id="node15" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="697,341,841,368"/>
+<area shape="rect" id="node14" href="$classOutputMessage.html" title="OutputMessage\&lt; rGameData \&gt;" alt="" coords="968,341,1173,368"/>
+<area shape="rect" id="node16" href="$classOutputMessage.html" title="OutputMessage\&lt; rFrameInfo \&gt;" alt="" coords="970,392,1171,419"/>
 </map>

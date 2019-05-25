@@ -1,0 +1,11 @@
+<map id="source/dnt/modules/infrastructure/game_state/game_ctrl.cpp" name="source/dnt/modules/infrastructure/game_state/game_ctrl.cpp">
+<area shape="rect" id="node8" href="$UdpComm_8h.html" title="Declares a wrapper for a UDP socket. " alt="" coords="865,191,961,218"/>
+<area shape="rect" id="node9" href="$game__ctrl_8h.html" title="game_ctrl.h" alt="" coords="304,109,395,136"/>
+<area shape="rect" id="node13" href="$RoboCupGameControlData_8h.html" title="RoboCupGameControlData.h" alt="" coords="986,191,1179,218"/>
+<area shape="rect" id="node22" href="$log_8h.html" title="tools/log.h" alt="" coords="641,109,724,136"/>
+<area shape="rect" id="node10" href="$r__game__control__leds_8h.html" title="representations/actuators\l/r_game_control_leds.h" alt="" coords="574,184,743,225"/>
+<area shape="rect" id="node11" href="$representation_8h.html" title="framework/representation.h" alt="" coords="571,273,751,300"/>
+<area shape="rect" id="node15" href="$container_8h.html" title="framework/container.h" alt="" coords="1431,273,1582,300"/>
+<area shape="rect" id="node23" href="$log_2log_8h.html" title="log/log.h" alt="" coords="770,191,841,218"/>
+<area shape="rect" id="node27" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="775,273,873,300"/>
+</map>

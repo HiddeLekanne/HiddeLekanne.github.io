@@ -1,0 +1,7 @@
+<map id="source/dnt/modules/infrastructure/game_state/game_ctrl.h" name="source/dnt/modules/infrastructure/game_state/game_ctrl.h">
+<area shape="rect" id="node8" href="$r__game__control__leds_8h.html" title="representations/actuators\l/r_game_control_leds.h" alt="" coords="553,109,722,151"/>
+<area shape="rect" id="node11" href="$RoboCupGameControlData_8h.html" title="RoboCupGameControlData.h" alt="" coords="746,117,939,143"/>
+<area shape="rect" id="node20" href="$UdpComm_8h.html" title="Declares a wrapper for a UDP socket. " alt="" coords="964,117,1060,143"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="framework/representation.h" alt="" coords="505,199,685,225"/>
+<area shape="rect" id="node13" href="$container_8h.html" title="framework/container.h" alt="" coords="985,199,1135,225"/>
+</map>

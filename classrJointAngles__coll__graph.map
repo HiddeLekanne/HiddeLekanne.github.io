@@ -1,3 +1,5 @@
 <map id="rJointAngles" name="rJointAngles">
-<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="34,80,210,107"/>
+<area shape="rect" id="node3" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node4" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="141,5,229,32"/>
 </map>

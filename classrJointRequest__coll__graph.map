@@ -1,5 +1,7 @@
 <map id="rJointRequest" name="rJointRequest">
-<area shape="rect" id="node2" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="59,5,169,32"/>
-<area shape="rect" id="node4" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="125,81,231,108"/>
+<area shape="rect" id="node2" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="151,183,246,209"/>
+<area shape="rect" id="node3" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="107,81,283,108"/>
+<area shape="rect" id="node4" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="15,5,126,32"/>
+<area shape="rect" id="node6" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="5,132,112,159"/>
+<area shape="rect" id="node5" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="151,5,239,32"/>
 </map>

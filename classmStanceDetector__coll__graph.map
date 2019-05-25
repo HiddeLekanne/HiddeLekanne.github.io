@@ -1,0 +1,12 @@
+<map id="mStanceDetector" name="mStanceDetector">
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="392,5,456,32"/>
+<area shape="rect" id="node3" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="397,59,451,85"/>
+<area shape="rect" id="node4" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="157,59,245,85"/>
+<area shape="rect" id="node5" href="$classOutputMessage.html" title="OutputMessage\&lt; rStance \&gt;" alt="" coords="333,109,515,136"/>
+<area shape="rect" id="node6" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,121,273,148"/>
+<area shape="rect" id="node7" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,173,80,200"/>
+<area shape="rect" id="node9" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,197,269,224"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="325,160,523,187"/>
+<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="323,211,525,237"/>
+<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rFootSupport \&gt;" alt="" coords="323,261,525,288"/>
+</map>

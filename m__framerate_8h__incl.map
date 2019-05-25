@@ -1,0 +1,10 @@
+<map id="source/interface/modules/m_framerate.h" name="source/interface/modules/m_framerate.h">
+<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="174,95,314,121"/>
+<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="46,333,197,360"/>
+<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="335,251,521,278"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="332,169,527,196"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="231,408,345,435"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="782,244,933,285"/>
+<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="895,333,1057,360"/>
+<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="901,408,1051,435"/>
+</map>

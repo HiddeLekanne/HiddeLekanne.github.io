@@ -1,0 +1,7 @@
+<map id="LolaVisitor" name="LolaVisitor">
+<area shape="rect" id="node3" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="175,273,285,300"/>
+<area shape="rect" id="node4" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="48,184,231,211"/>
+<area shape="rect" id="node5" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="101,95,178,121"/>
+<area shape="rect" id="node6" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="100,5,179,32"/>
+<area shape="rect" id="node7" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="255,184,367,211"/>
+</map>

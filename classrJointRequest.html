@@ -75,9 +75,11 @@ Inheritance diagram for rJointRequest:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrJointRequest__inherit__graph.png" border="0" usemap="#rJointRequest_inherit__map" alt="Inheritance graph"/></div>
 <map name="rJointRequest_inherit__map" id="rJointRequest_inherit__map">
-<area shape="rect" id="node4" href="classrInterpolationOutput.html" title="rInterpolationOutput" alt="" coords="5,229,141,256"/>
-<area shape="rect" id="node2" href="classrJointAngles.html" title="rJointAngles" alt="" coords="26,80,121,107"/>
-<area shape="rect" id="node3" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="18,5,129,32"/>
+<area shape="rect" id="node6" href="classrInterpolationOutput.html" title="rInterpolationOutput" alt="" coords="54,304,190,331"/>
+<area shape="rect" id="node2" href="classrJointAngles.html" title="rJointAngles" alt="" coords="75,155,169,181"/>
+<area shape="rect" id="node3" href="classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="34,80,210,107"/>
+<area shape="rect" id="node4" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node5" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="141,5,229,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -85,9 +87,11 @@ Collaboration diagram for rJointRequest:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrJointRequest__coll__graph.png" border="0" usemap="#rJointRequest_coll__map" alt="Collaboration graph"/></div>
 <map name="rJointRequest_coll__map" id="rJointRequest_coll__map">
-<area shape="rect" id="node2" href="classrJointAngles.html" title="rJointAngles" alt="" coords="5,81,100,108"/>
-<area shape="rect" id="node3" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="59,5,169,32"/>
-<area shape="rect" id="node4" href="classrStiffnessData.html" title="rStiffnessData" alt="" coords="125,81,231,108"/>
+<area shape="rect" id="node2" href="classrJointAngles.html" title="rJointAngles" alt="" coords="151,183,246,209"/>
+<area shape="rect" id="node3" href="classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="107,81,283,108"/>
+<area shape="rect" id="node4" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="15,5,126,32"/>
+<area shape="rect" id="node6" href="classrStiffnessData.html" title="rStiffnessData" alt="" coords="5,132,112,159"/>
+<area shape="rect" id="node5" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="151,5,239,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -103,6 +107,23 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2babcb179afa0260ca806e891f948dc6 inherit pub_methods_classrJointAngles"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrJointAngles.html#a2babcb179afa0260ca806e891f948dc6">rJointAngles</a> ()</td></tr>
 <tr class="memdesc:a2babcb179afa0260ca806e891f948dc6 inherit pub_methods_classrJointAngles"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor sets every joint value to zero.  <a href="classrJointAngles.html#a2babcb179afa0260ca806e891f948dc6">More...</a><br /></td></tr>
 <tr class="separator:a2babcb179afa0260ca806e891f948dc6 inherit pub_methods_classrJointAngles"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a9997232d34de570af28dcc8d21603 inherit pub_methods_classrJointAngles"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:af1a9997232d34de570af28dcc8d21603 inherit pub_methods_classrJointAngles"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrJointAngles.html#af1a9997232d34de570af28dcc8d21603">save</a> (Container &amp;container) const</td></tr>
+<tr class="memdesc:af1a9997232d34de570af28dcc8d21603 inherit pub_methods_classrJointAngles"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the joint angles representation into a representation that can be sent over the network.  <a href="classrJointAngles.html#af1a9997232d34de570af28dcc8d21603">More...</a><br /></td></tr>
+<tr class="separator:af1a9997232d34de570af28dcc8d21603 inherit pub_methods_classrJointAngles"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3764266c2418efa4f3a6a2aa83f279e3 inherit pub_methods_classrJointAngles"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a3764266c2418efa4f3a6a2aa83f279e3 inherit pub_methods_classrJointAngles"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrJointAngles.html#a3764266c2418efa4f3a6a2aa83f279e3">load</a> (Container &amp;container)</td></tr>
+<tr class="memdesc:a3764266c2418efa4f3a6a2aa83f279e3 inherit pub_methods_classrJointAngles"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the joint angles representation from a representation that has been sent.  <a href="classrJointAngles.html#a3764266c2418efa4f3a6a2aa83f279e3">More...</a><br /></td></tr>
+<tr class="separator:a3764266c2418efa4f3a6a2aa83f279e3 inherit pub_methods_classrJointAngles"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classStreamableRepresentation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStreamableRepresentation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStreamableRepresentation.html">StreamableRepresentation</a></td></tr>
+<tr class="memitem:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamableRepresentation.html#af7ad1cdf44b23bf3a04a4c154f2b618c">save</a> (Container &amp;container) const</td></tr>
+<tr class="memdesc:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass the base class of this class for cereal to be able to handle the polymorphism.  <a href="classStreamableRepresentation.html#af7ad1cdf44b23bf3a04a4c154f2b618c">More...</a><br /></td></tr>
+<tr class="separator:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamableRepresentation.html#a0c30111b963dd9a837d447f63feb3439">load</a> (Container &amp;container)</td></tr>
+<tr class="memdesc:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass the base class of this class for cereal to be able to handle the polymorphism.  <a href="classStreamableRepresentation.html#a0c30111b963dd9a837d447f63feb3439">More...</a><br /></td></tr>
+<tr class="separator:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classRepresentation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classRepresentation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classRepresentation.html">Representation</a></td></tr>
 <tr class="memitem:ae09dcdcfec5cd319c2e78b7c93d078bc inherit pub_methods_classRepresentation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRepresentation.html#ae09dcdcfec5cd319c2e78b7c93d078bc">Representation</a> ()=default</td></tr>
 <tr class="memdesc:ae09dcdcfec5cd319c2e78b7c93d078bc inherit pub_methods_classRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor is default.  <a href="classRepresentation.html#ae09dcdcfec5cd319c2e78b7c93d078bc">More...</a><br /></td></tr>
@@ -119,6 +140,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa318391a0ba08f90329792a20fc0dd3f inherit pub_methods_classRepresentation"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRepresentation.html#aa318391a0ba08f90329792a20fc0dd3f">~Representation</a> ()=default</td></tr>
 <tr class="memdesc:aa318391a0ba08f90329792a20fc0dd3f inherit pub_methods_classRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor is declared virtual, so it is expected to be defined explicitly To prevent warnings from not following the rule of five [1], the constructor, copy constructor, move assignment operator and copy assignment operator are explicitly defined default.  <a href="classRepresentation.html#aa318391a0ba08f90329792a20fc0dd3f">More...</a><br /></td></tr>
 <tr class="separator:aa318391a0ba08f90329792a20fc0dd3f inherit pub_methods_classRepresentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classStreamable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStreamable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStreamable.html">Streamable</a></td></tr>
+<tr class="memitem:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamable.html#a2101910851f9816872d106d1d02cc3e5">save</a> (Container &amp;) const</td></tr>
+<tr class="memdesc:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class needs to implement the save function for cereal.  <a href="classStreamable.html#a2101910851f9816872d106d1d02cc3e5">More...</a><br /></td></tr>
+<tr class="separator:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamable.html#a59c2a8d9f98380131510b3c88eeb737c">load</a> (Container &amp;)</td></tr>
+<tr class="memdesc:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class needs to implement the load function for cereal.  <a href="classStreamable.html#a59c2a8d9f98380131510b3c88eeb737c">More...</a><br /></td></tr>
+<tr class="separator:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>

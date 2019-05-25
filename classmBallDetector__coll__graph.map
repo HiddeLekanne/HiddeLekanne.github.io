@@ -2,11 +2,11 @@
 <area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="400,5,464,32"/>
 <area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="323,56,541,83"/>
 <area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,145,269,172"/>
-<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="331,107,533,133"/>
-<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="331,157,533,184"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="332,107,532,133"/>
+<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="331,157,533,184"/>
 <area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,201,80,228"/>
 <area shape="rect" id="node7" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,225,273,252"/>
 <area shape="rect" id="node6" href="$classOutputMessage.html" title="OutputMessage\&lt; rBall \&gt;" alt="" coords="350,208,514,235"/>
 <area shape="rect" id="node8" href="$classOutputMessage.html" title="OutputMessage\&lt; rRightEye\lLeds \&gt;" alt="" coords="340,259,524,301"/>
-<area shape="rect" id="node9" href="$classOutputMessage.html" title="OutputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="325,325,539,352"/>
+<area shape="rect" id="node10" href="$classOutputMessage.html" title="OutputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="325,325,539,352"/>
 </map>

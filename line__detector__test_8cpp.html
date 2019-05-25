@@ -65,20 +65,16 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#define-members">Macros</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">line_detector_test.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &lt;random&gt;</code><br />
-<code>#include &lt;string&gt;</code><br />
-<code>#include &lt;vector&gt;</code><br />
-<code>#include &quot;<a class="el" href="field__filter_8h_source.html">modules/perception/field_filter/field_filter.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="fast__line__detector_8h_source.html">fast_line_detector.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="dnt__opencv_8h_source.html">tools/dnt_opencv.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &lt;vector&gt;</code><br />
+<code>#include &quot;<a class="el" href="m__field__filter_8h_source.html">modules/perception/field_filter/m_field_filter.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="m__line__detector_8h_source.html">modules/perception/line_detector/m_line_detector.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="log_8h_source.html">tools/log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="math_2Eigen_8h_source.html">tools/math/Eigen.h</a>&quot;</code><br />
 <code>#include &quot;tools/system_tools.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="timer_8h_source.html">tools/timer.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -86,57 +82,74 @@ Include dependency graph for line_detector_test.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="line__detector__test_8cpp__incl.png" border="0" usemap="#source_2dnt_2modules_2perception_2line__detector_2line__detector__test_8cpp" alt=""/></div>
 <map name="source_2dnt_2modules_2perception_2line__detector_2line__detector__test_8cpp" id="source_2dnt_2modules_2perception_2line__detector_2line__detector__test_8cpp">
-<area shape="rect" id="node5" href="field__filter_8h.html" title="modules/perception\l/field_filter/field\l_filter.h" alt="" coords="690,109,825,165"/>
-<area shape="rect" id="node33" href="dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="1722,399,1854,426"/>
-<area shape="rect" id="node38" href="log_8h.html" title="tools/log.h" alt="" coords="1931,310,2014,337"/>
-<area shape="rect" id="node44" href="fast__line__detector_8h.html" title="fast_line_detector.h" alt="" coords="1722,124,1858,151"/>
-<area shape="rect" id="node45" href="math_2Eigen_8h.html" title="tools/math/Eigen.h" alt="" coords="1516,124,1647,151"/>
-<area shape="rect" id="node47" href="timer_8h.html" title="tools/timer.h" alt="" coords="2005,124,2100,151"/>
-<area shape="rect" id="node6" href="module_8h.html" title="framework/module.h" alt="" coords="936,221,1076,247"/>
-<area shape="rect" id="node23" href="camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="267,303,432,344"/>
-<area shape="rect" id="node24" href="dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="191,399,343,426"/>
-<area shape="rect" id="node29" href="r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="634,213,809,255"/>
-<area shape="rect" id="node30" href="r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="455,213,610,255"/>
-<area shape="rect" id="node8" href="message_8h.html" title="framework/message.h" alt="" coords="942,399,1093,426"/>
-<area shape="rect" id="node12" href="input__message_8h.html" title="framework/input_message.h" alt="" coords="1152,310,1339,337"/>
-<area shape="rect" id="node18" href="output__message_8h.html" title="framework/output_message.h" alt="" coords="883,310,1078,337"/>
-<area shape="rect" id="node11" href="representation_8h.html" title="representation.h" alt="" coords="876,481,991,508"/>
-<area shape="rect" id="node19" href="streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="657,392,808,433"/>
-<area shape="rect" id="node20" href="streamable_8h.html" title="framework/streamable.h" alt="" coords="412,481,575,508"/>
-<area shape="rect" id="node21" href="container_8h.html" title="framework/container.h" alt="" coords="344,556,494,583"/>
-<area shape="rect" id="node31" href="image_8h.html" title="modules/camera/image.h" alt="" coords="456,310,624,337"/>
-<area shape="rect" id="node39" href="log_2log_8h.html" title="log/log.h" alt="" coords="2318,399,2389,426"/>
-<area shape="rect" id="node42" href="log__stream_8h.html" title="log_stream.h" alt="" coords="2305,481,2402,508"/>
-<area shape="rect" id="node48" href="timer_2timer_8h.html" title="timer/timer.h" alt="" coords="2174,310,2269,337"/>
-<area shape="rect" id="node49" href="scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="1984,221,2121,247"/>
+<area shape="rect" id="node3" href="m__field__filter_8h.html" title="modules/perception\l/field_filter/m_field\l_filter.h" alt="" coords="956,109,1090,165"/>
+<area shape="rect" id="node32" href="log_8h.html" title="tools/log.h" alt="" coords="131,310,214,337"/>
+<area shape="rect" id="node37" href="m__line__detector_8h.html" title="modules/perception\l/line_detector/m_line\l_detector.h" alt="" coords="1332,109,1474,165"/>
+<area shape="rect" id="node48" href="timer_8h.html" title="tools/timer.h" alt="" coords="169,124,264,151"/>
+<area shape="rect" id="node5" href="module_8h.html" title="framework/module.h" alt="" coords="1333,221,1473,247"/>
+<area shape="rect" id="node17" href="camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="1096,303,1262,344"/>
+<area shape="rect" id="node18" href="dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="2214,399,2366,426"/>
+<area shape="rect" id="node24" href="r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="480,213,654,255"/>
+<area shape="rect" id="node25" href="r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="970,213,1124,255"/>
+<area shape="rect" id="node27" href="dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="2584,399,2716,426"/>
+<area shape="rect" id="node8" href="message_8h.html" title="framework/message.h" alt="" coords="1476,481,1626,508"/>
+<area shape="rect" id="node10" href="input__message_8h.html" title="framework/input_message.h" alt="" coords="1230,399,1416,426"/>
+<area shape="rect" id="node14" href="output__message_8h.html" title="framework/output_message.h" alt="" coords="1491,310,1686,337"/>
+<area shape="rect" id="node9" href="representation_8h.html" title="representation.h" alt="" coords="1494,556,1608,583"/>
+<area shape="rect" id="node15" href="streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1542,392,1693,433"/>
+<area shape="rect" id="node16" href="streamable_8h.html" title="framework/streamable.h" alt="" coords="942,481,1104,508"/>
+<area shape="rect" id="node26" href="image_8h.html" title="modules/camera/image.h" alt="" coords="803,310,971,337"/>
+<area shape="rect" id="node33" href="log_2log_8h.html" title="log/log.h" alt="" coords="142,399,213,426"/>
+<area shape="rect" id="node36" href="log__stream_8h.html" title="log_stream.h" alt="" coords="130,481,228,508"/>
+<area shape="rect" id="node38" href="fast__line__detector_8h.html" title="fast_line_detector.h" alt="" coords="2679,221,2815,247"/>
+<area shape="rect" id="node39" href="r__ball_8h.html" title="representations/perception\l/r_ball.h" alt="" coords="2378,303,2553,344"/>
+<area shape="rect" id="node41" href="r__lines_8h.html" title="representations/perception\l/r_lines.h" alt="" coords="1761,303,1936,344"/>
+<area shape="rect" id="node42" href="r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="2038,213,2192,255"/>
+<area shape="rect" id="node45" href="configuration_8h.html" title="tools/configuration.h" alt="" coords="730,221,868,247"/>
+<area shape="rect" id="node40" href="roi_8h.html" title="modules/perception\l/ball_detector/roi.h" alt="" coords="2398,392,2533,433"/>
+<area shape="rect" id="node43" href="r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1960,303,2150,344"/>
+<area shape="rect" id="node46" href="public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="593,303,728,344"/>
+<area shape="rect" id="node47" href="toml__value_8h.html" title="toml_value.h" alt="" coords="592,399,688,426"/>
+<area shape="rect" id="node49" href="timer_2timer_8h.html" title="timer/timer.h" alt="" coords="405,481,500,508"/>
+<area shape="rect" id="node50" href="scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="25,221,162,247"/>
 </map>
 </div>
 </div><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a801d6a451a01953ef8cbae6feb6a3638"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> = std::size_t</td></tr>
-<tr class="separator:a801d6a451a01953ef8cbae6feb6a3638"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
+Macros</h2></td></tr>
+<tr class="memitem:aee04abc1fc6c0f07d0a287682c8ce8d4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#aee04abc1fc6c0f07d0a287682c8ce8d4">DOWNSCALE_FACTOR</a>&#160;&#160;&#160;4</td></tr>
+<tr class="separator:aee04abc1fc6c0f07d0a287682c8ce8d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2cca8f8eb6aa4f72a5b44ba0cc489a3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#ae2cca8f8eb6aa4f72a5b44ba0cc489a3">Y_CHANNEL_THRESHOLD</a>&#160;&#160;&#160;120</td></tr>
+<tr class="separator:ae2cca8f8eb6aa4f72a5b44ba0cc489a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a2ca6d877f5eb5ec081bf1c22bce92416"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#a2ca6d877f5eb5ec081bf1c22bce92416">getHighIntensityImage</a> (cv::Mat &amp;source_image, unsigned char treshold=180)</td></tr>
-<tr class="separator:a2ca6d877f5eb5ec081bf1c22bce92416"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b11dc93bcb5eca1163cd2fe5db4ddbf"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#a5b11dc93bcb5eca1163cd2fe5db4ddbf">fastCanny</a> (const cv::Mat &amp;bin_img, int max_thickness=30)</td></tr>
-<tr class="separator:a5b11dc93bcb5eca1163cd2fe5db4ddbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16b2ed6bc5a53c8e1aebb65311c66fc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#a16b2ed6bc5a53c8e1aebb65311c66fc9">resize</a> (cv::Mat img, cv::Mat downscaled, unsigned int x, unsigned int y)</td></tr>
-<tr class="separator:a16b2ed6bc5a53c8e1aebb65311c66fc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="line__detector__test_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4">main</a> ()</td></tr>
 <tr class="separator:ae66f6b31b5ad750f1fe042a706a4e3d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a801d6a451a01953ef8cbae6feb6a3638"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a801d6a451a01953ef8cbae6feb6a3638">&#9670;&nbsp;</a></span>size_t</h2>
+<h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="aee04abc1fc6c0f07d0a287682c8ce8d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aee04abc1fc6c0f07d0a287682c8ce8d4">&#9670;&nbsp;</a></span>DOWNSCALE_FACTOR</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> =  std::size_t</td>
+          <td class="memname">#define DOWNSCALE_FACTOR&#160;&#160;&#160;4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2cca8f8eb6aa4f72a5b44ba0cc489a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2cca8f8eb6aa4f72a5b44ba0cc489a3">&#9670;&nbsp;</a></span>Y_CHANNEL_THRESHOLD</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define Y_CHANNEL_THRESHOLD&#160;&#160;&#160;120</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -144,62 +157,6 @@ Functions</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a5b11dc93bcb5eca1163cd2fe5db4ddbf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b11dc93bcb5eca1163cd2fe5db4ddbf">&#9670;&nbsp;</a></span>fastCanny()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">cv::Mat fastCanny </td>
-          <td>(</td>
-          <td class="paramtype">const cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>bin_img</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>max_thickness</em> = <code>30</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a2ca6d877f5eb5ec081bf1c22bce92416"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca6d877f5eb5ec081bf1c22bce92416">&#9670;&nbsp;</a></span>getHighIntensityImage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">cv::Mat getHighIntensityImage </td>
-          <td>(</td>
-          <td class="paramtype">cv::Mat &amp;&#160;</td>
-          <td class="paramname"><em>source_image</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned char&#160;</td>
-          <td class="paramname"><em>treshold</em> = <code>180</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae66f6b31b5ad750f1fe042a706a4e3d4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae66f6b31b5ad750f1fe042a706a4e3d4">&#9670;&nbsp;</a></span>main()</h2>
 
@@ -211,46 +168,6 @@ Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a16b2ed6bc5a53c8e1aebb65311c66fc9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16b2ed6bc5a53c8e1aebb65311c66fc9">&#9670;&nbsp;</a></span>resize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void resize </td>
-          <td>(</td>
-          <td class="paramtype">cv::Mat&#160;</td>
-          <td class="paramname"><em>img</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">cv::Mat&#160;</td>
-          <td class="paramname"><em>downscaled</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned int&#160;</td>
-          <td class="paramname"><em>y</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,0 +1,8 @@
+<map id="source/dnt/modules/infrastructure/game_state/UdpComm.h" name="source/dnt/modules/infrastructure/game_state/UdpComm.h">
+<area shape="rect" id="node2" href="$game__ctrl_8h.html" title="source/dnt/modules\l/infrastructure/game\l_state/game_ctrl.h" alt="" coords="166,109,305,165"/>
+<area shape="rect" id="node6" href="$game__ctrl_8cpp.html" title="source/dnt/modules\l/infrastructure/game\l_state/game_ctrl.cpp" alt="" coords="270,213,414,269"/>
+<area shape="rect" id="node7" href="$UdpComm_8cpp.html" title="Implements a wrapper for a UDP socket. " alt="" coords="380,109,531,165"/>
+<area shape="rect" id="node3" href="$m__game__state_8h.html" title="source/dnt/modules\l/infrastructure/game\l_state/m_game_state.h" alt="" coords="87,213,245,269"/>
+<area shape="rect" id="node4" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="5,332,145,359"/>
+<area shape="rect" id="node5" href="$m__game__state_8cpp.html" title="source/dnt/modules\l/infrastructure/game\l_state/m_game_state.cpp" alt="" coords="170,317,343,373"/>
+</map>

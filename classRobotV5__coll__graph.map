@@ -1,0 +1,8 @@
+<map id="RobotV5" name="RobotV5">
+<area shape="rect" id="node3" href="$classRobot.html" title="Robot" alt="" coords="155,363,212,389"/>
+<area shape="rect" id="node4" href="$classSharedMemory.html" title="SharedMemory" alt="" coords="128,273,239,300"/>
+<area shape="rect" id="node5" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="5,184,188,211"/>
+<area shape="rect" id="node6" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="58,95,135,121"/>
+<area shape="rect" id="node7" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="57,5,136,32"/>
+<area shape="rect" id="node8" href="$structWalkCommand.html" title="Walk command used to control the naoqi motion proxy. " alt="" coords="213,184,325,211"/>
+</map>

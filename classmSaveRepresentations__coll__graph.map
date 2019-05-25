@@ -1,0 +1,13 @@
+<map id="mSaveRepresentations" name="mSaveRepresentations">
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="391,7,455,33"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rButtonSensor \&gt;" alt="" coords="317,57,528,84"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="129,256,264,283"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="313,108,532,135"/>
+<area shape="rect" id="node7" href="$classInputMessage.html" title="InputMessage\&lt; rRobotStatus\lSensor \&gt;" alt="" coords="326,159,519,201"/>
+<area shape="rect" id="node8" href="$classInputMessage.html" title="InputMessage\&lt; rGameData \&gt;" alt="" coords="325,225,520,252"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="323,276,523,303"/>
+<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="323,327,522,353"/>
+<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="322,377,523,404"/>
+<area shape="rect" id="node12" href="$classInputMessage.html" title="InputMessage\&lt; rSonarSensor \&gt;" alt="" coords="319,428,526,455"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,256,80,283"/>
+</map>

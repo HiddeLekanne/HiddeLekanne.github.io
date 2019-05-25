@@ -61,6 +61,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="classrMotionRequest-members.html">List of all members</a>  </div>
@@ -83,18 +84,31 @@ Collaboration diagram for rMotionRequest:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrMotionRequest__coll__graph.png" border="0" usemap="#rMotionRequest_coll__map" alt="Collaboration graph"/></div>
 <map name="rMotionRequest_coll__map" id="rMotionRequest_coll__map">
-<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node5" href="classrMotion.html" title="rMotion" alt="" coords="55,95,120,121"/>
-<area shape="rect" id="node3" href="classPose2f.html" title="Pose2f" alt="" coords="167,95,229,121"/>
-<area shape="rect" id="node4" href="classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="171,5,225,32"/>
+<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,81,116,108"/>
+<area shape="rect" id="node6" href="classrMotion.html" title="rMotion" alt="" coords="55,171,120,197"/>
+<area shape="rect" id="node3" href="classPose2f.html" title="Pose2f" alt="" coords="167,171,229,197"/>
+<area shape="rect" id="node4" href="classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="171,81,225,108"/>
+<area shape="rect" id="node5" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="154,5,242,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:afc4bba10426cc488db7c3ec4239038ed"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038ed">KickType</a> { <a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038edaa4ceef3a53a79e51670dc933ebd35f70">strong</a>, 
+<a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038eda8afaec2cf3f0a79cec677d223afd4743">normal</a>, 
+<a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038edada593dbd16d16d9afe4c204dac5c109c">weak</a>
+ }<tr class="memdesc:afc4bba10426cc488db7c3ec4239038ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">For specifying which type of kick you want to execute (specifically the kick strength)  <a href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038ed">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:afc4bba10426cc488db7c3ec4239038ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a67a393545aca084c82379c1221e536ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a67a393545aca084c82379c1221e536ce">walkWithSpeed</a> (float x, float y, float rotation)</td></tr>
-<tr class="memdesc:a67a393545aca084c82379c1221e536ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that can be used to set the walkspeed.  <a href="#a67a393545aca084c82379c1221e536ce">More...</a><br /></td></tr>
-<tr class="separator:a67a393545aca084c82379c1221e536ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e8027533074ecf6168283d92c60b1b9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a0e8027533074ecf6168283d92c60b1b9">walkWithSpeed</a> (float x, float y, float rotation, bool reset_walk=false)</td></tr>
+<tr class="memdesc:a0e8027533074ecf6168283d92c60b1b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function that can be used to set the walkspeed.  <a href="#a0e8027533074ecf6168283d92c60b1b9">More...</a><br /></td></tr>
+<tr class="separator:a0e8027533074ecf6168283d92c60b1b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0fa5b9a4837d5f085995b6ec4348819"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#ac0fa5b9a4837d5f085995b6ec4348819">kickInWalk</a> (float x, float y, float rotation, bool kick_left, <a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038ed">KickType</a> kick_type)</td></tr>
+<tr class="memdesc:ac0fa5b9a4837d5f085995b6ec4348819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs an in-walk kick.  <a href="#ac0fa5b9a4837d5f085995b6ec4348819">More...</a><br /></td></tr>
+<tr class="separator:ac0fa5b9a4837d5f085995b6ec4348819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a94493d2b52e1e9be541a4fef0abd0907"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a94493d2b52e1e9be541a4fef0abd0907">rMotionRequest</a> ()=default</td></tr>
 <tr class="memdesc:a94493d2b52e1e9be541a4fef0abd0907"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor does nothing.  <a href="#a94493d2b52e1e9be541a4fef0abd0907">More...</a><br /></td></tr>
 <tr class="separator:a94493d2b52e1e9be541a4fef0abd0907"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,19 +140,65 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ac0bf67cbb7d62ce885ee2b54e2aa1e14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrMotion.html">rMotion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#ac0bf67cbb7d62ce885ee2b54e2aa1e14">current_motion_</a> = <a class="el" href="classrMotion.html">rMotion</a>(Motion::none)</td></tr>
 <tr class="memdesc:ac0bf67cbb7d62ce885ee2b54e2aa1e14"><td class="mdescLeft">&#160;</td><td class="mdescRight">Motion currently executed by the robot.  <a href="#ac0bf67cbb7d62ce885ee2b54e2aa1e14">More...</a><br /></td></tr>
 <tr class="separator:ac0bf67cbb7d62ce885ee2b54e2aa1e14"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f3e2b6bea56c084583d55cec5f73a69"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172a">rWalkGenerator::WalkMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a1f3e2b6bea56c084583d55cec5f73a69">walkMode</a></td></tr>
-<tr class="memdesc:a1f3e2b6bea56c084583d55cec5f73a69"><td class="mdescLeft">&#160;</td><td class="mdescRight">walkMode sets the type of walk to be used.  <a href="#a1f3e2b6bea56c084583d55cec5f73a69">More...</a><br /></td></tr>
-<tr class="separator:a1f3e2b6bea56c084583d55cec5f73a69"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a822e5da78ff92b6643646ad84c7b0af0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPose2f.html">Pose2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a822e5da78ff92b6643646ad84c7b0af0">walkSpeed</a> = <a class="el" href="classPose2f.html">Pose2f</a>()</td></tr>
-<tr class="memdesc:a822e5da78ff92b6643646ad84c7b0af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set walkSpeed, stepSize or targetMode with: <a class="el" href="classPose2f.html">Pose2f(rotation, Eigen::Vector2f(forward, sideways))</a> Maximum values for rotation, forward and sideways can be set or found in the walking engine.  <a href="#a822e5da78ff92b6643646ad84c7b0af0">More...</a><br /></td></tr>
-<tr class="separator:a822e5da78ff92b6643646ad84c7b0af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3447d31e33cf16293781ad30ce840e78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPose2f.html">Pose2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a3447d31e33cf16293781ad30ce840e78">stepSize</a> = <a class="el" href="classPose2f.html">Pose2f</a>()</td></tr>
-<tr class="separator:a3447d31e33cf16293781ad30ce840e78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad41723260ca8018afbd88377db0b49cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPose2f.html">Pose2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#ad41723260ca8018afbd88377db0b49cb">target</a> = <a class="el" href="classPose2f.html">Pose2f</a>()</td></tr>
-<tr class="separator:ad41723260ca8018afbd88377db0b49cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8bc8eb541e827bb484a448de1847c0b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#ad8bc8eb541e827bb484a448de1847c0b">resetWalk</a> = false</td></tr>
-<tr class="separator:ad8bc8eb541e827bb484a448de1847c0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85b65b13c91c94b7dae6bfe4356121a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172a">rWalkGenerator::WalkMode</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a85b65b13c91c94b7dae6bfe4356121a3">walk_mode_</a></td></tr>
+<tr class="memdesc:a85b65b13c91c94b7dae6bfe4356121a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">walkMode sets the type of walk to be used.  <a href="#a85b65b13c91c94b7dae6bfe4356121a3">More...</a><br /></td></tr>
+<tr class="separator:a85b65b13c91c94b7dae6bfe4356121a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73517fa81060a01b01b5d04fa7914436"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPose2f.html">Pose2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a73517fa81060a01b01b5d04fa7914436">walk_speed_</a> = <a class="el" href="classPose2f.html">Pose2f</a>()</td></tr>
+<tr class="memdesc:a73517fa81060a01b01b5d04fa7914436"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set walk_speed_, step_size_ or target_ with: <a class="el" href="classPose2f.html">Pose2f(rotation, Eigen::Vector2f(forward, sideways))</a>.  <a href="#a73517fa81060a01b01b5d04fa7914436">More...</a><br /></td></tr>
+<tr class="separator:a73517fa81060a01b01b5d04fa7914436"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36b82221cc7086734e46ceb6b6cd43b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPose2f.html">Pose2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a36b82221cc7086734e46ceb6b6cd43b7">step_size_</a> = <a class="el" href="classPose2f.html">Pose2f</a>()</td></tr>
+<tr class="memdesc:a36b82221cc7086734e46ceb6b6cd43b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set step size for walking.  <a href="#a36b82221cc7086734e46ceb6b6cd43b7">More...</a><br /></td></tr>
+<tr class="separator:a36b82221cc7086734e46ceb6b6cd43b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24df2d7efd44a12437946a47f1c42f96"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPose2f.html">Pose2f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a24df2d7efd44a12437946a47f1c42f96">target_</a> = <a class="el" href="classPose2f.html">Pose2f</a>()</td></tr>
+<tr class="memdesc:a24df2d7efd44a12437946a47f1c42f96"><td class="mdescLeft">&#160;</td><td class="mdescRight">UNDER DEVELOPMENT.  <a href="#a24df2d7efd44a12437946a47f1c42f96">More...</a><br /></td></tr>
+<tr class="separator:a24df2d7efd44a12437946a47f1c42f96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4af150ec2b51bda5fe291cf427caebf7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a4af150ec2b51bda5fe291cf427caebf7">reset_walk_</a> = false</td></tr>
+<tr class="memdesc:a4af150ec2b51bda5fe291cf427caebf7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Make this true anytime the robot stands still and needs to walk, always make it false when walking.  <a href="#a4af150ec2b51bda5fe291cf427caebf7">More...</a><br /></td></tr>
+<tr class="separator:a4af150ec2b51bda5fe291cf427caebf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a196aa4ea13870fd1050df3a7470e5944"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a196aa4ea13870fd1050df3a7470e5944">kick_left_</a></td></tr>
+<tr class="memdesc:a196aa4ea13870fd1050df3a7470e5944"><td class="mdescLeft">&#160;</td><td class="mdescRight">If true the left foot will be the kicking foot, otherwise the right foot.  <a href="#a196aa4ea13870fd1050df3a7470e5944">More...</a><br /></td></tr>
+<tr class="separator:a196aa4ea13870fd1050df3a7470e5944"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e499d0da27dc1cf4cf98c9516217d5a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a8e499d0da27dc1cf4cf98c9516217d5a">kick_power_</a></td></tr>
+<tr class="memdesc:a8e499d0da27dc1cf4cf98c9516217d5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance traveled of kicking foot in mm.  <a href="#a8e499d0da27dc1cf4cf98c9516217d5a">More...</a><br /></td></tr>
+<tr class="separator:a8e499d0da27dc1cf4cf98c9516217d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dafb8114c4ed4eb19dd91e4a41b13ed"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a3dafb8114c4ed4eb19dd91e4a41b13ed">kick_duration_</a></td></tr>
+<tr class="memdesc:a3dafb8114c4ed4eb19dd91e4a41b13ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Duration of the kick in ms.  <a href="#a3dafb8114c4ed4eb19dd91e4a41b13ed">More...</a><br /></td></tr>
+<tr class="separator:a3dafb8114c4ed4eb19dd91e4a41b13ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95a4e0c018e01b1c40a99fd1d9cab31e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a95a4e0c018e01b1c40a99fd1d9cab31e">kick_height_</a></td></tr>
+<tr class="memdesc:a95a4e0c018e01b1c40a99fd1d9cab31e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Foot height of kick in mm.  <a href="#a95a4e0c018e01b1c40a99fd1d9cab31e">More...</a><br /></td></tr>
+<tr class="separator:a95a4e0c018e01b1c40a99fd1d9cab31e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b9497d9f56367cdc1ae54d17857e305"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a5b9497d9f56367cdc1ae54d17857e305">head_yaw_</a></td></tr>
+<tr class="memdesc:a5b9497d9f56367cdc1ae54d17857e305"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classAngle.html" title="The Angle class stores the represented angle in radians. ">Angle</a> of the head yaw in radians.  <a href="#a5b9497d9f56367cdc1ae54d17857e305">More...</a><br /></td></tr>
+<tr class="separator:a5b9497d9f56367cdc1ae54d17857e305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a122ae6a53c338bd2eaf4d4dd7b136922"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrMotionRequest.html#a122ae6a53c338bd2eaf4d4dd7b136922">head_pitch_</a></td></tr>
+<tr class="memdesc:a122ae6a53c338bd2eaf4d4dd7b136922"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classAngle.html" title="The Angle class stores the represented angle in radians. ">Angle</a> of the head pitch in radians.  <a href="#a122ae6a53c338bd2eaf4d4dd7b136922">More...</a><br /></td></tr>
+<tr class="separator:a122ae6a53c338bd2eaf4d4dd7b136922"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="afc4bba10426cc488db7c3ec4239038ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc4bba10426cc488db7c3ec4239038ed">&#9670;&nbsp;</a></span>KickType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038ed">rMotionRequest::KickType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>For specifying which type of kick you want to execute (specifically the kick strength) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="afc4bba10426cc488db7c3ec4239038edaa4ceef3a53a79e51670dc933ebd35f70"></a>strong&#160;</td><td class="fielddoc"><p>Kick that should only be used when you are prepared to have the robot fall and potentially break. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afc4bba10426cc488db7c3ec4239038eda8afaec2cf3f0a79cec677d223afd4743"></a>normal&#160;</td><td class="fielddoc"><p>Kick for most situations. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="afc4bba10426cc488db7c3ec4239038edada593dbd16d16d9afe4c204dac5c109c"></a>weak&#160;</td><td class="fielddoc"><p>Kick for when you want a kind of controlled dribble. </p>
+</td></tr>
+</table>
+
+</div>
+</div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a94493d2b52e1e9be541a4fef0abd0907"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a94493d2b52e1e9be541a4fef0abd0907">&#9670;&nbsp;</a></span>rMotionRequest()</h2>
@@ -198,8 +258,76 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a67a393545aca084c82379c1221e536ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67a393545aca084c82379c1221e536ce">&#9670;&nbsp;</a></span>walkWithSpeed()</h2>
+<a id="ac0fa5b9a4837d5f085995b6ec4348819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0fa5b9a4837d5f085995b6ec4348819">&#9670;&nbsp;</a></span>kickInWalk()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rMotionRequest::kickInWalk </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>kick_left</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classrMotionRequest.html#afc4bba10426cc488db7c3ec4239038ed">KickType</a>&#160;</td>
+          <td class="paramname"><em>kick_type</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Performs an in-walk kick. </p>
+<p>Speed should be set as well to ensure the robot keeps walking after kicking.</p>
+<p>The values listed here are suggestions, they were tested on a few robots and worked. They can be used as a starting point for making a kick in specific situations, or used as-is if they satisfy the goal.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">x</td><td>Forward speed in mm/s. </td></tr>
+    <tr><td class="paramname">y</td><td>Leftward speed in mm/s. </td></tr>
+    <tr><td class="paramname">rotation</td><td>Counter clockwise rotation in radian/s. </td></tr>
+    <tr><td class="paramname">kick_left</td><td>If true the left foot will be the kicking foot, otherwise the right foot. </td></tr>
+    <tr><td class="paramname">kick_type</td><td>KickType: how strong the kick should be </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0e8027533074ecf6168283d92c60b1b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e8027533074ecf6168283d92c60b1b9">&#9670;&nbsp;</a></span>walkWithSpeed()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -223,7 +351,13 @@ Public Attributes</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>rotation</em>&#160;</td>
+          <td class="paramname"><em>rotation</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>reset_walk</em> = <code>false</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -244,6 +378,7 @@ Public Attributes</h2></td></tr>
     <tr><td class="paramname">x</td><td>Forward speed in mm/s. </td></tr>
     <tr><td class="paramname">y</td><td>Leftward speed in mm/s. </td></tr>
     <tr><td class="paramname">rotation</td><td>Counter clockwise rotation in radian/s. </td></tr>
+    <tr><td class="paramname">reset_walk</td><td>Set this to true anytime the robot stands still and needs to walk, always set to false while walking </td></tr>
   </table>
   </dd>
 </dl>
@@ -267,6 +402,102 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a122ae6a53c338bd2eaf4d4dd7b136922"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a122ae6a53c338bd2eaf4d4dd7b136922">&#9670;&nbsp;</a></span>head_pitch_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rMotionRequest::head_pitch_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classAngle.html" title="The Angle class stores the represented angle in radians. ">Angle</a> of the head pitch in radians. </p>
+
+</div>
+</div>
+<a id="a5b9497d9f56367cdc1ae54d17857e305"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b9497d9f56367cdc1ae54d17857e305">&#9670;&nbsp;</a></span>head_yaw_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rMotionRequest::head_yaw_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classAngle.html" title="The Angle class stores the represented angle in radians. ">Angle</a> of the head yaw in radians. </p>
+
+</div>
+</div>
+<a id="a3dafb8114c4ed4eb19dd91e4a41b13ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dafb8114c4ed4eb19dd91e4a41b13ed">&#9670;&nbsp;</a></span>kick_duration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rMotionRequest::kick_duration_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Duration of the kick in ms. </p>
+
+</div>
+</div>
+<a id="a95a4e0c018e01b1c40a99fd1d9cab31e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95a4e0c018e01b1c40a99fd1d9cab31e">&#9670;&nbsp;</a></span>kick_height_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rMotionRequest::kick_height_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Foot height of kick in mm. </p>
+
+</div>
+</div>
+<a id="a196aa4ea13870fd1050df3a7470e5944"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a196aa4ea13870fd1050df3a7470e5944">&#9670;&nbsp;</a></span>kick_left_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rMotionRequest::kick_left_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If true the left foot will be the kicking foot, otherwise the right foot. </p>
+
+</div>
+</div>
+<a id="a8e499d0da27dc1cf4cf98c9516217d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e499d0da27dc1cf4cf98c9516217d5a">&#9670;&nbsp;</a></span>kick_power_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rMotionRequest::kick_power_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Distance traveled of kicking foot in mm. </p>
+
+</div>
+</div>
 <a id="ad558be5649ddb6631db938d11569753d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad558be5649ddb6631db938d11569753d">&#9670;&nbsp;</a></span>motion_</h2>
 
@@ -283,78 +514,87 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8bc8eb541e827bb484a448de1847c0b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8bc8eb541e827bb484a448de1847c0b">&#9670;&nbsp;</a></span>resetWalk</h2>
+<a id="a4af150ec2b51bda5fe291cf427caebf7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4af150ec2b51bda5fe291cf427caebf7">&#9670;&nbsp;</a></span>reset_walk_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool rMotionRequest::resetWalk = false</td>
+          <td class="memname">bool rMotionRequest::reset_walk_ = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Make this true anytime the robot stands still and needs to walk, always make it false when walking. </p>
+
 </div>
 </div>
-<a id="a3447d31e33cf16293781ad30ce840e78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3447d31e33cf16293781ad30ce840e78">&#9670;&nbsp;</a></span>stepSize</h2>
+<a id="a36b82221cc7086734e46ceb6b6cd43b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36b82221cc7086734e46ceb6b6cd43b7">&#9670;&nbsp;</a></span>step_size_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPose2f.html">Pose2f</a> rMotionRequest::stepSize = <a class="el" href="classPose2f.html">Pose2f</a>()</td>
+          <td class="memname"><a class="el" href="classPose2f.html">Pose2f</a> rMotionRequest::step_size_ = <a class="el" href="classPose2f.html">Pose2f</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Set step size for walking. </p>
+<p>Used only during stepSizeMode. </p>
+
 </div>
 </div>
-<a id="ad41723260ca8018afbd88377db0b49cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad41723260ca8018afbd88377db0b49cb">&#9670;&nbsp;</a></span>target</h2>
+<a id="a24df2d7efd44a12437946a47f1c42f96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24df2d7efd44a12437946a47f1c42f96">&#9670;&nbsp;</a></span>target_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPose2f.html">Pose2f</a> rMotionRequest::target = <a class="el" href="classPose2f.html">Pose2f</a>()</td>
+          <td class="memname"><a class="el" href="classPose2f.html">Pose2f</a> rMotionRequest::target_ = <a class="el" href="classPose2f.html">Pose2f</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>UNDER DEVELOPMENT. </p>
+<p>The target to walk to. Used only during targetMode. </p>
+
 </div>
 </div>
-<a id="a1f3e2b6bea56c084583d55cec5f73a69"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f3e2b6bea56c084583d55cec5f73a69">&#9670;&nbsp;</a></span>walkMode</h2>
+<a id="a85b65b13c91c94b7dae6bfe4356121a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85b65b13c91c94b7dae6bfe4356121a3">&#9670;&nbsp;</a></span>walk_mode_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172a">rWalkGenerator::WalkMode</a> rMotionRequest::walkMode</td>
+          <td class="memname"><a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172a">rWalkGenerator::WalkMode</a> rMotionRequest::walk_mode_</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>walkMode sets the type of walk to be used. </p>
-<p>This can be either one of: rWalkGenerator::walkMode::speedMode - Speed in mm/s and radians/s. rWalkGenerator::walkMode::stepSizeMode - Step size in mm and radians (robot will do exact steps). rWalkGenerator::walkMode::targetMode - UNDER DEVELOPMENT. Walk to given relative position in mm and radians. </p>
+<p>This can be either one of: rWalkGenerator::WalkMode::speedMode - Speed in mm/s and radians/s. rWalkGenerator::WalkMode::stepSizeMode - Step size in mm and radians (robot will do exact steps). rWalkGenerator::WalkMode::targetMode - UNDER DEVELOPMENT. Walk to given relative position in mm and radians. rWalkGenerator::WalkMode::kickMode - Perform an in-walk kick using the walking engine. The user should set a speed to ensure that the robot walks after kick, if no speed is set, the previous speed is used. </p>
 
 </div>
 </div>
-<a id="a822e5da78ff92b6643646ad84c7b0af0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a822e5da78ff92b6643646ad84c7b0af0">&#9670;&nbsp;</a></span>walkSpeed</h2>
+<a id="a73517fa81060a01b01b5d04fa7914436"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73517fa81060a01b01b5d04fa7914436">&#9670;&nbsp;</a></span>walk_speed_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPose2f.html">Pose2f</a> rMotionRequest::walkSpeed = <a class="el" href="classPose2f.html">Pose2f</a>()</td>
+          <td class="memname"><a class="el" href="classPose2f.html">Pose2f</a> rMotionRequest::walk_speed_ = <a class="el" href="classPose2f.html">Pose2f</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Set walkSpeed, stepSize or targetMode with: <a class="el" href="classPose2f.html">Pose2f(rotation, Eigen::Vector2f(forward, sideways))</a> Maximum values for rotation, forward and sideways can be set or found in the walking engine. </p>
+<p>Set walk_speed_, step_size_ or target_ with: <a class="el" href="classPose2f.html">Pose2f(rotation, Eigen::Vector2f(forward, sideways))</a>. </p>
+<p>Maximum values for rotation, forward and sideways can be set or found in the walking engine. The max speed for the robot to walk with, used during speedMode and targetMode. </p>
 
 </div>
 </div>

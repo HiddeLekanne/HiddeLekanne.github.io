@@ -1,11 +1,17 @@
 <map id="source/dnt/representations/sensor/r_button_sensor.h" name="source/dnt/representations/sensor/r_button_sensor.h">
-<area shape="rect" id="node2" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="673,95,863,151"/>
-<area shape="rect" id="node5" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="87,95,249,151"/>
-<area shape="rect" id="node7" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="273,95,439,151"/>
-<area shape="rect" id="node9" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="463,95,649,151"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="382,213,522,240"/>
-<area shape="rect" id="node4" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="755,199,946,255"/>
-<area shape="rect" id="node6" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="5,199,168,255"/>
-<area shape="rect" id="node8" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="192,199,357,255"/>
-<area shape="rect" id="node10" href="$m__simulation__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.cpp" alt="" coords="546,199,731,255"/>
+<area shape="rect" id="node2" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="1264,95,1455,151"/>
+<area shape="rect" id="node5" href="$m__save__representations_8h.html" title="source/dnt/modules\l/communication/m_save\l_representations.h" alt="" coords="103,95,267,151"/>
+<area shape="rect" id="node7" href="$m__game__state_8h.html" title="source/dnt/modules\l/infrastructure/game\l_state/m_game_state.h" alt="" coords="291,95,449,151"/>
+<area shape="rect" id="node9" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="474,95,637,151"/>
+<area shape="rect" id="node11" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="661,95,826,151"/>
+<area shape="rect" id="node13" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="851,95,1036,151"/>
+<area shape="rect" id="node15" href="$m__playback__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_playback\l_proxy.h" alt="" coords="1061,95,1239,151"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="579,213,719,240"/>
+<area shape="rect" id="node4" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="1347,199,1537,255"/>
+<area shape="rect" id="node6" href="$m__save__representations_8cpp.html" title="source/dnt/modules\l/communication/m_save\l_representations.cpp" alt="" coords="5,199,169,255"/>
+<area shape="rect" id="node8" href="$m__game__state_8cpp.html" title="source/dnt/modules\l/infrastructure/game\l_state/m_game_state.cpp" alt="" coords="194,199,367,255"/>
+<area shape="rect" id="node10" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="391,199,554,255"/>
+<area shape="rect" id="node12" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="743,199,909,255"/>
+<area shape="rect" id="node14" href="$m__simulation__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.cpp" alt="" coords="933,199,1119,255"/>
+<area shape="rect" id="node16" href="$m__playback__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_playback\l_proxy.cpp" alt="" coords="1143,199,1322,255"/>
 </map>

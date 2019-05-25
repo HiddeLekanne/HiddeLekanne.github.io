@@ -1,0 +1,12 @@
+<map id="source/interface/widgets/w_behavior.h" name="source/interface/widgets/w_behavior.h">
+<area shape="rect" id="node2" href="$r__behavior__status_8h.html" title="representations/behavior\l/r_behavior_status.h" alt="" coords="431,169,595,211"/>
+<area shape="rect" id="node15" href="$w__dnt_8h.html" title="widgets/w_dnt.h" alt="" coords="641,95,758,121"/>
+<area shape="rect" id="node5" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="432,333,583,375"/>
+<area shape="rect" id="node6" href="$representation_8h.html" title="framework/representation.h" alt="" coords="892,497,1072,524"/>
+<area shape="rect" id="node8" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="302,423,465,449"/>
+<area shape="rect" id="node9" href="$container_8h.html" title="framework/container.h" alt="" coords="367,497,517,524"/>
+<area shape="rect" id="node17" href="$module_8h.html" title="framework/module.h" alt="" coords="785,177,925,203"/>
+<area shape="rect" id="node19" href="$message_8h.html" title="framework/message.h" alt="" coords="1163,423,1313,449"/>
+<area shape="rect" id="node22" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="807,341,994,367"/>
+<area shape="rect" id="node28" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="919,259,1114,285"/>
+</map>

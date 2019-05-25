@@ -1,5 +1,10 @@
 <map id="source/interface/tools/argument_parser.h" name="source/interface/tools/argument_parser.h">
-<area shape="rect" id="node2" href="$m__window_8h.html" title="source/interface/modules\l/m_window.h" alt="" coords="5,95,173,136"/>
-<area shape="rect" id="node3" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="63,184,235,211"/>
-<area shape="rect" id="node4" href="$argument__parser_8cpp.html" title="source/interface/tools\l/argument_parser.cpp" alt="" coords="249,95,397,136"/>
+<area shape="rect" id="node2" href="$m__window_8h.html" title="source/interface/modules\l/m_window.h" alt="" coords="315,95,483,136"/>
+<area shape="rect" id="node3" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="313,281,485,307"/>
+<area shape="rect" id="node9" href="$argument__parser_8cpp.html" title="source/interface/tools\l/argument_parser.cpp" alt="" coords="677,95,825,136"/>
+<area shape="rect" id="node4" href="$w__camera_8h.html" title="source/interface/widgets\l/camera/w_camera.h" alt="" coords="437,184,601,225"/>
+<area shape="rect" id="node6" href="$w__field_8h.html" title="source/interface/widgets\l/w_field.h" alt="" coords="5,184,169,225"/>
+<area shape="rect" id="node8" href="$m__window_8cpp.html" title="source/interface/modules\l/m_window.cpp" alt="" coords="194,184,362,225"/>
+<area shape="rect" id="node5" href="$w__camera_8cpp.html" title="source/interface/widgets\l/camera/w_camera.cpp" alt="" coords="509,273,673,315"/>
+<area shape="rect" id="node7" href="$w__field_8cpp.html" title="source/interface/widgets\l/w_field.cpp" alt="" coords="5,273,169,315"/>
 </map>

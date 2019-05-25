@@ -73,7 +73,7 @@ $(function() {
 <li><code>qt 5.5.1</code></li>
 <li><code>libjpeg-turbo8-dev</code></li>
 </ul>
-<p>Before you try to build or copy to robots, first install some system-wide settings: </p><div class="fragment"><div class="line">cd util/scripts</div><div class="line">./install_dnt</div></div><!-- fragment --><p> Before you copy a new executable to a fresh robot, first install our framework on the robot using: </p><div class="fragment"><div class="line">cd util/scripts</div><div class="line">./install_robot &lt;ip-address&gt;</div></div><!-- fragment --><p>To copy the new executable to a robot, call: </p><div class="fragment"><div class="line">robocopy &lt;ip-address&gt;</div></div><!-- fragment --><p>To view the possible command line argument for configuring the robot, call: </p><div class="fragment"><div class="line">robocopy --help</div></div><!-- fragment --><p>To compile the documentation using <code>doxygen</code>, from the root project directory, call: </p><div class="fragment"><div class="line">doxygen</div></div><!-- fragment --><p> After completion, the <code>html</code> or <code>latex</code> subfolders in <code>docs</code> will contain the documentation files. A useful start point is the <code>docs/html/index.html</code> file.</p>
+<p>Before you try to build or copy to robots, first install some system-wide settings: </p><div class="fragment"><div class="line">cd util/scripts</div><div class="line">./install_dnt</div></div><!-- fragment --><p> Before you copy a new executable to a fresh robot, first install our framework on the robot using: </p><div class="fragment"><div class="line">cd util/scripts</div><div class="line">./install_robot &lt;ip-address&gt;</div></div><!-- fragment --><p>To copy the new executable to a robot, call: </p><div class="fragment"><div class="line">robocopy &lt;ip-address&gt;</div></div><!-- fragment --><p>To view the possible command line argument for configuring the robot, call: </p><div class="fragment"><div class="line">robocopy --help</div></div><!-- fragment --><p>For the v6, reboot after the first time of robocopy: </p><div class="fragment"><div class="line">su </div><div class="line">reboot</div></div><!-- fragment --><p>To compile the documentation using <code>doxygen</code>, from the root project directory, call: </p><div class="fragment"><div class="line">doxygen</div></div><!-- fragment --><p> After completion, the <code>html</code> or <code>latex</code> subfolders in <code>docs</code> will contain the documentation files. A useful start point is the <code>docs/html/index.html</code> file.</p>
 <h2>Ubuntu-18.04:</h2>
 <p>Only strictly necessary downgrade is to clang 3.8 (how-to below): Other programs have most likely a equal to or greater than version dependency, a tested build is:</p><ul>
 <li><code>cmake 3.10.2 (newest atm) sudo apt install cmake</code></li>
@@ -81,7 +81,16 @@ $(function() {
 <li><code>opencv-3.4.3 (easily accessable atm)</code></li>
 <li><code>qt 5.9.5 (newest atm) sudo apt install qt5-default</code></li>
 </ul>
-<p>To add the repository, install the key and install clang 3.8. Also clang 6 (or newer) is needed to read your own gcc libraries. For clang installations you need to <b>enable universe and multiverse in your "software and updates" menu</b>: </p><div class="fragment"><div class="line">sudo apt-get install clang</div><div class="line">sudo apt-add-repository &quot;deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-3.8 main&quot;</div><div class="line">wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add</div><div class="line">sudo apt update</div><div class="line">sudo apt-get install clang-3.8</div></div><!-- fragment --> </div></div><!-- contents -->
+<p>To add the repository, install the key and install clang 3.8. Also clang 6 (or newer) is needed to read your own gcc libraries. For clang installations you need to <b>enable universe and multiverse in your "software and updates" menu</b>: </p><div class="fragment"><div class="line">sudo apt-get install clang</div><div class="line">sudo apt-add-repository &quot;deb http://apt.llvm.org/xenial/ llvm-toolchain-xenial-3.8 main&quot;</div><div class="line">wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | sudo apt-key add</div><div class="line">sudo apt update</div><div class="line">sudo apt-get install clang-3.8</div></div><!-- fragment --> <h2>Docker</h2>
+<p>If you want to compile code in clean enviroment or you are working from Mac or Windows then use this container to compile source code. At this moment it is not possible to run GUI applications inside of the container.</p><ol type="1">
+<li>install docker</li>
+<li>pull docker image <div class="fragment"><div class="line">docker pull lukx19/dnt</div></div><!-- fragment --></li>
+<li>download this repository</li>
+<li>go to the folder with DNT2017 folder</li>
+<li>run start command <div class="fragment"><div class="line">docker run --privileged -it -v`pwd -P`:/home/dnt/repo --name dnt --rm lukx19/dnt /bin/bash</div></div><!-- fragment --></li>
+<li>Some bugs?? Contribute to <a href="https://github.com/Lukx19/DNT-docker">https://github.com/Lukx19/DNT-docker</a> </li>
+</ol>
+</div></div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
 Generated by &#160;<a href="http://www.doxygen.org/index.html">

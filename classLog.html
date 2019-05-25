@@ -65,6 +65,7 @@ $(function() {
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classLog-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Log Class Reference</div>  </div>
@@ -132,6 +133,18 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a80ef469cf2a54be799a19b10d2c3c25e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLogStream.html">LogStream</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLog.html#a80ef469cf2a54be799a19b10d2c3c25e">info_stream_</a></td></tr>
 <tr class="memdesc:a80ef469cf2a54be799a19b10d2c3c25e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The stream used for info information.  <a href="#a80ef469cf2a54be799a19b10d2c3c25e">More...</a><br /></td></tr>
 <tr class="separator:a80ef469cf2a54be799a19b10d2c3c25e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:ac2e64e392432e2a3176021e763092093"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLog.html#ac2e64e392432e2a3176021e763092093">time_format_</a> = &quot;%F %T&quot;</td></tr>
+<tr class="memdesc:ac2e64e392432e2a3176021e763092093"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format string for printing the timestamp in log messages.  <a href="#ac2e64e392432e2a3176021e763092093">More...</a><br /></td></tr>
+<tr class="separator:ac2e64e392432e2a3176021e763092093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50177648ef3e1f1eb3d5c17e7242038f"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLog.html#a50177648ef3e1f1eb3d5c17e7242038f">usec_format_</a> = &quot;%06d&quot;</td></tr>
+<tr class="memdesc:a50177648ef3e1f1eb3d5c17e7242038f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Format string for the microseconds in the timestamp in log messages.  <a href="#a50177648ef3e1f1eb3d5c17e7242038f">More...</a><br /></td></tr>
+<tr class="separator:a50177648ef3e1f1eb3d5c17e7242038f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7a7273d4d2fa4923624c27b449a4fb1"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLog.html#ab7a7273d4d2fa4923624c27b449a4fb1">level_</a> = 5</td></tr>
+<tr class="memdesc:ab7a7273d4d2fa4923624c27b449a4fb1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current log level, starting from 0 (ALL) to 5 (OFF)  <a href="#ab7a7273d4d2fa4923624c27b449a4fb1">More...</a><br /></td></tr>
+<tr class="separator:ab7a7273d4d2fa4923624c27b449a4fb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classLog.html" title="Log: use this class to output text to the terminal, message wil be printed after using Log::endl! ...">Log</a>: use this class to output text to the terminal, message wil be printed after using <a class="el" href="classLog.html#a7df6599888be250400998c63129abc0c" title="Output the created output buffer to std::cout. ">Log::endl</a>! </p>
@@ -230,6 +243,7 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Output the created output buffer to std::cout. </p>
+<p>Also prepend the current time stamp to the line to be printed for logging purposes.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">end</td><td>The end of the created stream. </td></tr>
@@ -422,6 +436,78 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The stream used for info information. </p>
+
+</div>
+</div>
+<a id="ab7a7273d4d2fa4923624c27b449a4fb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab7a7273d4d2fa4923624c27b449a4fb1">&#9670;&nbsp;</a></span>level_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int Log::level_ = 5</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The current log level, starting from 0 (ALL) to 5 (OFF) </p>
+
+</div>
+</div>
+<a id="ac2e64e392432e2a3176021e763092093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e64e392432e2a3176021e763092093">&#9670;&nbsp;</a></span>time_format_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Log::time_format_ = &quot;%F %T&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format string for printing the timestamp in log messages. </p>
+
+</div>
+</div>
+<a id="a50177648ef3e1f1eb3d5c17e7242038f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50177648ef3e1f1eb3d5c17e7242038f">&#9670;&nbsp;</a></span>usec_format_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Log::usec_format_ = &quot;%06d&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Format string for the microseconds in the timestamp in log messages. </p>
 
 </div>
 </div>

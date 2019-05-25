@@ -1,0 +1,11 @@
+<map id="source/dnt/representations/sensing/r_stance.h" name="source/dnt/representations/sensing/r_stance.h">
+<area shape="rect" id="node2" href="$m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="746,95,937,151"/>
+<area shape="rect" id="node5" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="113,95,284,151"/>
+<area shape="rect" id="node7" href="$m__motion__selector_8h.html" title="This file handles which motion is executed. " alt="" coords="309,102,499,143"/>
+<area shape="rect" id="node9" href="$m__stance__detector_8h.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="524,102,721,143"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="442,213,582,240"/>
+<area shape="rect" id="node4" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="842,199,1033,255"/>
+<area shape="rect" id="node6" href="$m__interpolation__engine_8cpp.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="5,199,189,255"/>
+<area shape="rect" id="node8" href="$m__motion__selector_8cpp.html" title="source/dnt/modules\l/motion/m_motion_selector.cpp" alt="" coords="214,206,418,247"/>
+<area shape="rect" id="node10" href="$m__stance__detector_8cpp.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="607,206,817,247"/>
+</map>

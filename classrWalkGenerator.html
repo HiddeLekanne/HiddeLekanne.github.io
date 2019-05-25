@@ -87,12 +87,14 @@ Collaboration diagram for rWalkGenerator:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrWalkGenerator__coll__graph.png" border="0" usemap="#rWalkGenerator_coll__map" alt="Collaboration graph"/></div>
 <map name="rWalkGenerator_coll__map" id="rWalkGenerator_coll__map">
-<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="13,5,123,32"/>
-<area shape="rect" id="node6" href="classrJointAngles.html" title="rJointAngles" alt="" coords="21,81,115,108"/>
-<area shape="rect" id="node7" href="classrStiffnessData.html" title="rStiffnessData" alt="" coords="140,81,247,108"/>
-<area shape="rect" id="node3" href="classPose2f.html" title="Pose2f" alt="" coords="247,171,310,197"/>
-<area shape="rect" id="node4" href="classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="271,81,326,108"/>
-<area shape="rect" id="node5" href="classrJointRequest.html" title="rJointRequest" alt="" coords="59,171,162,197"/>
+<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="11,5,122,32"/>
+<area shape="rect" id="node8" href="classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="104,81,280,108"/>
+<area shape="rect" id="node9" href="classrStiffnessData.html" title="rStiffnessData" alt="" coords="25,132,132,159"/>
+<area shape="rect" id="node3" href="classPose2f.html" title="Pose2f" alt="" coords="253,233,315,260"/>
+<area shape="rect" id="node4" href="classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="305,81,359,108"/>
+<area shape="rect" id="node5" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="191,5,279,32"/>
+<area shape="rect" id="node6" href="classrJointRequest.html" title="rJointRequest" alt="" coords="94,285,197,312"/>
+<area shape="rect" id="node7" href="classrJointAngles.html" title="rJointAngles" alt="" coords="181,183,275,209"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -100,7 +102,8 @@ Collaboration diagram for rWalkGenerator:</div>
 Public Types</h2></td></tr>
 <tr class="memitem:aa12e8f29eebaba3d26c6a36f4e06172a"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172a">WalkMode</a> { <a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa3d34bd13b3ff3084c34c9d34fb633003">speedMode</a>, 
 <a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aac9fe6737fcc76e2888613dc69830bcdc">stepSizeMode</a>, 
-<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa482189832ad1dfb25bd53d7961d94797">targetMode</a>
+<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa482189832ad1dfb25bd53d7961d94797">targetMode</a>, 
+<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa256c788ea4785436bdf23390ed1cf45a">kickMode</a>
  }</td></tr>
 <tr class="separator:aa12e8f29eebaba3d26c6a36f4e06172a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -171,6 +174,8 @@ Public Attributes</h2></td></tr>
 <tr><td class="fieldname"><a id="aa12e8f29eebaba3d26c6a36f4e06172aac9fe6737fcc76e2888613dc69830bcdc"></a>stepSizeMode&#160;</td><td class="fielddoc"><p>Step size in mm and radians (speedScale is ignored). </p>
 </td></tr>
 <tr><td class="fieldname"><a id="aa12e8f29eebaba3d26c6a36f4e06172aa482189832ad1dfb25bd53d7961d94797"></a>targetMode&#160;</td><td class="fielddoc"><p>Walk to given relative position in mm and radians. </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aa12e8f29eebaba3d26c6a36f4e06172aa256c788ea4785436bdf23390ed1cf45a"></a>kickMode&#160;</td><td class="fielddoc"><p>Perform an in-walk kick. </p>
 </td></tr>
 </table>
 

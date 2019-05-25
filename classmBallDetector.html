@@ -91,13 +91,13 @@ Collaboration diagram for mBallDetector:</div>
 <area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="400,5,464,32"/>
 <area shape="rect" id="node3" href="classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="323,56,541,83"/>
 <area shape="rect" id="node4" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,145,269,172"/>
-<area shape="rect" id="node10" href="classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="331,107,533,133"/>
-<area shape="rect" id="node11" href="classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="331,157,533,184"/>
+<area shape="rect" id="node9" href="classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="332,107,532,133"/>
+<area shape="rect" id="node11" href="classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="331,157,533,184"/>
 <area shape="rect" id="node5" href="classMessage.html" title="Message abstract class. " alt="" coords="5,201,80,228"/>
 <area shape="rect" id="node7" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,225,273,252"/>
 <area shape="rect" id="node6" href="classOutputMessage.html" title="OutputMessage\&lt; rBall \&gt;" alt="" coords="350,208,514,235"/>
 <area shape="rect" id="node8" href="classOutputMessage.html" title="OutputMessage\&lt; rRightEye\lLeds \&gt;" alt="" coords="340,259,524,301"/>
-<area shape="rect" id="node9" href="classOutputMessage.html" title="OutputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="325,325,539,352"/>
+<area shape="rect" id="node10" href="classOutputMessage.html" title="OutputMessage\&lt; rLeftEyeLeds \&gt;" alt="" coords="325,325,539,352"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -134,9 +134,9 @@ Private Member Functions</h2></td></tr>
 <tr class="memitem:a27bdf7397f32e079c6edc98412115889"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a27bdf7397f32e079c6edc98412115889">getNextROI</a> (<a class="el" href="structROI.html">ROI</a> &amp;current_roi)</td></tr>
 <tr class="memdesc:a27bdf7397f32e079c6edc98412115889"><td class="mdescLeft">&#160;</td><td class="mdescRight">Based on the current <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a>, find the next <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> that needs processing.  <a href="#a27bdf7397f32e079c6edc98412115889">More...</a><br /></td></tr>
 <tr class="separator:a27bdf7397f32e079c6edc98412115889"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9148ca5668ae24280b5c05b309ebae3"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ad9148ca5668ae24280b5c05b309ebae3">computeExpectedBallSize</a> (int y)</td></tr>
-<tr class="memdesc:ad9148ca5668ae24280b5c05b309ebae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magic formula to calculate expected ball size based on the head pitch of the robot and the position of pixels in the image.  <a href="#ad9148ca5668ae24280b5c05b309ebae3">More...</a><br /></td></tr>
-<tr class="separator:ad9148ca5668ae24280b5c05b309ebae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad426cb23c1f471370e32b41fbbccbecd"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ad426cb23c1f471370e32b41fbbccbecd">computeExpectedBallSize</a> (int y, int object_size)</td></tr>
+<tr class="memdesc:ad426cb23c1f471370e32b41fbbccbecd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Magic formula to calculate expected ball size based on the head pitch of the robot and the position of pixels in the image.  <a href="#ad426cb23c1f471370e32b41fbbccbecd">More...</a><br /></td></tr>
+<tr class="separator:ad426cb23c1f471370e32b41fbbccbecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3dbe2d0a89af588d6c6224a89b37445"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#af3dbe2d0a89af588d6c6224a89b37445">computeExpectedBallSizeSimulation</a> ()</td></tr>
 <tr class="memdesc:af3dbe2d0a89af588d6c6224a89b37445"><td class="mdescLeft">&#160;</td><td class="mdescRight">Expected ball size formula for simulation, which just returns a constant.  <a href="#af3dbe2d0a89af588d6c6224a89b37445">More...</a><br /></td></tr>
 <tr class="separator:af3dbe2d0a89af588d6c6224a89b37445"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -180,7 +180,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a5c3fc1cd7fce13f6dfd293cc8283cc55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Percentage of overlap between two ROIs.  <a href="#a5c3fc1cd7fce13f6dfd293cc8283cc55">More...</a><br /></td></tr>
 <tr class="separator:a5c3fc1cd7fce13f6dfd293cc8283cc55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4e145de498a331a53eb1f0e488695ead"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a4e145de498a331a53eb1f0e488695ead">BALL_SIZE_OFFSET_</a></td></tr>
-<tr class="memdesc:a4e145de498a331a53eb1f0e488695ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Percentage the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is bigger than the ball, to allow a border around the ball.  <a href="#a4e145de498a331a53eb1f0e488695ead">More...</a><br /></td></tr>
+<tr class="memdesc:a4e145de498a331a53eb1f0e488695ead"><td class="mdescLeft">&#160;</td><td class="mdescRight">Amount of times the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is bigger than the ball, to allow a border around the ball.  <a href="#a4e145de498a331a53eb1f0e488695ead">More...</a><br /></td></tr>
 <tr class="separator:a4e145de498a331a53eb1f0e488695ead"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88acbf9089bac80c6a4e3b03eb3ef507"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a88acbf9089bac80c6a4e3b03eb3ef507">MAX_ROI_MOVES_</a></td></tr>
 <tr class="memdesc:a88acbf9089bac80c6a4e3b03eb3ef507"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum amount of <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> moves based on the centroid.  <a href="#a88acbf9089bac80c6a4e3b03eb3ef507">More...</a><br /></td></tr>
@@ -203,6 +203,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ae67fab1472733befe0a6bec6bca96b27"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ae67fab1472733befe0a6bec6bca96b27">MIN_COLOR_DIFFERENCE_</a></td></tr>
 <tr class="memdesc:ae67fab1472733befe0a6bec6bca96b27"><td class="mdescLeft">&#160;</td><td class="mdescRight">The minimum difference between the minimum and maximum pixel value in a <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a>, if it's lower than this it is probably an even color.  <a href="#ae67fab1472733befe0a6bec6bca96b27">More...</a><br /></td></tr>
 <tr class="separator:ae67fab1472733befe0a6bec6bca96b27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2ebb9a3a67e4e353e041fb6cc5bc2d5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ad2ebb9a3a67e4e353e041fb6cc5bc2d5">BALL_SIZE_</a></td></tr>
+<tr class="memdesc:ad2ebb9a3a67e4e353e041fb6cc5bc2d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Real world ball size in mm.  <a href="#ad2ebb9a3a67e4e353e041fb6cc5bc2d5">More...</a><br /></td></tr>
+<tr class="separator:ad2ebb9a3a67e4e353e041fb6cc5bc2d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a789dbad65fa3c5f8f6486ed1bd35b1b4"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a789dbad65fa3c5f8f6486ed1bd35b1b4">UPPER_PITCH_OFFSET_</a></td></tr>
+<tr class="memdesc:a789dbad65fa3c5f8f6486ed1bd35b1b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pitch offset for expected ball size in radians for upper camera.  <a href="#a789dbad65fa3c5f8f6486ed1bd35b1b4">More...</a><br /></td></tr>
+<tr class="separator:a789dbad65fa3c5f8f6486ed1bd35b1b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09cc68dc4d86365b9eb4f6364a8dea16"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a09cc68dc4d86365b9eb4f6364a8dea16">LOWER_PITCH_OFFSET_</a></td></tr>
+<tr class="memdesc:a09cc68dc4d86365b9eb4f6364a8dea16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pitch offset for expected ball size in radians for lower camera.  <a href="#a09cc68dc4d86365b9eb4f6364a8dea16">More...</a><br /></td></tr>
+<tr class="separator:a09cc68dc4d86365b9eb4f6364a8dea16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa44eec8d54889e5371bef64208eab1e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrBall.html">rBall</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#aa44eec8d54889e5371bef64208eab1e2">ball_message_</a></td></tr>
 <tr class="memdesc:aa44eec8d54889e5371bef64208eab1e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message containing whether the ball is found, where it is, when that was, and what the angle is to the robot.  <a href="#aa44eec8d54889e5371bef64208eab1e2">More...</a><br /></td></tr>
 <tr class="separator:aa44eec8d54889e5371bef64208eab1e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -215,21 +224,24 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:addc54af2b89bfca2c993926cf29a22b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrCameraSensor.html">rCameraSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#addc54af2b89bfca2c993926cf29a22b7">camera_sensor_message_</a></td></tr>
 <tr class="memdesc:addc54af2b89bfca2c993926cf29a22b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the CameraSensorRepresentation.  <a href="#addc54af2b89bfca2c993926cf29a22b7">More...</a><br /></td></tr>
 <tr class="separator:addc54af2b89bfca2c993926cf29a22b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af077168c7a31fba66b34f90af23bfade"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrJointSensor.html">rJointSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#af077168c7a31fba66b34f90af23bfade">joint_sensor_message_</a></td></tr>
-<tr class="memdesc:af077168c7a31fba66b34f90af23bfade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the JointSensorRepresentation.  <a href="#af077168c7a31fba66b34f90af23bfade">More...</a><br /></td></tr>
-<tr class="separator:af077168c7a31fba66b34f90af23bfade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff682119795522fb39dae99e9514062c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrJointSensor.html">rJointSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#aff682119795522fb39dae99e9514062c">joint_sensor_representation_</a></td></tr>
-<tr class="memdesc:aff682119795522fb39dae99e9514062c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The representation for the joint sensor values.  <a href="#aff682119795522fb39dae99e9514062c">More...</a><br /></td></tr>
-<tr class="separator:aff682119795522fb39dae99e9514062c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab51d8672014a49efb0dc7eb6c0928070"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ab51d8672014a49efb0dc7eb6c0928070">robot_model_message_</a></td></tr>
 <tr class="memdesc:ab51d8672014a49efb0dc7eb6c0928070"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the RobotModelRepresentation.  <a href="#ab51d8672014a49efb0dc7eb6c0928070">More...</a><br /></td></tr>
 <tr class="separator:ab51d8672014a49efb0dc7eb6c0928070"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d0ff23f5eb885350d8bca087a9ebe53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrFSRSensor.html">rFSRSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#a9d0ff23f5eb885350d8bca087a9ebe53">fsr_message_</a></td></tr>
+<tr class="memdesc:a9d0ff23f5eb885350d8bca087a9ebe53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message that contains the FSRSensor.  <a href="#a9d0ff23f5eb885350d8bca087a9ebe53">More...</a><br /></td></tr>
+<tr class="separator:a9d0ff23f5eb885350d8bca087a9ebe53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abda146c5251b23885d780828228ef63d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#abda146c5251b23885d780828228ef63d">robot_model_representation_</a></td></tr>
 <tr class="memdesc:abda146c5251b23885d780828228ef63d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received representation of the robot model (kinematics)  <a href="#abda146c5251b23885d780828228ef63d">More...</a><br /></td></tr>
 <tr class="separator:abda146c5251b23885d780828228ef63d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abcc330a6deca203e4428ceb0d0a9eae3"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#abcc330a6deca203e4428ceb0d0a9eae3">cv_image_</a></td></tr>
 <tr class="memdesc:abcc330a6deca203e4428ceb0d0a9eae3"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cv image used for detecting the ball.  <a href="#abcc330a6deca203e4428ceb0d0a9eae3">More...</a><br /></td></tr>
 <tr class="separator:abcc330a6deca203e4428ceb0d0a9eae3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeac5aad8d3b419d9ba10504984fe8409"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrCameraSensor.html">rCameraSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#aeac5aad8d3b419d9ba10504984fe8409">camera_sensor_representation_</a></td></tr>
+<tr class="memdesc:aeac5aad8d3b419d9ba10504984fe8409"><td class="mdescLeft">&#160;</td><td class="mdescRight">The representation of the camera.  <a href="#aeac5aad8d3b419d9ba10504984fe8409">More...</a><br /></td></tr>
+<tr class="separator:aeac5aad8d3b419d9ba10504984fe8409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af59577a0916a2c5b16f69483034f5d92"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrFSRSensor.html">rFSRSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#af59577a0916a2c5b16f69483034f5d92">fsr_representation_</a></td></tr>
+<tr class="memdesc:af59577a0916a2c5b16f69483034f5d92"><td class="mdescLeft">&#160;</td><td class="mdescRight">The representation of the FSR.  <a href="#af59577a0916a2c5b16f69483034f5d92">More...</a><br /></td></tr>
+<tr class="separator:af59577a0916a2c5b16f69483034f5d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0d66b8eff2ede90d11960adf5ebd7e0"><td class="memItemLeft" align="right" valign="top">cv::CascadeClassifier&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmBallDetector.html#ad0d66b8eff2ede90d11960adf5ebd7e0">ball_cascade_</a></td></tr>
 <tr class="memdesc:ad0d66b8eff2ede90d11960adf5ebd7e0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The haar classifier cascade.  <a href="#ad0d66b8eff2ede90d11960adf5ebd7e0">More...</a><br /></td></tr>
 <tr class="separator:ad0d66b8eff2ede90d11960adf5ebd7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,6 +255,7 @@ Static Private Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This module finds balls by processing <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a>'s, a <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is a square which is the size of a ball at a certain spot in the image. </p>
 <p>The first check is if a <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> contains enough bright pixels to contain a ball. If this is the case, a second check is applied, is there a blob in the image which is about the right size to be a blob on the ball. If this is also the case, the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is put into a haar classifier which decides whether a <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is a ball or not.</p>
+<p>Note: variables read from config are CAPITALISED.</p>
 <dl class="section author"><dt>Author</dt><dd>Caitlin </dd>
 <dd>
 Douwe </dd></dl>
@@ -267,7 +280,9 @@ Douwe </dd></dl>
 <p>The first check is if a <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> contains enough bright pixels to contain a ball. If this is the case, a second check is applied, is there a blob in the image which is about the right size to be a blob on the ball. If this is also the case, the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is put into a haar classifier which decides whether a <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is a ball or not.</p>
 <dl class="section author"><dt>Author</dt><dd>Caitlin </dd>
 <dd>
-Douwe </dd></dl>
+Douwe </dd>
+<dd>
+Rob </dd></dl>
 
 </div>
 </div>
@@ -379,8 +394,8 @@ Douwe </dd></dl>
 
 </div>
 </div>
-<a id="ad9148ca5668ae24280b5c05b309ebae3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9148ca5668ae24280b5c05b309ebae3">&#9670;&nbsp;</a></span>computeExpectedBallSize()</h2>
+<a id="ad426cb23c1f471370e32b41fbbccbecd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad426cb23c1f471370e32b41fbbccbecd">&#9670;&nbsp;</a></span>computeExpectedBallSize()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -392,8 +407,18 @@ Douwe </dd></dl>
           <td class="memname">int mBallDetector::computeExpectedBallSize </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>y</em></td><td>)</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>object_size</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -977,6 +1002,30 @@ Douwe </dd></dl>
 
 </div>
 </div>
+<a id="ad2ebb9a3a67e4e353e041fb6cc5bc2d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2ebb9a3a67e4e353e041fb6cc5bc2d5">&#9670;&nbsp;</a></span>BALL_SIZE_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int mBallDetector::BALL_SIZE_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Real world ball size in mm. </p>
+
+</div>
+</div>
 <a id="a4e145de498a331a53eb1f0e488695ead"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4e145de498a331a53eb1f0e488695ead">&#9670;&nbsp;</a></span>BALL_SIZE_OFFSET_</h2>
 
@@ -997,7 +1046,7 @@ Douwe </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>Percentage the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is bigger than the ball, to allow a border around the ball. </p>
+<p>Amount of times the <a class="el" href="structROI.html" title="ROI: struct describing a Region of Interest, extends the cv::Rect with a valid boolean indicating if ...">ROI</a> is bigger than the ball, to allow a border around the ball. </p>
 
 </div>
 </div>
@@ -1049,6 +1098,30 @@ Douwe </dd></dl>
 
 </div>
 </div>
+<a id="aeac5aad8d3b419d9ba10504984fe8409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeac5aad8d3b419d9ba10504984fe8409">&#9670;&nbsp;</a></span>camera_sensor_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrCameraSensor.html">rCameraSensor</a>&gt; mBallDetector::camera_sensor_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The representation of the camera. </p>
+
+</div>
+</div>
 <a id="abcc330a6deca203e4428ceb0d0a9eae3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abcc330a6deca203e4428ceb0d0a9eae3">&#9670;&nbsp;</a></span>cv_image_</h2>
 
@@ -1070,6 +1143,54 @@ Douwe </dd></dl>
 </div><div class="memdoc">
 
 <p>The cv image used for detecting the ball. </p>
+
+</div>
+</div>
+<a id="a9d0ff23f5eb885350d8bca087a9ebe53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d0ff23f5eb885350d8bca087a9ebe53">&#9670;&nbsp;</a></span>fsr_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrFSRSensor.html">rFSRSensor</a>&gt; mBallDetector::fsr_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Input message that contains the FSRSensor. </p>
+
+</div>
+</div>
+<a id="af59577a0916a2c5b16f69483034f5d92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af59577a0916a2c5b16f69483034f5d92">&#9670;&nbsp;</a></span>fsr_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrFSRSensor.html">rFSRSensor</a>&gt; mBallDetector::fsr_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The representation of the FSR. </p>
 
 </div>
 </div>
@@ -1121,54 +1242,6 @@ Douwe </dd></dl>
 
 </div>
 </div>
-<a id="af077168c7a31fba66b34f90af23bfade"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af077168c7a31fba66b34f90af23bfade">&#9670;&nbsp;</a></span>joint_sensor_message_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrJointSensor.html">rJointSensor</a>&gt; mBallDetector::joint_sensor_message_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Input message that contains the JointSensorRepresentation. </p>
-
-</div>
-</div>
-<a id="aff682119795522fb39dae99e9514062c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff682119795522fb39dae99e9514062c">&#9670;&nbsp;</a></span>joint_sensor_representation_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrJointSensor.html">rJointSensor</a>&gt; mBallDetector::joint_sensor_representation_</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The representation for the joint sensor values. </p>
-
-</div>
-</div>
 <a id="a29ff2cb292aa14677b5635c712e5f324"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a29ff2cb292aa14677b5635c712e5f324">&#9670;&nbsp;</a></span>left_eye_led_message_</h2>
 
@@ -1190,6 +1263,30 @@ Douwe </dd></dl>
 </div><div class="memdoc">
 
 <p>Output message containing how to left eye led should be set; not if the ball is not seen or red if the ball is seen. </p>
+
+</div>
+</div>
+<a id="a09cc68dc4d86365b9eb4f6364a8dea16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09cc68dc4d86365b9eb4f6364a8dea16">&#9670;&nbsp;</a></span>LOWER_PITCH_OFFSET_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mBallDetector::LOWER_PITCH_OFFSET_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pitch offset for expected ball size in radians for lower camera. </p>
 
 </div>
 </div>
@@ -1455,6 +1552,30 @@ Douwe </dd></dl>
 </div><div class="memdoc">
 
 <p>Expected ball size of the simulation. </p>
+
+</div>
+</div>
+<a id="a789dbad65fa3c5f8f6486ed1bd35b1b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a789dbad65fa3c5f8f6486ed1bd35b1b4">&#9670;&nbsp;</a></span>UPPER_PITCH_OFFSET_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mBallDetector::UPPER_PITCH_OFFSET_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pitch offset for expected ball size in radians for upper camera. </p>
 
 </div>
 </div>

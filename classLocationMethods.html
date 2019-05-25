@@ -117,7 +117,7 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a7a912a990baa655aba44e69e547a83e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Field length of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule.  <a href="#a7a912a990baa655aba44e69e547a83e1">More...</a><br /></td></tr>
 <tr class="separator:a7a912a990baa655aba44e69e547a83e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3f8a0f2168e4a71bc0d6bc741352fcd8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocationMethods.html#a3f8a0f2168e4a71bc0d6bc741352fcd8">line_width_</a></td></tr>
-<tr class="memdesc:a3f8a0f2168e4a71bc0d6bc741352fcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Line width of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule.  <a href="#a3f8a0f2168e4a71bc0d6bc741352fcd8">More...</a><br /></td></tr>
+<tr class="memdesc:a3f8a0f2168e4a71bc0d6bc741352fcd8"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classLine.html" title="rLines: representation that holds the information of the detected lines. ">Line</a> width of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule.  <a href="#a3f8a0f2168e4a71bc0d6bc741352fcd8">More...</a><br /></td></tr>
 <tr class="separator:a3f8a0f2168e4a71bc0d6bc741352fcd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb90b977b4eacd1b1fec7e948486730d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocationMethods.html#abb90b977b4eacd1b1fec7e948486730d">circle_diameter_</a></td></tr>
 <tr class="memdesc:abb90b977b4eacd1b1fec7e948486730d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Circle diameter of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule.  <a href="#abb90b977b4eacd1b1fec7e948486730d">More...</a><br /></td></tr>
@@ -140,9 +140,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:aa8a47fe35fc8b9ceb1e2fcdfd2d94035"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocationMethods.html#aa8a47fe35fc8b9ceb1e2fcdfd2d94035">AIM_DISTANCE_</a> = 200</td></tr>
 <tr class="memdesc:aa8a47fe35fc8b9ceb1e2fcdfd2d94035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Distance at which walkToGlobalTarget will start turing towards the desired angle at the desired goal.  <a href="#aa8a47fe35fc8b9ceb1e2fcdfd2d94035">More...</a><br /></td></tr>
 <tr class="separator:aa8a47fe35fc8b9ceb1e2fcdfd2d94035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fa29c9b6b4557b58f98b850cb61bb95"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocationMethods.html#a6fa29c9b6b4557b58f98b850cb61bb95">MAX_X_SPEED_</a> = 200</td></tr>
-<tr class="memdesc:a6fa29c9b6b4557b58f98b850cb61bb95"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum forward walking speed.  <a href="#a6fa29c9b6b4557b58f98b850cb61bb95">More...</a><br /></td></tr>
-<tr class="separator:a6fa29c9b6b4557b58f98b850cb61bb95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a126710a6882357ceb1029067cf87b563"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocationMethods.html#a126710a6882357ceb1029067cf87b563">MAX_TRANSLATION_SPEED_</a> = 200</td></tr>
+<tr class="memdesc:a126710a6882357ceb1029067cf87b563"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum translation speed.  <a href="#a126710a6882357ceb1029067cf87b563">More...</a><br /></td></tr>
+<tr class="separator:a126710a6882357ceb1029067cf87b563"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af01e74dd155faf1f60d4d699a804adc1"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classLocationMethods.html#af01e74dd155faf1f60d4d699a804adc1">MAX_THETA_SPEED_</a> = 0.7f</td></tr>
 <tr class="memdesc:af01e74dd155faf1f60d4d699a804adc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum rotational speed.  <a href="#af01e74dd155faf1f60d4d699a804adc1">More...</a><br /></td></tr>
 <tr class="separator:af01e74dd155faf1f60d4d699a804adc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -597,7 +597,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Line width of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule. </p>
+<p><a class="el" href="classLine.html" title="rLines: representation that holds the information of the detected lines. ">Line</a> width of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule. </p>
 
 </div>
 </div>
@@ -649,8 +649,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a6fa29c9b6b4557b58f98b850cb61bb95"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fa29c9b6b4557b58f98b850cb61bb95">&#9670;&nbsp;</a></span>MAX_X_SPEED_</h2>
+<a id="a126710a6882357ceb1029067cf87b563"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a126710a6882357ceb1029067cf87b563">&#9670;&nbsp;</a></span>MAX_TRANSLATION_SPEED_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -659,7 +659,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const float LocationMethods::MAX_X_SPEED_ = 200</td>
+          <td class="memname">const float LocationMethods::MAX_TRANSLATION_SPEED_ = 200</td>
         </tr>
       </table>
   </td>
@@ -669,7 +669,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Maximum forward walking speed. </p>
+<p>Maximum translation speed. </p>
 
 </div>
 </div>

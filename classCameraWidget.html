@@ -72,7 +72,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball and field boundary...">CameraWidget</a>: Widget that shows the images from the upper of lower camera, ball and field boundary.  
+<p><a class="el" href="classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball, lines and field boun...">CameraWidget</a>: Widget that shows the images from the upper of lower camera, ball, lines and field boundary.  
  <a href="classCameraWidget.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="w__camera_8h_source.html">w_camera.h</a>&gt;</code></p>
@@ -90,46 +90,73 @@ Collaboration diagram for CameraWidget:</div>
 <div class="dyncontent">
 <div class="center"><img src="classCameraWidget__coll__graph.png" border="0" usemap="#CameraWidget_coll__map" alt="Collaboration graph"/></div>
 <map name="CameraWidget_coll__map" id="CameraWidget_coll__map">
-<area shape="rect" id="node2" href="classDNTWidget.html" title="DNTWidget: Base class for a dnt widget that extends dockable widget and a DNT Module to receive repre..." alt="" coords="377,13,468,40"/>
+<area shape="rect" id="node2" href="classDNTWidget.html" title="DNTWidget: Base class for a dnt widget that extends dockable widget and a DNT Module to receive repre..." alt="" coords="377,16,468,43"/>
 <area shape="rect" id="node4" href="classModule.html" title="Module abstract class. " alt="" coords="165,56,229,83"/>
-<area shape="rect" id="node5" href="classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="313,64,532,91"/>
-<area shape="rect" id="node6" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="129,139,264,165"/>
-<area shape="rect" id="node8" href="classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="345,115,500,141"/>
-<area shape="rect" id="node9" href="classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="315,165,530,192"/>
-<area shape="rect" id="node10" href="classInputMessage.html" title="InputMessage\&lt; rLineModel \&gt;" alt="" coords="327,216,518,243"/>
-<area shape="rect" id="node7" href="classMessage.html" title="Message abstract class. " alt="" coords="5,139,80,165"/>
+<area shape="rect" id="node5" href="classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="313,67,532,93"/>
+<area shape="rect" id="node6" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="129,219,264,245"/>
+<area shape="rect" id="node10" href="classInputMessage.html" title="InputMessage\&lt; rRobotPosition \&gt;" alt="" coords="315,117,530,144"/>
+<area shape="rect" id="node14" href="classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="323,168,523,195"/>
+<area shape="rect" id="node15" href="classInputMessage.html" title="InputMessage\&lt; rLines \&gt;" alt="" coords="341,219,504,245"/>
+<area shape="rect" id="node16" href="classInputMessage.html" title="InputMessage\&lt; rBall \&gt;" alt="" coords="345,269,500,296"/>
+<area shape="rect" id="node20" href="classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="321,320,524,347"/>
+<area shape="rect" id="node21" href="classInputMessage.html" title="InputMessage\&lt; rFieldBoundary \&gt;" alt="" coords="315,371,530,397"/>
+<area shape="rect" id="node7" href="classMessage.html" title="Message abstract class. " alt="" coords="5,219,80,245"/>
+<area shape="rect" id="node8" href="classwCalibrationAxis.html" title="wCalibrationAxis: A slider widget that represents the offset of the camera along a single axis ..." alt="" coords="363,435,483,461"/>
+<area shape="rect" id="node11" href="classParticle.html" title="Particle: A possible location for the robot on the field. " alt="" coords="389,485,456,512"/>
+<area shape="rect" id="node12" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="153,485,241,512"/>
+<area shape="rect" id="node13" href="classLineModel.html" title="mLineModel: computes what lines the robot should see, given his current position and orientation..." alt="" coords="382,536,463,563"/>
+<area shape="rect" id="node17" href="classwCollapsible.html" title="wCollapsible: A collapsible widget that has a title and a some content which can be hidden ..." alt="" coords="375,605,471,632"/>
+<area shape="rect" id="node19" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. " alt="" coords="381,656,465,683"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
 <tr class="memitem:a754031f674231947ed32b65296ffbad5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a754031f674231947ed32b65296ffbad5">setImageLabel</a> (QPixmap pixmap)</td></tr>
-<tr class="memdesc:a754031f674231947ed32b65296ffbad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the image label with a new image.  <a href="#a754031f674231947ed32b65296ffbad5">More...</a><br /></td></tr>
+<tr class="memdesc:a754031f674231947ed32b65296ffbad5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the image label with a new image.  <a href="#a754031f674231947ed32b65296ffbad5">More...</a><br /></td></tr>
 <tr class="separator:a754031f674231947ed32b65296ffbad5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75a1c69ac2ce73c54a9ac6cd5b64156b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a75a1c69ac2ce73c54a9ac6cd5b64156b">sliderChanged</a> ()</td></tr>
+<tr class="memdesc:a75a1c69ac2ce73c54a9ac6cd5b64156b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when one of the calibration sliders has been changed to change the calibratio matrix.  <a href="#a75a1c69ac2ce73c54a9ac6cd5b64156b">More...</a><br /></td></tr>
+<tr class="separator:a75a1c69ac2ce73c54a9ac6cd5b64156b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc4d8619012ca095d7187d75566e9bd3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#abc4d8619012ca095d7187d75566e9bd3">fieldChanged</a> ()</td></tr>
+<tr class="memdesc:abc4d8619012ca095d7187d75566e9bd3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the field in the dropdown is changed.  <a href="#abc4d8619012ca095d7187d75566e9bd3">More...</a><br /></td></tr>
+<tr class="separator:abc4d8619012ca095d7187d75566e9bd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
 <tr class="memitem:a680e346b2894d28b07729e1763b9515a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a680e346b2894d28b07729e1763b9515a">imageLabelChanged</a> (QPixmap pixmap)</td></tr>
-<tr class="memdesc:a680e346b2894d28b07729e1763b9515a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Let the UI thread know the image should be updated.  <a href="#a680e346b2894d28b07729e1763b9515a">More...</a><br /></td></tr>
+<tr class="memdesc:a680e346b2894d28b07729e1763b9515a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lets the UI thread know the image should be updated.  <a href="#a680e346b2894d28b07729e1763b9515a">More...</a><br /></td></tr>
 <tr class="separator:a680e346b2894d28b07729e1763b9515a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2b808d4e266f6b0d9570ee32afef2769"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a2b808d4e266f6b0d9570ee32afef2769">CameraWidget</a> (bool is_upper, QWidget *parent)</td></tr>
-<tr class="memdesc:a2b808d4e266f6b0d9570ee32afef2769"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor: initialize placeholders for image.  <a href="#a2b808d4e266f6b0d9570ee32afef2769">More...</a><br /></td></tr>
-<tr class="separator:a2b808d4e266f6b0d9570ee32afef2769"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa0d8e6c211a0baa036116a477c8d8390"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aa0d8e6c211a0baa036116a477c8d8390">CameraWidget</a> (bool is_upper, <a class="el" href="classDNTWindow.html">DNTWindow</a> *window)</td></tr>
+<tr class="memdesc:aa0d8e6c211a0baa036116a477c8d8390"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor: initialize placeholders for image.  <a href="#aa0d8e6c211a0baa036116a477c8d8390">More...</a><br /></td></tr>
+<tr class="separator:aa0d8e6c211a0baa036116a477c8d8390"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a658169b7f30ee586c5f9d9882b9e24e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a658169b7f30ee586c5f9d9882b9e24e5">updateCameraWidget</a> ()</td></tr>
 <tr class="memdesc:a658169b7f30ee586c5f9d9882b9e24e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load a new image, ball or field representation if available and desired.  <a href="#a658169b7f30ee586c5f9d9882b9e24e5">More...</a><br /></td></tr>
 <tr class="separator:a658169b7f30ee586c5f9d9882b9e24e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada49ae11764b9e11af233f4aa479cef5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ada49ae11764b9e11af233f4aa479cef5">drawBall</a> (cv::Mat &amp;image)</td></tr>
 <tr class="memdesc:ada49ae11764b9e11af233f4aa479cef5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the ball on the image.  <a href="#ada49ae11764b9e11af233f4aa479cef5">More...</a><br /></td></tr>
 <tr class="separator:ada49ae11764b9e11af233f4aa479cef5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7104da183ee67cf73a83e149eacd4c8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ad7104da183ee67cf73a83e149eacd4c8">drawRoi</a> (cv::Mat &amp;image)</td></tr>
+<tr class="memdesc:ad7104da183ee67cf73a83e149eacd4c8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the rois on the image.  <a href="#ad7104da183ee67cf73a83e149eacd4c8">More...</a><br /></td></tr>
+<tr class="separator:ad7104da183ee67cf73a83e149eacd4c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5a6a7d5538e63a78b9e40855b09fc04"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aa5a6a7d5538e63a78b9e40855b09fc04">drawFieldBoundary</a> (cv::Mat &amp;image)</td></tr>
 <tr class="memdesc:aa5a6a7d5538e63a78b9e40855b09fc04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the field boundary.  <a href="#aa5a6a7d5538e63a78b9e40855b09fc04">More...</a><br /></td></tr>
 <tr class="separator:aa5a6a7d5538e63a78b9e40855b09fc04"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aec903f010362fcf7da4bda495211bf5d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aec903f010362fcf7da4bda495211bf5d">drawLineModel</a> (cv::Mat &amp;image)</td></tr>
 <tr class="memdesc:aec903f010362fcf7da4bda495211bf5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the line model in the image.  <a href="#aec903f010362fcf7da4bda495211bf5d">More...</a><br /></td></tr>
 <tr class="separator:aec903f010362fcf7da4bda495211bf5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ab72174dd4b628340b29cf66a0f455"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a86ab72174dd4b628340b29cf66a0f455">saveCalibrationMatrix</a> ()</td></tr>
+<tr class="memdesc:a86ab72174dd4b628340b29cf66a0f455"><td class="mdescLeft">&#160;</td><td class="mdescRight">Show a message box on how to save the calibration matrix for the camera.  <a href="#a86ab72174dd4b628340b29cf66a0f455">More...</a><br /></td></tr>
+<tr class="separator:a86ab72174dd4b628340b29cf66a0f455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6753abeb6a280f368eb772d896929ae5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a6753abeb6a280f368eb772d896929ae5">drawLineDetections</a> (cv::Mat &amp;image)</td></tr>
+<tr class="memdesc:a6753abeb6a280f368eb772d896929ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the detected lines in the image.  <a href="#a6753abeb6a280f368eb772d896929ae5">More...</a><br /></td></tr>
+<tr class="separator:a6753abeb6a280f368eb772d896929ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ed86fe1996769b5f613b01746dc4495"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a3ed86fe1996769b5f613b01746dc4495">drawCalibratedLineModel</a> (cv::Mat &amp;image)</td></tr>
+<tr class="memdesc:a3ed86fe1996769b5f613b01746dc4495"><td class="mdescLeft">&#160;</td><td class="mdescRight">Draw the line model using the calibration matrix defined in the interface.  <a href="#a3ed86fe1996769b5f613b01746dc4495">More...</a><br /></td></tr>
+<tr class="separator:a3ed86fe1996769b5f613b01746dc4495"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a920897ae0e9e180279dd473c2133b237"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structModule_1_1UpdateInformation.html">Module::UpdateInformation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a920897ae0e9e180279dd473c2133b237">getUpdates</a> ()</td></tr>
 <tr class="memdesc:a920897ae0e9e180279dd473c2133b237"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates wich representations are used in this widget.  <a href="#a920897ae0e9e180279dd473c2133b237">More...</a><br /></td></tr>
 <tr class="separator:a920897ae0e9e180279dd473c2133b237"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -146,15 +173,21 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae3db4db8020a87f00adfe7828560ac7b"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ae3db4db8020a87f00adfe7828560ac7b">ball_color_</a> = cv::Scalar(0, 0, 255)</td></tr>
-<tr class="memdesc:ae3db4db8020a87f00adfe7828560ac7b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the ball.  <a href="#ae3db4db8020a87f00adfe7828560ac7b">More...</a><br /></td></tr>
-<tr class="separator:ae3db4db8020a87f00adfe7828560ac7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebd4524dfcc83633bacf82b0043ae80a"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aebd4524dfcc83633bacf82b0043ae80a">field_boundary_color_</a> = cv::Scalar(255, 0, 0)</td></tr>
-<tr class="memdesc:aebd4524dfcc83633bacf82b0043ae80a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the field.  <a href="#aebd4524dfcc83633bacf82b0043ae80a">More...</a><br /></td></tr>
-<tr class="separator:aebd4524dfcc83633bacf82b0043ae80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae16873e10534096ae963ab8bdbee26d"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aae16873e10534096ae963ab8bdbee26d">line_model_color_</a> = cv::Scalar(0, 0, 255)</td></tr>
-<tr class="memdesc:aae16873e10534096ae963ab8bdbee26d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the line model.  <a href="#aae16873e10534096ae963ab8bdbee26d">More...</a><br /></td></tr>
-<tr class="separator:aae16873e10534096ae963ab8bdbee26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73a81a6ba850fbdfcab6c5980a560b9e"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a73a81a6ba850fbdfcab6c5980a560b9e">BALL_COLOR_</a> = cv::Scalar(0, 0, 255)</td></tr>
+<tr class="memdesc:a73a81a6ba850fbdfcab6c5980a560b9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the ball.  <a href="#a73a81a6ba850fbdfcab6c5980a560b9e">More...</a><br /></td></tr>
+<tr class="separator:a73a81a6ba850fbdfcab6c5980a560b9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfdab49ec2d2c7031c946c112fea9704"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#abfdab49ec2d2c7031c946c112fea9704">ROI_COLOR_</a> = cv::Scalar(220, 220, 220)</td></tr>
+<tr class="memdesc:abfdab49ec2d2c7031c946c112fea9704"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the rois.  <a href="#abfdab49ec2d2c7031c946c112fea9704">More...</a><br /></td></tr>
+<tr class="separator:abfdab49ec2d2c7031c946c112fea9704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b675bd4bd21b948ded48b17f25ca9fa"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a9b675bd4bd21b948ded48b17f25ca9fa">FIELD_BOUNDARY_COLOR_</a> = cv::Scalar(255, 0, 0)</td></tr>
+<tr class="memdesc:a9b675bd4bd21b948ded48b17f25ca9fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the field.  <a href="#a9b675bd4bd21b948ded48b17f25ca9fa">More...</a><br /></td></tr>
+<tr class="separator:a9b675bd4bd21b948ded48b17f25ca9fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad5c5d5930ac231ee9a7d429a8e81f2"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a3ad5c5d5930ac231ee9a7d429a8e81f2">LINE_MODEL_COLOR_</a> = cv::Scalar(0, 0, 255)</td></tr>
+<tr class="memdesc:a3ad5c5d5930ac231ee9a7d429a8e81f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the line model.  <a href="#a3ad5c5d5930ac231ee9a7d429a8e81f2">More...</a><br /></td></tr>
+<tr class="separator:a3ad5c5d5930ac231ee9a7d429a8e81f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a872cc3596dd3914b241b8aad4b88bd0c"><td class="memItemLeft" align="right" valign="top">const cv::Scalar&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a872cc3596dd3914b241b8aad4b88bd0c">LINES_COLOR_</a> = cv::Scalar(255, 0, 255)</td></tr>
+<tr class="memdesc:a872cc3596dd3914b241b8aad4b88bd0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The color used for drawing the detected lines.  <a href="#a872cc3596dd3914b241b8aad4b88bd0c">More...</a><br /></td></tr>
+<tr class="separator:a872cc3596dd3914b241b8aad4b88bd0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d3b6162672d66901fa47435bcc45d83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrCameraSensor.html">rCameraSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a5d3b6162672d66901fa47435bcc45d83">camera_message_</a></td></tr>
 <tr class="memdesc:a5d3b6162672d66901fa47435bcc45d83"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the camera representations.  <a href="#a5d3b6162672d66901fa47435bcc45d83">More...</a><br /></td></tr>
 <tr class="separator:a5d3b6162672d66901fa47435bcc45d83"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,13 +195,26 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a591595bac3c65798a0a2ec1c48d3608b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the ball representations.  <a href="#a591595bac3c65798a0a2ec1c48d3608b">More...</a><br /></td></tr>
 <tr class="separator:a591595bac3c65798a0a2ec1c48d3608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73f6fa12fcc28ba0232286c33c2f4617"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrFieldBoundary.html">rFieldBoundary</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a73f6fa12fcc28ba0232286c33c2f4617">field_boundary_message_</a></td></tr>
-<tr class="memdesc:a73f6fa12fcc28ba0232286c33c2f4617"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the field boundary representations.  <a href="#a73f6fa12fcc28ba0232286c33c2f4617">More...</a><br /></td></tr>
+<tr class="memdesc:a73f6fa12fcc28ba0232286c33c2f4617"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the field boundary representation.  <a href="#a73f6fa12fcc28ba0232286c33c2f4617">More...</a><br /></td></tr>
 <tr class="separator:a73f6fa12fcc28ba0232286c33c2f4617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae81f576862bc67e2a562379a876fa4d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrLineModel.html">rLineModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ae81f576862bc67e2a562379a876fa4d4">line_model_message_</a></td></tr>
-<tr class="separator:ae81f576862bc67e2a562379a876fa4d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf5f470865357d8c0bf81e6cdaec0c28"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrLines.html">rLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#acf5f470865357d8c0bf81e6cdaec0c28">lines_message_</a></td></tr>
+<tr class="memdesc:acf5f470865357d8c0bf81e6cdaec0c28"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classInputMessage.html">InputMessage</a> containing the lines representation.  <a href="#acf5f470865357d8c0bf81e6cdaec0c28">More...</a><br /></td></tr>
+<tr class="separator:acf5f470865357d8c0bf81e6cdaec0c28"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329e87a20f58ac8fd50ccfa3a4110230"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotPosition.html">rRobotPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a329e87a20f58ac8fd50ccfa3a4110230">robot_position_message_</a></td></tr>
+<tr class="memdesc:a329e87a20f58ac8fd50ccfa3a4110230"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the robot position representation.  <a href="#a329e87a20f58ac8fd50ccfa3a4110230">More...</a><br /></td></tr>
+<tr class="separator:a329e87a20f58ac8fd50ccfa3a4110230"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb661ff243a55436b7d88590e5e11905"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#afb661ff243a55436b7d88590e5e11905">robot_model_message_</a></td></tr>
+<tr class="memdesc:afb661ff243a55436b7d88590e5e11905"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the robot model representation.  <a href="#afb661ff243a55436b7d88590e5e11905">More...</a><br /></td></tr>
+<tr class="separator:afb661ff243a55436b7d88590e5e11905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9a8884a248d3edb1fceca8e39529f8e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrFSRSensor.html">rFSRSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ae9a8884a248d3edb1fceca8e39529f8e">fsr_message_</a></td></tr>
+<tr class="memdesc:ae9a8884a248d3edb1fceca8e39529f8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Input message for the foot support sensor representations.  <a href="#ae9a8884a248d3edb1fceca8e39529f8e">More...</a><br /></td></tr>
+<tr class="separator:ae9a8884a248d3edb1fceca8e39529f8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:ad55f620052de0627a57fad6362e4809d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classCalibration.html">Calibration</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ad55f620052de0627a57fad6362e4809d">calibration_</a></td></tr>
+<tr class="memdesc:ad55f620052de0627a57fad6362e4809d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> object that determines the rotation matrix.  <a href="#ad55f620052de0627a57fad6362e4809d">More...</a><br /></td></tr>
+<tr class="separator:ad55f620052de0627a57fad6362e4809d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb785e5eba9aa787735781d7178f5197"><td class="memItemLeft" align="right" valign="top">QScrollArea *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#abb785e5eba9aa787735781d7178f5197">scroll_area_</a></td></tr>
 <tr class="memdesc:abb785e5eba9aa787735781d7178f5197"><td class="mdescLeft">&#160;</td><td class="mdescRight">The scroll area of this widget, holds all other elements.  <a href="#abb785e5eba9aa787735781d7178f5197">More...</a><br /></td></tr>
 <tr class="separator:abb785e5eba9aa787735781d7178f5197"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -187,6 +233,15 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a21461cc00a1644c8757d1a1a36ab9850"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a21461cc00a1644c8757d1a1a36ab9850">ball_layout_</a></td></tr>
 <tr class="memdesc:a21461cc00a1644c8757d1a1a36ab9850"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout used for the ball container.  <a href="#a21461cc00a1644c8757d1a1a36ab9850">More...</a><br /></td></tr>
 <tr class="separator:a21461cc00a1644c8757d1a1a36ab9850"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4d8bfccb125660e0e6e2ed32105b58c"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ab4d8bfccb125660e0e6e2ed32105b58c">roi_label_</a></td></tr>
+<tr class="memdesc:ab4d8bfccb125660e0e6e2ed32105b58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text of the roi checkbox.  <a href="#ab4d8bfccb125660e0e6e2ed32105b58c">More...</a><br /></td></tr>
+<tr class="separator:ab4d8bfccb125660e0e6e2ed32105b58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cf559c0eb4c87c914cfd8c393fe99d9"><td class="memItemLeft" align="right" valign="top">QFrame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a3cf559c0eb4c87c914cfd8c393fe99d9">roi_container_</a></td></tr>
+<tr class="memdesc:a3cf559c0eb4c87c914cfd8c393fe99d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The frame around the roi checkbox and roi text.  <a href="#a3cf559c0eb4c87c914cfd8c393fe99d9">More...</a><br /></td></tr>
+<tr class="separator:a3cf559c0eb4c87c914cfd8c393fe99d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e43d32f36dcf6eade1c8f5b91f6afd"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#af2e43d32f36dcf6eade1c8f5b91f6afd">roi_layout_</a></td></tr>
+<tr class="memdesc:af2e43d32f36dcf6eade1c8f5b91f6afd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout used for the roi container.  <a href="#af2e43d32f36dcf6eade1c8f5b91f6afd">More...</a><br /></td></tr>
+<tr class="separator:af2e43d32f36dcf6eade1c8f5b91f6afd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2135cbb7447be089f4a1766ea02456aa"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a2135cbb7447be089f4a1766ea02456aa">field_boundary_label_</a></td></tr>
 <tr class="memdesc:a2135cbb7447be089f4a1766ea02456aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text used for the field checkbox.  <a href="#a2135cbb7447be089f4a1766ea02456aa">More...</a><br /></td></tr>
 <tr class="separator:a2135cbb7447be089f4a1766ea02456aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -205,15 +260,36 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ade05624d118d178e01cc909e07e54d6a"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ade05624d118d178e01cc909e07e54d6a">line_model_layout_</a></td></tr>
 <tr class="memdesc:ade05624d118d178e01cc909e07e54d6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout of the line model container.  <a href="#ade05624d118d178e01cc909e07e54d6a">More...</a><br /></td></tr>
 <tr class="separator:ade05624d118d178e01cc909e07e54d6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1cbeed87fb0f644634147c79ed8818db"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a1cbeed87fb0f644634147c79ed8818db">lines_label_</a></td></tr>
+<tr class="memdesc:a1cbeed87fb0f644634147c79ed8818db"><td class="mdescLeft">&#160;</td><td class="mdescRight">The text used for the lines checkbox.  <a href="#a1cbeed87fb0f644634147c79ed8818db">More...</a><br /></td></tr>
+<tr class="separator:a1cbeed87fb0f644634147c79ed8818db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a8572c42db42e7c359424baacf05150"><td class="memItemLeft" align="right" valign="top">QFrame *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a1a8572c42db42e7c359424baacf05150">lines_container_</a></td></tr>
+<tr class="memdesc:a1a8572c42db42e7c359424baacf05150"><td class="mdescLeft">&#160;</td><td class="mdescRight">The container for the lines checkbox and text.  <a href="#a1a8572c42db42e7c359424baacf05150">More...</a><br /></td></tr>
+<tr class="separator:a1a8572c42db42e7c359424baacf05150"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1969b1c44b6effb75b039f43b2e773"><td class="memItemLeft" align="right" valign="top">QHBoxLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a5d1969b1c44b6effb75b039f43b2e773">lines_layout_</a></td></tr>
+<tr class="memdesc:a5d1969b1c44b6effb75b039f43b2e773"><td class="mdescLeft">&#160;</td><td class="mdescRight">The layout of the lines container.  <a href="#a5d1969b1c44b6effb75b039f43b2e773">More...</a><br /></td></tr>
+<tr class="separator:a5d1969b1c44b6effb75b039f43b2e773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a58fd09b0741f4ab92c76c3596e15c2ce"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrBall.html">rBall</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a58fd09b0741f4ab92c76c3596e15c2ce">ball_representation_</a></td></tr>
 <tr class="memdesc:a58fd09b0741f4ab92c76c3596e15c2ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received ball representation.  <a href="#a58fd09b0741f4ab92c76c3596e15c2ce">More...</a><br /></td></tr>
 <tr class="separator:a58fd09b0741f4ab92c76c3596e15c2ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ad5350ed32fe358932783b6ab4db4c0"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrCameraSensor.html">rCameraSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a2ad5350ed32fe358932783b6ab4db4c0">last_camera_representation_</a></td></tr>
+<tr class="memdesc:a2ad5350ed32fe358932783b6ab4db4c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received camera representation.  <a href="#a2ad5350ed32fe358932783b6ab4db4c0">More...</a><br /></td></tr>
+<tr class="separator:a2ad5350ed32fe358932783b6ab4db4c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2711e46ef4307a03720710738edff58e"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrFieldBoundary.html">rFieldBoundary</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a2711e46ef4307a03720710738edff58e">field_boundary_representation_</a></td></tr>
 <tr class="memdesc:a2711e46ef4307a03720710738edff58e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received field representation.  <a href="#a2711e46ef4307a03720710738edff58e">More...</a><br /></td></tr>
 <tr class="separator:a2711e46ef4307a03720710738edff58e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb79386f4a280e030277de46a5d383cb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrLineModel.html">rLineModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#afb79386f4a280e030277de46a5d383cb">line_model_representation_</a></td></tr>
-<tr class="memdesc:afb79386f4a280e030277de46a5d383cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received line model representation.  <a href="#afb79386f4a280e030277de46a5d383cb">More...</a><br /></td></tr>
-<tr class="separator:afb79386f4a280e030277de46a5d383cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ab4451f19aaf82dff83d2856e3c713b"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrFSRSensor.html">rFSRSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a7ab4451f19aaf82dff83d2856e3c713b">fsr_representation_</a></td></tr>
+<tr class="memdesc:a7ab4451f19aaf82dff83d2856e3c713b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received fsr representation.  <a href="#a7ab4451f19aaf82dff83d2856e3c713b">More...</a><br /></td></tr>
+<tr class="separator:a7ab4451f19aaf82dff83d2856e3c713b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ed7af4bb0a4a2c8816f63f74bf6e3c"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrLines.html">rLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a93ed7af4bb0a4a2c8816f63f74bf6e3c">lines_representation_</a></td></tr>
+<tr class="memdesc:a93ed7af4bb0a4a2c8816f63f74bf6e3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received lines representation.  <a href="#a93ed7af4bb0a4a2c8816f63f74bf6e3c">More...</a><br /></td></tr>
+<tr class="separator:a93ed7af4bb0a4a2c8816f63f74bf6e3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aded9347c7f9faa7a2c702db460da30e4"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrRobotPosition.html">rRobotPosition</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aded9347c7f9faa7a2c702db460da30e4">robot_position_representation_</a></td></tr>
+<tr class="memdesc:aded9347c7f9faa7a2c702db460da30e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received robot position representation.  <a href="#aded9347c7f9faa7a2c702db460da30e4">More...</a><br /></td></tr>
+<tr class="separator:aded9347c7f9faa7a2c702db460da30e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0d541cf6826c17ec098d3b4e46f8b9"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a9a0d541cf6826c17ec098d3b4e46f8b9">robot_model_representation_</a></td></tr>
+<tr class="memdesc:a9a0d541cf6826c17ec098d3b4e46f8b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received robot model representation.  <a href="#a9a0d541cf6826c17ec098d3b4e46f8b9">More...</a><br /></td></tr>
+<tr class="separator:a9a0d541cf6826c17ec098d3b4e46f8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9826e11ba858611676a52e87e50c6a73"><td class="memItemLeft" align="right" valign="top">QLabel *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a9826e11ba858611676a52e87e50c6a73">image_label_</a></td></tr>
 <tr class="memdesc:a9826e11ba858611676a52e87e50c6a73"><td class="mdescLeft">&#160;</td><td class="mdescRight">The object used to display the image.  <a href="#a9826e11ba858611676a52e87e50c6a73">More...</a><br /></td></tr>
 <tr class="separator:a9826e11ba858611676a52e87e50c6a73"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -223,19 +299,60 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a49ba3564fc77d19596cbc1be799b2e12"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a49ba3564fc77d19596cbc1be799b2e12">ball_box_</a></td></tr>
 <tr class="memdesc:a49ba3564fc77d19596cbc1be799b2e12"><td class="mdescLeft">&#160;</td><td class="mdescRight">The checkbox that indicates if the ball should be drawn.  <a href="#a49ba3564fc77d19596cbc1be799b2e12">More...</a><br /></td></tr>
 <tr class="separator:a49ba3564fc77d19596cbc1be799b2e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ff1c539afb1619d266e79eb957538ef"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a2ff1c539afb1619d266e79eb957538ef">roi_box_</a></td></tr>
+<tr class="memdesc:a2ff1c539afb1619d266e79eb957538ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">The checkbox that indicates if the rois should be drawn.  <a href="#a2ff1c539afb1619d266e79eb957538ef">More...</a><br /></td></tr>
+<tr class="separator:a2ff1c539afb1619d266e79eb957538ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a859ce4399f31e43163f225c02c6cd274"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a859ce4399f31e43163f225c02c6cd274">line_model_box_</a></td></tr>
 <tr class="memdesc:a859ce4399f31e43163f225c02c6cd274"><td class="mdescLeft">&#160;</td><td class="mdescRight">The checkbox that indicates if the line model should be drawn.  <a href="#a859ce4399f31e43163f225c02c6cd274">More...</a><br /></td></tr>
 <tr class="separator:a859ce4399f31e43163f225c02c6cd274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3b839aaf72eafd1be4b37ec48a4da5e"><td class="memItemLeft" align="right" valign="top">QCheckBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#aa3b839aaf72eafd1be4b37ec48a4da5e">lines_box_</a></td></tr>
+<tr class="memdesc:aa3b839aaf72eafd1be4b37ec48a4da5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The checkbox that indicates if the lines should be drawn.  <a href="#aa3b839aaf72eafd1be4b37ec48a4da5e">More...</a><br /></td></tr>
+<tr class="separator:aa3b839aaf72eafd1be4b37ec48a4da5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a655ecb2e85da3e1476e61f652d547e3e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a655ecb2e85da3e1476e61f652d547e3e">is_upper_</a></td></tr>
 <tr class="memdesc:a655ecb2e85da3e1476e61f652d547e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If this is the upper (true) or lower (false) camera of this widget.  <a href="#a655ecb2e85da3e1476e61f652d547e3e">More...</a><br /></td></tr>
 <tr class="separator:a655ecb2e85da3e1476e61f652d547e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb6a3a02ed3d329a7d02c9673a6a485a"><td class="memItemLeft" align="right" valign="top">QGridLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#abb6a3a02ed3d329a7d02c9673a6a485a">calibration_layout_</a></td></tr>
+<tr class="memdesc:abb6a3a02ed3d329a7d02c9673a6a485a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for the calibration sliders and button.  <a href="#abb6a3a02ed3d329a7d02c9673a6a485a">More...</a><br /></td></tr>
+<tr class="separator:abb6a3a02ed3d329a7d02c9673a6a485a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8f7b8b0cac1a80b2440594eb287d4384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwCollapsible.html">wCollapsible</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a8f7b8b0cac1a80b2440594eb287d4384">calibration_collaps_</a></td></tr>
+<tr class="memdesc:a8f7b8b0cac1a80b2440594eb287d4384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapsible for the calibration sliders and button.  <a href="#a8f7b8b0cac1a80b2440594eb287d4384">More...</a><br /></td></tr>
+<tr class="separator:a8f7b8b0cac1a80b2440594eb287d4384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12e6a5c89a665099b01195d0ceb47cc3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwCalibrationAxis.html">wCalibrationAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a12e6a5c89a665099b01195d0ceb47cc3">roll_calibration_</a></td></tr>
+<tr class="memdesc:a12e6a5c89a665099b01195d0ceb47cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> slider for the roll of the camera.  <a href="#a12e6a5c89a665099b01195d0ceb47cc3">More...</a><br /></td></tr>
+<tr class="separator:a12e6a5c89a665099b01195d0ceb47cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60eb7a09c1fb172520c1338e7ce0e35d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwCalibrationAxis.html">wCalibrationAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a60eb7a09c1fb172520c1338e7ce0e35d">pitch_calibration_</a></td></tr>
+<tr class="memdesc:a60eb7a09c1fb172520c1338e7ce0e35d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> slider for the pitch of the camera.  <a href="#a60eb7a09c1fb172520c1338e7ce0e35d">More...</a><br /></td></tr>
+<tr class="separator:a60eb7a09c1fb172520c1338e7ce0e35d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3e20343d7d211873a8405cd7c3709a5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwCalibrationAxis.html">wCalibrationAxis</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#af3e20343d7d211873a8405cd7c3709a5">yaw_calibration_</a></td></tr>
+<tr class="memdesc:af3e20343d7d211873a8405cd7c3709a5"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> slider for the yaw of the camera.  <a href="#af3e20343d7d211873a8405cd7c3709a5">More...</a><br /></td></tr>
+<tr class="separator:af3e20343d7d211873a8405cd7c3709a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7160524d1669e26496c51012536f982e"><td class="memItemLeft" align="right" valign="top">QPushButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a7160524d1669e26496c51012536f982e">save_calibration_</a></td></tr>
+<tr class="memdesc:a7160524d1669e26496c51012536f982e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Button to save the camera calibration.  <a href="#a7160524d1669e26496c51012536f982e">More...</a><br /></td></tr>
+<tr class="separator:a7160524d1669e26496c51012536f982e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a853cf93c175ddd4504ac91be0ff6ff"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLineModel.html">LineModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a5a853cf93c175ddd4504ac91be0ff6ff">calibrated_line_model_</a></td></tr>
+<tr class="memdesc:a5a853cf93c175ddd4504ac91be0ff6ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">The calibration line model.  <a href="#a5a853cf93c175ddd4504ac91be0ff6ff">More...</a><br /></td></tr>
+<tr class="separator:a5a853cf93c175ddd4504ac91be0ff6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83d25846b899d940b55e6dd59573eda3"><td class="memItemLeft" align="right" valign="top">QGridLayout *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a83d25846b899d940b55e6dd59573eda3">visualisations_layout_</a></td></tr>
+<tr class="memdesc:a83d25846b899d940b55e6dd59573eda3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Layout for the visualisations that can be drawn on top of the image.  <a href="#a83d25846b899d940b55e6dd59573eda3">More...</a><br /></td></tr>
+<tr class="separator:a83d25846b899d940b55e6dd59573eda3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad554d1dc07fafab8fc88b6c54d94d716"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classwCollapsible.html">wCollapsible</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#ad554d1dc07fafab8fc88b6c54d94d716">visualisations_collaps_</a></td></tr>
+<tr class="memdesc:ad554d1dc07fafab8fc88b6c54d94d716"><td class="mdescLeft">&#160;</td><td class="mdescRight">Collapsible for the visualisations that can be drawn on top of the image.  <a href="#ad554d1dc07fafab8fc88b6c54d94d716">More...</a><br /></td></tr>
+<tr class="separator:ad554d1dc07fafab8fc88b6c54d94d716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e4becafe652f32766cf6056eb348062"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classParticle.html">Particle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraWidget.html#a8e4becafe652f32766cf6056eb348062">calibration_particle_</a></td></tr>
+<tr class="memdesc:a8e4becafe652f32766cf6056eb348062"><td class="mdescLeft">&#160;</td><td class="mdescRight">The position for the calibration pose.  <a href="#a8e4becafe652f32766cf6056eb348062">More...</a><br /></td></tr>
+<tr class="separator:a8e4becafe652f32766cf6056eb348062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball and field boundary...">CameraWidget</a>: Widget that shows the images from the upper of lower camera, ball and field boundary. </p>
-<p>Author: Sébastien </p>
+<div class="textblock"><p><a class="el" href="classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball, lines and field boun...">CameraWidget</a>: Widget that shows the images from the upper of lower camera, ball, lines and field boundary. </p>
+<p>Also supports calibration of top camera rotation: <a href="https://github.com/IntelligentRoboticsLab/DNT2017/wiki/Camera-Calibration">https://github.com/IntelligentRoboticsLab/DNT2017/wiki/Camera-Calibration</a></p>
+<dl class="section author"><dt>Author</dt><dd>: Sébastien </dd>
+<dd>
+: Caitlin </dd>
+<dd>
+: Hidde </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2b808d4e266f6b0d9570ee32afef2769"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b808d4e266f6b0d9570ee32afef2769">&#9670;&nbsp;</a></span>CameraWidget()</h2>
+<a id="aa0d8e6c211a0baa036116a477c8d8390"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa0d8e6c211a0baa036116a477c8d8390">&#9670;&nbsp;</a></span>CameraWidget()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -249,8 +366,8 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">QWidget *&#160;</td>
-          <td class="paramname"><em>parent</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="classDNTWindow.html">DNTWindow</a> *&#160;</td>
+          <td class="paramname"><em>window</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -261,15 +378,20 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Constructor: initialize placeholders for image. </p>
-<p><a class="el" href="classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball and field boundary...">CameraWidget</a>: Widget that shows the images from the upper or lower camera, ball and field boundary.</p>
+<p><a class="el" href="classCameraWidget.html" title="CameraWidget: Widget that shows the images from the upper of lower camera, ball, lines and field boun...">CameraWidget</a>: Widget that shows the images from the upper of lower camera, ball, lines and field boundary.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">is_upper</td><td>If this widget is the upper (true) or lower (false) camera </td></tr>
-    <tr><td class="paramname">parent</td><td>The parent of this widget</td></tr>
+    <tr><td class="paramname">window</td><td>The parent of this widget</td></tr>
   </table>
   </dd>
 </dl>
-<p>Author: Sébastien </p>
+<p>Also supports calibration of top camera rotation: <a href="https://github.com/IntelligentRoboticsLab/DNT2017/wiki/Camera-Calibration">https://github.com/IntelligentRoboticsLab/DNT2017/wiki/Camera-Calibration</a></p>
+<dl class="section author"><dt>Author</dt><dd>: Sébastien </dd>
+<dd>
+: Caitlin </dd>
+<dd>
+: Hidde </dd></dl>
 
 </div>
 </div>
@@ -294,6 +416,32 @@ Private Attributes</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">image</td><td>The image on which the ball will be drawn </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a3ed86fe1996769b5f613b01746dc4495"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ed86fe1996769b5f613b01746dc4495">&#9670;&nbsp;</a></span>drawCalibratedLineModel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraWidget::drawCalibratedLineModel </td>
+          <td>(</td>
+          <td class="paramtype">cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>image</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw the line model using the calibration matrix defined in the interface. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td></td></tr>
   </table>
   </dd>
 </dl>
@@ -326,6 +474,32 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a6753abeb6a280f368eb772d896929ae5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6753abeb6a280f368eb772d896929ae5">&#9670;&nbsp;</a></span>drawLineDetections()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraWidget::drawLineDetections </td>
+          <td>(</td>
+          <td class="paramtype">cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>image</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw the detected lines in the image. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>The image in which the detected lines should be drawn. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="aec903f010362fcf7da4bda495211bf5d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aec903f010362fcf7da4bda495211bf5d">&#9670;&nbsp;</a></span>drawLineModel()</h2>
 
@@ -349,6 +523,59 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="ad7104da183ee67cf73a83e149eacd4c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7104da183ee67cf73a83e149eacd4c8">&#9670;&nbsp;</a></span>drawRoi()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraWidget::drawRoi </td>
+          <td>(</td>
+          <td class="paramtype">cv::Mat &amp;&#160;</td>
+          <td class="paramname"><em>image</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Draw the rois on the image. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">image</td><td>The image on which the rois will be drawn </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="abc4d8619012ca095d7187d75566e9bd3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc4d8619012ca095d7187d75566e9bd3">&#9670;&nbsp;</a></span>fieldChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraWidget::fieldChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the field in the dropdown is changed. </p>
 
 </div>
 </div>
@@ -436,13 +663,32 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Let the UI thread know the image should be updated. </p>
+<p>Lets the UI thread know the image should be updated. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pixmap</td><td>The image that would be set in the image label </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a86ab72174dd4b628340b29cf66a0f455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ab72174dd4b628340b29cf66a0f455">&#9670;&nbsp;</a></span>saveCalibrationMatrix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraWidget::saveCalibrationMatrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Show a message box on how to save the calibration matrix for the camera. </p>
 
 </div>
 </div>
@@ -470,13 +716,40 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Set the image label with a new image. </p>
+<p>Sets the image label with a new image. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">pixmap</td><td>The image that will be set </td></tr>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="a75a1c69ac2ce73c54a9ac6cd5b64156b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75a1c69ac2ce73c54a9ac6cd5b64156b">&#9670;&nbsp;</a></span>sliderChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void CameraWidget::sliderChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when one of the calibration sliders has been changed to change the calibratio matrix. </p>
 
 </div>
 </div>
@@ -524,14 +797,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae3db4db8020a87f00adfe7828560ac7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae3db4db8020a87f00adfe7828560ac7b">&#9670;&nbsp;</a></span>ball_color_</h2>
+<a id="a73a81a6ba850fbdfcab6c5980a560b9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73a81a6ba850fbdfcab6c5980a560b9e">&#9670;&nbsp;</a></span>BALL_COLOR_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const cv::Scalar CameraWidget::ball_color_ = cv::Scalar(0, 0, 255)</td>
+          <td class="memname">const cv::Scalar CameraWidget::BALL_COLOR_ = cv::Scalar(0, 0, 255)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -652,6 +925,126 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a5a853cf93c175ddd4504ac91be0ff6ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a853cf93c175ddd4504ac91be0ff6ff">&#9670;&nbsp;</a></span>calibrated_line_model_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classLineModel.html">LineModel</a> CameraWidget::calibrated_line_model_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The calibration line model. </p>
+
+</div>
+</div>
+<a id="ad55f620052de0627a57fad6362e4809d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad55f620052de0627a57fad6362e4809d">&#9670;&nbsp;</a></span>calibration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classCalibration.html">Calibration</a> CameraWidget::calibration_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> object that determines the rotation matrix. </p>
+
+</div>
+</div>
+<a id="a8f7b8b0cac1a80b2440594eb287d4384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8f7b8b0cac1a80b2440594eb287d4384">&#9670;&nbsp;</a></span>calibration_collaps_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwCollapsible.html">wCollapsible</a>* CameraWidget::calibration_collaps_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collapsible for the calibration sliders and button. </p>
+
+</div>
+</div>
+<a id="abb6a3a02ed3d329a7d02c9673a6a485a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb6a3a02ed3d329a7d02c9673a6a485a">&#9670;&nbsp;</a></span>calibration_layout_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QGridLayout* CameraWidget::calibration_layout_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layout for the calibration sliders and button. </p>
+
+</div>
+</div>
+<a id="a8e4becafe652f32766cf6056eb348062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e4becafe652f32766cf6056eb348062">&#9670;&nbsp;</a></span>calibration_particle_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classParticle.html">Particle</a> CameraWidget::calibration_particle_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The position for the calibration pose. </p>
+
+</div>
+</div>
 <a id="a5d3b6162672d66901fa47435bcc45d83"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5d3b6162672d66901fa47435bcc45d83">&#9670;&nbsp;</a></span>camera_message_</h2>
 
@@ -692,14 +1085,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aebd4524dfcc83633bacf82b0043ae80a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebd4524dfcc83633bacf82b0043ae80a">&#9670;&nbsp;</a></span>field_boundary_color_</h2>
+<a id="a9b675bd4bd21b948ded48b17f25ca9fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b675bd4bd21b948ded48b17f25ca9fa">&#9670;&nbsp;</a></span>FIELD_BOUNDARY_COLOR_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const cv::Scalar CameraWidget::field_boundary_color_ = cv::Scalar(255, 0, 0)</td>
+          <td class="memname">const cv::Scalar CameraWidget::FIELD_BOUNDARY_COLOR_ = cv::Scalar(255, 0, 0)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -744,7 +1137,7 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>The input message for the field boundary representations. </p>
+<p>The input message for the field boundary representation. </p>
 
 </div>
 </div>
@@ -820,6 +1213,46 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae9a8884a248d3edb1fceca8e39529f8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9a8884a248d3edb1fceca8e39529f8e">&#9670;&nbsp;</a></span>fsr_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrFSRSensor.html">rFSRSensor</a>&gt; CameraWidget::fsr_message_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Input message for the foot support sensor representations. </p>
+
+</div>
+</div>
+<a id="a7ab4451f19aaf82dff83d2856e3c713b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab4451f19aaf82dff83d2856e3c713b">&#9670;&nbsp;</a></span>fsr_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrFSRSensor.html">rFSRSensor</a>&gt; CameraWidget::fsr_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received fsr representation. </p>
+
+</div>
+</div>
 <a id="a9826e11ba858611676a52e87e50c6a73"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9826e11ba858611676a52e87e50c6a73">&#9670;&nbsp;</a></span>image_label_</h2>
 
@@ -865,6 +1298,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>If this is the upper (true) or lower (false) camera of this widget. </p>
+
+</div>
+</div>
+<a id="a2ad5350ed32fe358932783b6ab4db4c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ad5350ed32fe358932783b6ab4db4c0">&#9670;&nbsp;</a></span>last_camera_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrCameraSensor.html">rCameraSensor</a>&gt; CameraWidget::last_camera_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received camera representation. </p>
 
 </div>
 </div>
@@ -916,14 +1373,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="aae16873e10534096ae963ab8bdbee26d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae16873e10534096ae963ab8bdbee26d">&#9670;&nbsp;</a></span>line_model_color_</h2>
+<a id="a3ad5c5d5930ac231ee9a7d429a8e81f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ad5c5d5930ac231ee9a7d429a8e81f2">&#9670;&nbsp;</a></span>LINE_MODEL_COLOR_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const cv::Scalar CameraWidget::line_model_color_ = cv::Scalar(0, 0, 255)</td>
+          <td class="memname">const cv::Scalar CameraWidget::LINE_MODEL_COLOR_ = cv::Scalar(0, 0, 255)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1004,22 +1461,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae81f576862bc67e2a562379a876fa4d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae81f576862bc67e2a562379a876fa4d4">&#9670;&nbsp;</a></span>line_model_message_</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrLineModel.html">rLineModel</a>&gt; CameraWidget::line_model_message_</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afb79386f4a280e030277de46a5d383cb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb79386f4a280e030277de46a5d383cb">&#9670;&nbsp;</a></span>line_model_representation_</h2>
+<a id="aa3b839aaf72eafd1be4b37ec48a4da5e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3b839aaf72eafd1be4b37ec48a4da5e">&#9670;&nbsp;</a></span>lines_box_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1028,7 +1471,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrLineModel.html">rLineModel</a>&gt; CameraWidget::line_model_representation_</td>
+          <td class="memname">QCheckBox* CameraWidget::lines_box_</td>
         </tr>
       </table>
   </td>
@@ -1038,7 +1481,135 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The last received line model representation. </p>
+<p>The checkbox that indicates if the lines should be drawn. </p>
+
+</div>
+</div>
+<a id="a872cc3596dd3914b241b8aad4b88bd0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a872cc3596dd3914b241b8aad4b88bd0c">&#9670;&nbsp;</a></span>LINES_COLOR_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const cv::Scalar CameraWidget::LINES_COLOR_ = cv::Scalar(255, 0, 255)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The color used for drawing the detected lines. </p>
+
+</div>
+</div>
+<a id="a1a8572c42db42e7c359424baacf05150"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a8572c42db42e7c359424baacf05150">&#9670;&nbsp;</a></span>lines_container_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFrame* CameraWidget::lines_container_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The container for the lines checkbox and text. </p>
+
+</div>
+</div>
+<a id="a1cbeed87fb0f644634147c79ed8818db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1cbeed87fb0f644634147c79ed8818db">&#9670;&nbsp;</a></span>lines_label_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* CameraWidget::lines_label_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text used for the lines checkbox. </p>
+
+</div>
+</div>
+<a id="a5d1969b1c44b6effb75b039f43b2e773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1969b1c44b6effb75b039f43b2e773">&#9670;&nbsp;</a></span>lines_layout_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* CameraWidget::lines_layout_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The layout of the lines container. </p>
+
+</div>
+</div>
+<a id="acf5f470865357d8c0bf81e6cdaec0c28"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf5f470865357d8c0bf81e6cdaec0c28">&#9670;&nbsp;</a></span>lines_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrLines.html">rLines</a>&gt; CameraWidget::lines_message_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classInputMessage.html">InputMessage</a> containing the lines representation. </p>
+
+</div>
+</div>
+<a id="a93ed7af4bb0a4a2c8816f63f74bf6e3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ed7af4bb0a4a2c8816f63f74bf6e3c">&#9670;&nbsp;</a></span>lines_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrLines.html">rLines</a>&gt; CameraWidget::lines_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received lines representation. </p>
 
 </div>
 </div>
@@ -1066,6 +1637,270 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a60eb7a09c1fb172520c1338e7ce0e35d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60eb7a09c1fb172520c1338e7ce0e35d">&#9670;&nbsp;</a></span>pitch_calibration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwCalibrationAxis.html">wCalibrationAxis</a>* CameraWidget::pitch_calibration_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> slider for the pitch of the camera. </p>
+
+</div>
+</div>
+<a id="afb661ff243a55436b7d88590e5e11905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb661ff243a55436b7d88590e5e11905">&#9670;&nbsp;</a></span>robot_model_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrRobotModel.html">rRobotModel</a>&gt; CameraWidget::robot_model_message_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The input message for the robot model representation. </p>
+
+</div>
+</div>
+<a id="a9a0d541cf6826c17ec098d3b4e46f8b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0d541cf6826c17ec098d3b4e46f8b9">&#9670;&nbsp;</a></span>robot_model_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrRobotModel.html">rRobotModel</a>&gt; CameraWidget::robot_model_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received robot model representation. </p>
+
+</div>
+</div>
+<a id="a329e87a20f58ac8fd50ccfa3a4110230"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a329e87a20f58ac8fd50ccfa3a4110230">&#9670;&nbsp;</a></span>robot_position_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrRobotPosition.html">rRobotPosition</a>&gt; CameraWidget::robot_position_message_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The input message for the robot position representation. </p>
+
+</div>
+</div>
+<a id="aded9347c7f9faa7a2c702db460da30e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aded9347c7f9faa7a2c702db460da30e4">&#9670;&nbsp;</a></span>robot_position_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrRobotPosition.html">rRobotPosition</a>&gt; CameraWidget::robot_position_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received robot position representation. </p>
+
+</div>
+</div>
+<a id="a2ff1c539afb1619d266e79eb957538ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ff1c539afb1619d266e79eb957538ef">&#9670;&nbsp;</a></span>roi_box_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QCheckBox* CameraWidget::roi_box_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The checkbox that indicates if the rois should be drawn. </p>
+
+</div>
+</div>
+<a id="abfdab49ec2d2c7031c946c112fea9704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfdab49ec2d2c7031c946c112fea9704">&#9670;&nbsp;</a></span>ROI_COLOR_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const cv::Scalar CameraWidget::ROI_COLOR_ = cv::Scalar(220, 220, 220)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The color used for drawing the rois. </p>
+
+</div>
+</div>
+<a id="a3cf559c0eb4c87c914cfd8c393fe99d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3cf559c0eb4c87c914cfd8c393fe99d9">&#9670;&nbsp;</a></span>roi_container_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QFrame* CameraWidget::roi_container_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The frame around the roi checkbox and roi text. </p>
+
+</div>
+</div>
+<a id="ab4d8bfccb125660e0e6e2ed32105b58c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4d8bfccb125660e0e6e2ed32105b58c">&#9670;&nbsp;</a></span>roi_label_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QLabel* CameraWidget::roi_label_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The text of the roi checkbox. </p>
+
+</div>
+</div>
+<a id="af2e43d32f36dcf6eade1c8f5b91f6afd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2e43d32f36dcf6eade1c8f5b91f6afd">&#9670;&nbsp;</a></span>roi_layout_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QHBoxLayout* CameraWidget::roi_layout_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The layout used for the roi container. </p>
+
+</div>
+</div>
+<a id="a12e6a5c89a665099b01195d0ceb47cc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12e6a5c89a665099b01195d0ceb47cc3">&#9670;&nbsp;</a></span>roll_calibration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwCalibrationAxis.html">wCalibrationAxis</a>* CameraWidget::roll_calibration_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> slider for the roll of the camera. </p>
+
+</div>
+</div>
+<a id="a7160524d1669e26496c51012536f982e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7160524d1669e26496c51012536f982e">&#9670;&nbsp;</a></span>save_calibration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QPushButton* CameraWidget::save_calibration_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Button to save the camera calibration. </p>
+
+</div>
+</div>
 <a id="abb785e5eba9aa787735781d7178f5197"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abb785e5eba9aa787735781d7178f5197">&#9670;&nbsp;</a></span>scroll_area_</h2>
 
@@ -1090,9 +1925,81 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ad554d1dc07fafab8fc88b6c54d94d716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad554d1dc07fafab8fc88b6c54d94d716">&#9670;&nbsp;</a></span>visualisations_collaps_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwCollapsible.html">wCollapsible</a>* CameraWidget::visualisations_collaps_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Collapsible for the visualisations that can be drawn on top of the image. </p>
+
+</div>
+</div>
+<a id="a83d25846b899d940b55e6dd59573eda3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83d25846b899d940b55e6dd59573eda3">&#9670;&nbsp;</a></span>visualisations_layout_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">QGridLayout* CameraWidget::visualisations_layout_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Layout for the visualisations that can be drawn on top of the image. </p>
+
+</div>
+</div>
+<a id="af3e20343d7d211873a8405cd7c3709a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e20343d7d211873a8405cd7c3709a5">&#9670;&nbsp;</a></span>yaw_calibration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classwCalibrationAxis.html">wCalibrationAxis</a>* CameraWidget::yaw_calibration_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classCalibration.html" title="Calibration: contains the rotation matrix by which to adjust the head camera position. ">Calibration</a> slider for the yaw of the camera. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>source/interface/widgets/<a class="el" href="w__camera_8h_source.html">w_camera.h</a></li>
-<li>source/interface/widgets/<a class="el" href="w__camera_8cpp.html">w_camera.cpp</a></li>
+<li>source/interface/widgets/camera/<a class="el" href="w__camera_8h_source.html">w_camera.h</a></li>
+<li>source/interface/widgets/camera/<a class="el" href="w__camera_8cpp.html">w_camera.cpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

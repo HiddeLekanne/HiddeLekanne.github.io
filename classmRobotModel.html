@@ -162,6 +162,9 @@ Private Attributes</h2></td></tr>
 <tr class="separator:af96b4492a56d114f04484b2fa400de66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a18709eaa310d7f6a061b946b65104320"><td class="memItemLeft" align="right" valign="top">Eigen::Affine3f&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmRobotModel.html#a18709eaa310d7f6a061b946b65104320">head_rot_</a></td></tr>
 <tr class="separator:a18709eaa310d7f6a061b946b65104320"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa544056849e205abf00b7f5298b2eb07"><td class="memItemLeft" align="right" valign="top"><a class="el" href="math_2Eigen_8h.html#a35229a7f7ce41195227ebcb48025f93b">Eigen::Matrix3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmRobotModel.html#aa544056849e205abf00b7f5298b2eb07">head_rotation_calibration_</a></td></tr>
+<tr class="memdesc:aa544056849e205abf00b7f5298b2eb07"><td class="mdescLeft">&#160;</td><td class="mdescRight">Special rotation matrix from the calibration application in the interface.  <a href="#aa544056849e205abf00b7f5298b2eb07">More...</a><br /></td></tr>
+<tr class="separator:aa544056849e205abf00b7f5298b2eb07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab41bcb77dfa48d32f720f8f13881c39d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrJointSensor.html">rJointSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmRobotModel.html#ab41bcb77dfa48d32f720f8f13881c39d">joint_sensor_message_</a></td></tr>
 <tr class="memdesc:ab41bcb77dfa48d32f720f8f13881c39d"><td class="mdescLeft">&#160;</td><td class="mdescRight">In- and output messages of this module.  <a href="#ab41bcb77dfa48d32f720f8f13881c39d">More...</a><br /></td></tr>
 <tr class="separator:ab41bcb77dfa48d32f720f8f13881c39d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -482,6 +485,31 @@ Caitlin </dd></dl>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa544056849e205abf00b7f5298b2eb07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa544056849e205abf00b7f5298b2eb07">&#9670;&nbsp;</a></span>head_rotation_calibration_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="math_2Eigen_8h.html#a35229a7f7ce41195227ebcb48025f93b">Eigen::Matrix3f</a> mRobotModel::head_rotation_calibration_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Special rotation matrix from the calibration application in the interface. </p>
+<p>It is supposed to compensate the difference between the specified rotation value as specified in the documentation of the robot (<a href="http://doc.aldebaran.com/2-1/family/robots/video_robot.html">http://doc.aldebaran.com/2-1/family/robots/video_robot.html</a>) and the actual values the robot has. </p>
 
 </div>
 </div>

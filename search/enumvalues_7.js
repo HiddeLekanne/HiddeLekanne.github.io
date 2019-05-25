@@ -27,5 +27,6 @@ var searchData=
   ['headyawpositionactuator',['headYawPositionActuator',['../namespaceJointIds.html#a412b4d44362831bd71d0ac528fedc6b6a7245e4006d4c8a28920f02190b22372e',1,'JointIds']]],
   ['headyawpositionsensor',['headYawPositionSensor',['../namespaceSensorIds.html#a589fa81fe0b6214a1527d2e4eb223935abf7bbe2bd0521ef12f90cce5cf1a6b80',1,'SensorIds']]],
   ['headyawstiffnessactuator',['headYawStiffnessActuator',['../namespaceStiffnessIds.html#a92a8ed5b937da4e5ffb63f038bc91864afca4e41a7038850d3f65d94ff455d085',1,'StiffnessIds']]],
-  ['headyawtemperaturesensor',['headYawTemperatureSensor',['../namespaceSensorIds.html#a589fa81fe0b6214a1527d2e4eb223935a0eff772f23ee261db1c53752f6cb840a',1,'SensorIds']]]
+  ['headyawtemperaturesensor',['headYawTemperatureSensor',['../namespaceSensorIds.html#a589fa81fe0b6214a1527d2e4eb223935a0eff772f23ee261db1c53752f6cb840a',1,'SensorIds']]],
+  ['horizontal_5fflip',['horizontal_flip',['../namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a2d0eb8266c14564ed9af0bc43189058c',1,'SelectorSize::horizontal_flip()'],['../namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447aed78d27919f948b77aee73afa2231fab',1,'SelectorNumber::horizontal_flip()']]]
 ];

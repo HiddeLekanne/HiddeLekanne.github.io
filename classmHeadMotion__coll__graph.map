@@ -1,0 +1,11 @@
+<map id="mHeadMotion" name="mHeadMotion">
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="401,5,465,32"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rMotionRequest \&gt;" alt="" coords="323,56,543,83"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,157,269,184"/>
+<area shape="rect" id="node6" href="$classInputMessage.html" title="InputMessage\&lt; rGameData \&gt;" alt="" coords="335,107,530,133"/>
+<area shape="rect" id="node9" href="$classInputMessage.html" title="InputMessage\&lt; rRobotPosition \&gt;" alt="" coords="325,157,540,184"/>
+<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="332,208,533,235"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="5,192,80,219"/>
+<area shape="rect" id="node8" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,216,273,243"/>
+<area shape="rect" id="node7" href="$classOutputMessage.html" title="OutputMessage\&lt; rHeadMotion \&gt;" alt="" coords="327,259,539,285"/>
+</map>

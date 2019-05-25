@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structCommunication_1_1Header.html" title="Header that is sent before any message on the tcp connection. " alt="" coords="5,5,168,32"/>
+<area shape="rect" id="node2" href="$classCommunication_1_1TCPError.html" title="Specific TCPError that can be thrown when something goes wrong with the connection. " alt="" coords="155,5,331,32"/>
+<area shape="rect" id="node3" href="$classConfiguration_1_1UnsupportedTOMLExpressionError.html" title="Error thrown when the TOMLHandler encounters unsupported TOML expressions. " alt="" coords="152,57,333,98"/>
+<area shape="rect" id="node4" href="$classDecisionException.html" title="DecisionException" alt="" coords="177,123,308,149"/>
 </map>

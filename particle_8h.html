@@ -72,15 +72,19 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="Eigen_8h_source.html">tools/Eigen.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="streamable_8h_source.html">framework/streamable.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="r__lines_8h_source.html">representations/perception/r_lines.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for particle.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="particle_8h__incl.png" border="0" usemap="#source_2dnt_2modules_2modelling_2localisation_2particle_8h" alt=""/></div>
 <map name="source_2dnt_2modules_2modelling_2localisation_2particle_8h" id="source_2dnt_2modules_2modelling_2localisation_2particle_8h">
-<area shape="rect" id="node2" href="Eigen_8h.html" title="tools/Eigen.h" alt="" coords="185,109,283,136"/>
-<area shape="rect" id="node10" href="streamable_8h.html" title="framework/streamable.h" alt="" coords="479,109,642,136"/>
-<area shape="rect" id="node5" href="dnt__math_8h.html" title="math/dnt_math.h" alt="" coords="246,184,366,211"/>
-<area shape="rect" id="node11" href="container_8h.html" title="framework/container.h" alt="" coords="659,184,809,211"/>
+<area shape="rect" id="node2" href="Eigen_8h.html" title="tools/Eigen.h" alt="" coords="209,117,307,143"/>
+<area shape="rect" id="node10" href="streamable_8h.html" title="framework/streamable.h" alt="" coords="707,288,870,315"/>
+<area shape="rect" id="node17" href="r__lines_8h.html" title="representations/perception\l/r_lines.h" alt="" coords="388,109,563,151"/>
+<area shape="rect" id="node5" href="dnt__math_8h.html" title="math/dnt_math.h" alt="" coords="246,206,366,233"/>
+<area shape="rect" id="node11" href="container_8h.html" title="framework/container.h" alt="" coords="736,363,887,389"/>
+<area shape="rect" id="node18" href="streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="517,199,668,240"/>
+<area shape="rect" id="node19" href="representation_8h.html" title="framework/representation.h" alt="" coords="503,288,683,315"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -88,20 +92,28 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="particle_8h__dep__incl.png" border="0" usemap="#source_2dnt_2modules_2modelling_2localisation_2particle_8hdep" alt=""/></div>
 <map name="source_2dnt_2modules_2modelling_2localisation_2particle_8hdep" id="source_2dnt_2modules_2modelling_2localisation_2particle_8hdep">
-<area shape="rect" id="node2" href="m__particle__filter_8h.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.h" alt="" coords="169,199,320,255"/>
-<area shape="rect" id="node5" href="r__robot__position_8h.html" title="source/dnt/representations\l/localisation/r_robot_position.h" alt="" coords="445,109,644,151"/>
-<area shape="rect" id="node3" href="dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="180,317,320,344"/>
-<area shape="rect" id="node4" href="m__particle__filter_8cpp.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.cpp" alt="" coords="5,303,156,359"/>
-<area shape="rect" id="node6" href="m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="556,199,747,255"/>
-<area shape="rect" id="node8" href="dnt_2modules_2communication_2m__interface__communication_8h.html" title="source/dnt/modules\l/communication/m_interface\l_communication.h" alt="" coords="345,199,531,255"/>
-<area shape="rect" id="node10" href="interface_2modules_2m__interface__communication_8h.html" title="source/interface/modules\l/m_interface_communication.h" alt="" coords="861,206,1061,247"/>
-<area shape="rect" id="node14" href="w__field_8h.html" title="source/interface/widgets\l/w_field.h" alt="" coords="1169,206,1333,247"/>
-<area shape="rect" id="node7" href="m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="556,303,747,359"/>
-<area shape="rect" id="node9" href="dnt_2modules_2communication_2m__interface__communication_8cpp.html" title="source/dnt/modules\l/communication/m_interface\l_communication.cpp" alt="" coords="345,303,531,359"/>
-<area shape="rect" id="node11" href="tcp__client__test_8cpp.html" title="source/dnt/test/tcp\l_client_test.cpp" alt="" coords="1010,310,1141,351"/>
-<area shape="rect" id="node12" href="interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="1165,317,1337,344"/>
-<area shape="rect" id="node13" href="interface_2modules_2m__interface__communication_8cpp.html" title="source/interface/modules\l/m_interface_communication.cpp" alt="" coords="771,310,985,351"/>
-<area shape="rect" id="node15" href="w__field_8cpp.html" title="source/interface/widgets\l/w_field.cpp" alt="" coords="1361,310,1525,351"/>
+<area shape="rect" id="node2" href="m__particle__filter_8h.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.h" alt="" coords="828,213,979,269"/>
+<area shape="rect" id="node6" href="line__model_8h.html" title="source/dnt/modules\l/modelling/localisation\l/line_model/line_model.h" alt="" coords="319,109,485,165"/>
+<area shape="rect" id="node13" href="r__robot__position_8h.html" title="source/dnt/representations\l/localisation/r_robot_position.h" alt="" coords="872,117,1071,158"/>
+<area shape="rect" id="node3" href="dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="1217,332,1357,359"/>
+<area shape="rect" id="node4" href="m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="1003,317,1193,373"/>
+<area shape="rect" id="node5" href="m__particle__filter_8cpp.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.cpp" alt="" coords="828,317,979,373"/>
+<area shape="rect" id="node7" href="line__model_8cpp.html" title="source/dnt/modules\l/modelling/localisation\l/line_model/line_model.cpp" alt="" coords="66,213,245,269"/>
+<area shape="rect" id="node8" href="calibration_8h.html" title="source/interface/widgets\l/camera/calibration.h" alt="" coords="320,221,484,262"/>
+<area shape="rect" id="node9" href="w__camera_8h.html" title="source/interface/widgets\l/camera/w_camera.h" alt="" coords="193,325,357,366"/>
+<area shape="rect" id="node12" href="calibration_8cpp.html" title="source/interface/widgets\l/camera/calibration.cpp" alt="" coords="5,325,169,366"/>
+<area shape="rect" id="node10" href="interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="704,429,876,455"/>
+<area shape="rect" id="node11" href="w__camera_8cpp.html" title="source/interface/widgets\l/camera/w_camera.cpp" alt="" coords="193,421,357,463"/>
+<area shape="rect" id="node14" href="m__behavior__engine_8h.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.h" alt="" coords="1003,213,1193,269"/>
+<area shape="rect" id="node15" href="dnt_2modules_2communication_2m__interface__communication_8h.html" title="source/dnt/modules\l/communication/m_interface\l_communication.h" alt="" coords="1218,213,1405,269"/>
+<area shape="rect" id="node17" href="m__head__motion_8h.html" title="source/dnt/modules\l/motion/head_motion\l/m_head_motion.h" alt="" coords="1429,213,1572,269"/>
+<area shape="rect" id="node19" href="interface_2modules_2m__interface__communication_8h.html" title="source/interface/modules\l/m_interface_communication.h" alt="" coords="591,221,791,262"/>
+<area shape="rect" id="node22" href="w__field_8h.html" title="source/interface/widgets\l/w_field.h" alt="" coords="1760,221,1924,262"/>
+<area shape="rect" id="node16" href="dnt_2modules_2communication_2m__interface__communication_8cpp.html" title="source/dnt/modules\l/communication/m_interface\l_communication.cpp" alt="" coords="1382,317,1569,373"/>
+<area shape="rect" id="node18" href="m__head__motion_8cpp.html" title="source/dnt/modules\l/motion/head_motion\l/m_head_motion.cpp" alt="" coords="1593,317,1736,373"/>
+<area shape="rect" id="node20" href="tcp__client__test_8cpp.html" title="source/dnt/test/tcp\l_client_test.cpp" alt="" coords="382,325,513,366"/>
+<area shape="rect" id="node21" href="interface_2modules_2m__interface__communication_8cpp.html" title="source/interface/modules\l/m_interface_communication.cpp" alt="" coords="537,325,752,366"/>
+<area shape="rect" id="node23" href="w__field_8cpp.html" title="source/interface/widgets\l/w_field.cpp" alt="" coords="1760,325,1924,366"/>
 </map>
 </div>
 </div>

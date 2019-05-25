@@ -1,4 +1,6 @@
 <map id="DecisionEngine" name="DecisionEngine">
-<area shape="rect" id="node2" href="$classrBehaviorStatus.html" title="A representation containing information about the decisions, considerations and events present in the..." alt="" coords="5,81,120,108"/>
-<area shape="rect" id="node3" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="7,5,118,32"/>
+<area shape="rect" id="node2" href="$classrBehaviorStatus.html" title="A representation containing information about the decisions, considerations and events present in the..." alt="" coords="65,157,179,184"/>
+<area shape="rect" id="node3" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="34,81,210,108"/>
+<area shape="rect" id="node4" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node5" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="141,5,229,32"/>
 </map>

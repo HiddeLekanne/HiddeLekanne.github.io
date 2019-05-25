@@ -1,0 +1,51 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,487,116,513"/>
+<area shape="rect" id="node2" href="$classrClient.html" title="rClient: Representation for the client containing if it is connected or not. " alt="" coords="223,5,283,32"/>
+<area shape="rect" id="node3" href="$classrEarLEDActuators.html" title="rEarLEDActuators" alt="" coords="189,56,317,83"/>
+<area shape="rect" id="node4" href="$classRepresentation1.html" title="Representation1" alt="" coords="195,107,312,133"/>
+<area shape="rect" id="node5" href="$classrFootSupport.html" title="This file defines a representation that describes an abstract distribution of how much each foot supp..." alt="" coords="205,157,302,184"/>
+<area shape="rect" id="node6" href="$classrFrameInfo.html" title="Information about the current frame of the system. " alt="" coords="211,208,296,235"/>
+<area shape="rect" id="node7" href="$classrGameControlLeds.html" title="rGameControlLeds: led values set by the gamecontroller " alt="" coords="188,259,319,285"/>
+<area shape="rect" id="node8" href="$classrGoal.html" title="rGoal: representation which holds the image coordinates of the goal " alt="" coords="227,309,280,336"/>
+<area shape="rect" id="node9" href="$classrHeadMotion.html" title="rHeadMotion:contains the desired head yaw and pitch. " alt="" coords="205,360,301,387"/>
+<area shape="rect" id="node10" href="$classrHost.html" title="rHost: Representation for the host containing the hostname and if the client wants to connect or not..." alt="" coords="226,411,281,437"/>
+<area shape="rect" id="node11" href="$classrLeftEyeLeds.html" title="rLeftEyeLeds: representation that holds the colours of the left eye leds. " alt="" coords="204,461,303,488"/>
+<area shape="rect" id="node12" href="$classrMicrophone.html" title="rMicrophone" alt="" coords="207,512,300,539"/>
+<area shape="rect" id="node13" href="$classrMotion.html" title="rMotion" alt="" coords="221,563,286,589"/>
+<area shape="rect" id="node14" href="$classrMotionRequest.html" title="rMotionRequest" alt="" coords="196,613,311,640"/>
+<area shape="rect" id="node15" href="$classrRightEyeLeds.html" title="rRightEyeLeds: representation that holds the colours of the right eye leds. " alt="" coords="199,664,307,691"/>
+<area shape="rect" id="node16" href="$classrStance.html" title="rStance" alt="" coords="220,715,287,741"/>
+<area shape="rect" id="node17" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="200,765,307,792"/>
+<area shape="rect" id="node18" href="$classrTest1.html" title="rTest1: test representation that has a counter. " alt="" coords="224,816,283,843"/>
+<area shape="rect" id="node19" href="$classrTest2.html" title="rTest2: test representation that has a counter. " alt="" coords="224,867,283,893"/>
+<area shape="rect" id="node20" href="$classrWalkGenerator.html" title="Holds the output of the walking engine. " alt="" coords="197,917,310,944"/>
+<area shape="rect" id="node21" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="165,968,341,995"/>
+<area shape="rect" id="node22" href="$classrBall.html" title="rBall: representation that holds the information of the ball. " alt="" coords="437,563,485,589"/>
+<area shape="rect" id="node23" href="$classrBehaviorStatus.html" title="A representation containing information about the decisions, considerations and events present in the..." alt="" coords="403,613,518,640"/>
+<area shape="rect" id="node24" href="$classrButtonSensor.html" title="rButtonSensor: representation that holds the states of all buttons (Touch and Switch). " alt="" coords="408,664,513,691"/>
+<area shape="rect" id="node25" href="$classrCameraSensor.html" title="Representation that holds an image from a camera and information about that image. " alt="" coords="404,715,517,741"/>
+<area shape="rect" id="node26" href="$classrFieldBoundary.html" title="rFieldBoundary: representation that holds the information about the field boundary. " alt="" coords="406,765,515,792"/>
+<area shape="rect" id="node27" href="$classrForwardKinematics.html" title="rFowardKinematic: this representation contains the transformation between the torso and the end actua..." alt="" coords="391,816,530,843"/>
+<area shape="rect" id="node28" href="$classrFSRSensor.html" title="rFSRSensor: representation that holds the values of all the Force Sensitive Resistors (FSR) in the fe..." alt="" coords="413,867,508,893"/>
+<area shape="rect" id="node29" href="$classrGameData.html" title="This file is a representation for gamecontrol data. " alt="" coords="416,917,505,944"/>
+<area shape="rect" id="node30" href="$classrHeadLEDActuators.html" title="rHeadLEDActuators" alt="" coords="391,968,530,995"/>
+<area shape="rect" id="node31" href="$classrIMUSensor.html" title="IMUSensorRepresentation: representation that holds the values from the Inertial Measurement Unit (IMU..." alt="" coords="415,1019,507,1045"/>
+<area shape="rect" id="node32" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="413,1069,508,1096"/>
+<area shape="rect" id="node36" href="$classrLineModel.html" title="rLineModel: representation that holds the line points of the line model. " alt="" coords="418,1120,503,1147"/>
+<area shape="rect" id="node37" href="$classrLines.html" title="rLines" alt="" coords="432,1171,489,1197"/>
+<area shape="rect" id="node38" href="$classrRobotModel.html" title="Provides a forward kinematic transformation between two links. " alt="" coords="413,1221,509,1248"/>
+<area shape="rect" id="node39" href="$classrRobotPosition.html" title="rRobotPosition: The position of the robot in mm on the field in field coordinates. " alt="" coords="407,1272,515,1299"/>
+<area shape="rect" id="node40" href="$classrRobotStatusSensor.html" title="rRobotStatusSensor: representation that holds the status of the battery and the CPU. " alt="" coords="391,1323,531,1349"/>
+<area shape="rect" id="node41" href="$classrSonarSensor.html" title="rSonarSensor: representation that holds the distance of the first 10 echos in metres. " alt="" coords="410,1373,511,1400"/>
+<area shape="rect" id="node33" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="579,1044,681,1071"/>
+<area shape="rect" id="node35" href="$classrJointSensor.html" title="Rotate around a combination of the X (roll), Y (pitch) and Z (yaw) axis. " alt="" coords="583,1095,677,1121"/>
+<area shape="rect" id="node34" href="$classrInterpolationOutput.html" title="rInterpolationOutput" alt="" coords="729,1044,865,1071"/>
+<area shape="rect" id="node42" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="17,1145,105,1172"/>
+<area shape="rect" id="node43" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="226,1019,281,1045"/>
+<area shape="rect" id="node44" href="$classCameraSettings.html" title="CameraSettings: Contains the settings of a camera. " alt="" coords="195,1069,311,1096"/>
+<area shape="rect" id="node45" href="$classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ..." alt="" coords="224,1120,283,1147"/>
+<area shape="rect" id="node46" href="$classLine.html" title="rLines: representation that holds the information of the detected lines. " alt="" coords="230,1171,277,1197"/>
+<area shape="rect" id="node47" href="$classParticle.html" title="Particle: A possible location for the robot on the field. " alt="" coords="220,1221,287,1248"/>
+<area shape="rect" id="node48" href="$classrBehaviorStatus_1_1rDecision.html" title="Struct representing a decision (and its considerations) in the behavior engine. " alt="" coords="164,1272,343,1299"/>
+<area shape="rect" id="node49" href="$classrBehaviorStatus_1_1rEvent.html" title="Struct representing an event in the behavior engine. " alt="" coords="173,1323,334,1349"/>
+</map>

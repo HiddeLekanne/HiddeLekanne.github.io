@@ -3,5 +3,5 @@
 <area shape="rect" id="node3" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="38,5,149,32"/>
 <area shape="rect" id="node4" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="220,5,308,32"/>
 <area shape="rect" id="node5" href="$classCameraSettings.html" title="CameraSettings: Contains the settings of a camera. " alt="" coords="206,81,322,108"/>
-<area shape="rect" id="node6" href="$classImage.html" title="Image: class that contains the information of an image. " alt="" coords="347,81,405,108"/>
+<area shape="rect" id="node6" href="$classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ..." alt="" coords="347,81,405,108"/>
 </map>

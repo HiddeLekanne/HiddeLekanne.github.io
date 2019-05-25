@@ -78,15 +78,21 @@ $(function() {
 <li>offset_from_border_
 : <a class="el" href="classFieldWidget.html#af379d8d7be2bf0739e5a55cba35b3356">FieldWidget</a>
 </li>
-<li>onGroundAngle_
-: <a class="el" href="classmFallDownDetector.html#a0c07313da5a9b78fbebd81b4f70d5d50">mFallDownDetector</a>
+<li>on_ground_angle_
+: <a class="el" href="classmStanceDetector.html#a9008bcbbea33287d988d2baee29e2654">mStanceDetector</a>
+</li>
+<li>onPostProcess()
+: <a class="el" href="classGameCtrl.html#add1f6f8a7825b05bb89023f8df7895d4">GameCtrl</a>
+</li>
+<li>onPreProcess()
+: <a class="el" href="classGameCtrl.html#a913f10d1417f4f745b6b8bc3b1517565">GameCtrl</a>
 </li>
 <li>open_widget_action_
 : <a class="el" href="classDNTWindow.html#a4893b87b1a35edbffecb46f5d2de4cee">DNTWindow</a>
 </li>
 <li>openSharedMemory()
-: <a class="el" href="classALRobot.html#a1e4e196e9f4f58fcfc7dbba8e6571396">ALRobot</a>
-, <a class="el" href="classmMemoryProxy.html#a7ba13bd8e344185037db319e78ae1a30">mMemoryProxy</a>
+: <a class="el" href="classmMemoryProxy.html#a7ba13bd8e344185037db319e78ae1a30">mMemoryProxy</a>
+, <a class="el" href="classRobot.html#a2ca17f173c7c6a2ba8068a01a8025302">Robot</a>
 </li>
 <li>openVideoDevice()
 : <a class="el" href="classNaoCamera.html#a6db10278e6dddb3a0053f5af327f96ff">NaoCamera</a>
@@ -136,8 +142,8 @@ $(function() {
 </li>
 <li>operator*()
 : <a class="el" href="classPose2f.html#a697d6e79c45a2d50d04e9a37de2b4504">Pose2f</a>
-, <a class="el" href="classPose3f.html#a40a4bec840dcfca7451887347652e442">Pose3f</a>
-, <a class="el" href="classRotationMatrix.html#a8676a38e0ea603a69b980cde1e155a55">RotationMatrix</a>
+, <a class="el" href="classPose3f.html#a093c00ec53f751807aeedc152d5e7cca">Pose3f</a>
+, <a class="el" href="classRotationMatrix.html#ac6ecee9c0c9ca1ce62ecb7252479d52f">RotationMatrix</a>
 </li>
 <li>operator*=()
 : <a class="el" href="classAngle.html#aac832ceccd4cca2609f73171b805daaf">Angle</a>
@@ -167,6 +173,9 @@ $(function() {
 <li>operator/=()
 : <a class="el" href="classAngle.html#ad42bcaab5e576f10ae8c99a9629e4bd8">Angle</a>
 </li>
+<li>operator&lt;()
+: <a class="el" href="structmFieldFilter_1_1Point.html#ad427b4c117f1d95cc0f7a92474f467dd">mFieldFilter::Point</a>
+</li>
 <li>operator&lt;&lt;
 : <a class="el" href="classConfiguration_1_1Data.html#a3b1fb780629b87c6ab6a6cb6c06f9e38">Configuration::Data</a>
 , <a class="el" href="classLogStream.html#a97e1b6bec3fd66551ab5037a040deb41">LogStream</a>
@@ -175,6 +184,7 @@ $(function() {
 : <a class="el" href="classConfiguration_1_1Data.html#afbb8f9f51dd794189b2033fe1be75f21">Configuration::Data</a>
 , <a class="el" href="classConfiguration_1_1TOMLValue.html#a564984a3a2e86be06b3abd35885214d3">Configuration::TOMLValue</a>
 , <a class="el" href="classConsideration.html#aaee3f975f74b26e26e255245016fd3ff">Consideration</a>
+, <a class="el" href="classcv_1_1ximgproc_1_1FastLineDetectorImpl.html#a9c32b66e0e0327bab6e3d9bbb468673f">cv::ximgproc::FastLineDetectorImpl</a>
 , <a class="el" href="classDecision.html#a57f165e91d943d171f941b073eab6f15">Decision</a>
 , <a class="el" href="classImage.html#a28d0abddd7ee6620be4ff0560db6dfb1">Image</a>
 , <a class="el" href="classInputMessage.html#af330376315f7568ce949c3093a3db35c">InputMessage&lt; MessageType &gt;</a>
@@ -190,7 +200,6 @@ $(function() {
 </li>
 <li>operator[]()
 : <a class="el" href="classConfiguration_1_1Data.html#a98e743d25c0059876df1358cd168f484">Configuration::Data</a>
-, <a class="el" href="classImage.html#ad4d5a05bba71d21b8108568d6890c07e">Image</a>
 </li>
 <li>output
 : <a class="el" href="classSTFT.html#a29bdeef2aa8d5af47b224648ea6a24f9">STFT</a>
@@ -204,9 +213,6 @@ $(function() {
 <li>output_current_motion_
 : <a class="el" href="classmMotionSelector.html#a1742371488d738c74a105144d7be83e2">mMotionSelector</a>
 </li>
-<li>output_falldownstate_
-: <a class="el" href="classmFallDownDetector.html#ab25c0238abbb53123388f8b78a820d21">mFallDownDetector</a>
-</li>
 <li>output_joint_request_
 : <a class="el" href="classmMotionSelector.html#a062fff718aa86759b011cd4e200b39ea">mMotionSelector</a>
 </li>
@@ -218,6 +224,9 @@ $(function() {
 </li>
 <li>output_motion_request_
 : <a class="el" href="classmBehaviorEngine.html#aca185339bba52fdb12e8afe7e734adc8">mBehaviorEngine</a>
+</li>
+<li>output_stance_
+: <a class="el" href="classmStanceDetector.html#a68b5638920c1a8778886514f4f7116ed">mStanceDetector</a>
 </li>
 <li>OutputContainer()
 : <a class="el" href="classOutputContainer.html#af240daf3e1527b28a754dc206d82c1be">OutputContainer</a>

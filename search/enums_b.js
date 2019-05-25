@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['utilityscore',['UtilityScore',['../decision_8h.html#a7ddfdc0b3f99a542161130db594afe06',1,'decision.h']]]
+  ['robotframes',['RobotFrames',['../classrRobotModel.html#aa1b6a1e9a3efea8ed2c503b459921c91',1,'rRobotModel']]]
 ];

@@ -1,0 +1,20 @@
+<map id="source/dnt/modules/perception/goal_detector/m_goal_detector.h" name="source/dnt/modules/perception/goal_detector/m_goal_detector.h">
+<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="599,117,739,143"/>
+<area shape="rect" id="node26" href="$r__goal_8h.html" title="representations/perception\l/r_goal.h" alt="" coords="1009,288,1184,329"/>
+<area shape="rect" id="node27" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="1156,377,1288,404"/>
+<area shape="rect" id="node32" href="$r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="276,109,451,151"/>
+<area shape="rect" id="node33" href="$r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="1266,199,1421,240"/>
+<area shape="rect" id="node37" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1726,377,1878,404"/>
+<area shape="rect" id="node42" href="$log_8h.html" title="tools/log.h" alt="" coords="1691,295,1774,322"/>
+<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="5,377,156,404"/>
+<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="518,295,705,322"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="571,206,766,233"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="582,452,697,479"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="729,288,880,329"/>
+<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="771,377,934,404"/>
+<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="407,452,557,479"/>
+<area shape="rect" id="node34" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="1259,295,1427,322"/>
+<area shape="rect" id="node36" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="1451,288,1617,329"/>
+<area shape="rect" id="node43" href="$log_2log_8h.html" title="log/log.h" alt="" coords="2264,377,2335,404"/>
+<area shape="rect" id="node46" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="2251,452,2348,479"/>
+</map>

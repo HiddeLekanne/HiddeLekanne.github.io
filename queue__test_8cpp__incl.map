@@ -1,15 +1,15 @@
 <map id="source/dnt/test/queue_test.cpp" name="source/dnt/test/queue_test.cpp">
-<area shape="rect" id="node2" href="$module__manager_8h.html" title="framework/module_manager.h" alt="" coords="1061,95,1258,121"/>
-<area shape="rect" id="node11" href="$module_8h.html" title="framework/module.h" alt="" coords="991,244,1131,271"/>
-<area shape="rect" id="node27" href="$module__group_8h.html" title="framework/module_group.h" alt="" coords="1238,169,1417,196"/>
-<area shape="rect" id="node6" href="$representation_8h.html" title="framework/representation.h" alt="" coords="541,557,721,584"/>
-<area shape="rect" id="node8" href="$message_8h.html" title="framework/message.h" alt="" coords="603,483,753,509"/>
-<area shape="rect" id="node13" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="982,401,1169,427"/>
-<area shape="rect" id="node19" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="783,319,978,345"/>
-<area shape="rect" id="node20" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="376,393,527,435"/>
-<area shape="rect" id="node21" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="314,483,477,509"/>
-<area shape="rect" id="node22" href="$container_8h.html" title="framework/container.h" alt="" coords="320,557,471,584"/>
-<area shape="rect" id="node29" href="$log_8h.html" title="tools/log.h" alt="" coords="1270,244,1353,271"/>
-<area shape="rect" id="node30" href="$log_2log_8h.html" title="log/log.h" alt="" coords="1345,319,1416,345"/>
-<area shape="rect" id="node32" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="1492,401,1589,427"/>
+<area shape="rect" id="node2" href="$module__manager_8h.html" title="framework/module_manager.h" alt="" coords="1234,95,1431,121"/>
+<area shape="rect" id="node11" href="$module_8h.html" title="framework/module.h" alt="" coords="1164,244,1304,271"/>
+<area shape="rect" id="node29" href="$module__group_8h.html" title="framework/module_group.h" alt="" coords="1411,169,1590,196"/>
+<area shape="rect" id="node6" href="$representation_8h.html" title="framework/representation.h" alt="" coords="715,557,895,584"/>
+<area shape="rect" id="node8" href="$message_8h.html" title="framework/message.h" alt="" coords="776,483,927,509"/>
+<area shape="rect" id="node13" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1155,401,1342,427"/>
+<area shape="rect" id="node19" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="957,319,1151,345"/>
+<area shape="rect" id="node20" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="549,393,700,435"/>
+<area shape="rect" id="node21" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="487,483,650,509"/>
+<area shape="rect" id="node22" href="$container_8h.html" title="framework/container.h" alt="" coords="493,557,644,584"/>
+<area shape="rect" id="node31" href="$log_8h.html" title="tools/log.h" alt="" coords="1443,244,1526,271"/>
+<area shape="rect" id="node32" href="$log_2log_8h.html" title="log/log.h" alt="" coords="1519,319,1589,345"/>
+<area shape="rect" id="node34" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="1665,401,1763,427"/>
 </map>

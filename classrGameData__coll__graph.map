@@ -1,3 +1,8 @@
 <map id="rGameData" name="rGameData">
-<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node2" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="47,184,223,211"/>
+<area shape="rect" id="node3" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,95,116,121"/>
+<area shape="rect" id="node4" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="141,95,229,121"/>
+<area shape="rect" id="node5" href="$structRoboCupGameControlData.html" title="RoboCupGameControlData" alt="" coords="248,184,431,211"/>
+<area shape="rect" id="node6" href="$structTeamInfo.html" title="TeamInfo" alt="" coords="301,95,378,121"/>
+<area shape="rect" id="node7" href="$structRobotInfo.html" title="RobotInfo" alt="" coords="300,5,379,32"/>
 </map>

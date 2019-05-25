@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$classConsoleWidget.html" title="ConsoleWidget: Displays a text area in which messages can be showed. " alt="" coords="135,5,245,32"/>
+<area shape="rect" id="node2" href="$classcv_1_1ximgproc_1_1FastLineDetector.html" title="Class implementing the FLD (Fast Line Detector) algorithm described in https://ieeexplore.ieee.org/abstract/document/6907675/ . " alt="" coords="131,5,336,32"/>
+<area shape="rect" id="node3" href="$classcv_1_1ximgproc_1_1FastLineDetectorImpl.html" title="cv::ximgproc::FastLineDetectorImpl" alt="" coords="384,5,615,32"/>
 </map>

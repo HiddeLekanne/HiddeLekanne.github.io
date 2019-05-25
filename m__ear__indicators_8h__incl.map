@@ -1,13 +1,13 @@
 <map id="source/dnt/modules/sensing/m_ear_indicators.h" name="source/dnt/modules/sensing/m_ear_indicators.h">
-<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="174,102,314,129"/>
-<area shape="rect" id="node24" href="$r__ear__led__actuators_8h.html" title="representations/actuators\l/r_ear_led_actuators.h" alt="" coords="937,259,1106,300"/>
-<area shape="rect" id="node25" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="1049,95,1239,136"/>
-<area shape="rect" id="node27" href="$r__robot__status__sensor_8h.html" title="representations/sensor\l/r_robot_status_sensor.h" alt="" coords="1263,95,1430,136"/>
-<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="45,348,195,375"/>
-<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="335,266,521,293"/>
-<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="332,184,527,211"/>
-<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="779,423,893,449"/>
-<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="762,259,913,300"/>
-<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="893,348,1056,375"/>
-<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="918,423,1069,449"/>
+<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="209,102,349,129"/>
+<area shape="rect" id="node26" href="$r__ear__led__actuators_8h.html" title="representations/actuators\l/r_ear_led_actuators.h" alt="" coords="865,259,1034,300"/>
+<area shape="rect" id="node27" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="1049,95,1239,136"/>
+<area shape="rect" id="node29" href="$r__robot__status__sensor_8h.html" title="representations/sensor\l/r_robot_status_sensor.h" alt="" coords="761,95,927,136"/>
+<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="43,348,194,375"/>
+<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="408,266,595,293"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="343,184,537,211"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="773,423,888,449"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="690,259,841,300"/>
+<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="944,348,1107,375"/>
+<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="950,423,1101,449"/>
 </map>

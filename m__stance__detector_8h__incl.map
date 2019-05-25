@@ -1,0 +1,17 @@
+<map id="source/dnt/modules/sensing/m_stance_detector.h" name="source/dnt/modules/sensing/m_stance_detector.h">
+<area shape="rect" id="node2" href="$module_8h.html" title="framework/module.h" alt="" coords="175,102,315,129"/>
+<area shape="rect" id="node26" href="$r__stance_8h.html" title="Information about the stance of the robot: whether it is standing, falling over, has fallen over..." alt="" coords="709,95,869,136"/>
+<area shape="rect" id="node27" href="$r__foot__support_8h.html" title="representations/sensing\l/r_foot_support.h" alt="" coords="893,95,1053,136"/>
+<area shape="rect" id="node28" href="$r__imu__sensor_8h.html" title="representations/sensor\l/r_imu_sensor.h" alt="" coords="945,184,1099,225"/>
+<area shape="rect" id="node29" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="1159,95,1314,136"/>
+<area shape="rect" id="node31" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="1336,281,1465,307"/>
+<area shape="rect" id="node6" href="$message_8h.html" title="framework/message.h" alt="" coords="45,363,196,389"/>
+<area shape="rect" id="node10" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="335,281,522,307"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="333,191,527,218"/>
+<area shape="rect" id="node9" href="$representation_8h.html" title="representation.h" alt="" coords="799,437,914,464"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="947,273,1097,315"/>
+<area shape="rect" id="node18" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1174,363,1337,389"/>
+<area shape="rect" id="node19" href="$container_8h.html" title="framework/container.h" alt="" coords="1180,437,1331,464"/>
+<area shape="rect" id="node30" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1175,184,1365,225"/>
+<area shape="rect" id="node32" href="$constants_8h.html" title="constants.h" alt="" coords="1361,363,1451,389"/>
+</map>

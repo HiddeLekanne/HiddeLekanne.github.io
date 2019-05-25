@@ -1,0 +1,7 @@
+<map id="BehaviorWidget" name="BehaviorWidget">
+<area shape="rect" id="node2" href="$classDNTWidget.html" title="DNTWidget: Base class for a dnt widget that extends dockable widget and a DNT Module to receive repre..." alt="" coords="92,157,183,184"/>
+<area shape="rect" id="node4" href="$classModule.html" title="Module abstract class. " alt="" coords="133,81,197,108"/>
+<area shape="rect" id="node5" href="$classInputMessage.html" title="InputMessage\&lt; rBehaviorStatus \&gt;" alt="" coords="207,157,428,184"/>
+<area shape="rect" id="node6" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="250,81,385,108"/>
+<area shape="rect" id="node7" href="$classMessage.html" title="Message abstract class. " alt="" coords="280,5,355,32"/>
+</map>

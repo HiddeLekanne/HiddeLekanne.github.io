@@ -106,9 +106,12 @@ Collaboration diagram for DNTWindow:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-slots"></a>
 Public Slots</h2></td></tr>
-<tr class="memitem:a75e96e0f30f438ebc6fbf5d95439febb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a75e96e0f30f438ebc6fbf5d95439febb">connect_robot</a> ()</td></tr>
-<tr class="memdesc:a75e96e0f30f438ebc6fbf5d95439febb"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the connect button is pressed, let the interface communication module know to which module we want to connect.  <a href="#a75e96e0f30f438ebc6fbf5d95439febb">More...</a><br /></td></tr>
-<tr class="separator:a75e96e0f30f438ebc6fbf5d95439febb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a657cbd3b922e4f8497e442f6ee678d07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a657cbd3b922e4f8497e442f6ee678d07">connectRobot</a> ()</td></tr>
+<tr class="memdesc:a657cbd3b922e4f8497e442f6ee678d07"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the connect button is pressed, let the interface communication module know to which module we want to connect.  <a href="#a657cbd3b922e4f8497e442f6ee678d07">More...</a><br /></td></tr>
+<tr class="separator:a657cbd3b922e4f8497e442f6ee678d07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b038480cb2fb16e828e68a2b4b2f11c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a4b038480cb2fb16e828e68a2b4b2f11c">fieldIndexChanged</a> (int index)</td></tr>
+<tr class="memdesc:a4b038480cb2fb16e828e68a2b4b2f11c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the field dropdown is changed.  <a href="#a4b038480cb2fb16e828e68a2b4b2f11c">More...</a><br /></td></tr>
+<tr class="separator:a4b038480cb2fb16e828e68a2b4b2f11c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd7a178d9d3014edca608971f93d4a7f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#acd7a178d9d3014edca608971f93d4a7f">robocopyAll</a> ()</td></tr>
 <tr class="memdesc:acd7a178d9d3014edca608971f93d4a7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">When the push button is clicked, start pass it to the team widget.  <a href="#acd7a178d9d3014edca608971f93d4a7f">More...</a><br /></td></tr>
 <tr class="separator:acd7a178d9d3014edca608971f93d4a7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -145,6 +148,9 @@ Public Slots</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
 Signals</h2></td></tr>
+<tr class="memitem:a8e3d86dcb9bba68e6243dc47328deda0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a8e3d86dcb9bba68e6243dc47328deda0">fieldChanged</a> ()</td></tr>
+<tr class="memdesc:a8e3d86dcb9bba68e6243dc47328deda0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Notify others that the field has changed.  <a href="#a8e3d86dcb9bba68e6243dc47328deda0">More...</a><br /></td></tr>
+<tr class="separator:a8e3d86dcb9bba68e6243dc47328deda0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acacee0aff7bdc0903065fd693389d001"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#acacee0aff7bdc0903065fd693389d001">updateConsole</a> (QString message)</td></tr>
 <tr class="memdesc:acacee0aff7bdc0903065fd693389d001"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signal that can be called to append to the console widget (non-blocking).  <a href="#acacee0aff7bdc0903065fd693389d001">More...</a><br /></td></tr>
 <tr class="separator:acacee0aff7bdc0903065fd693389d001"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -160,15 +166,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adbe6df6f7be9217c967d50c77b5b90c5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#adbe6df6f7be9217c967d50c77b5b90c5">loadRobotDropdown</a> ()</td></tr>
 <tr class="memdesc:adbe6df6f7be9217c967d50c77b5b90c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the list of robots from the configuration files.  <a href="#adbe6df6f7be9217c967d50c77b5b90c5">More...</a><br /></td></tr>
 <tr class="separator:adbe6df6f7be9217c967d50c77b5b90c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac34e54cf15b550c9158bddcc2bda2d0d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#ac34e54cf15b550c9158bddcc2bda2d0d">loadFieldDropdown</a> ()</td></tr>
+<tr class="memdesc:ac34e54cf15b550c9158bddcc2bda2d0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the list of fields from the configuration files.  <a href="#ac34e54cf15b550c9158bddcc2bda2d0d">More...</a><br /></td></tr>
+<tr class="separator:ac34e54cf15b550c9158bddcc2bda2d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a779a7ab8c6e4a916ad2f9abd88aa43de"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a779a7ab8c6e4a916ad2f9abd88aa43de">getFieldName</a> ()</td></tr>
+<tr class="memdesc:a779a7ab8c6e4a916ad2f9abd88aa43de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the selected field.  <a href="#a779a7ab8c6e4a916ad2f9abd88aa43de">More...</a><br /></td></tr>
+<tr class="separator:a779a7ab8c6e4a916ad2f9abd88aa43de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79750c81f56122b8b9012117678140f9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a79750c81f56122b8b9012117678140f9">loadDNTIcon</a> ()</td></tr>
 <tr class="memdesc:a79750c81f56122b8b9012117678140f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the DNT icon to display in the system tray.  <a href="#a79750c81f56122b8b9012117678140f9">More...</a><br /></td></tr>
 <tr class="separator:a79750c81f56122b8b9012117678140f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c0230194c79a6915146d39ce7bc7a3e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a6c0230194c79a6915146d39ce7bc7a3e">getName</a> () const</td></tr>
-<tr class="memdesc:a6c0230194c79a6915146d39ce7bc7a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the module.  <a href="#a6c0230194c79a6915146d39ce7bc7a3e">More...</a><br /></td></tr>
+<tr class="memdesc:a6c0230194c79a6915146d39ce7bc7a3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this module.  <a href="#a6c0230194c79a6915146d39ce7bc7a3e">More...</a><br /></td></tr>
 <tr class="separator:a6c0230194c79a6915146d39ce7bc7a3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab68770b9a7677fa3580f185f0ef3f00e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structModule_1_1UpdateInformation.html">Module::UpdateInformation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#ab68770b9a7677fa3580f185f0ef3f00e">getUpdates</a> ()</td></tr>
-<tr class="memdesc:ab68770b9a7677fa3580f185f0ef3f00e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the in and output representation used in this module.  <a href="#ab68770b9a7677fa3580f185f0ef3f00e">More...</a><br /></td></tr>
-<tr class="separator:ab68770b9a7677fa3580f185f0ef3f00e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04f0cae238cd5431c302a3a059fb6159"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structModule_1_1UpdateInformation.html">Module::UpdateInformation</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a04f0cae238cd5431c302a3a059fb6159">getUpdates</a> ()</td></tr>
+<tr class="memdesc:a04f0cae238cd5431c302a3a059fb6159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the in and output representation used in this module.  <a href="#a04f0cae238cd5431c302a3a059fb6159">More...</a><br /></td></tr>
+<tr class="separator:a04f0cae238cd5431c302a3a059fb6159"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4c53881f68f6b024024a51874ba5e53"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#ab4c53881f68f6b024024a51874ba5e53">updateWindow</a> ()</td></tr>
 <tr class="memdesc:ab4c53881f68f6b024024a51874ba5e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the interface is not connected, sleep for a bit so the cpu does not go to 100%.  <a href="#ab4c53881f68f6b024024a51874ba5e53">More...</a><br /></td></tr>
 <tr class="separator:ab4c53881f68f6b024024a51874ba5e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -191,6 +203,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1b3279581f64fbb0ae1e28b6da05d32b"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a1b3279581f64fbb0ae1e28b6da05d32b">robots_box_</a></td></tr>
 <tr class="memdesc:a1b3279581f64fbb0ae1e28b6da05d32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop down list that contains all robots.  <a href="#a1b3279581f64fbb0ae1e28b6da05d32b">More...</a><br /></td></tr>
 <tr class="separator:a1b3279581f64fbb0ae1e28b6da05d32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cc7d34b580c6e96cecaeb5608f9ff99"><td class="memItemLeft" align="right" valign="top">QComboBox *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a8cc7d34b580c6e96cecaeb5608f9ff99">fields_box_</a></td></tr>
+<tr class="memdesc:a8cc7d34b580c6e96cecaeb5608f9ff99"><td class="mdescLeft">&#160;</td><td class="mdescRight">Drop down list that contains all fields.  <a href="#a8cc7d34b580c6e96cecaeb5608f9ff99">More...</a><br /></td></tr>
+<tr class="separator:a8cc7d34b580c6e96cecaeb5608f9ff99"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3d7f89ee4ed93823aff6ebd21ff507dc"><td class="memItemLeft" align="right" valign="top">QToolButton *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classDNTWindow.html#a3d7f89ee4ed93823aff6ebd21ff507dc">widgets_button_</a></td></tr>
 <tr class="memdesc:a3d7f89ee4ed93823aff6ebd21ff507dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Buttons that contains all widgets.  <a href="#a3d7f89ee4ed93823aff6ebd21ff507dc">More...</a><br /></td></tr>
 <tr class="separator:a3d7f89ee4ed93823aff6ebd21ff507dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -246,9 +261,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">DNTWindow::DNTWindow </td>
@@ -258,14 +270,11 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Constructor: set title, size and load the robot list to connect to. </p>
+<p><a class="el" href="classDNTWindow.html" title="DNTWindow: Main window that holds all the widgets and the connect button. ">DNTWindow</a>: The main window in which all the widgets are shown.</p>
+<dl class="section author"><dt>Author</dt><dd>: Sébastien </dd></dl>
 
 </div>
 </div>
@@ -274,9 +283,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">DNTWindow::~DNTWindow </td>
@@ -285,11 +291,6 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Delete all created pointers. </p>
@@ -377,8 +378,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a75e96e0f30f438ebc6fbf5d95439febb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75e96e0f30f438ebc6fbf5d95439febb">&#9670;&nbsp;</a></span>connect_robot</h2>
+<a id="a657cbd3b922e4f8497e442f6ee678d07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a657cbd3b922e4f8497e442f6ee678d07">&#9670;&nbsp;</a></span>connectRobot</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +388,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DNTWindow::connect_robot </td>
+          <td class="memname">void DNTWindow::connectRobot </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -395,13 +396,94 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">slot</span></span>  </td>
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 <p>If the connect button is pressed, let the interface communication module know to which module we want to connect. </p>
 <p>If already connected, disconnect. </p>
+
+</div>
+</div>
+<a id="a8e3d86dcb9bba68e6243dc47328deda0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e3d86dcb9bba68e6243dc47328deda0">&#9670;&nbsp;</a></span>fieldChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DNTWindow::fieldChanged </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">signal</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Notify others that the field has changed. </p>
+
+</div>
+</div>
+<a id="a4b038480cb2fb16e828e68a2b4b2f11c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b038480cb2fb16e828e68a2b4b2f11c">&#9670;&nbsp;</a></span>fieldIndexChanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DNTWindow::fieldIndexChanged </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">slot</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called when the field dropdown is changed. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">index</td><td>The index of the selected field. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a779a7ab8c6e4a916ad2f9abd88aa43de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a779a7ab8c6e4a916ad2f9abd88aa43de">&#9670;&nbsp;</a></span>getFieldName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string DNTWindow::getFieldName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the name of the selected field. </p>
+<dl class="section return"><dt>Returns</dt><dd>The name of the selected field. </dd></dl>
 
 </div>
 </div>
@@ -423,20 +505,20 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the name of the module. </p>
-<dl class="section return"><dt>Returns</dt><dd>name </dd></dl>
+<p>Get the name of this module. </p>
+<dl class="section return"><dt>Returns</dt><dd>The name of this module. </dd></dl>
 
 <p>Implements <a class="el" href="classModule.html#abf08e52096c10431a4381afdb7c17d3b">Module</a>.</p>
 
 </div>
 </div>
-<a id="ab68770b9a7677fa3580f185f0ef3f00e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab68770b9a7677fa3580f185f0ef3f00e">&#9670;&nbsp;</a></span>getUpdates()</h2>
+<a id="a04f0cae238cd5431c302a3a059fb6159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f0cae238cd5431c302a3a059fb6159">&#9670;&nbsp;</a></span>getUpdates()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +527,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structModule_1_1UpdateInformation.html">Module::UpdateInformation</a>&gt; DNTWindow::getUpdates </td>
+          <td class="memname">std::vector&lt; <a class="el" href="structModule_1_1UpdateInformation.html">Module::UpdateInformation</a> &gt; DNTWindow::getUpdates </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -453,7 +535,7 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -467,6 +549,25 @@ Private Attributes</h2></td></tr>
 </div>
 <a id="a79750c81f56122b8b9012117678140f9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a79750c81f56122b8b9012117678140f9">&#9670;&nbsp;</a></span>loadDNTIcon() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DNTWindow::loadDNTIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load the DNT icon to display in the system tray. </p>
+
+</div>
+</div>
+<a id="a79750c81f56122b8b9012117678140f9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79750c81f56122b8b9012117678140f9">&#9670;&nbsp;</a></span>loadDNTIcon() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -492,30 +593,22 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a79750c81f56122b8b9012117678140f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79750c81f56122b8b9012117678140f9">&#9670;&nbsp;</a></span>loadDNTIcon() <span class="overload">[2/2]</span></h2>
+<a id="ac34e54cf15b550c9158bddcc2bda2d0d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac34e54cf15b550c9158bddcc2bda2d0d">&#9670;&nbsp;</a></span>loadFieldDropdown()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void DNTWindow::loadDNTIcon </td>
+          <td class="memname">void DNTWindow::loadFieldDropdown </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Load the DNT icon to display in the system tray. </p>
+<p>Load the list of fields from the configuration files. </p>
 
 </div>
 </div>
@@ -524,9 +617,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void DNTWindow::loadRobotDropdown </td>
@@ -535,11 +625,6 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Load the list of robots from the configuration files. </p>
@@ -865,9 +950,6 @@ Private Attributes</h2></td></tr>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
           <td class="memname">void DNTWindow::updateWindow </td>
@@ -876,11 +958,6 @@ Private Attributes</h2></td></tr>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>If the interface is not connected, sleep for a bit so the cpu does not go to 100%. </p>
@@ -957,6 +1034,22 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>The DNT icon showed in the system tray. </p>
+
+</div>
+</div>
+<a id="a8cc7d34b580c6e96cecaeb5608f9ff99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cc7d34b580c6e96cecaeb5608f9ff99">&#9670;&nbsp;</a></span>fields_box_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">QComboBox* DNTWindow::fields_box_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Drop down list that contains all fields. </p>
 
 </div>
 </div>
@@ -1165,6 +1258,7 @@ Private Attributes</h2></td></tr>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>source/interface/modules/<a class="el" href="m__window_8h_source.html">m_window.h</a></li>
 <li>source/teamcopy/<a class="el" href="dnt__window_8h_source.html">dnt_window.h</a></li>
+<li>source/interface/modules/<a class="el" href="m__window_8cpp.html">m_window.cpp</a></li>
 <li>source/teamcopy/<a class="el" href="dnt__window_8cpp.html">dnt_window.cpp</a></li>
 </ul>
 </div><!-- contents -->

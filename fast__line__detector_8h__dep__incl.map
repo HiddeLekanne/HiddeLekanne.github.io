@@ -1,4 +1,7 @@
 <map id="source/dnt/modules/perception/line_detector/fast_line_detector.h" name="source/dnt/modules/perception/line_detector/fast_line_detector.h">
-<area shape="rect" id="node2" href="$fast__line__detector_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/fast_line_detector.cpp" alt="" coords="5,109,169,165"/>
-<area shape="rect" id="node3" href="$line__detector__test_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/line_detector_test.cpp" alt="" coords="193,109,357,165"/>
+<area shape="rect" id="node2" href="$m__line__detector_8h.html" title="source/dnt/modules\l/perception/line_detector\l/m_line_detector.h" alt="" coords="169,109,333,165"/>
+<area shape="rect" id="node6" href="$fast__line__detector_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/fast_line_detector.cpp" alt="" coords="357,109,521,165"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="5,228,145,255"/>
+<area shape="rect" id="node4" href="$line__detector__test_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/line_detector_test.cpp" alt="" coords="169,213,333,269"/>
+<area shape="rect" id="node5" href="$m__line__detector_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/m_line_detector.cpp" alt="" coords="357,213,521,269"/>
 </map>

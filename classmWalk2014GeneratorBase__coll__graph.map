@@ -1,17 +1,19 @@
 <map id="mWalk2014GeneratorBase" name="mWalk2014GeneratorBase">
-<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="523,7,587,34"/>
-<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rMotionRequest \&gt;" alt="" coords="445,58,665,85"/>
-<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="170,159,305,186"/>
-<area shape="rect" id="node10" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="455,109,654,135"/>
-<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="454,159,655,186"/>
-<area shape="rect" id="node16" href="$classInputMessage.html" title="InputMessage\&lt; rFootSupport \&gt;" alt="" coords="453,210,656,237"/>
-<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="23,215,98,242"/>
-<area shape="rect" id="node9" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="165,247,309,274"/>
-<area shape="rect" id="node6" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="210,495,265,522"/>
-<area shape="rect" id="node7" href="$classPose2f.html" title="Pose2f" alt="" coords="523,527,586,554"/>
-<area shape="rect" id="node8" href="$classOutputMessage.html" title="OutputMessage\&lt; rWalkGenerator \&gt;" alt="" coords="440,261,669,287"/>
-<area shape="rect" id="node12" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="503,591,606,618"/>
-<area shape="rect" id="node13" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="190,555,285,582"/>
-<area shape="rect" id="node14" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,582,116,609"/>
-<area shape="rect" id="node15" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="184,606,291,633"/>
+<area shape="rect" id="node2" href="$classModule.html" title="Module abstract class. " alt="" coords="819,7,883,34"/>
+<area shape="rect" id="node3" href="$classInputMessage.html" title="InputMessage\&lt; rMotionRequest \&gt;" alt="" coords="741,58,961,85"/>
+<area shape="rect" id="node4" href="$classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="501,159,635,186"/>
+<area shape="rect" id="node11" href="$classInputMessage.html" title="InputMessage\&lt; rIMUSensor \&gt;" alt="" coords="751,109,950,135"/>
+<area shape="rect" id="node12" href="$classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="750,159,951,186"/>
+<area shape="rect" id="node18" href="$classInputMessage.html" title="InputMessage\&lt; rFootSupport \&gt;" alt="" coords="749,210,952,237"/>
+<area shape="rect" id="node5" href="$classMessage.html" title="Message abstract class. " alt="" coords="216,193,291,219"/>
+<area shape="rect" id="node10" href="$classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="496,223,640,250"/>
+<area shape="rect" id="node6" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="541,485,595,511"/>
+<area shape="rect" id="node8" href="$classPose2f.html" title="Pose2f" alt="" coords="819,523,882,550"/>
+<area shape="rect" id="node7" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="17,507,105,534"/>
+<area shape="rect" id="node15" href="$classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="165,535,341,562"/>
+<area shape="rect" id="node9" href="$classOutputMessage.html" title="OutputMessage\&lt; rWalkGenerator \&gt;" alt="" coords="736,261,965,287"/>
+<area shape="rect" id="node13" href="$classrJointRequest.html" title="rJointRequest" alt="" coords="799,578,902,605"/>
+<area shape="rect" id="node14" href="$classrJointAngles.html" title="rJointAngles" alt="" coords="521,535,615,562"/>
+<area shape="rect" id="node16" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,566,116,593"/>
+<area shape="rect" id="node17" href="$classrStiffnessData.html" title="rStiffnessData" alt="" coords="365,587,472,614"/>
 </map>

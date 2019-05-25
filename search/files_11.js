@@ -8,6 +8,7 @@ var searchData=
   ['sound_5fplayer_2ecpp',['sound_player.cpp',['../sound__player_8cpp.html',1,'']]],
   ['sound_5fplayer_2eh',['sound_player.h',['../sound__player_2sound__player_8h.html',1,'(Global Namespace)'],['../sound__player_8h.html',1,'(Global Namespace)']]],
   ['spline_2eh',['spline.h',['../spline_8h.html',1,'']]],
+  ['splstandardmessage_2eh',['SPLStandardMessage.h',['../SPLStandardMessage_8h.html',1,'']]],
   ['stft_2ecpp',['STFT.cpp',['../STFT_8cpp.html',1,'']]],
   ['stft_2eh',['STFT.h',['../STFT_8h.html',1,'']]],
   ['streamable_2eh',['streamable.h',['../streamable_8h.html',1,'']]],

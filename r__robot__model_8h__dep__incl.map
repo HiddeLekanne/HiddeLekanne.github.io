@@ -1,11 +1,24 @@
 <map id="source/dnt/representations/modelling/r_robot_model.h" name="source/dnt/representations/modelling/r_robot_model.h">
-<area shape="rect" id="node2" href="$m__line__model_8h.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.h" alt="" coords="697,95,843,151"/>
-<area shape="rect" id="node5" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="100,102,285,143"/>
-<area shape="rect" id="node7" href="$m__test__forward__kinematics_8h.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.h" alt="" coords="309,95,484,151"/>
-<area shape="rect" id="node9" href="$m__ball__detector_8h.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.h" alt="" coords="508,95,672,151"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="427,213,567,240"/>
-<area shape="rect" id="node4" href="$m__line__model_8cpp.html" title="source/dnt/modules\l/modelling/line_model\l/m_line_model.cpp" alt="" coords="779,199,926,255"/>
-<area shape="rect" id="node6" href="$m__robot__model_8cpp.html" title="source/dnt/modules\l/modelling/m_robot_model.cpp" alt="" coords="5,206,204,247"/>
-<area shape="rect" id="node8" href="$m__test__forward__kinematics_8cpp.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.cpp" alt="" coords="228,199,403,255"/>
-<area shape="rect" id="node10" href="$m__ball__detector_8cpp.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.cpp" alt="" coords="591,199,755,255"/>
+<area shape="rect" id="node2" href="$dnt_2modules_2communication_2m__interface__communication_8h.html" title="source/dnt/modules\l/communication/m_interface\l_communication.h" alt="" coords="28,95,215,151"/>
+<area shape="rect" id="node5" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="295,102,481,143"/>
+<area shape="rect" id="node7" href="$m__test__forward__kinematics_8h.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.h" alt="" coords="562,95,737,151"/>
+<area shape="rect" id="node9" href="$m__ball__detector_8h.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.h" alt="" coords="813,95,977,151"/>
+<area shape="rect" id="node11" href="$line__model_8h.html" title="source/dnt/modules\l/modelling/localisation\l/line_model/line_model.h" alt="" coords="1183,95,1348,151"/>
+<area shape="rect" id="node16" href="$calibration_8h.html" title="source/interface/widgets\l/camera/calibration.h" alt="" coords="1481,206,1645,247"/>
+<area shape="rect" id="node17" href="$w__camera_8h.html" title="source/interface/widgets\l/camera/w_camera.h" alt="" coords="1310,310,1474,351"/>
+<area shape="rect" id="node21" href="$interface_2modules_2m__interface__communication_8h.html" title="source/interface/modules\l/m_interface_communication.h" alt="" coords="1617,102,1817,143"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="454,317,594,344"/>
+<area shape="rect" id="node4" href="$dnt_2modules_2communication_2m__interface__communication_8cpp.html" title="source/dnt/modules\l/communication/m_interface\l_communication.cpp" alt="" coords="28,199,215,255"/>
+<area shape="rect" id="node6" href="$m__robot__model_8cpp.html" title="source/dnt/modules\l/modelling/m_robot_model.cpp" alt="" coords="289,206,487,247"/>
+<area shape="rect" id="node8" href="$m__test__forward__kinematics_8cpp.html" title="source/dnt/modules\l/modelling/m_test_forward\l_kinematics.cpp" alt="" coords="562,199,737,255"/>
+<area shape="rect" id="node10" href="$m__ball__detector_8cpp.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.cpp" alt="" coords="813,199,977,255"/>
+<area shape="rect" id="node12" href="$m__particle__filter_8h.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.h" alt="" coords="1001,199,1151,255"/>
+<area shape="rect" id="node15" href="$line__model_8cpp.html" title="source/dnt/modules\l/modelling/localisation\l/line_model/line_model.cpp" alt="" coords="1176,199,1355,255"/>
+<area shape="rect" id="node13" href="$m__behavior__engine_8cpp.html" title="source/dnt/modules\l/behavior_engine/m_behavior\l_engine.cpp" alt="" coords="853,303,1043,359"/>
+<area shape="rect" id="node14" href="$m__particle__filter_8cpp.html" title="source/dnt/modules\l/modelling/localisation\l/m_particle_filter.cpp" alt="" coords="1067,303,1218,359"/>
+<area shape="rect" id="node20" href="$calibration_8cpp.html" title="source/interface/widgets\l/camera/calibration.cpp" alt="" coords="1498,310,1662,351"/>
+<area shape="rect" id="node18" href="$interface_2main_8cpp.html" title="source/interface/main.cpp" alt="" coords="1555,414,1727,441"/>
+<area shape="rect" id="node19" href="$w__camera_8cpp.html" title="source/interface/widgets\l/camera/w_camera.cpp" alt="" coords="1310,407,1474,448"/>
+<area shape="rect" id="node22" href="$tcp__client__test_8cpp.html" title="source/dnt/test/tcp\l_client_test.cpp" alt="" coords="1737,206,1868,247"/>
+<area shape="rect" id="node23" href="$interface_2modules_2m__interface__communication_8cpp.html" title="source/interface/modules\l/m_interface_communication.cpp" alt="" coords="1893,206,2107,247"/>
 </map>

@@ -1,11 +1,18 @@
-<map id="source/alrobot/shared_memory.h" name="source/alrobot/shared_memory.h">
-<area shape="rect" id="node2" href="$al__robot_8h.html" title="source/alrobot/al_robot.h" alt="" coords="107,109,272,136"/>
-<area shape="rect" id="node4" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="296,95,469,151"/>
-<area shape="rect" id="node3" href="$al__robot_8cpp.html" title="source/alrobot/al_robot.cpp" alt="" coords="5,213,184,240"/>
-<area shape="rect" id="node5" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="208,199,371,255"/>
-<area shape="rect" id="node8" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="395,199,560,255"/>
-<area shape="rect" id="node10" href="$m__memory__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.cpp" alt="" coords="584,199,757,255"/>
-<area shape="rect" id="node6" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="313,317,453,344"/>
-<area shape="rect" id="node7" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="125,303,288,359"/>
-<area shape="rect" id="node9" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="477,303,643,359"/>
+<map id="source/robot/shared_memory.h" name="source/robot/shared_memory.h">
+<area shape="rect" id="node2" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="291,95,464,151"/>
+<area shape="rect" id="node9" href="$robot_8h.html" title="source/robot/robot.h" alt="" coords="747,109,885,136"/>
+<area shape="rect" id="node11" href="$robot__v5_8h.html" title="source/robot/v5/robot_v5.h" alt="" coords="579,213,757,240"/>
+<area shape="rect" id="node16" href="$lola__visitor_8h.html" title="source/robot/v6/lola\l_visitor.h" alt="" coords="979,102,1115,143"/>
+<area shape="rect" id="node3" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="392,199,555,255"/>
+<area shape="rect" id="node6" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="5,199,171,255"/>
+<area shape="rect" id="node8" href="$m__memory__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.cpp" alt="" coords="195,199,368,255"/>
+<area shape="rect" id="node4" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="211,317,351,344"/>
+<area shape="rect" id="node5" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="392,303,555,359"/>
+<area shape="rect" id="node7" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="5,303,171,359"/>
+<area shape="rect" id="node10" href="$robot_8cpp.html" title="source/robot/robot.cpp" alt="" coords="781,213,933,240"/>
+<area shape="rect" id="node13" href="$robot__v6_8h.html" title="source/robot/v6/robot_v6.h" alt="" coords="958,213,1135,240"/>
+<area shape="rect" id="node12" href="$robot__v5_8cpp.html" title="source/robot/v5/robot\l_v5.cpp" alt="" coords="595,310,741,351"/>
+<area shape="rect" id="node14" href="$robot_2v6_2main_8cpp.html" title="source/robot/v6/main.cpp" alt="" coords="871,317,1041,344"/>
+<area shape="rect" id="node15" href="$robot__v6_8cpp.html" title="source/robot/v6/robot\l_v6.cpp" alt="" coords="1065,310,1210,351"/>
+<area shape="rect" id="node17" href="$lola__visitor_8cpp.html" title="source/robot/v6/lola\l_visitor.cpp" alt="" coords="1160,206,1296,247"/>
 </map>

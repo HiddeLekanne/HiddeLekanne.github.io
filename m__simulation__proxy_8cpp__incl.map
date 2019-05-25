@@ -1,25 +1,26 @@
 <map id="source/dnt/modules/robot_proxies/m_simulation_proxy.cpp" name="source/dnt/modules/robot_proxies/m_simulation_proxy.cpp">
-<area shape="rect" id="node2" href="$m__simulation__proxy_8h.html" title="m_simulation_proxy.h" alt="" coords="1857,109,2006,136"/>
-<area shape="rect" id="node3" href="$log_8h.html" title="tools/log.h" alt="" coords="793,191,875,218"/>
-<area shape="rect" id="node11" href="$module_8h.html" title="framework/module.h" alt="" coords="1291,191,1431,218"/>
-<area shape="rect" id="node31" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="1903,184,2093,225"/>
-<area shape="rect" id="node33" href="$r__game__data_8h.html" title="representations/infrastructure\l/r_game_data.h" alt="" coords="1584,184,1775,225"/>
-<area shape="rect" id="node35" href="$r__button__sensor_8h.html" title="representations/sensor\l/r_button_sensor.h" alt="" coords="1633,363,1787,404"/>
-<area shape="rect" id="node36" href="$r__fsr__sensor_8h.html" title="representations/sensor\l/r_fsr_sensor.h" alt="" coords="1811,363,1966,404"/>
-<area shape="rect" id="node37" href="$r__imu__sensor_8h.html" title="representations/sensor\l/r_imu_sensor.h" alt="" coords="2041,273,2195,315"/>
-<area shape="rect" id="node38" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="2433,363,2587,404"/>
-<area shape="rect" id="node43" href="$r__robot__status__sensor_8h.html" title="representations/sensor\l/r_robot_status_sensor.h" alt="" coords="2169,184,2336,225"/>
-<area shape="rect" id="node44" href="$r__sonar__sensor_8h.html" title="representations/sensor\l/r_sonar_sensor.h" alt="" coords="2361,184,2515,225"/>
-<area shape="rect" id="node4" href="$log_2log_8h.html" title="log/log.h" alt="" coords="407,281,477,307"/>
-<area shape="rect" id="node8" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="393,370,491,397"/>
-<area shape="rect" id="node14" href="$message_8h.html" title="framework/message.h" alt="" coords="1305,459,1456,486"/>
-<area shape="rect" id="node18" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="894,370,1081,397"/>
-<area shape="rect" id="node23" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1129,281,1323,307"/>
-<area shape="rect" id="node17" href="$representation_8h.html" title="representation.h" alt="" coords="1831,541,1946,568"/>
-<area shape="rect" id="node24" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1172,363,1323,404"/>
-<area shape="rect" id="node25" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1118,459,1281,486"/>
-<area shape="rect" id="node26" href="$container_8h.html" title="framework/container.h" alt="" coords="320,541,471,568"/>
-<area shape="rect" id="node39" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="2372,452,2563,493"/>
-<area shape="rect" id="node40" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="2403,541,2532,568"/>
-<area shape="rect" id="node41" href="$constants_8h.html" title="constants.h" alt="" coords="2422,616,2513,643"/>
+<area shape="rect" id="node2" href="$m__simulation__proxy_8h.html" title="m_simulation_proxy.h" alt="" coords="1145,109,1294,136"/>
+<area shape="rect" id="node3" href="$log_8h.html" title="tools/log.h" alt="" coords="374,191,457,218"/>
+<area shape="rect" id="node11" href="$module_8h.html" title="framework/module.h" alt="" coords="623,191,763,218"/>
+<area shape="rect" id="node33" href="$r__frame__info_8h.html" title="representations/infrastructure\l/r_frame_info.h" alt="" coords="787,184,977,225"/>
+<area shape="rect" id="node35" href="$r__game__data_8h.html" title="representations/infrastructure\l/r_game_data.h" alt="" coords="1533,273,1724,315"/>
+<area shape="rect" id="node38" href="$r__button__sensor_8h.html" title="representations/sensor\l/r_button_sensor.h" alt="" coords="1151,273,1306,315"/>
+<area shape="rect" id="node39" href="$r__fsr__sensor_8h.html" title="representations/sensor\l/r_fsr_sensor.h" alt="" coords="1231,184,1386,225"/>
+<area shape="rect" id="node40" href="$r__imu__sensor_8h.html" title="representations/sensor\l/r_imu_sensor.h" alt="" coords="1053,184,1207,225"/>
+<area shape="rect" id="node41" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="1831,184,1986,225"/>
+<area shape="rect" id="node46" href="$r__robot__status__sensor_8h.html" title="representations/sensor\l/r_robot_status_sensor.h" alt="" coords="1411,184,1577,225"/>
+<area shape="rect" id="node47" href="$r__sonar__sensor_8h.html" title="representations/sensor\l/r_sonar_sensor.h" alt="" coords="1602,184,1757,225"/>
+<area shape="rect" id="node4" href="$log_2log_8h.html" title="log/log.h" alt="" coords="224,281,295,307"/>
+<area shape="rect" id="node8" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="124,377,221,404"/>
+<area shape="rect" id="node14" href="$message_8h.html" title="framework/message.h" alt="" coords="977,467,1128,493"/>
+<area shape="rect" id="node18" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="613,377,799,404"/>
+<area shape="rect" id="node23" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="743,281,938,307"/>
+<area shape="rect" id="node17" href="$representation_8h.html" title="representation.h" alt="" coords="1110,541,1225,568"/>
+<area shape="rect" id="node24" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1319,370,1469,411"/>
+<area shape="rect" id="node25" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1799,467,1962,493"/>
+<area shape="rect" id="node26" href="$container_8h.html" title="framework/container.h" alt="" coords="1864,541,2015,568"/>
+<area shape="rect" id="node36" href="$RoboCupGameControlData_8h.html" title="modules/infrastructure\l/game_state/RoboCupGameControl\lData.h" alt="" coords="1493,363,1724,419"/>
+<area shape="rect" id="node42" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="1800,273,1991,315"/>
+<area shape="rect" id="node43" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="1831,377,1960,404"/>
+<area shape="rect" id="node44" href="$constants_8h.html" title="constants.h" alt="" coords="2037,467,2127,493"/>
 </map>

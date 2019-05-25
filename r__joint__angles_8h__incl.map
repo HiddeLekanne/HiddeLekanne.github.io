@@ -1,5 +1,8 @@
 <map id="source/dnt/representations/infrastructure/r_joint_angles.h" name="source/dnt/representations/infrastructure/r_joint_angles.h">
-<area shape="rect" id="node2" href="$representation_8h.html" title="framework/representation.h" alt="" coords="5,109,185,136"/>
-<area shape="rect" id="node4" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="209,109,339,136"/>
-<area shape="rect" id="node5" href="$constants_8h.html" title="constants.h" alt="" coords="229,184,319,211"/>
+<area shape="rect" id="node2" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="401,109,552,151"/>
+<area shape="rect" id="node13" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="576,117,705,143"/>
+<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="280,199,460,225"/>
+<area shape="rect" id="node5" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="485,199,647,225"/>
+<area shape="rect" id="node6" href="$container_8h.html" title="framework/container.h" alt="" coords="491,273,641,300"/>
+<area shape="rect" id="node14" href="$constants_8h.html" title="constants.h" alt="" coords="671,199,762,225"/>
 </map>

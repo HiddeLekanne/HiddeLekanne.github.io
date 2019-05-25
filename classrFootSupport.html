@@ -116,11 +116,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a6e7fe270a31cd0ba66addf9ed26d3106"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrFootSupport.html#a6e7fe270a31cd0ba66addf9ed26d3106">support</a> = 0.f</td></tr>
-<tr class="separator:a6e7fe270a31cd0ba66addf9ed26d3106"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b0bcdaf82e150a55379ed688c579ac0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrFootSupport.html#a9b0bcdaf82e150a55379ed688c579ac0">switched</a> = false</td></tr>
-<tr class="memdesc:a9b0bcdaf82e150a55379ed688c579ac0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unitless distribution of the support over both feet (left - right).  <a href="#a9b0bcdaf82e150a55379ed688c579ac0">More...</a><br /></td></tr>
-<tr class="separator:a9b0bcdaf82e150a55379ed688c579ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a971a36a517074fc42f7508068940a560"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrFootSupport.html#a971a36a517074fc42f7508068940a560">support_</a> = 0.f</td></tr>
+<tr class="separator:a971a36a517074fc42f7508068940a560"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a96f2491f4ffd92ff8684ffab6488a1ff"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrFootSupport.html#a96f2491f4ffd92ff8684ffab6488a1ff">lifted_</a> = false</td></tr>
+<tr class="memdesc:a96f2491f4ffd92ff8684ffab6488a1ff"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unitless distribution of the support over both feet (left - right).  <a href="#a96f2491f4ffd92ff8684ffab6488a1ff">More...</a><br /></td></tr>
+<tr class="separator:a96f2491f4ffd92ff8684ffab6488a1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70ac1cc29cf8b0c6dc700e3626e7d41"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrFootSupport.html#ab70ac1cc29cf8b0c6dc700e3626e7d41">switched_</a> = false</td></tr>
+<tr class="memdesc:ab70ac1cc29cf8b0c6dc700e3626e7d41"><td class="mdescLeft">&#160;</td><td class="mdescRight">True if robot has been picked up, false otherwise.  <a href="#ab70ac1cc29cf8b0c6dc700e3626e7d41">More...</a><br /></td></tr>
+<tr class="separator:ab70ac1cc29cf8b0c6dc700e3626e7d41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This file defines a representation that describes an abstract distribution of how much each foot supports the weight of the robot. </p>
@@ -185,33 +188,49 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6e7fe270a31cd0ba66addf9ed26d3106"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e7fe270a31cd0ba66addf9ed26d3106">&#9670;&nbsp;</a></span>support</h2>
+<a id="a96f2491f4ffd92ff8684ffab6488a1ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a96f2491f4ffd92ff8684ffab6488a1ff">&#9670;&nbsp;</a></span>lifted_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float rFootSupport::support = 0.f</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9b0bcdaf82e150a55379ed688c579ac0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b0bcdaf82e150a55379ed688c579ac0">&#9670;&nbsp;</a></span>switched</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool rFootSupport::switched = false</td>
+          <td class="memname">bool rFootSupport::lifted_ = false</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Unitless distribution of the support over both feet (left - right). </p>
+
+</div>
+</div>
+<a id="a971a36a517074fc42f7508068940a560"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a971a36a517074fc42f7508068940a560">&#9670;&nbsp;</a></span>support_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float rFootSupport::support_ = 0.f</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab70ac1cc29cf8b0c6dc700e3626e7d41"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70ac1cc29cf8b0c6dc700e3626e7d41">&#9670;&nbsp;</a></span>switched_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool rFootSupport::switched_ = false</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>True if robot has been picked up, false otherwise. </p>
 
 </div>
 </div>

@@ -74,15 +74,17 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &lt;string&gt;</code><br />
 <code>#include &quot;<a class="el" href="camera__settings_8h_source.html">modules/camera/camera_settings.h</a>&quot;</code><br />
+<code>#include &lt;linux/usb/video.h&gt;</code><br />
+<code>#include &lt;linux/uvcvideo.h&gt;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for nao_camera.h:</div>
 <div class="dyncontent">
 <div class="center"><img src="nao__camera_8h__incl.png" border="0" usemap="#source_2dnt_2modules_2camera_2nao__camera_8h" alt=""/></div>
 <map name="source_2dnt_2modules_2camera_2nao__camera_8h" id="source_2dnt_2modules_2camera_2nao__camera_8h">
-<area shape="rect" id="node3" href="camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="190,95,355,136"/>
-<area shape="rect" id="node4" href="streamable_8h.html" title="framework/streamable.h" alt="" coords="454,184,617,211"/>
-<area shape="rect" id="node10" href="dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="199,184,351,211"/>
-<area shape="rect" id="node5" href="container_8h.html" title="framework/container.h" alt="" coords="500,259,651,285"/>
+<area shape="rect" id="node3" href="camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="266,95,431,136"/>
+<area shape="rect" id="node4" href="streamable_8h.html" title="framework/streamable.h" alt="" coords="530,184,693,211"/>
+<area shape="rect" id="node12" href="dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="275,184,427,211"/>
+<area shape="rect" id="node5" href="container_8h.html" title="framework/container.h" alt="" coords="576,259,727,285"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -109,6 +111,11 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceCameras"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceCameras.html">Cameras</a></td></tr>
 <tr class="memdesc:namespaceCameras"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classNaoCamera.html">NaoCamera</a>: class that gets the image buffer from the robots cameras. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceSelectorSize"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSelectorSize.html">SelectorSize</a></td></tr>
+<tr class="memdesc:namespaceSelectorSize"><td class="mdescLeft">&#160;</td><td class="mdescRight">All known settings you can set with the V6 according to: <a href="https://spl.robocup.org/wp-content/uploads/downloads/nao-v6-hints.pdf">https://spl.robocup.org/wp-content/uploads/downloads/nao-v6-hints.pdf</a>. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceSelectorNumber"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSelectorNumber.html">SelectorNumber</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -116,6 +123,30 @@ Enumerations</h2></td></tr>
 <a class="el" href="namespaceCameras.html#a868dbf3f68027e24163f711ad88731edaaca5efc3ca382ac53177bfb4263460fb">Cameras::UpperCamera</a>
  }</td></tr>
 <tr class="separator:a868dbf3f68027e24163f711ad88731ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ad06f90c51d48d7f316f5d4b49eed66"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66">SelectorSize::size</a> : uint16_t { <br />
+&#160;&#160;<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a8a8c10da827781bf49a99b952d8f43b2">SelectorSize::version</a> = 2, 
+<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a71ee06ec1a25e4d6affe0f50a37576d9">SelectorSize::average_luminance</a> = 2, 
+<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66ab8a0154226b3380d179eccf2752250fb">SelectorSize::auto_exposure</a> = 17, 
+<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66aee6a5005bacaf151cfe2d56e45bfd33e">SelectorSize::enable_test_pattern</a> = 1, 
+<br />
+&#160;&#160;<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a2d0eb8266c14564ed9af0bc43189058c">SelectorSize::horizontal_flip</a> = 2, 
+<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a8c8895a5db8678ac39b5d2239180ed41">SelectorSize::vertical_flip</a> = 2, 
+<a class="el" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66a4c052496db8819a0df2bd08c461b230a">SelectorSize::camera_registers</a> = 5
+<br />
+ }</td></tr>
+<tr class="separator:a3ad06f90c51d48d7f316f5d4b49eed66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc1e453ad36d4e1c9fed755c79543447"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447">SelectorNumber::number</a> : uint8_t { <br />
+&#160;&#160;<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447a9af79f37a4ec18c5e48f228f656fec63">SelectorNumber::version</a> = 3, 
+<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447af45d3082328cbaafbe0fd73b1398ed55">SelectorNumber::average_luminance</a> = 8, 
+<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447a65cceb05524e5514d7b9a09e8f1d999a">SelectorNumber::auto_exposure</a> = 9, 
+<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447a77394c77d3e56756c4acdb3fdf55d128">SelectorNumber::enable_test_pattern</a> = 10, 
+<br />
+&#160;&#160;<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447aed78d27919f948b77aee73afa2231fab">SelectorNumber::horizontal_flip</a> = 12, 
+<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447ac5f50abb23288cde6b98cd959e53d3a8">SelectorNumber::vertical_flip</a> = 13, 
+<a class="el" href="namespaceSelectorNumber.html#abc1e453ad36d4e1c9fed755c79543447a04fb478337c810c84be07acf2c27565a">SelectorNumber::camera_registers</a> = 14
+<br />
+ }</td></tr>
+<tr class="separator:abc1e453ad36d4e1c9fed755c79543447"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

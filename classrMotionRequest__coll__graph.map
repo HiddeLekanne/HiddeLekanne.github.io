@@ -1,6 +1,7 @@
 <map id="rMotionRequest" name="rMotionRequest">
-<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
-<area shape="rect" id="node5" href="$classrMotion.html" title="rMotion" alt="" coords="55,95,120,121"/>
-<area shape="rect" id="node3" href="$classPose2f.html" title="Pose2f" alt="" coords="167,95,229,121"/>
-<area shape="rect" id="node4" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="171,5,225,32"/>
+<area shape="rect" id="node2" href="$classRepresentation.html" title="Representation abstract class. " alt="" coords="5,81,116,108"/>
+<area shape="rect" id="node6" href="$classrMotion.html" title="rMotion" alt="" coords="55,171,120,197"/>
+<area shape="rect" id="node3" href="$classPose2f.html" title="Pose2f" alt="" coords="167,171,229,197"/>
+<area shape="rect" id="node4" href="$classAngle.html" title="The Angle class stores the represented angle in radians. " alt="" coords="171,81,225,108"/>
+<area shape="rect" id="node5" href="$classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="154,5,242,32"/>
 </map>

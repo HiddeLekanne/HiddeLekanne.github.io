@@ -1,13 +1,16 @@
 <map id="source/dnt/representations/motion/r_walk_generator.h" name="source/dnt/representations/motion/r_walk_generator.h">
-<area shape="rect" id="node2" href="$representation_8h.html" title="framework/representation.h" alt="" coords="5,363,185,389"/>
-<area shape="rect" id="node4" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="287,95,442,136"/>
-<area shape="rect" id="node11" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1014,191,1166,218"/>
-<area shape="rect" id="node17" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="535,102,674,129"/>
-<area shape="rect" id="node5" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="136,273,327,315"/>
-<area shape="rect" id="node9" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="122,184,277,225"/>
-<area shape="rect" id="node6" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="315,363,444,389"/>
-<area shape="rect" id="node7" href="$constants_8h.html" title="constants.h" alt="" coords="454,437,545,464"/>
-<area shape="rect" id="node18" href="$math_2Eigen_8h.html" title="Eigen.h" alt="" coords="818,191,885,218"/>
-<area shape="rect" id="node20" href="$Approx_8h.html" title="tools/math/Approx.h" alt="" coords="535,191,674,218"/>
-<area shape="rect" id="node21" href="$BHMath_8h.html" title="BHMath.h" alt="" coords="485,281,567,307"/>
+<area shape="rect" id="node2" href="$representation_8h.html" title="framework/representation.h" alt="" coords="5,452,185,479"/>
+<area shape="rect" id="node4" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="275,95,430,136"/>
+<area shape="rect" id="node20" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1011,191,1163,218"/>
+<area shape="rect" id="node25" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="553,102,691,129"/>
+<area shape="rect" id="node5" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="133,273,324,315"/>
+<area shape="rect" id="node18" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="135,184,290,225"/>
+<area shape="rect" id="node6" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="143,363,293,404"/>
+<area shape="rect" id="node15" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="409,370,539,397"/>
+<area shape="rect" id="node7" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="393,452,555,479"/>
+<area shape="rect" id="node8" href="$container_8h.html" title="framework/container.h" alt="" coords="564,527,715,553"/>
+<area shape="rect" id="node16" href="$constants_8h.html" title="constants.h" alt="" coords="655,452,746,479"/>
+<area shape="rect" id="node26" href="$math_2Eigen_8h.html" title="Eigen.h" alt="" coords="815,191,882,218"/>
+<area shape="rect" id="node28" href="$Approx_8h.html" title="tools/math/Approx.h" alt="" coords="553,191,691,218"/>
+<area shape="rect" id="node29" href="$BHMath_8h.html" title="BHMath.h" alt="" coords="581,281,663,307"/>
 </map>

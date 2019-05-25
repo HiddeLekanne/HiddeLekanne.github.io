@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['eigen_5farray_5fplugin',['EIGEN_ARRAY_PLUGIN',['../math_2Eigen_8h.html#a5760cae04d5bc78c836befc5d792f4f9',1,'Eigen.h']]],
-  ['eigen_5fmatrixbase_5fplugin',['EIGEN_MATRIXBASE_PLUGIN',['../math_2Eigen_8h.html#afc792de073c9a00a2f3739a451be4312',1,'Eigen.h']]]
+  ['downscale_5ffactor',['DOWNSCALE_FACTOR',['../line__detector__test_8cpp.html#aee04abc1fc6c0f07d0a287682c8ce8d4',1,'line_detector_test.cpp']]]
 ];

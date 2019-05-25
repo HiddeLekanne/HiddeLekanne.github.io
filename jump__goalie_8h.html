@@ -75,14 +75,14 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a999b6e49de62fc16293a5b5522664026"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jump__goalie_8h.html#a999b6e49de62fc16293a5b5522664026">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;jump right&quot;), description(&quot;...&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a8217136b58b9e050528574585b2fa330">UtilityScore::Useful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;ball is right&quot;), range(-1, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 1.f}, {0.430f, 0.f}, {1.f, 0.f}}), { return ball_representation_-&gt;angle_;}), consideration(description(&quot;Ball seen recently&quot;), range(0, 4000), Spline::Linear({{0.f, 1.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;motion_=Motion::fall_right;output_motion_request_-&gt;resetWalk=false;})</td></tr>
-<tr class="separator:a999b6e49de62fc16293a5b5522664026"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c36993173727b1bbc9641a3332c053e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jump__goalie_8h.html#a4c36993173727b1bbc9641a3332c053e">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;jump left&quot;), description(&quot;...&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a8217136b58b9e050528574585b2fa330">UtilityScore::Useful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;ball is left&quot;), range(-1, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {0.570f, 0.f}, {1.f, 1.f}}), { return ball_representation_-&gt;angle_;}), consideration(description(&quot;Ball seen recently&quot;), range(0, 4000), Spline::Linear({{0.f, 1.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;motion_=Motion::fall_left;output_motion_request_-&gt;resetWalk=false;})</td></tr>
-<tr class="separator:a4c36993173727b1bbc9641a3332c053e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc8c71e2be6786e9ed8910c62d9b8ef7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jump__goalie_8h.html#afc8c71e2be6786e9ed8910c62d9b8ef7">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;jump right&quot;), description(&quot;...&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a8217136b58b9e050528574585b2fa330">UtilityScore::Useful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;ball is right&quot;), range(-1, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 1.f}, {0.430f, 0.f}, {1.f, 0.f}}), { return ball_representation_-&gt;angle_;}), consideration(description(&quot;Ball seen recently&quot;), range(0, 4000), Spline::Linear({{0.f, 1.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;motion_=Motion::fall_right;})</td></tr>
+<tr class="separator:afc8c71e2be6786e9ed8910c62d9b8ef7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ba1886d21c1402493ff5330e34e14b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="jump__goalie_8h.html#a1ba1886d21c1402493ff5330e34e14b8">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;jump left&quot;), description(&quot;...&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a8217136b58b9e050528574585b2fa330">UtilityScore::Useful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;ball is left&quot;), range(-1, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {0.570f, 0.f}, {1.f, 1.f}}), { return ball_representation_-&gt;angle_;}), consideration(description(&quot;Ball seen recently&quot;), range(0, 4000), Spline::Linear({{0.f, 1.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;motion_=Motion::fall_left;})</td></tr>
+<tr class="separator:a1ba1886d21c1402493ff5330e34e14b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a999b6e49de62fc16293a5b5522664026"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a999b6e49de62fc16293a5b5522664026">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/2]</span></h2>
+<a id="afc8c71e2be6786e9ed8910c62d9b8ef7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc8c71e2be6786e9ed8910c62d9b8ef7">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -120,7 +120,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::fall_right;output_motion_request_-&gt;resetWalk=false;}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::fall_right;}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -133,8 +133,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a4c36993173727b1bbc9641a3332c053e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c36993173727b1bbc9641a3332c053e">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/2]</span></h2>
+<a id="a1ba1886d21c1402493ff5330e34e14b8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ba1886d21c1402493ff5330e34e14b8">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,7 +172,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::fall_left;output_motion_request_-&gt;resetWalk=false;}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::fall_left;}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

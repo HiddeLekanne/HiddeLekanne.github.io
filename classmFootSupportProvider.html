@@ -64,6 +64,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="classmFootSupportProvider-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">mFootSupportProvider Class Reference</div>  </div>
@@ -113,27 +114,42 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a0df79613705ce34090a7d599438dd3a2"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a0df79613705ce34090a7d599438dd3a2">weights</a> [<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td></tr>
-<tr class="memdesc:a0df79613705ce34090a7d599438dd3a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weights for the individual FSRs.  <a href="#a0df79613705ce34090a7d599438dd3a2">More...</a><br /></td></tr>
-<tr class="separator:a0df79613705ce34090a7d599438dd3a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70f69acd395c36d5fbf0637e578dbce9"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a70f69acd395c36d5fbf0637e578dbce9">highestPressure</a> [<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td></tr>
-<tr class="memdesc:a70f69acd395c36d5fbf0637e578dbce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highest pressure measured so far per FSR.  <a href="#a70f69acd395c36d5fbf0637e578dbce9">More...</a><br /></td></tr>
-<tr class="separator:a70f69acd395c36d5fbf0637e578dbce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a059fea26ca41809ec66435921f8c6e9a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a059fea26ca41809ec66435921f8c6e9a">weights_</a> [<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td></tr>
+<tr class="memdesc:a059fea26ca41809ec66435921f8c6e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Weights for the individual FSRs.  <a href="#a059fea26ca41809ec66435921f8c6e9a">More...</a><br /></td></tr>
+<tr class="separator:a059fea26ca41809ec66435921f8c6e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dc5b8e6428737a85decf6d8d10ebc7c"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a2dc5b8e6428737a85decf6d8d10ebc7c">highest_pressure_</a> [<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td></tr>
+<tr class="memdesc:a2dc5b8e6428737a85decf6d8d10ebc7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Highest pressure measured so far per FSR.  <a href="#a2dc5b8e6428737a85decf6d8d10ebc7c">More...</a><br /></td></tr>
+<tr class="separator:a2dc5b8e6428737a85decf6d8d10ebc7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aae9cbd4b047217ed10c8a97f109123df"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#aae9cbd4b047217ed10c8a97f109123df">prevSupport</a></td></tr>
-<tr class="memdesc:aae9cbd4b047217ed10c8a97f109123df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previous support used for smoothing.  <a href="#aae9cbd4b047217ed10c8a97f109123df">More...</a><br /></td></tr>
-<tr class="separator:aae9cbd4b047217ed10c8a97f109123df"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ebd63769990f6002f54070e56d23a46"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a5ebd63769990f6002f54070e56d23a46">currentPressures</a> [<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td></tr>
-<tr class="separator:a5ebd63769990f6002f54070e56d23a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c8557a6fbc823e2d2695fa2957a8832"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a3c8557a6fbc823e2d2695fa2957a8832">prev_support_</a></td></tr>
+<tr class="memdesc:a3c8557a6fbc823e2d2695fa2957a8832"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previous support used for smoothing.  <a href="#a3c8557a6fbc823e2d2695fa2957a8832">More...</a><br /></td></tr>
+<tr class="separator:a3c8557a6fbc823e2d2695fa2957a8832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78e8e231b6dbe1ec593fc7d7bb347753"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a78e8e231b6dbe1ec593fc7d7bb347753">current_pressures_</a> [<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td></tr>
+<tr class="memdesc:a78e8e231b6dbe1ec593fc7d7bb347753"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pressures for every sensor.  <a href="#a78e8e231b6dbe1ec593fc7d7bb347753">More...</a><br /></td></tr>
+<tr class="separator:a78e8e231b6dbe1ec593fc7d7bb347753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb38d83f3e2b1390f1ffdaf047caef12"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#aeb38d83f3e2b1390f1ffdaf047caef12">lift_count_</a> = 0</td></tr>
+<tr class="memdesc:aeb38d83f3e2b1390f1ffdaf047caef12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of consecutive cycles that the robot has switched lifted state.  <a href="#aeb38d83f3e2b1390f1ffdaf047caef12">More...</a><br /></td></tr>
+<tr class="separator:aeb38d83f3e2b1390f1ffdaf047caef12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8104ea56c101b89ebf06740d11c141e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#ac8104ea56c101b89ebf06740d11c141e">lifted_</a> = false</td></tr>
+<tr class="memdesc:ac8104ea56c101b89ebf06740d11c141e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last calculated lifted state.  <a href="#ac8104ea56c101b89ebf06740d11c141e">More...</a><br /></td></tr>
+<tr class="separator:ac8104ea56c101b89ebf06740d11c141e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae22ef008afcaa0a884fa61c9491c71e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrFSRSensor.html">rFSRSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#aae22ef008afcaa0a884fa61c9491c71e">input_fsr_sensor_message_</a></td></tr>
-<tr class="memdesc:aae22ef008afcaa0a884fa61c9491c71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pressures for every sensor.  <a href="#aae22ef008afcaa0a884fa61c9491c71e">More...</a><br /></td></tr>
+<tr class="memdesc:aae22ef008afcaa0a884fa61c9491c71e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Motion thread input.  <a href="#aae22ef008afcaa0a884fa61c9491c71e">More...</a><br /></td></tr>
 <tr class="separator:aae22ef008afcaa0a884fa61c9491c71e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b06e4b52e34441d84e6c8eb344312ba"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; <a class="el" href="classrFSRSensor.html">rFSRSensor</a> const  &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a9b06e4b52e34441d84e6c8eb344312ba">fsr_sensor_</a></td></tr>
+<tr class="memdesc:a9b06e4b52e34441d84e6c8eb344312ba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last received FSRSensor representation.  <a href="#a9b06e4b52e34441d84e6c8eb344312ba">More...</a><br /></td></tr>
 <tr class="separator:a9b06e4b52e34441d84e6c8eb344312ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a657bf3c07f0080bc19c54c7e8960c16a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classOutputMessage.html">OutputMessage</a>&lt; <a class="el" href="classrFootSupport.html">rFootSupport</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#a657bf3c07f0080bc19c54c7e8960c16a">foot_support_message_</a></td></tr>
+<tr class="memdesc:a657bf3c07f0080bc19c54c7e8960c16a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output message of this module.  <a href="#a657bf3c07f0080bc19c54c7e8960c16a">More...</a><br /></td></tr>
 <tr class="separator:a657bf3c07f0080bc19c54c7e8960c16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:aad6c97b442f606b0fc4989d4e157066b"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmFootSupportProvider.html#aad6c97b442f606b0fc4989d4e157066b">LIFT_COUNT_THRESH_</a> = 40</td></tr>
+<tr class="memdesc:aad6c97b442f606b0fc4989d4e157066b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of cycles that a lift from the ground must be detected before state is changed to 'lifted'.  <a href="#aad6c97b442f606b0fc4989d4e157066b">More...</a><br /></td></tr>
+<tr class="separator:aad6c97b442f606b0fc4989d4e157066b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a4708ed35116a3557cc0df9aecdb9dda0"></a>
@@ -234,8 +250,8 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5ebd63769990f6002f54070e56d23a46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ebd63769990f6002f54070e56d23a46">&#9670;&nbsp;</a></span>currentPressures</h2>
+<a id="a78e8e231b6dbe1ec593fc7d7bb347753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a78e8e231b6dbe1ec593fc7d7bb347753">&#9670;&nbsp;</a></span>current_pressures_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -244,7 +260,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float mFootSupportProvider::currentPressures[<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td>
+          <td class="memname">float mFootSupportProvider::current_pressures_[<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td>
         </tr>
       </table>
   </td>
@@ -253,6 +269,8 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Pressures for every sensor. </p>
 
 </div>
 </div>
@@ -276,6 +294,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Output message of this module. </p>
+
 </div>
 </div>
 <a id="a9b06e4b52e34441d84e6c8eb344312ba"></a>
@@ -298,16 +318,18 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Last received FSRSensor representation. </p>
+
 </div>
 </div>
-<a id="a70f69acd395c36d5fbf0637e578dbce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70f69acd395c36d5fbf0637e578dbce9">&#9670;&nbsp;</a></span>highestPressure</h2>
+<a id="a2dc5b8e6428737a85decf6d8d10ebc7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dc5b8e6428737a85decf6d8d10ebc7c">&#9670;&nbsp;</a></span>highest_pressure_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float mFootSupportProvider::highestPressure[<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td>
+          <td class="memname">float mFootSupportProvider::highest_pressure_[<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -336,12 +358,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Pressures for every sensor. </p>
+<p>Motion thread input. </p>
 
 </div>
 </div>
-<a id="aae9cbd4b047217ed10c8a97f109123df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aae9cbd4b047217ed10c8a97f109123df">&#9670;&nbsp;</a></span>prevSupport</h2>
+<a id="aeb38d83f3e2b1390f1ffdaf047caef12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb38d83f3e2b1390f1ffdaf047caef12">&#9670;&nbsp;</a></span>lift_count_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -350,7 +372,79 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float mFootSupportProvider::prevSupport</td>
+          <td class="memname">int mFootSupportProvider::lift_count_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of consecutive cycles that the robot has switched lifted state. </p>
+
+</div>
+</div>
+<a id="aad6c97b442f606b0fc4989d4e157066b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad6c97b442f606b0fc4989d4e157066b">&#9670;&nbsp;</a></span>LIFT_COUNT_THRESH_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int mFootSupportProvider::LIFT_COUNT_THRESH_ = 40</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of cycles that a lift from the ground must be detected before state is changed to 'lifted'. </p>
+
+</div>
+</div>
+<a id="ac8104ea56c101b89ebf06740d11c141e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8104ea56c101b89ebf06740d11c141e">&#9670;&nbsp;</a></span>lifted_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mFootSupportProvider::lifted_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Last calculated lifted state. </p>
+
+</div>
+</div>
+<a id="a3c8557a6fbc823e2d2695fa2957a8832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c8557a6fbc823e2d2695fa2957a8832">&#9670;&nbsp;</a></span>prev_support_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mFootSupportProvider::prev_support_</td>
         </tr>
       </table>
   </td>
@@ -364,14 +458,14 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a0df79613705ce34090a7d599438dd3a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0df79613705ce34090a7d599438dd3a2">&#9670;&nbsp;</a></span>weights</h2>
+<a id="a059fea26ca41809ec66435921f8c6e9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a059fea26ca41809ec66435921f8c6e9a">&#9670;&nbsp;</a></span>weights_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">float mFootSupportProvider::weights[<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td>
+          <td class="memname">float mFootSupportProvider::weights_[<a class="el" href="namespaceLegs.html#af2a1d2d04b8d716f9c5eb07a83a80530ac13d862e01a2308f80761ba36b3f4d5e">Legs::size</a>][<a class="el" href="namespaceFsrSensors.html#a1259752475b500f7f673898af85fce2ba93a56489cc5bcaaa774e7d75fcf23307">FsrSensors::size</a>]</td>
         </tr>
       </table>
 </div><div class="memdoc">

@@ -1,0 +1,4 @@
+<map id="Robot" name="Robot">
+<area shape="rect" id="node2" href="$classRobotV5.html" title="RobotV5" alt="" coords="5,80,79,107"/>
+<area shape="rect" id="node3" href="$classRobotV6.html" title="RobotV6: Communicate with LoLA to read and write, sensor and joint values, to and from..." alt="" coords="103,80,176,107"/>
+</map>

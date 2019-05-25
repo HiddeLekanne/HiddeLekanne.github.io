@@ -1,4 +1,6 @@
 <map id="source/dnt/tools/math/BHMath.h" name="source/dnt/tools/math/BHMath.h">
-<area shape="rect" id="node2" href="$angle_8h.html" title="angle.h" alt="" coords="19,95,83,121"/>
-<area shape="rect" id="node3" href="$constants_8h.html" title="constants.h" alt="" coords="5,169,96,196"/>
+<area shape="rect" id="node2" href="$angle_8h.html" title="angle.h" alt="" coords="458,95,522,121"/>
+<area shape="rect" id="node3" href="$constants_8h.html" title="constants.h" alt="" coords="370,169,461,196"/>
+<area shape="rect" id="node4" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="485,169,647,196"/>
+<area shape="rect" id="node5" href="$container_8h.html" title="framework/container.h" alt="" coords="491,244,641,271"/>
 </map>

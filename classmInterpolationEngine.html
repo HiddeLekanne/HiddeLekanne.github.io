@@ -87,11 +87,12 @@ Collaboration diagram for mInterpolationEngine:</div>
 <map name="mInterpolationEngine_coll__map" id="mInterpolationEngine_coll__map">
 <area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="401,5,465,32"/>
 <area shape="rect" id="node3" href="classInputMessage.html" title="InputMessage\&lt; rMotionRequest \&gt;" alt="" coords="323,56,543,83"/>
-<area shape="rect" id="node4" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,107,269,133"/>
-<area shape="rect" id="node8" href="classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="332,107,533,133"/>
-<area shape="rect" id="node5" href="classMessage.html" title="Message abstract class. " alt="" coords="5,135,80,161"/>
-<area shape="rect" id="node7" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,159,273,185"/>
-<area shape="rect" id="node6" href="classOutputMessage.html" title="OutputMessage\&lt; rInterpolation\lOutput \&gt;" alt="" coords="332,158,533,199"/>
+<area shape="rect" id="node4" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,136,269,163"/>
+<area shape="rect" id="node6" href="classInputMessage.html" title="InputMessage\&lt; rStance \&gt;" alt="" coords="346,107,519,133"/>
+<area shape="rect" id="node9" href="classInputMessage.html" title="InputMessage\&lt; rJointSensor \&gt;" alt="" coords="332,157,533,184"/>
+<area shape="rect" id="node5" href="classMessage.html" title="Message abstract class. " alt="" coords="5,167,80,193"/>
+<area shape="rect" id="node8" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,191,273,217"/>
+<area shape="rect" id="node7" href="classOutputMessage.html" title="OutputMessage\&lt; rInterpolation\lOutput \&gt;" alt="" coords="332,209,533,250"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -105,16 +106,16 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afae509fd4bd48decb329b03c700b907d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#afae509fd4bd48decb329b03c700b907d">clearData</a> ()</td></tr>
 <tr class="memdesc:afae509fd4bd48decb329b03c700b907d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resets all parameters used during interpolation.  <a href="#afae509fd4bd48decb329b03c700b907d">More...</a><br /></td></tr>
 <tr class="separator:afae509fd4bd48decb329b03c700b907d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe9e8afdb7c9d83526007dbf0b94ed41"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#abe9e8afdb7c9d83526007dbf0b94ed41">setStiffness</a> ()</td></tr>
-<tr class="memdesc:abe9e8afdb7c9d83526007dbf0b94ed41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets stiffnesses for all joints that are in the input keyframe (currently all 0.8).  <a href="#abe9e8afdb7c9d83526007dbf0b94ed41">More...</a><br /></td></tr>
-<tr class="separator:abe9e8afdb7c9d83526007dbf0b94ed41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75c679855d2a6a47e416352016fff97e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a75c679855d2a6a47e416352016fff97e">setStiffness</a> (int passed_time)</td></tr>
+<tr class="memdesc:a75c679855d2a6a47e416352016fff97e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets stiffnesses for all joints that are in the input keyframe (currently all 0.8).  <a href="#a75c679855d2a6a47e416352016fff97e">More...</a><br /></td></tr>
+<tr class="separator:a75c679855d2a6a47e416352016fff97e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3dd68e71567573691abdec8225ad3e77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a3dd68e71567573691abdec8225ad3e77">setMaxDuration</a> ()</td></tr>
 <tr class="memdesc:a3dd68e71567573691abdec8225ad3e77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Lookts through all the times and sets 'max_duration' to the endtime of the motion.  <a href="#a3dd68e71567573691abdec8225ad3e77">More...</a><br /></td></tr>
 <tr class="separator:a3dd68e71567573691abdec8225ad3e77"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab447dfdbde6495d74b7cc3aafcfcdda4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#ab447dfdbde6495d74b7cc3aafcfcdda4">getKeyframe</a> ()</td></tr>
 <tr class="memdesc:ab447dfdbde6495d74b7cc3aafcfcdda4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the keyframe data from the config.  <a href="#ab447dfdbde6495d74b7cc3aafcfcdda4">More...</a><br /></td></tr>
 <tr class="separator:ab447dfdbde6495d74b7cc3aafcfcdda4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0972e8afeabeb67d2f2218ec010b64c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#ae0972e8afeabeb67d2f2218ec010b64c">updateJointData</a> (<a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> i)</td></tr>
+<tr class="memitem:ae0972e8afeabeb67d2f2218ec010b64c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#ae0972e8afeabeb67d2f2218ec010b64c">updateJointData</a> (<a class="el" href="goal__detector__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> i)</td></tr>
 <tr class="memdesc:ae0972e8afeabeb67d2f2218ec010b64c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update the current data for one joint, i.e.  <a href="#ae0972e8afeabeb67d2f2218ec010b64c">More...</a><br /></td></tr>
 <tr class="separator:ae0972e8afeabeb67d2f2218ec010b64c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a26e175ec197b8f8249b1e935197808"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a0a26e175ec197b8f8249b1e935197808">interpolate</a> ()</td></tr>
@@ -172,6 +173,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:af9cd4d98a39259287307eda7d9b6dfdc"><td class="memItemLeft" align="right" valign="top">std::vector&lt; float &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#af9cd4d98a39259287307eda7d9b6dfdc">previous_times_</a></td></tr>
 <tr class="memdesc:af9cd4d98a39259287307eda7d9b6dfdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of times for every joint containing a timestamp at which the previous subpart of the interpolation was finished.  <a href="#af9cd4d98a39259287307eda7d9b6dfdc">More...</a><br /></td></tr>
 <tr class="separator:af9cd4d98a39259287307eda7d9b6dfdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa926ec81449e766565cedafbfe8d7757"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61b">Motion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#aa926ec81449e766565cedafbfe8d7757">previous_motion_</a> = Motion::none</td></tr>
+<tr class="memdesc:aa926ec81449e766565cedafbfe8d7757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keeps track of the previous motion executed by THIS module (so not the same as the <code>previous motion</code>), used to check if stand needs to be interpolated or not.  <a href="#aa926ec81449e766565cedafbfe8d7757">More...</a><br /></td></tr>
+<tr class="separator:aa926ec81449e766565cedafbfe8d7757"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa3dbdb8fa03b8f6d1a981d7af8815ad8"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61b">Motion</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#aa3dbdb8fa03b8f6d1a981d7af8815ad8">motion_queue_</a></td></tr>
 <tr class="memdesc:aa3dbdb8fa03b8f6d1a981d7af8815ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Queue containing motions requested by the behavior engine.  <a href="#aa3dbdb8fa03b8f6d1a981d7af8815ad8">More...</a><br /></td></tr>
 <tr class="separator:aa3dbdb8fa03b8f6d1a981d7af8815ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -182,8 +186,14 @@ Private Attributes</h2></td></tr>
 <tr class="memdesc:a16fad088816a368a4603ff3347af39a1"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMessage.html" title="Message abstract class. ">Message</a> containing an <a class="el" href="classrJointSensor.html" title="Rotate around a combination of the X (roll), Y (pitch) and Z (yaw) axis. ">rJointSensor</a> representation, which has the current joint angles.  <a href="#a16fad088816a368a4603ff3347af39a1">More...</a><br /></td></tr>
 <tr class="separator:a16fad088816a368a4603ff3347af39a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2cddafffd55995e6168f0fc616697ab2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrJointSensor.html">rJointSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a2cddafffd55995e6168f0fc616697ab2">joint_sensor_</a></td></tr>
-<tr class="memdesc:a2cddafffd55995e6168f0fc616697ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last received joint sensor message.  <a href="#a2cddafffd55995e6168f0fc616697ab2">More...</a><br /></td></tr>
+<tr class="memdesc:a2cddafffd55995e6168f0fc616697ab2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last received joint sensor representation.  <a href="#a2cddafffd55995e6168f0fc616697ab2">More...</a><br /></td></tr>
 <tr class="separator:a2cddafffd55995e6168f0fc616697ab2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0435db7693f53d093268e7978ef547fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrStance.html">rStance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a0435db7693f53d093268e7978ef547fb">input_stance_</a></td></tr>
+<tr class="memdesc:a0435db7693f53d093268e7978ef547fb"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classMessage.html" title="Message abstract class. ">Message</a> containing the current fall down state.  <a href="#a0435db7693f53d093268e7978ef547fb">More...</a><br /></td></tr>
+<tr class="separator:a0435db7693f53d093268e7978ef547fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01835dbc71a4935e4aae1ebb03cc2ec2"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrStance.html">rStance</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a01835dbc71a4935e4aae1ebb03cc2ec2">stance_</a></td></tr>
+<tr class="memdesc:a01835dbc71a4935e4aae1ebb03cc2ec2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Last received fall down state representation.  <a href="#a01835dbc71a4935e4aae1ebb03cc2ec2">More...</a><br /></td></tr>
+<tr class="separator:a01835dbc71a4935e4aae1ebb03cc2ec2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56206374ff04b9667f08b2e77b5eb0f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrMotionRequest.html">rMotionRequest</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a56206374ff04b9667f08b2e77b5eb0f7">input_motion_request_</a></td></tr>
 <tr class="memdesc:a56206374ff04b9667f08b2e77b5eb0f7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the motion request from the behavior engine to see the motion that is in progress and (for now) the naoqi walk values (x, y, theta).  <a href="#a56206374ff04b9667f08b2e77b5eb0f7">More...</a><br /></td></tr>
 <tr class="separator:a56206374ff04b9667f08b2e77b5eb0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -199,6 +209,15 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:af0b463275143e3fef76dbe95076adc3d"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#af0b463275143e3fef76dbe95076adc3d">TIME_SCALAR_</a> = 1</td></tr>
 <tr class="memdesc:af0b463275143e3fef76dbe95076adc3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">for debugging, 1 equals real-time, 2 equals twice as slow, etc.  <a href="#af0b463275143e3fef76dbe95076adc3d">More...</a><br /></td></tr>
 <tr class="separator:af0b463275143e3fef76dbe95076adc3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a017411fd928b0af5fba7091134c14979"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a017411fd928b0af5fba7091134c14979">DEFAULT_STIFFNESS_</a> = 0.8f</td></tr>
+<tr class="memdesc:a017411fd928b0af5fba7091134c14979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Go-to stiffness for motions if nothing else is specified.  <a href="#a017411fd928b0af5fba7091134c14979">More...</a><br /></td></tr>
+<tr class="separator:a017411fd928b0af5fba7091134c14979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a313ad93144cf56cc2138e42c7cbf1693"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a313ad93144cf56cc2138e42c7cbf1693">STIFFNESS_INTERPOLATION_TIME_</a> = 300</td></tr>
+<tr class="memdesc:a313ad93144cf56cc2138e42c7cbf1693"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time (in ms) that stiffness will be interpolated at the beginning of a motion, to prevent sudden motor bumps.  <a href="#a313ad93144cf56cc2138e42c7cbf1693">More...</a><br /></td></tr>
+<tr class="separator:a313ad93144cf56cc2138e42c7cbf1693"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6061cc843ff7cd23e8928192f1987e52"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmInterpolationEngine.html#a6061cc843ff7cd23e8928192f1987e52">INTERPOLATE_FROM_STIFFNESS_</a> = 0.6f</td></tr>
+<tr class="memdesc:a6061cc843ff7cd23e8928192f1987e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stiffness (on scale 0-1) from which to start a motion.  <a href="#a6061cc843ff7cd23e8928192f1987e52">More...</a><br /></td></tr>
+<tr class="separator:a6061cc843ff7cd23e8928192f1987e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aed742c5ab772364ebe5e9c5ebff2d430"></a>
@@ -402,8 +421,8 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="abe9e8afdb7c9d83526007dbf0b94ed41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe9e8afdb7c9d83526007dbf0b94ed41">&#9670;&nbsp;</a></span>setStiffness()</h2>
+<a id="a75c679855d2a6a47e416352016fff97e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75c679855d2a6a47e416352016fff97e">&#9670;&nbsp;</a></span>setStiffness()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -411,13 +430,20 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void mInterpolationEngine::setStiffness </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>passed_time</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Sets stiffnesses for all joints that are in the input keyframe (currently all 0.8). </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">passed_time</td><td>the time since the start of the motion in ms </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -449,7 +475,7 @@ Static Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void mInterpolationEngine::updateJointData </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="goal__detector__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a>&#160;</td>
           <td class="paramname"><em>i</em></td><td>)</td>
           <td></td>
         </tr>
@@ -511,7 +537,7 @@ Static Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61ba489cf331fdb09d3719cfe37d3f5aaf43">Motion::none</a>, <a class="code" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61ba418064cded7169771ca20753153b55fa">Motion::walk</a>,</div><div class="line">                                          <a class="code" href="namespaceSensorIds.html#a589fa81fe0b6214a1527d2e4eb223935af9ea6845987c06013a685aec51558266">Motion::size</a>}</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= {<a class="code" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61ba489cf331fdb09d3719cfe37d3f5aaf43">Motion::none</a>, <a class="code" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61ba418064cded7169771ca20753153b55fa">Motion::walk</a>,</div><div class="line">                                          <a class="code" href="namespaceSelectorSize.html#a3ad06f90c51d48d7f316f5d4b49eed66">Motion::size</a>}</div></div><!-- fragment -->
 <p>Set with motions to ignore. </p>
 <p>TODO: change to accepted motions, so this doesn't have to be updated if any new motion module is added, only when a motion is added to the interpolation engine itself. </p>
 
@@ -538,6 +564,30 @@ Static Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Vector of times for every joint at which to be finished with the current interpolation subpart. </p>
+
+</div>
+</div>
+<a id="a017411fd928b0af5fba7091134c14979"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a017411fd928b0af5fba7091134c14979">&#9670;&nbsp;</a></span>DEFAULT_STIFFNESS_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float mInterpolationEngine::DEFAULT_STIFFNESS_ = 0.8f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Go-to stiffness for motions if nothing else is specified. </p>
 
 </div>
 </div>
@@ -613,6 +663,55 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a0435db7693f53d093268e7978ef547fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0435db7693f53d093268e7978ef547fb">&#9670;&nbsp;</a></span>input_stance_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrStance.html">rStance</a>&gt; mInterpolationEngine::input_stance_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classMessage.html" title="Message abstract class. ">Message</a> containing the current fall down state. </p>
+
+</div>
+</div>
+<a id="a6061cc843ff7cd23e8928192f1987e52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6061cc843ff7cd23e8928192f1987e52">&#9670;&nbsp;</a></span>INTERPOLATE_FROM_STIFFNESS_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr float mInterpolationEngine::INTERPOLATE_FROM_STIFFNESS_ = 0.6f</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Stiffness (on scale 0-1) from which to start a motion. </p>
+<p>The stiffness will be interpolated to DEFAULT_STIFFNESS_ within STIFFNESS_INTERPOLATION_TIME_ milliseconds TODO: make this depend on DEFAULT_STIFFNESS_ if that value is not a constant anymore </p>
+
+</div>
+</div>
 <a id="a68464018d138b4700ba6cc5159d72dd3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a68464018d138b4700ba6cc5159d72dd3">&#9670;&nbsp;</a></span>interpolation_output_</h2>
 
@@ -658,7 +757,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Last received joint sensor message. </p>
+<p>Last received joint sensor representation. </p>
 
 </div>
 </div>
@@ -776,6 +875,30 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="aa926ec81449e766565cedafbfe8d7757"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa926ec81449e766565cedafbfe8d7757">&#9670;&nbsp;</a></span>previous_motion_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="namespaceMotions.html#a503f25c4ae29eedb548b258ef32ae61b">Motion</a> mInterpolationEngine::previous_motion_ = Motion::none</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Keeps track of the previous motion executed by THIS module (so not the same as the <code>previous motion</code>), used to check if stand needs to be interpolated or not. </p>
+
+</div>
+</div>
 <a id="af9cd4d98a39259287307eda7d9b6dfdc"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af9cd4d98a39259287307eda7d9b6dfdc">&#9670;&nbsp;</a></span>previous_times_</h2>
 
@@ -801,6 +924,30 @@ Static Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a01835dbc71a4935e4aae1ebb03cc2ec2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01835dbc71a4935e4aae1ebb03cc2ec2">&#9670;&nbsp;</a></span>stance_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrStance.html">rStance</a>&gt; mInterpolationEngine::stance_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Last received fall down state representation. </p>
+
+</div>
+</div>
 <a id="a013475feca6fe1c18b59558e91b26455"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a013475feca6fe1c18b59558e91b26455">&#9670;&nbsp;</a></span>start_time_</h2>
 
@@ -823,6 +970,30 @@ Static Private Attributes</h2></td></tr>
 
 <p>Timestamp for the time that the interpolation of a motion started. </p>
 <p>This is used for motion progress. </p>
+
+</div>
+</div>
+<a id="a313ad93144cf56cc2138e42c7cbf1693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a313ad93144cf56cc2138e42c7cbf1693">&#9670;&nbsp;</a></span>STIFFNESS_INTERPOLATION_TIME_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr int mInterpolationEngine::STIFFNESS_INTERPOLATION_TIME_ = 300</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Time (in ms) that stiffness will be interpolated at the beginning of a motion, to prevent sudden motor bumps. </p>
 
 </div>
 </div>

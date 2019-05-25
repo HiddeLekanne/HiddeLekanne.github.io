@@ -62,6 +62,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classmParticleFilter-members.html">List of all members</a>  </div>
@@ -87,13 +89,18 @@ Collaboration diagram for mParticleFilter:</div>
 <div class="dyncontent">
 <div class="center"><img src="classmParticleFilter__coll__graph.png" border="0" usemap="#mParticleFilter_coll__map" alt="Collaboration graph"/></div>
 <map name="mParticleFilter_coll__map" id="mParticleFilter_coll__map">
-<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="403,5,467,32"/>
-<area shape="rect" id="node3" href="classInputMessage.html" title="InputMessage\&lt; rWalkGenerator \&gt;" alt="" coords="325,56,544,83"/>
-<area shape="rect" id="node4" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,107,269,133"/>
-<area shape="rect" id="node6" href="classInputMessage.html" title="InputMessage\&lt; rGameData \&gt;" alt="" coords="337,107,532,133"/>
-<area shape="rect" id="node5" href="classMessage.html" title="Message abstract class. " alt="" coords="5,133,80,160"/>
-<area shape="rect" id="node8" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,157,273,184"/>
-<area shape="rect" id="node7" href="classOutputMessage.html" title="OutputMessage\&lt; rRobotPosition \&gt;" alt="" coords="323,157,547,184"/>
+<area shape="rect" id="node2" href="classModule.html" title="Module abstract class. " alt="" coords="403,10,467,36"/>
+<area shape="rect" id="node3" href="classInputMessage.html" title="InputMessage\&lt; rWalkGenerator \&gt;" alt="" coords="325,60,544,87"/>
+<area shape="rect" id="node4" href="classInputMessageBase.html" title="InputMessage of a module. " alt="" coords="134,212,269,239"/>
+<area shape="rect" id="node6" href="classInputMessage.html" title="InputMessage\&lt; rCameraSensor \&gt;" alt="" coords="325,111,544,138"/>
+<area shape="rect" id="node7" href="classInputMessage.html" title="InputMessage\&lt; rGameData \&gt;" alt="" coords="337,162,532,188"/>
+<area shape="rect" id="node11" href="classInputMessage.html" title="InputMessage\&lt; rLines \&gt;" alt="" coords="353,212,516,239"/>
+<area shape="rect" id="node12" href="classInputMessage.html" title="InputMessage\&lt; rFSRSensor \&gt;" alt="" coords="335,263,535,290"/>
+<area shape="rect" id="node13" href="classInputMessage.html" title="InputMessage\&lt; rRobotModel \&gt;" alt="" coords="333,314,536,340"/>
+<area shape="rect" id="node5" href="classMessage.html" title="Message abstract class. " alt="" coords="5,263,80,290"/>
+<area shape="rect" id="node10" href="classOutputMessageBase.html" title="OutputMessage of a module. " alt="" coords="129,287,273,314"/>
+<area shape="rect" id="node8" href="classLineModel.html" title="mLineModel: computes what lines the robot should see, given his current position and orientation..." alt="" coords="394,415,475,442"/>
+<area shape="rect" id="node9" href="classOutputMessage.html" title="OutputMessage\&lt; rRobotPosition \&gt;" alt="" coords="323,364,547,391"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
@@ -116,41 +123,68 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a4a48538d35a2da7fcc32d9f509034723 inherit pub_methods_classModule"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor does nothing.  <a href="classModule.html#a4a48538d35a2da7fcc32d9f509034723">More...</a><br /></td></tr>
 <tr class="separator:a4a48538d35a2da7fcc32d9f509034723 inherit pub_methods_classModule"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a176d4cbef661256862a64ee171b63b7d"><td class="memItemLeft" align="right" valign="top">EIGEN_MAKE_ALIGNED_OPERATOR_NEW const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a176d4cbef661256862a64ee171b63b7d">LINE_INTERVAL_</a> = 40</td></tr>
+<tr class="memdesc:a176d4cbef661256862a64ee171b63b7d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of pixels in between points grabbed from line.  <a href="#a176d4cbef661256862a64ee171b63b7d">More...</a><br /></td></tr>
+<tr class="separator:a176d4cbef661256862a64ee171b63b7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:ab23d236a5ad6f5319cbc11a80942de1d"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">can_localise_</a> = false</td></tr>
+<tr class="memdesc:ab23d236a5ad6f5319cbc11a80942de1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">True when behaviour engine says visual localisation is possible.  <a href="#ab23d236a5ad6f5319cbc11a80942de1d">More...</a><br /></td></tr>
+<tr class="separator:ab23d236a5ad6f5319cbc11a80942de1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:a89fd4e5e85535150cd9a043d9eadfaf3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classParticle.html">Particle</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a89fd4e5e85535150cd9a043d9eadfaf3">sampleMotionModel</a> (<a class="el" href="classParticle.html">Particle</a> particle, <a class="el" href="math_2Eigen_8h.html#a28a50d6df2d99beaa9f68f926cb8f4ca">Eigen::Vector3f</a> movement)</td></tr>
-<tr class="memdesc:a89fd4e5e85535150cd9a043d9eadfaf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sample a new particle using the odometry.  <a href="#a89fd4e5e85535150cd9a043d9eadfaf3">More...</a><br /></td></tr>
-<tr class="separator:a89fd4e5e85535150cd9a043d9eadfaf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dd7ede683b12880115a862efe4fb34e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a8dd7ede683b12880115a862efe4fb34e">sampleMotionModel</a> (<a class="el" href="classParticle.html">Particle</a> &amp;particle, <a class="el" href="math_2Eigen_8h.html#a28a50d6df2d99beaa9f68f926cb8f4ca">Eigen::Vector3f</a> movement)</td></tr>
+<tr class="memdesc:a8dd7ede683b12880115a862efe4fb34e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sample a new particle using the odometry.  <a href="#a8dd7ede683b12880115a862efe4fb34e">More...</a><br /></td></tr>
+<tr class="separator:a8dd7ede683b12880115a862efe4fb34e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e2b29aaf53df031ce072b9481da4a7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a15e2b29aaf53df031ce072b9481da4a7">updateError</a> (<a class="el" href="classParticle.html">Particle</a> &amp;particle)</td></tr>
+<tr class="memdesc:a15e2b29aaf53df031ce072b9481da4a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate an error for the particle based on the offset between the detected lines and the position of where the lines should be given the particles position.  <a href="#a15e2b29aaf53df031ce072b9481da4a7">More...</a><br /></td></tr>
+<tr class="separator:a15e2b29aaf53df031ce072b9481da4a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe540c808bf2e2c1b1ad616c1b8345f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a3fe540c808bf2e2c1b1ad616c1b8345f">computeError</a> (std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt; source_lines, std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt; target_lines)</td></tr>
+<tr class="memdesc:a3fe540c808bf2e2c1b1ad616c1b8345f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calculate the error between the source and target lines, by sampling points on the source lines and computing the (shortest) distance between the points and the target lines.  <a href="#a3fe540c808bf2e2c1b1ad616c1b8345f">More...</a><br /></td></tr>
+<tr class="separator:a3fe540c808bf2e2c1b1ad616c1b8345f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bfbf933b02d972471037feca7be3f33"><td class="memItemLeft" align="right" valign="top"><a class="el" href="math_2Eigen_8h.html#a28a50d6df2d99beaa9f68f926cb8f4ca">Eigen::Vector3f</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a3bfbf933b02d972471037feca7be3f33">getAccumulatedMotionOdometry</a> ()</td></tr>
 <tr class="memdesc:a3bfbf933b02d972471037feca7be3f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sum all motion engine odometry outputs since the last cycle and return them.  <a href="#a3bfbf933b02d972471037feca7be3f33">More...</a><br /></td></tr>
 <tr class="separator:a3bfbf933b02d972471037feca7be3f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a430a352d5db0626f061bf330d99cf3bb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a430a352d5db0626f061bf330d99cf3bb">resample</a> (std::vector&lt; <a class="el" href="classParticle.html">Particle</a> &gt; particles)</td></tr>
-<tr class="memdesc:a430a352d5db0626f061bf330d99cf3bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resample the new particles using their weights and store them in particles_.  <a href="#a430a352d5db0626f061bf330d99cf3bb">More...</a><br /></td></tr>
-<tr class="separator:a430a352d5db0626f061bf330d99cf3bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7dd1d93854ef399708b44f7538419f2a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a7dd1d93854ef399708b44f7538419f2a">probabilityNormalDistribution</a> (float mu, float sigma)</td></tr>
-<tr class="memdesc:a7dd1d93854ef399708b44f7538419f2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gaussian distribution.  <a href="#a7dd1d93854ef399708b44f7538419f2a">More...</a><br /></td></tr>
-<tr class="separator:a7dd1d93854ef399708b44f7538419f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ccd0d7c9af35a25190ee767cf66d3b3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a4ccd0d7c9af35a25190ee767cf66d3b3">resample</a> ()</td></tr>
+<tr class="memdesc:a4ccd0d7c9af35a25190ee767cf66d3b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replace particles if their weight is too low.  <a href="#a4ccd0d7c9af35a25190ee767cf66d3b3">More...</a><br /></td></tr>
+<tr class="separator:a4ccd0d7c9af35a25190ee767cf66d3b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a113af62565328898e1ed0f73d8ee31cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a113af62565328898e1ed0f73d8ee31cc">checkInField</a> (<a class="el" href="math_2Eigen_8h.html#a28a50d6df2d99beaa9f68f926cb8f4ca">Eigen::Vector3f</a> pose)</td></tr>
+<tr class="memdesc:a113af62565328898e1ed0f73d8ee31cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check if the pose of a particle is within the field.  <a href="#a113af62565328898e1ed0f73d8ee31cc">More...</a><br /></td></tr>
+<tr class="separator:a113af62565328898e1ed0f73d8ee31cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6f1a1d262568cc4747184003b9e02a17"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a6f1a1d262568cc4747184003b9e02a17">readLocationConfig</a> ()</td></tr>
 <tr class="memdesc:a6f1a1d262568cc4747184003b9e02a17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read all player positions for initial, ready and penalized from configuration file.  <a href="#a6f1a1d262568cc4747184003b9e02a17">More...</a><br /></td></tr>
 <tr class="separator:a6f1a1d262568cc4747184003b9e02a17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:afde1013aec346ecbb94c5d78d4e65015"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#afde1013aec346ecbb94c5d78d4e65015">rot_rot_noise_</a></td></tr>
-<tr class="memdesc:afde1013aec346ecbb94c5d78d4e65015"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of rotation on rotation noise.  <a href="#afde1013aec346ecbb94c5d78d4e65015">More...</a><br /></td></tr>
-<tr class="separator:afde1013aec346ecbb94c5d78d4e65015"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac00251c91ceaa05565513d3cdd0d8919"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#ac00251c91ceaa05565513d3cdd0d8919">trans_rot_noise_</a></td></tr>
-<tr class="memdesc:ac00251c91ceaa05565513d3cdd0d8919"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of translation on rotation noise.  <a href="#ac00251c91ceaa05565513d3cdd0d8919">More...</a><br /></td></tr>
-<tr class="separator:ac00251c91ceaa05565513d3cdd0d8919"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9200fd469e840246363b7d929e2ec947"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a9200fd469e840246363b7d929e2ec947">rot_trans_noise_</a></td></tr>
-<tr class="memdesc:a9200fd469e840246363b7d929e2ec947"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of rotation on translation noise.  <a href="#a9200fd469e840246363b7d929e2ec947">More...</a><br /></td></tr>
-<tr class="separator:a9200fd469e840246363b7d929e2ec947"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac2e29e964be7521b569352e9c3ea6d84"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#ac2e29e964be7521b569352e9c3ea6d84">trans_trans_noise_</a></td></tr>
-<tr class="memdesc:ac2e29e964be7521b569352e9c3ea6d84"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of translation on translation noise.  <a href="#ac2e29e964be7521b569352e9c3ea6d84">More...</a><br /></td></tr>
-<tr class="separator:ac2e29e964be7521b569352e9c3ea6d84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a219eb8f8b5a88149e89496ad9f1424ee"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a219eb8f8b5a88149e89496ad9f1424ee">n_particles_</a></td></tr>
-<tr class="memdesc:a219eb8f8b5a88149e89496ad9f1424ee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of particles.  <a href="#a219eb8f8b5a88149e89496ad9f1424ee">More...</a><br /></td></tr>
-<tr class="separator:a219eb8f8b5a88149e89496ad9f1424ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3dadaf933fcdf34aae03fe068e5246fe"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a3dadaf933fcdf34aae03fe068e5246fe">currently_calibrating_</a></td></tr>
+<tr class="memdesc:a3dadaf933fcdf34aae03fe068e5246fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean whether the robot is in calibration mode or not.  <a href="#a3dadaf933fcdf34aae03fe068e5246fe">More...</a><br /></td></tr>
+<tr class="separator:a3dadaf933fcdf34aae03fe068e5246fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b60df21eeec17e98ae017a2f2f5493e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a2b60df21eeec17e98ae017a2f2f5493e">rotation_rotation_noise_</a></td></tr>
+<tr class="memdesc:a2b60df21eeec17e98ae017a2f2f5493e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of rotation on rotation noise.  <a href="#a2b60df21eeec17e98ae017a2f2f5493e">More...</a><br /></td></tr>
+<tr class="separator:a2b60df21eeec17e98ae017a2f2f5493e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa4f72fea48dfad5aba13603127490151"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#aa4f72fea48dfad5aba13603127490151">translation_rotation_noise_</a></td></tr>
+<tr class="memdesc:aa4f72fea48dfad5aba13603127490151"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of translation on rotation noise.  <a href="#aa4f72fea48dfad5aba13603127490151">More...</a><br /></td></tr>
+<tr class="separator:aa4f72fea48dfad5aba13603127490151"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01858b695ed67de299c3ab570d613a89"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a01858b695ed67de299c3ab570d613a89">rotation_translation_noise_</a></td></tr>
+<tr class="memdesc:a01858b695ed67de299c3ab570d613a89"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of rotation on translation noise.  <a href="#a01858b695ed67de299c3ab570d613a89">More...</a><br /></td></tr>
+<tr class="separator:a01858b695ed67de299c3ab570d613a89"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af680edbf78ea7ca03785edac3ae07f38"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#af680edbf78ea7ca03785edac3ae07f38">translation_translation_noise_</a></td></tr>
+<tr class="memdesc:af680edbf78ea7ca03785edac3ae07f38"><td class="mdescLeft">&#160;</td><td class="mdescRight">Influence of translation on translation noise.  <a href="#af680edbf78ea7ca03785edac3ae07f38">More...</a><br /></td></tr>
+<tr class="separator:af680edbf78ea7ca03785edac3ae07f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a2bd1f1e51aedc48be7d446a00b7c46"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a7a2bd1f1e51aedc48be7d446a00b7c46">sample_translation_noise_</a></td></tr>
+<tr class="memdesc:a7a2bd1f1e51aedc48be7d446a00b7c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Translation noise used during resampling.  <a href="#a7a2bd1f1e51aedc48be7d446a00b7c46">More...</a><br /></td></tr>
+<tr class="separator:a7a2bd1f1e51aedc48be7d446a00b7c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a18be2cadedbacc5ec37f307fe9f43010"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a18be2cadedbacc5ec37f307fe9f43010">sample_rotation_noise_</a></td></tr>
+<tr class="memdesc:a18be2cadedbacc5ec37f307fe9f43010"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceRotation.html" title="Rotation related functionality. ">Rotation</a> noise used during resampling.  <a href="#a18be2cadedbacc5ec37f307fe9f43010">More...</a><br /></td></tr>
+<tr class="separator:a18be2cadedbacc5ec37f307fe9f43010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1d28e58df341ab6dc68874a04553028"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#aa1d28e58df341ab6dc68874a04553028">n_particles_</a></td></tr>
+<tr class="memdesc:aa1d28e58df341ab6dc68874a04553028"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of particles.  <a href="#aa1d28e58df341ab6dc68874a04553028">More...</a><br /></td></tr>
+<tr class="separator:aa1d28e58df341ab6dc68874a04553028"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a768f62e694d916f89fc9be78c16335ef"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classParticle.html">Particle</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a768f62e694d916f89fc9be78c16335ef">particles_</a></td></tr>
 <tr class="memdesc:a768f62e694d916f89fc9be78c16335ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current particles.  <a href="#a768f62e694d916f89fc9be78c16335ef">More...</a><br /></td></tr>
 <tr class="separator:a768f62e694d916f89fc9be78c16335ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,9 +197,27 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad946f0ce4ceac7d57bb85a5970f83d1c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrWalkGenerator.html">rWalkGenerator</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#ad946f0ce4ceac7d57bb85a5970f83d1c">walk_generator_message_</a></td></tr>
 <tr class="memdesc:ad946f0ce4ceac7d57bb85a5970f83d1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Walk generator message that contains the odometry.  <a href="#ad946f0ce4ceac7d57bb85a5970f83d1c">More...</a><br /></td></tr>
 <tr class="separator:ad946f0ce4ceac7d57bb85a5970f83d1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6104b1f6a677007a09d2008b821e3cdc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a6104b1f6a677007a09d2008b821e3cdc">visual_localisation_request_</a> = false</td></tr>
+<tr class="memdesc:a6104b1f6a677007a09d2008b821e3cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Previous request from behaviour engine to use visual localisation.  <a href="#a6104b1f6a677007a09d2008b821e3cdc">More...</a><br /></td></tr>
+<tr class="separator:a6104b1f6a677007a09d2008b821e3cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c8fa7c4173e549d550e441cbb919970"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrGameData.html">rGameData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a5c8fa7c4173e549d550e441cbb919970">game_data_message_</a></td></tr>
 <tr class="memdesc:a5c8fa7c4173e549d550e441cbb919970"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the game data representation.  <a href="#a5c8fa7c4173e549d550e441cbb919970">More...</a><br /></td></tr>
 <tr class="separator:a5c8fa7c4173e549d550e441cbb919970"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37b981af534475a0c035783e55f2134d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrFSRSensor.html">rFSRSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a37b981af534475a0c035783e55f2134d">fsr_message_</a></td></tr>
+<tr class="memdesc:a37b981af534475a0c035783e55f2134d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the fsr representation.  <a href="#a37b981af534475a0c035783e55f2134d">More...</a><br /></td></tr>
+<tr class="separator:a37b981af534475a0c035783e55f2134d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1bbbbfec1e80ad573827bc90d0ddc549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrCameraSensor.html">rCameraSensor</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a1bbbbfec1e80ad573827bc90d0ddc549">camera_sensor_message_</a></td></tr>
+<tr class="memdesc:a1bbbbfec1e80ad573827bc90d0ddc549"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the camera sensor representation.  <a href="#a1bbbbfec1e80ad573827bc90d0ddc549">More...</a><br /></td></tr>
+<tr class="separator:a1bbbbfec1e80ad573827bc90d0ddc549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae91b28ef7ac7f935b0567ffb39646a02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrRobotModel.html">rRobotModel</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#ae91b28ef7ac7f935b0567ffb39646a02">robot_model_message_</a></td></tr>
+<tr class="memdesc:ae91b28ef7ac7f935b0567ffb39646a02"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the robot model representation.  <a href="#ae91b28ef7ac7f935b0567ffb39646a02">More...</a><br /></td></tr>
+<tr class="separator:ae91b28ef7ac7f935b0567ffb39646a02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a71536fb5aa34b8abc38e4011162a5cad"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classInputMessage.html">InputMessage</a>&lt; <a class="el" href="classrLines.html">rLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a71536fb5aa34b8abc38e4011162a5cad">lines_message_</a></td></tr>
+<tr class="memdesc:a71536fb5aa34b8abc38e4011162a5cad"><td class="mdescLeft">&#160;</td><td class="mdescRight">The input message for the detected lines representation.  <a href="#a71536fb5aa34b8abc38e4011162a5cad">More...</a><br /></td></tr>
+<tr class="separator:a71536fb5aa34b8abc38e4011162a5cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa609145ee39784db6a2929e3eb43037d"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrLines.html">rLines</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#aa609145ee39784db6a2929e3eb43037d">lines_representation_</a></td></tr>
+<tr class="memdesc:aa609145ee39784db6a2929e3eb43037d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received lines representation.  <a href="#aa609145ee39784db6a2929e3eb43037d">More...</a><br /></td></tr>
+<tr class="separator:aa609145ee39784db6a2929e3eb43037d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaddd23c6cc09daa271385e5cb8547789"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; const <a class="el" href="classrGameData.html">rGameData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#aaddd23c6cc09daa271385e5cb8547789">game_data_representation_</a></td></tr>
 <tr class="memdesc:aaddd23c6cc09daa271385e5cb8547789"><td class="mdescLeft">&#160;</td><td class="mdescRight">The last received game data representation.  <a href="#aaddd23c6cc09daa271385e5cb8547789">More...</a><br /></td></tr>
 <tr class="separator:aaddd23c6cc09daa271385e5cb8547789"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,6 +230,24 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a9d24a69379974a4deb7003f21b6cc8b4"><td class="memItemLeft" align="right" valign="top">std::mt19937&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a9d24a69379974a4deb7003f21b6cc8b4">random_generator_</a></td></tr>
 <tr class="memdesc:a9d24a69379974a4deb7003f21b6cc8b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The random generator used to get random numbers.  <a href="#a9d24a69379974a4deb7003f21b6cc8b4">More...</a><br /></td></tr>
 <tr class="separator:a9d24a69379974a4deb7003f21b6cc8b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24edf1dbec3186fcc7efabd6d523a064"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classLineModel.html">LineModel</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a24edf1dbec3186fcc7efabd6d523a064">line_model_</a></td></tr>
+<tr class="memdesc:a24edf1dbec3186fcc7efabd6d523a064"><td class="mdescLeft">&#160;</td><td class="mdescRight">The line model generator for a particle.  <a href="#a24edf1dbec3186fcc7efabd6d523a064">More...</a><br /></td></tr>
+<tr class="separator:a24edf1dbec3186fcc7efabd6d523a064"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1a9745b83e445633e8ee9e947658f79"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#aa1a9745b83e445633e8ee9e947658f79">best_particle_id_</a></td></tr>
+<tr class="memdesc:aa1a9745b83e445633e8ee9e947658f79"><td class="mdescLeft">&#160;</td><td class="mdescRight">The index of the best particle in particles_.  <a href="#aa1a9745b83e445633e8ee9e947658f79">More...</a><br /></td></tr>
+<tr class="separator:aa1a9745b83e445633e8ee9e947658f79"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36a72dcd3ab983ed339922f732acdc1f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a36a72dcd3ab983ed339922f732acdc1f">field_width_</a></td></tr>
+<tr class="memdesc:a36a72dcd3ab983ed339922f732acdc1f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Field width of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule.  <a href="#a36a72dcd3ab983ed339922f732acdc1f">More...</a><br /></td></tr>
+<tr class="separator:a36a72dcd3ab983ed339922f732acdc1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5122c5688fb8a39c0cfe9aee51a527d1"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a5122c5688fb8a39c0cfe9aee51a527d1">field_length_</a></td></tr>
+<tr class="memdesc:a5122c5688fb8a39c0cfe9aee51a527d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Field length of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule.  <a href="#a5122c5688fb8a39c0cfe9aee51a527d1">More...</a><br /></td></tr>
+<tr class="separator:a5122c5688fb8a39c0cfe9aee51a527d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6048a184a569d3cd018b7c41b3b52bb"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#ac6048a184a569d3cd018b7c41b3b52bb">field_border_</a></td></tr>
+<tr class="memdesc:ac6048a184a569d3cd018b7c41b3b52bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Area outside of field.  <a href="#ac6048a184a569d3cd018b7c41b3b52bb">More...</a><br /></td></tr>
+<tr class="separator:ac6048a184a569d3cd018b7c41b3b52bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b9b6c301a56856780b6022b2b78e784"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classmParticleFilter.html#a1b9b6c301a56856780b6022b2b78e784">MINIMUM_DETECTED_POINTS_</a> = 2</td></tr>
+<tr class="memdesc:a1b9b6c301a56856780b6022b2b78e784"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of points that should have been matched between the detected lines and the expected lines to do a visual update.  <a href="#a1b9b6c301a56856780b6022b2b78e784">More...</a><br /></td></tr>
+<tr class="separator:a1b9b6c301a56856780b6022b2b78e784"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p><a class="el" href="classmParticleFilter.html" title="mParticleFilter: implementation of the particle filter as in Probabilistic Robotics (Thrun...">mParticleFilter</a>: implementation of the particle filter as in Probabilistic Robotics (Thrun, 2006) The tables refer to the table numbers in the book. </p>
@@ -200,13 +270,90 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Read from config to initialise particles. </p>
-<p><a class="el" href="classmParticleFilter.html" title="mParticleFilter: implementation of the particle filter as in Probabilistic Robotics (Thrun...">mParticleFilter</a>: implementation of the particle filter as in Probabilistic Robotics (Thrun, 2006) The tables refer to the table numbers in the book.</p>
-<p>TODO: not sure if it works for multiple measurements.</p>
-<dl class="section author"><dt>Author</dt><dd>Caitlin </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a113af62565328898e1ed0f73d8ee31cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a113af62565328898e1ed0f73d8ee31cc">&#9670;&nbsp;</a></span>checkInField()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mParticleFilter::checkInField </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="math_2Eigen_8h.html#a28a50d6df2d99beaa9f68f926cb8f4ca">Eigen::Vector3f</a>&#160;</td>
+          <td class="paramname"><em>pose</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check if the pose of a particle is within the field. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pose</td><td>Pose of a particle. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if pose is in the field, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a3fe540c808bf2e2c1b1ad616c1b8345f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe540c808bf2e2c1b1ad616c1b8345f">&#9670;&nbsp;</a></span>computeError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mParticleFilter::computeError </td>
+          <td>(</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt;&#160;</td>
+          <td class="paramname"><em>source_lines</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="classLine.html">Line</a> &gt;&#160;</td>
+          <td class="paramname"><em>target_lines</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate the error between the source and target lines, by sampling points on the source lines and computing the (shortest) distance between the points and the target lines. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">source_lines</td><td>the lines that need to be mapped to the target lines. </td></tr>
+    <tr><td class="paramname">target_lines</td><td>the lines to with the source lines need to be mapped to. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="a3bfbf933b02d972471037feca7be3f33"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3bfbf933b02d972471037feca7be3f33">&#9670;&nbsp;</a></span>getAccumulatedMotionOdometry()</h2>
 
@@ -295,52 +442,6 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a7dd1d93854ef399708b44f7538419f2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dd1d93854ef399708b44f7538419f2a">&#9670;&nbsp;</a></span>probabilityNormalDistribution()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float mParticleFilter::probabilityNormalDistribution </td>
-          <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>mu</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>sigma</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Gaussian distribution. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">mu</td><td>Mean. </td></tr>
-    <tr><td class="paramname">sigma</td><td>Standard deviation. </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>The probability given the mean and std. </dd></dl>
-
-</div>
-</div>
 <a id="a6f1a1d262568cc4747184003b9e02a17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6f1a1d262568cc4747184003b9e02a17">&#9670;&nbsp;</a></span>readLocationConfig()</h2>
 
@@ -368,8 +469,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a430a352d5db0626f061bf330d99cf3bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a430a352d5db0626f061bf330d99cf3bb">&#9670;&nbsp;</a></span>resample()</h2>
+<a id="a4ccd0d7c9af35a25190ee767cf66d3b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ccd0d7c9af35a25190ee767cf66d3b3">&#9670;&nbsp;</a></span>resample()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -380,8 +481,7 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void mParticleFilter::resample </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="classParticle.html">Particle</a> &gt;&#160;</td>
-          <td class="paramname"><em>particles</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -392,18 +492,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Resample the new particles using their weights and store them in particles_. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">particles</td><td>The new particles. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Replace particles if their weight is too low. </p>
 
 </div>
 </div>
-<a id="a89fd4e5e85535150cd9a043d9eadfaf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89fd4e5e85535150cd9a043d9eadfaf3">&#9670;&nbsp;</a></span>sampleMotionModel()</h2>
+<a id="a8dd7ede683b12880115a862efe4fb34e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dd7ede683b12880115a862efe4fb34e">&#9670;&nbsp;</a></span>sampleMotionModel()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -412,9 +506,9 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classParticle.html">Particle</a> mParticleFilter::sampleMotionModel </td>
+          <td class="memname">void mParticleFilter::sampleMotionModel </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classParticle.html">Particle</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="classParticle.html">Particle</a> &amp;&#160;</td>
           <td class="paramname"><em>particle</em>, </td>
         </tr>
         <tr>
@@ -444,7 +538,40 @@ Private Attributes</h2></td></tr>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>A new particle with an updated pose. </dd></dl>
+
+</div>
+</div>
+<a id="a15e2b29aaf53df031ce072b9481da4a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e2b29aaf53df031ce072b9481da4a7">&#9670;&nbsp;</a></span>updateError()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void mParticleFilter::updateError </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classParticle.html">Particle</a> &amp;&#160;</td>
+          <td class="paramname"><em>particle</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Calculate an error for the particle based on the offset between the detected lines and the position of where the lines should be given the particles position. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">particle</td><td>The particle for which the error is calculated </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -468,6 +595,200 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa1a9745b83e445633e8ee9e947658f79"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1a9745b83e445633e8ee9e947658f79">&#9670;&nbsp;</a></span>best_particle_id_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int mParticleFilter::best_particle_id_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The index of the best particle in particles_. </p>
+
+</div>
+</div>
+<a id="a1bbbbfec1e80ad573827bc90d0ddc549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1bbbbfec1e80ad573827bc90d0ddc549">&#9670;&nbsp;</a></span>camera_sensor_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrCameraSensor.html">rCameraSensor</a>&gt; mParticleFilter::camera_sensor_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The input message for the camera sensor representation. </p>
+
+</div>
+</div>
+<a id="ab23d236a5ad6f5319cbc11a80942de1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab23d236a5ad6f5319cbc11a80942de1d">&#9670;&nbsp;</a></span>can_localise_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mParticleFilter::can_localise_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>True when behaviour engine says visual localisation is possible. </p>
+<p><a class="el" href="classmParticleFilter.html" title="mParticleFilter: implementation of the particle filter as in Probabilistic Robotics (Thrun...">mParticleFilter</a>: implementation of the particle filter as in Probabilistic Robotics (Thrun, 2006) The tables refer to the table numbers in the book.</p>
+<dl class="section author"><dt>Author</dt><dd>Caitlin </dd></dl>
+
+</div>
+</div>
+<a id="a3dadaf933fcdf34aae03fe068e5246fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dadaf933fcdf34aae03fe068e5246fe">&#9670;&nbsp;</a></span>currently_calibrating_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mParticleFilter::currently_calibrating_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Boolean whether the robot is in calibration mode or not. </p>
+
+</div>
+</div>
+<a id="ac6048a184a569d3cd018b7c41b3b52bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6048a184a569d3cd018b7c41b3b52bb">&#9670;&nbsp;</a></span>field_border_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mParticleFilter::field_border_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Area outside of field. </p>
+
+</div>
+</div>
+<a id="a5122c5688fb8a39c0cfe9aee51a527d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5122c5688fb8a39c0cfe9aee51a527d1">&#9670;&nbsp;</a></span>field_length_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mParticleFilter::field_length_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Field length of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule. </p>
+
+</div>
+</div>
+<a id="a36a72dcd3ab983ed339922f732acdc1f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36a72dcd3ab983ed339922f732acdc1f">&#9670;&nbsp;</a></span>field_width_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mParticleFilter::field_width_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Field width of the soccer field that originate from the <a class="el" href="namespaceConfiguration.html">Configuration</a> file with size according SPL-rule. </p>
+
+</div>
+</div>
+<a id="a37b981af534475a0c035783e55f2134d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37b981af534475a0c035783e55f2134d">&#9670;&nbsp;</a></span>fsr_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrFSRSensor.html">rFSRSensor</a>&gt; mParticleFilter::fsr_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The input message for the fsr representation. </p>
+
+</div>
+</div>
 <a id="a5c8fa7c4173e549d550e441cbb919970"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5c8fa7c4173e549d550e441cbb919970">&#9670;&nbsp;</a></span>game_data_message_</h2>
 
@@ -540,8 +861,24 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a219eb8f8b5a88149e89496ad9f1424ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a219eb8f8b5a88149e89496ad9f1424ee">&#9670;&nbsp;</a></span>n_particles_</h2>
+<a id="a176d4cbef661256862a64ee171b63b7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a176d4cbef661256862a64ee171b63b7d">&#9670;&nbsp;</a></span>LINE_INTERVAL_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">EIGEN_MAKE_ALIGNED_OPERATOR_NEW const int mParticleFilter::LINE_INTERVAL_ = 40</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of pixels in between points grabbed from line. </p>
+
+</div>
+</div>
+<a id="a24edf1dbec3186fcc7efabd6d523a064"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24edf1dbec3186fcc7efabd6d523a064">&#9670;&nbsp;</a></span>line_model_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -550,7 +887,103 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int mParticleFilter::n_particles_</td>
+          <td class="memname"><a class="el" href="classLineModel.html">LineModel</a> mParticleFilter::line_model_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The line model generator for a particle. </p>
+
+</div>
+</div>
+<a id="a71536fb5aa34b8abc38e4011162a5cad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71536fb5aa34b8abc38e4011162a5cad">&#9670;&nbsp;</a></span>lines_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrLines.html">rLines</a>&gt; mParticleFilter::lines_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The input message for the detected lines representation. </p>
+
+</div>
+</div>
+<a id="aa609145ee39784db6a2929e3eb43037d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa609145ee39784db6a2929e3eb43037d">&#9670;&nbsp;</a></span>lines_representation_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;const <a class="el" href="classrLines.html">rLines</a>&gt; mParticleFilter::lines_representation_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The last received lines representation. </p>
+
+</div>
+</div>
+<a id="a1b9b6c301a56856780b6022b2b78e784"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b9b6c301a56856780b6022b2b78e784">&#9670;&nbsp;</a></span>MINIMUM_DETECTED_POINTS_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int mParticleFilter::MINIMUM_DETECTED_POINTS_ = 2</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Number of points that should have been matched between the detected lines and the expected lines to do a visual update. </p>
+
+</div>
+</div>
+<a id="aa1d28e58df341ab6dc68874a04553028"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1d28e58df341ab6dc68874a04553028">&#9670;&nbsp;</a></span>n_particles_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int mParticleFilter::n_particles_</td>
         </tr>
       </table>
   </td>
@@ -660,6 +1093,30 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="ae91b28ef7ac7f935b0567ffb39646a02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae91b28ef7ac7f935b0567ffb39646a02">&#9670;&nbsp;</a></span>robot_model_message_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classInputMessage.html">InputMessage</a>&lt;<a class="el" href="classrRobotModel.html">rRobotModel</a>&gt; mParticleFilter::robot_model_message_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The input message for the robot model representation. </p>
+
+</div>
+</div>
 <a id="aa29cdc42d21cf5296bfb35bd0b0d35ea"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa29cdc42d21cf5296bfb35bd0b0d35ea">&#9670;&nbsp;</a></span>robot_position_message_</h2>
 
@@ -684,8 +1141,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="afde1013aec346ecbb94c5d78d4e65015"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afde1013aec346ecbb94c5d78d4e65015">&#9670;&nbsp;</a></span>rot_rot_noise_</h2>
+<a id="a2b60df21eeec17e98ae017a2f2f5493e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b60df21eeec17e98ae017a2f2f5493e">&#9670;&nbsp;</a></span>rotation_rotation_noise_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -694,7 +1151,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float mParticleFilter::rot_rot_noise_</td>
+          <td class="memname">float mParticleFilter::rotation_rotation_noise_</td>
         </tr>
       </table>
   </td>
@@ -708,8 +1165,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="a9200fd469e840246363b7d929e2ec947"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9200fd469e840246363b7d929e2ec947">&#9670;&nbsp;</a></span>rot_trans_noise_</h2>
+<a id="a01858b695ed67de299c3ab570d613a89"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01858b695ed67de299c3ab570d613a89">&#9670;&nbsp;</a></span>rotation_translation_noise_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -718,7 +1175,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float mParticleFilter::rot_trans_noise_</td>
+          <td class="memname">float mParticleFilter::rotation_translation_noise_</td>
         </tr>
       </table>
   </td>
@@ -732,8 +1189,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac00251c91ceaa05565513d3cdd0d8919"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac00251c91ceaa05565513d3cdd0d8919">&#9670;&nbsp;</a></span>trans_rot_noise_</h2>
+<a id="a18be2cadedbacc5ec37f307fe9f43010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18be2cadedbacc5ec37f307fe9f43010">&#9670;&nbsp;</a></span>sample_rotation_noise_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -742,7 +1199,55 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float mParticleFilter::trans_rot_noise_</td>
+          <td class="memname">float mParticleFilter::sample_rotation_noise_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespaceRotation.html" title="Rotation related functionality. ">Rotation</a> noise used during resampling. </p>
+
+</div>
+</div>
+<a id="a7a2bd1f1e51aedc48be7d446a00b7c46"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a2bd1f1e51aedc48be7d446a00b7c46">&#9670;&nbsp;</a></span>sample_translation_noise_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mParticleFilter::sample_translation_noise_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Translation noise used during resampling. </p>
+
+</div>
+</div>
+<a id="aa4f72fea48dfad5aba13603127490151"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4f72fea48dfad5aba13603127490151">&#9670;&nbsp;</a></span>translation_rotation_noise_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float mParticleFilter::translation_rotation_noise_</td>
         </tr>
       </table>
   </td>
@@ -756,8 +1261,8 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ac2e29e964be7521b569352e9c3ea6d84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2e29e964be7521b569352e9c3ea6d84">&#9670;&nbsp;</a></span>trans_trans_noise_</h2>
+<a id="af680edbf78ea7ca03785edac3ae07f38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af680edbf78ea7ca03785edac3ae07f38">&#9670;&nbsp;</a></span>translation_translation_noise_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -766,7 +1271,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float mParticleFilter::trans_trans_noise_</td>
+          <td class="memname">float mParticleFilter::translation_translation_noise_</td>
         </tr>
       </table>
   </td>
@@ -777,6 +1282,30 @@ Private Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Influence of translation on translation noise. </p>
+
+</div>
+</div>
+<a id="a6104b1f6a677007a09d2008b821e3cdc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6104b1f6a677007a09d2008b821e3cdc">&#9670;&nbsp;</a></span>visual_localisation_request_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool mParticleFilter::visual_localisation_request_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Previous request from behaviour engine to use visual localisation. </p>
 
 </div>
 </div>

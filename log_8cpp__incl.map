@@ -1,4 +1,9 @@
 <map id="source/dnt/tools/log/log.cpp" name="source/dnt/tools/log/log.cpp">
-<area shape="rect" id="node2" href="$log_2log_8h.html" title="tools/log/log.h" alt="" coords="95,95,197,121"/>
-<area shape="rect" id="node6" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="141,169,239,196"/>
+<area shape="rect" id="node2" href="$log_2log_8h.html" title="tools/log/log.h" alt="" coords="126,259,229,285"/>
+<area shape="rect" id="node9" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="483,95,621,121"/>
+<area shape="rect" id="node6" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="129,333,226,360"/>
+<area shape="rect" id="node10" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="485,169,619,211"/>
+<area shape="rect" id="node14" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="504,333,600,360"/>
+<area shape="rect" id="node13" href="$data_8h.html" title="data.h" alt="" coords="447,259,505,285"/>
+<area shape="rect" id="node17" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="624,333,731,360"/>
 </map>

@@ -61,9 +61,9 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="#pri-static-attribs">Static Private Attributes</a> &#124;
@@ -73,7 +73,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p><a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a>: class that contains the information of an image.  
+<p><a class="el" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ...">Image</a>: class which loads in a raw image buffer from the camera device and constructs several formats and sizes form this image.  
  <a href="classImage.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="image_8h_source.html">image.h</a>&gt;</code></p>
@@ -94,14 +94,6 @@ Collaboration diagram for Image:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a664d7bef86644158afe8847fedafc5be"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5be">ColorSpace</a> { <a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5bea889574aebacda6bfd3e534e2b49b8028">ColorSpace::RGB</a>, 
-<a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5bea2ad5640ebdec72fc79531d1778c6c2dc">ColorSpace::BGR</a>, 
-<a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5beab915b1a658d4fc573f623f17b1434601">ColorSpace::YUV</a>
- }</td></tr>
-<tr class="separator:a664d7bef86644158afe8847fedafc5be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a5502e928122744be1d3b89648298e162"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a5502e928122744be1d3b89648298e162">Image</a> ()=default</td></tr>
@@ -128,37 +120,48 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a7b14480e79c1efae15c2f4deccdc7e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set the image height.  <a href="#a7b14480e79c1efae15c2f4deccdc7e53">More...</a><br /></td></tr>
 <tr class="separator:a7b14480e79c1efae15c2f4deccdc7e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aedcd8ea965e248901a033e78cead6b75"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aedcd8ea965e248901a033e78cead6b75">getName</a> ()</td></tr>
-<tr class="memdesc:aedcd8ea965e248901a033e78cead6b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this <a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a> class.  <a href="#aedcd8ea965e248901a033e78cead6b75">More...</a><br /></td></tr>
+<tr class="memdesc:aedcd8ea965e248901a033e78cead6b75"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of this <a class="el" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ...">Image</a> class.  <a href="#aedcd8ea965e248901a033e78cead6b75">More...</a><br /></td></tr>
 <tr class="separator:aedcd8ea965e248901a033e78cead6b75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d6b958b8f3f9bb61a19a64a9f97ddf8"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a2d6b958b8f3f9bb61a19a64a9f97ddf8">getImage</a> () const</td></tr>
-<tr class="memdesc:a2d6b958b8f3f9bb61a19a64a9f97ddf8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the image buffer.  <a href="#a2d6b958b8f3f9bb61a19a64a9f97ddf8">More...</a><br /></td></tr>
-<tr class="separator:a2d6b958b8f3f9bb61a19a64a9f97ddf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abcd41c8a97de63334cadd72229c1db62"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#abcd41c8a97de63334cadd72229c1db62">getYChannel</a> () const</td></tr>
-<tr class="memdesc:abcd41c8a97de63334cadd72229c1db62"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Y channel of the image.  <a href="#abcd41c8a97de63334cadd72229c1db62">More...</a><br /></td></tr>
-<tr class="separator:abcd41c8a97de63334cadd72229c1db62"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aade6f65b0642dfe92fd3367194077ca3"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aade6f65b0642dfe92fd3367194077ca3">getUChannel</a> () const</td></tr>
-<tr class="separator:aade6f65b0642dfe92fd3367194077ca3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a742f4f5f1b84232f276b23aedf78fbfe"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a742f4f5f1b84232f276b23aedf78fbfe">getVChannel</a> () const</td></tr>
-<tr class="separator:a742f4f5f1b84232f276b23aedf78fbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b360f4f13c176c163117f87c966c02a"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a9b360f4f13c176c163117f87c966c02a">getHSVDownsampledImage</a> () const</td></tr>
-<tr class="memdesc:a9b360f4f13c176c163117f87c966c02a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get HSV image which is 4x downsampled from original size.  <a href="#a9b360f4f13c176c163117f87c966c02a">More...</a><br /></td></tr>
-<tr class="separator:a9b360f4f13c176c163117f87c966c02a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9de53bd686b270fe26a531902649747"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae9de53bd686b270fe26a531902649747">convertFromYCbCrToRGB</a> ()</td></tr>
-<tr class="memdesc:ae9de53bd686b270fe26a531902649747"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the image from YCbCr colorspace to RGB.  <a href="#ae9de53bd686b270fe26a531902649747">More...</a><br /></td></tr>
-<tr class="separator:ae9de53bd686b270fe26a531902649747"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae433f840623bdc04913cae38e6036d9d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae433f840623bdc04913cae38e6036d9d">convertFromYCbCrToRGB</a> (unsigned char *buffer) const</td></tr>
-<tr class="separator:ae433f840623bdc04913cae38e6036d9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81883a8f0096eba67b7ddede83d43a36"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a81883a8f0096eba67b7ddede83d43a36">fromYUVToRGB</a> (const unsigned char Y, const unsigned char U, const unsigned char V, unsigned char *R, unsigned char *G, unsigned char *B) const</td></tr>
-<tr class="memdesc:a81883a8f0096eba67b7ddede83d43a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert the image from YUV colorspace to RGB.  <a href="#a81883a8f0096eba67b7ddede83d43a36">More...</a><br /></td></tr>
-<tr class="separator:a81883a8f0096eba67b7ddede83d43a36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4d5a05bba71d21b8108568d6890c07e"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ad4d5a05bba71d21b8108568d6890c07e">operator[]</a> (<a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a> y)</td></tr>
-<tr class="memdesc:ad4d5a05bba71d21b8108568d6890c07e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a pointer to the character at y coordinate.  <a href="#ad4d5a05bba71d21b8108568d6890c07e">More...</a><br /></td></tr>
-<tr class="separator:ad4d5a05bba71d21b8108568d6890c07e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bd4927a379c72d3143f0a2203f091fa"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a6bd4927a379c72d3143f0a2203f091fa">getYUVImage</a> () const</td></tr>
+<tr class="memdesc:a6bd4927a379c72d3143f0a2203f091fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the image buffer.  <a href="#a6bd4927a379c72d3143f0a2203f091fa">More...</a><br /></td></tr>
+<tr class="separator:a6bd4927a379c72d3143f0a2203f091fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e1ce0957b0fc27f9c8e1ff3b0ec50b9"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a5e1ce0957b0fc27f9c8e1ff3b0ec50b9">getYChannel</a> () const</td></tr>
+<tr class="memdesc:a5e1ce0957b0fc27f9c8e1ff3b0ec50b9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get Y channel of the image.  <a href="#a5e1ce0957b0fc27f9c8e1ff3b0ec50b9">More...</a><br /></td></tr>
+<tr class="separator:a5e1ce0957b0fc27f9c8e1ff3b0ec50b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1eb9b4a831839674f3d9744c8432ca96"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a1eb9b4a831839674f3d9744c8432ca96">getUChannel</a> () const</td></tr>
+<tr class="memdesc:a1eb9b4a831839674f3d9744c8432ca96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get U channel of the image.  <a href="#a1eb9b4a831839674f3d9744c8432ca96">More...</a><br /></td></tr>
+<tr class="separator:a1eb9b4a831839674f3d9744c8432ca96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c8d5f72dbf32ee2b4b028f6029a92d8"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a8c8d5f72dbf32ee2b4b028f6029a92d8">getVChannel</a> () const</td></tr>
+<tr class="memdesc:a8c8d5f72dbf32ee2b4b028f6029a92d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get V channel of the image.  <a href="#a8c8d5f72dbf32ee2b4b028f6029a92d8">More...</a><br /></td></tr>
+<tr class="separator:a8c8d5f72dbf32ee2b4b028f6029a92d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1400d946673cb1546ac203eb4355fb98"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a1400d946673cb1546ac203eb4355fb98">getHSVDownsampledImage</a> () const</td></tr>
+<tr class="memdesc:a1400d946673cb1546ac203eb4355fb98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get HSV image which is downsampled from original size dependend on DOWN_SAMPLE_RATE.  <a href="#a1400d946673cb1546ac203eb4355fb98">More...</a><br /></td></tr>
+<tr class="separator:a1400d946673cb1546ac203eb4355fb98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaecdc3d0f6ad9bf0d45237ebd3944edc"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aaecdc3d0f6ad9bf0d45237ebd3944edc">getBGRDownsampledImage</a> () const</td></tr>
+<tr class="memdesc:aaecdc3d0f6ad9bf0d45237ebd3944edc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get BGR image which is downsampled from original size dependend on DOWN_SAMPLE_RATE.  <a href="#aaecdc3d0f6ad9bf0d45237ebd3944edc">More...</a><br /></td></tr>
+<tr class="separator:aaecdc3d0f6ad9bf0d45237ebd3944edc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7537db48af2d7f503948ead4ca915f2b"><td class="memItemLeft" align="right" valign="top">const cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a7537db48af2d7f503948ead4ca915f2b">getYUVDownSampledImage</a> () const</td></tr>
+<tr class="memdesc:a7537db48af2d7f503948ead4ca915f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get YUV image which is downsampled from original size dependend on DOWN_SAMPLE_RATE.  <a href="#a7537db48af2d7f503948ead4ca915f2b">More...</a><br /></td></tr>
+<tr class="separator:a7537db48af2d7f503948ead4ca915f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23534584fca987357967d549b9bb338a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a23534584fca987357967d549b9bb338a">hasCompressedImage</a> () const</td></tr>
+<tr class="memdesc:a23534584fca987357967d549b9bb338a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the class has a compressed image.  <a href="#a23534584fca987357967d549b9bb338a">More...</a><br /></td></tr>
+<tr class="separator:a23534584fca987357967d549b9bb338a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1483fdb519c3d69d6608ddad687bdce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae1483fdb519c3d69d6608ddad687bdce">hasAllImages</a> () const</td></tr>
+<tr class="memdesc:ae1483fdb519c3d69d6608ddad687bdce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether the class has been decompressed in all it's formats and sizes (see header description).  <a href="#ae1483fdb519c3d69d6608ddad687bdce">More...</a><br /></td></tr>
+<tr class="separator:ae1483fdb519c3d69d6608ddad687bdce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a666fd95c8e2d56eea78c02e8148d4935"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a666fd95c8e2d56eea78c02e8148d4935">compress</a> () const</td></tr>
+<tr class="memdesc:a666fd95c8e2d56eea78c02e8148d4935"><td class="mdescLeft">&#160;</td><td class="mdescRight">Makes a JPEG compressed image from the currently stored YUV_image_.  <a href="#a666fd95c8e2d56eea78c02e8148d4935">More...</a><br /></td></tr>
+<tr class="separator:a666fd95c8e2d56eea78c02e8148d4935"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4b5de1922b58eaf5d4785ede8ad5baf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ac4b5de1922b58eaf5d4785ede8ad5baf">decompress</a> ()</td></tr>
+<tr class="memdesc:ac4b5de1922b58eaf5d4785ede8ad5baf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decompresses the currently stored compressed_image_ with length of compressed_image_size_.  <a href="#ac4b5de1922b58eaf5d4785ede8ad5baf">More...</a><br /></td></tr>
+<tr class="separator:ac4b5de1922b58eaf5d4785ede8ad5baf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1832d939e0d85e4b36c3990c1e92fd55"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:a1832d939e0d85e4b36c3990c1e92fd55"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classImage.html#a1832d939e0d85e4b36c3990c1e92fd55">save</a> (Container &amp;container) const</td></tr>
+<tr class="memdesc:a1832d939e0d85e4b36c3990c1e92fd55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the class member variables to a something that can be sent over the network.  <a href="#a1832d939e0d85e4b36c3990c1e92fd55">More...</a><br /></td></tr>
 <tr class="separator:a1832d939e0d85e4b36c3990c1e92fd55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92b8e4d59ee599f10ead451f8bf41e93"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:a92b8e4d59ee599f10ead451f8bf41e93"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classImage.html#a92b8e4d59ee599f10ead451f8bf41e93">load</a> (Container &amp;container)</td></tr>
+<tr class="memdesc:a92b8e4d59ee599f10ead451f8bf41e93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load the class member variables from something that can be sent over the network.  <a href="#a92b8e4d59ee599f10ead451f8bf41e93">More...</a><br /></td></tr>
 <tr class="separator:a92b8e4d59ee599f10ead451f8bf41e93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classStreamable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStreamable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStreamable.html">Streamable</a></td></tr>
 <tr class="memitem:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
@@ -176,6 +179,13 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a8a218cfee2f7cb46e2da3c2cb4ead5d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Timestamp of the image.  <a href="#a8a218cfee2f7cb46e2da3c2cb4ead5d5">More...</a><br /></td></tr>
 <tr class="separator:a8a218cfee2f7cb46e2da3c2cb4ead5d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a303f77c8f37c545fd3ed8978f7fc7100"><td class="memItemLeft" align="right" valign="top">static constexpr double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a303f77c8f37c545fd3ed8978f7fc7100">DOWN_SAMPLE_RATE</a> = 0.25</td></tr>
+<tr class="separator:a303f77c8f37c545fd3ed8978f7fc7100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e13749ca29a603a99b0e9ac1b8ea8b5"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a7e13749ca29a603a99b0e9ac1b8ea8b5">JPEG_QUALITY</a> = 25</td></tr>
+<tr class="separator:a7e13749ca29a603a99b0e9ac1b8ea8b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a131cb4c655a614df45d24c0f6f103118"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a131cb4c655a614df45d24c0f6f103118">extractChannelsFromImage</a> ()</td></tr>
@@ -184,102 +194,60 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ae4485e748d0ecc26399543b01ce68bd2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae4485e748d0ecc26399543b01ce68bd2">width_</a></td></tr>
+<tr class="memitem:a6138dc071c3cc17e2f35cded0824dfe8"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a6138dc071c3cc17e2f35cded0824dfe8">compressed_size_</a> = 0</td></tr>
+<tr class="memdesc:a6138dc071c3cc17e2f35cded0824dfe8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Size of the compressed image in bytes.  <a href="#a6138dc071c3cc17e2f35cded0824dfe8">More...</a><br /></td></tr>
+<tr class="separator:a6138dc071c3cc17e2f35cded0824dfe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d2baa7058b172c011112170ce150abb"><td class="memItemLeft" align="right" valign="top">std::shared_ptr&lt; unsigned char &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a4d2baa7058b172c011112170ce150abb">compressed_image_</a></td></tr>
+<tr class="separator:a4d2baa7058b172c011112170ce150abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d300c9db2ea5cec10f8c72b5b602579"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a9d300c9db2ea5cec10f8c72b5b602579">has_compressed_</a> = false</td></tr>
+<tr class="memdesc:a9d300c9db2ea5cec10f8c72b5b602579"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean tracking whether the class instance has already compressed it's YUV image.  <a href="#a9d300c9db2ea5cec10f8c72b5b602579">More...</a><br /></td></tr>
+<tr class="separator:a9d300c9db2ea5cec10f8c72b5b602579"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a859a91befa9a82a0cd3e84a89f15814d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a859a91befa9a82a0cd3e84a89f15814d">has_all_images_</a> = false</td></tr>
+<tr class="memdesc:a859a91befa9a82a0cd3e84a89f15814d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean tracking whether the class instance has already decompressed it's image into all formats.  <a href="#a859a91befa9a82a0cd3e84a89f15814d">More...</a><br /></td></tr>
+<tr class="separator:a859a91befa9a82a0cd3e84a89f15814d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4485e748d0ecc26399543b01ce68bd2"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ae4485e748d0ecc26399543b01ce68bd2">width_</a> = 0</td></tr>
 <tr class="memdesc:ae4485e748d0ecc26399543b01ce68bd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">The image width.  <a href="#ae4485e748d0ecc26399543b01ce68bd2">More...</a><br /></td></tr>
 <tr class="separator:ae4485e748d0ecc26399543b01ce68bd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdca83526e3cf97c5bb4fe502b2cac04"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#abdca83526e3cf97c5bb4fe502b2cac04">height_</a></td></tr>
+<tr class="memitem:abdca83526e3cf97c5bb4fe502b2cac04"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#abdca83526e3cf97c5bb4fe502b2cac04">height_</a> = 0</td></tr>
 <tr class="memdesc:abdca83526e3cf97c5bb4fe502b2cac04"><td class="mdescLeft">&#160;</td><td class="mdescRight">The image height.  <a href="#abdca83526e3cf97c5bb4fe502b2cac04">More...</a><br /></td></tr>
 <tr class="separator:abdca83526e3cf97c5bb4fe502b2cac04"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e1ca0477e392035f8cb5289946cdb61"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a1e1ca0477e392035f8cb5289946cdb61">image_</a> = nullptr</td></tr>
-<tr class="memdesc:a1e1ca0477e392035f8cb5289946cdb61"><td class="mdescLeft">&#160;</td><td class="mdescRight">The image.  <a href="#a1e1ca0477e392035f8cb5289946cdb61">More...</a><br /></td></tr>
-<tr class="separator:a1e1ca0477e392035f8cb5289946cdb61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada392e6668f13707fc6d62327e2539bf"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ada392e6668f13707fc6d62327e2539bf">downsampled_hsv_image_</a></td></tr>
+<tr class="memdesc:ada392e6668f13707fc6d62327e2539bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downsampled hsv image, always continuous in memory.  <a href="#ada392e6668f13707fc6d62327e2539bf">More...</a><br /></td></tr>
+<tr class="separator:ada392e6668f13707fc6d62327e2539bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0736a79826915fb1d24f18559c4bdf8c"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a0736a79826915fb1d24f18559c4bdf8c">downsampled_bgr_image_</a></td></tr>
+<tr class="memdesc:a0736a79826915fb1d24f18559c4bdf8c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downsampled bgr image, always continuous in memory.  <a href="#a0736a79826915fb1d24f18559c4bdf8c">More...</a><br /></td></tr>
+<tr class="separator:a0736a79826915fb1d24f18559c4bdf8c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65ad0576b84669d72590187690a7a946"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a65ad0576b84669d72590187690a7a946">downsampled_yuv_image_</a></td></tr>
+<tr class="memdesc:a65ad0576b84669d72590187690a7a946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downsampled yuv image, always continuous in memory.  <a href="#a65ad0576b84669d72590187690a7a946">More...</a><br /></td></tr>
+<tr class="separator:a65ad0576b84669d72590187690a7a946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6866a81108de7964b2a34c18bc80a815"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a6866a81108de7964b2a34c18bc80a815">yuv_image_</a></td></tr>
+<tr class="memdesc:a6866a81108de7964b2a34c18bc80a815"><td class="mdescLeft">&#160;</td><td class="mdescRight">Normal yuv_image, always continuous in memory.  <a href="#a6866a81108de7964b2a34c18bc80a815">More...</a><br /></td></tr>
+<tr class="separator:a6866a81108de7964b2a34c18bc80a815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a377932e46a6c96a02235ddd131e12e"><td class="memItemLeft" align="right" valign="top">const unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a4a377932e46a6c96a02235ddd131e12e">buffer_</a> = nullptr</td></tr>
+<tr class="memdesc:a4a377932e46a6c96a02235ddd131e12e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The raw image from the camera, assumed to be in YUYV and is used to construct all other image formats and sizes (see header comment).  <a href="#a4a377932e46a6c96a02235ddd131e12e">More...</a><br /></td></tr>
+<tr class="separator:a4a377932e46a6c96a02235ddd131e12e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a57208443578667e02b82f53101b399d8"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a57208443578667e02b82f53101b399d8">hsv_image_</a></td></tr>
 <tr class="memdesc:a57208443578667e02b82f53101b399d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Downsampled HSV image.  <a href="#a57208443578667e02b82f53101b399d8">More...</a><br /></td></tr>
 <tr class="separator:a57208443578667e02b82f53101b399d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39bb52aeb0d19565ca0023e74b5d89c0"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a39bb52aeb0d19565ca0023e74b5d89c0">y_channel_</a> [<a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a>]</td></tr>
-<tr class="memdesc:a39bb52aeb0d19565ca0023e74b5d89c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The YUV channels of the image.  <a href="#a39bb52aeb0d19565ca0023e74b5d89c0">More...</a><br /></td></tr>
-<tr class="separator:a39bb52aeb0d19565ca0023e74b5d89c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abc647eab5220adc8f5206fb8dbcbe226"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#abc647eab5220adc8f5206fb8dbcbe226">u_channel_</a> [<a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a>]</td></tr>
-<tr class="separator:abc647eab5220adc8f5206fb8dbcbe226"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ca0c556f7c9f9a7ec1ad5d24da2c360"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a9ca0c556f7c9f9a7ec1ad5d24da2c360">v_channel_</a> [<a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a>]</td></tr>
-<tr class="separator:a9ca0c556f7c9f9a7ec1ad5d24da2c360"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6609c79bfe794600354e32e84504811b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5be">ColorSpace</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a6609c79bfe794600354e32e84504811b">color_space_</a> = <a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5beab915b1a658d4fc573f623f17b1434601">ColorSpace::YUV</a></td></tr>
-<tr class="memdesc:a6609c79bfe794600354e32e84504811b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The colorspace of the image.  <a href="#a6609c79bfe794600354e32e84504811b">More...</a><br /></td></tr>
-<tr class="separator:a6609c79bfe794600354e32e84504811b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82a51ef00a711048aa33bfae07e6f523"><td class="memItemLeft" align="right" valign="top">cv::Mat&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a82a51ef00a711048aa33bfae07e6f523">y_channel_</a></td></tr>
+<tr class="memdesc:a82a51ef00a711048aa33bfae07e6f523"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Y channel of the image.  <a href="#a82a51ef00a711048aa33bfae07e6f523">More...</a><br /></td></tr>
+<tr class="separator:a82a51ef00a711048aa33bfae07e6f523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
 Static Private Attributes</h2></td></tr>
-<tr class="memitem:af25046114ca72367a6b7cea3862a4334"><td class="memItemLeft" align="right" valign="top">static const unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a> = 960 * 480</td></tr>
-<tr class="memdesc:af25046114ca72367a6b7cea3862a4334"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum image resolution we would ever use.  <a href="#af25046114ca72367a6b7cea3862a4334">More...</a><br /></td></tr>
-<tr class="separator:af25046114ca72367a6b7cea3862a4334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2cf130b235b4bb3ad9578b7c758c0c0"><td class="memItemLeft" align="right" valign="top">static constexpr const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#af2cf130b235b4bb3ad9578b7c758c0c0">NUMBER_OF_CHANNELS_</a> = 4</td></tr>
 <tr class="memdesc:af2cf130b235b4bb3ad9578b7c758c0c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">The amount of channels of the image.  <a href="#af2cf130b235b4bb3ad9578b7c758c0c0">More...</a><br /></td></tr>
 <tr class="separator:af2cf130b235b4bb3ad9578b7c758c0c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1e6ee0c9634e64eff1c9bf26ea117a30"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a1e6ee0c9634e64eff1c9bf26ea117a30">yCoeffR</a> = 0.299f</td></tr>
-<tr class="separator:a1e6ee0c9634e64eff1c9bf26ea117a30"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe2f50ff8524d7f7f00934ad56864055"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#afe2f50ff8524d7f7f00934ad56864055">yCoeffG</a> = 0.587f</td></tr>
-<tr class="separator:afe2f50ff8524d7f7f00934ad56864055"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86b2a5a83588f9683f7757e34b36356b"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a86b2a5a83588f9683f7757e34b36356b">yCoeffB</a> = 0.114f</td></tr>
-<tr class="separator:a86b2a5a83588f9683f7757e34b36356b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a338f0457bcfc0d299ebd376e4965359e"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a338f0457bcfc0d299ebd376e4965359e">uCoeff</a> = 0.564f</td></tr>
-<tr class="separator:a338f0457bcfc0d299ebd376e4965359e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54985285ed99b7b03de6a6935b362c08"><td class="memItemLeft" align="right" valign="top">static constexpr float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a54985285ed99b7b03de6a6935b362c08">vCoeff</a> = 0.713f</td></tr>
-<tr class="separator:a54985285ed99b7b03de6a6935b362c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4a60c0156f8675cb521e5ffb0f6c2e3"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a> = 16</td></tr>
-<tr class="separator:ab4a60c0156f8675cb521e5ffb0f6c2e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8c26e6eac396f49fafd6d6d4c6f5bec"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ac8c26e6eac396f49fafd6d6d4c6f5bec">scaledYCoeffR</a></td></tr>
-<tr class="separator:ac8c26e6eac396f49fafd6d6d4c6f5bec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3dd6415cac93cc3646914dbe492151f4"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a3dd6415cac93cc3646914dbe492151f4">scaledYCoeffG</a></td></tr>
-<tr class="separator:a3dd6415cac93cc3646914dbe492151f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec82988f2562317f4d1daa079689024e"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aec82988f2562317f4d1daa079689024e">scaledYCoeffB</a></td></tr>
-<tr class="separator:aec82988f2562317f4d1daa079689024e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d7e51af2ddebca1411f48a5709832b5"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a2d7e51af2ddebca1411f48a5709832b5">scaledUCoeff</a></td></tr>
-<tr class="separator:a2d7e51af2ddebca1411f48a5709832b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56cb193ec8fbf6906b51412a9a379873"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#a56cb193ec8fbf6906b51412a9a379873">scaledVCoeff</a></td></tr>
-<tr class="separator:a56cb193ec8fbf6906b51412a9a379873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4a0d2cea8d0b2f60ed00c1a703ec5e2"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ab4a0d2cea8d0b2f60ed00c1a703ec5e2">scaledInvUCoeff</a></td></tr>
-<tr class="separator:ab4a0d2cea8d0b2f60ed00c1a703ec5e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac50ba39a811d42c06ef7e818ad7e18d5"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ac50ba39a811d42c06ef7e818ad7e18d5">scaledInvVCoeff</a></td></tr>
-<tr class="separator:ac50ba39a811d42c06ef7e818ad7e18d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad6bc83cdaf472ca7e25d2c8f6e492c7b"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#ad6bc83cdaf472ca7e25d2c8f6e492c7b">scaledGCoeffU</a></td></tr>
-<tr class="separator:ad6bc83cdaf472ca7e25d2c8f6e492c7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb29310f9225ad76fdbf9b839b6a2a60"><td class="memItemLeft" align="right" valign="top">static constexpr int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classImage.html#aeb29310f9225ad76fdbf9b839b6a2a60">scaledGCoeffV</a></td></tr>
-<tr class="separator:aeb29310f9225ad76fdbf9b839b6a2a60"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p><a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a>: class that contains the information of an image. </p>
+<div class="textblock"><p><a class="el" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ...">Image</a>: class which loads in a raw image buffer from the camera device and constructs several formats and sizes form this image. </p>
+<p>Formats are YUV, HSV and RGB and sizes are Full and downsampled with DOWN_SAMPLE_RATE. Combinations are YUV both, BGR downsampled and HSV downsampled. Also the compression and decompression of the YUV channel is implemented here.</p>
 <dl class="section author"><dt>Author</dt><dd>Caitlin </dd>
 <dd>
-Sébastien </dd></dl>
-</div><h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a664d7bef86644158afe8847fedafc5be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a664d7bef86644158afe8847fedafc5be">&#9670;&nbsp;</a></span>ColorSpace</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5be">Image::ColorSpace</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a664d7bef86644158afe8847fedafc5bea889574aebacda6bfd3e534e2b49b8028"></a>RGB&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a664d7bef86644158afe8847fedafc5bea2ad5640ebdec72fc79531d1778c6c2dc"></a>BGR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a664d7bef86644158afe8847fedafc5beab915b1a658d4fc573f623f17b1434601"></a>YUV&#160;</td><td class="fielddoc"></td></tr>
-</table>
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+Sébastien </dd>
+<dd>
+Hidde </dd></dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a5502e928122744be1d3b89648298e162"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5502e928122744be1d3b89648298e162">&#9670;&nbsp;</a></span>Image() <span class="overload">[1/2]</span></h2>
 
@@ -357,14 +325,33 @@ Sébastien </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae9de53bd686b270fe26a531902649747"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9de53bd686b270fe26a531902649747">&#9670;&nbsp;</a></span>convertFromYCbCrToRGB() <span class="overload">[1/2]</span></h2>
+<a id="a666fd95c8e2d56eea78c02e8148d4935"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a666fd95c8e2d56eea78c02e8148d4935">&#9670;&nbsp;</a></span>compress()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Image::convertFromYCbCrToRGB </td>
+          <td class="memname">void Image::compress </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Makes a JPEG compressed image from the currently stored YUV_image_. </p>
+
+</div>
+</div>
+<a id="ac4b5de1922b58eaf5d4785ede8ad5baf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4b5de1922b58eaf5d4785ede8ad5baf">&#9670;&nbsp;</a></span>decompress()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Image::decompress </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -372,25 +359,7 @@ Sébastien </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Convert the image from YCbCr colorspace to RGB. </p>
-
-</div>
-</div>
-<a id="ae433f840623bdc04913cae38e6036d9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae433f840623bdc04913cae38e6036d9d">&#9670;&nbsp;</a></span>convertFromYCbCrToRGB() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Image::convertFromYCbCrToRGB </td>
-          <td>(</td>
-          <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>buffer</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>Decompresses the currently stored compressed_image_ with length of compressed_image_size_. </p>
 
 </div>
 </div>
@@ -421,76 +390,23 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="a81883a8f0096eba67b7ddede83d43a36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a81883a8f0096eba67b7ddede83d43a36">&#9670;&nbsp;</a></span>fromYUVToRGB()</h2>
+<a id="aaecdc3d0f6ad9bf0d45237ebd3944edc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaecdc3d0f6ad9bf0d45237ebd3944edc">&#9670;&nbsp;</a></span>getBGRDownsampledImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void Image::fromYUVToRGB </td>
+          <td class="memname">const cv::Mat Image::getBGRDownsampledImage </td>
           <td>(</td>
-          <td class="paramtype">const unsigned char&#160;</td>
-          <td class="paramname"><em>Y</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned char&#160;</td>
-          <td class="paramname"><em>U</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const unsigned char&#160;</td>
-          <td class="paramname"><em>V</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>R</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>G</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">unsigned char *&#160;</td>
-          <td class="paramname"><em>B</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p>Convert the image from YUV colorspace to RGB. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">Y</td><td>The Y channel of the image. </td></tr>
-    <tr><td class="paramname">U</td><td>The U channel of the image. </td></tr>
-    <tr><td class="paramname">V</td><td>The V channel of the image. </td></tr>
-    <tr><td class="paramname">R</td><td>The R channel of the image. </td></tr>
-    <tr><td class="paramname">G</td><td>The G channel of the image. </td></tr>
-    <tr><td class="paramname">B</td><td>The B channel of the image. </td></tr>
-  </table>
-  </dd>
-</dl>
+<p>Get BGR image which is downsampled from original size dependend on DOWN_SAMPLE_RATE. </p>
+<dl class="section return"><dt>Returns</dt><dd>image represented as cv::Mat </dd></dl>
 
 </div>
 </div>
@@ -514,14 +430,14 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="a9b360f4f13c176c163117f87c966c02a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b360f4f13c176c163117f87c966c02a">&#9670;&nbsp;</a></span>getHSVDownsampledImage()</h2>
+<a id="a1400d946673cb1546ac203eb4355fb98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1400d946673cb1546ac203eb4355fb98">&#9670;&nbsp;</a></span>getHSVDownsampledImage()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">cv::Mat Image::getHSVDownsampledImage </td>
+          <td class="memname">const cv::Mat Image::getHSVDownsampledImage </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -529,28 +445,8 @@ Sébastien </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Get HSV image which is 4x downsampled from original size. </p>
+<p>Get HSV image which is downsampled from original size dependend on DOWN_SAMPLE_RATE. </p>
 <dl class="section return"><dt>Returns</dt><dd>image represented as cv::Mat </dd></dl>
-
-</div>
-</div>
-<a id="a2d6b958b8f3f9bb61a19a64a9f97ddf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6b958b8f3f9bb61a19a64a9f97ddf8">&#9670;&nbsp;</a></span>getImage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const unsigned char * Image::getImage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Get the image buffer. </p>
-<dl class="section return"><dt>Returns</dt><dd>The image buffer. </dd></dl>
 
 </div>
 </div>
@@ -569,19 +465,19 @@ Sébastien </dd></dl>
       </table>
 </div><div class="memdoc">
 
-<p>Get the name of this <a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a> class. </p>
-<dl class="section return"><dt>Returns</dt><dd>the name of this <a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a> class. </dd></dl>
+<p>Get the name of this <a class="el" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ...">Image</a> class. </p>
+<dl class="section return"><dt>Returns</dt><dd>the name of this <a class="el" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ...">Image</a> class. </dd></dl>
 
 </div>
 </div>
-<a id="aade6f65b0642dfe92fd3367194077ca3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aade6f65b0642dfe92fd3367194077ca3">&#9670;&nbsp;</a></span>getUChannel()</h2>
+<a id="a1eb9b4a831839674f3d9744c8432ca96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1eb9b4a831839674f3d9744c8432ca96">&#9670;&nbsp;</a></span>getUChannel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const unsigned char * Image::getUChannel </td>
+          <td class="memname">const cv::Mat Image::getUChannel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -589,22 +485,28 @@ Sébastien </dd></dl>
       </table>
 </div><div class="memdoc">
 
+<p>Get U channel of the image. </p>
+<dl class="section return"><dt>Returns</dt><dd>The U channel of the image. </dd></dl>
+
 </div>
 </div>
-<a id="a742f4f5f1b84232f276b23aedf78fbfe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a742f4f5f1b84232f276b23aedf78fbfe">&#9670;&nbsp;</a></span>getVChannel()</h2>
+<a id="a8c8d5f72dbf32ee2b4b028f6029a92d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c8d5f72dbf32ee2b4b028f6029a92d8">&#9670;&nbsp;</a></span>getVChannel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const unsigned char * Image::getVChannel </td>
+          <td class="memname">const cv::Mat Image::getVChannel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Get V channel of the image. </p>
+<dl class="section return"><dt>Returns</dt><dd>The V channel of the image. </dd></dl>
 
 </div>
 </div>
@@ -628,14 +530,14 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="abcd41c8a97de63334cadd72229c1db62"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abcd41c8a97de63334cadd72229c1db62">&#9670;&nbsp;</a></span>getYChannel()</h2>
+<a id="a5e1ce0957b0fc27f9c8e1ff3b0ec50b9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e1ce0957b0fc27f9c8e1ff3b0ec50b9">&#9670;&nbsp;</a></span>getYChannel()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const unsigned char * Image::getYChannel </td>
+          <td class="memname">const cv::Mat Image::getYChannel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -645,6 +547,86 @@ Sébastien </dd></dl>
 
 <p>Get Y channel of the image. </p>
 <dl class="section return"><dt>Returns</dt><dd>The Y channel of the image. </dd></dl>
+
+</div>
+</div>
+<a id="a7537db48af2d7f503948ead4ca915f2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7537db48af2d7f503948ead4ca915f2b">&#9670;&nbsp;</a></span>getYUVDownSampledImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const cv::Mat Image::getYUVDownSampledImage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get YUV image which is downsampled from original size dependend on DOWN_SAMPLE_RATE. </p>
+<dl class="section return"><dt>Returns</dt><dd>image represented as cv::Mat </dd></dl>
+
+</div>
+</div>
+<a id="a6bd4927a379c72d3143f0a2203f091fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bd4927a379c72d3143f0a2203f091fa">&#9670;&nbsp;</a></span>getYUVImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const cv::Mat Image::getYUVImage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the image buffer. </p>
+<dl class="section return"><dt>Returns</dt><dd>The image buffer. </dd></dl>
+
+</div>
+</div>
+<a id="ae1483fdb519c3d69d6608ddad687bdce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1483fdb519c3d69d6608ddad687bdce">&#9670;&nbsp;</a></span>hasAllImages()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Image::hasAllImages </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks whether the class has been decompressed in all it's formats and sizes (see header description). </p>
+<dl class="section return"><dt>Returns</dt><dd>boolean representing the availability of all uncompressed images. </dd></dl>
+
+</div>
+</div>
+<a id="a23534584fca987357967d549b9bb338a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23534584fca987357967d549b9bb338a">&#9670;&nbsp;</a></span>hasCompressedImage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Image::hasCompressedImage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks whether the class has a compressed image. </p>
+<dl class="section return"><dt>Returns</dt><dd>boolean representing the availability of a compressed form of the YUV image. </dd></dl>
 
 </div>
 </div>
@@ -674,6 +656,21 @@ template&lt;class Container &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Load the class member variables from something that can be sent over the network. </p>
+<p>Reconstructs all images from the yuv_image_ compressed form.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Container</td><td>Types of the class member variables. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>Container for the values of the member variables. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a id="a28d0abddd7ee6620be4ff0560db6dfb1"></a>
@@ -702,33 +699,6 @@ template&lt;class Container &gt; </div>
 
 </div>
 </div>
-<a id="ad4d5a05bba71d21b8108568d6890c07e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4d5a05bba71d21b8108568d6890c07e">&#9670;&nbsp;</a></span>operator[]()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned char * Image::operator[] </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="field__filter__test_8cpp.html#a801d6a451a01953ef8cbae6feb6a3638">size_t</a>&#160;</td>
-          <td class="paramname"><em>y</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Return a pointer to the character at y coordinate. </p>
-<p>Every second half of a row in an image should skipped, since it is a copy of the first half. </p><dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">y</td><td>The y coordinate of the pixel </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>the character at pixel at coordinate of y. </dd></dl>
-
-</div>
-</div>
 <a id="a1832d939e0d85e4b36c3990c1e92fd55"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1832d939e0d85e4b36c3990c1e92fd55">&#9670;&nbsp;</a></span>save()</h2>
 
@@ -754,6 +724,21 @@ template&lt;class Container &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Save the class member variables to a something that can be sent over the network. </p>
+<p>Among the images only a JPEG compressed form of yuv_image_ is send over.</p>
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Container</td><td>Types of the class member variables. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">container</td><td>Container for the values of the member variables. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -800,16 +785,19 @@ template&lt;class Container &gt; </div>
 </div><div class="memdoc">
 
 <p>Set the image in colorspace YUV as char* and as separate y, u, v channel arrays. </p>
-<p><a class="el" href="classImage.html" title="Image: class that contains the information of an image. ">Image</a>: class that contains the information of an image.</p>
+<p><a class="el" href="classImage.html" title="Image: class which loads in a raw image buffer from the camera device and constructs several formats ...">Image</a>: class which loads in a raw image buffer from the camera device and constructs several opencv images in different formats such as YUV, RGB as HSV.</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">buffer</td><td>The buffer that holds the image.</td></tr>
   </table>
   </dd>
 </dl>
+<p>Also the compression and decompression of the YUV channel is implemented here.</p>
 <dl class="section author"><dt>Author</dt><dd>Caitlin </dd>
 <dd>
-Sébastien </dd></dl>
+Sébastien </dd>
+<dd>
+Hidde </dd></dl>
 
 </div>
 </div>
@@ -840,8 +828,8 @@ Sébastien </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6609c79bfe794600354e32e84504811b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6609c79bfe794600354e32e84504811b">&#9670;&nbsp;</a></span>color_space_</h2>
+<a id="a4a377932e46a6c96a02235ddd131e12e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a377932e46a6c96a02235ddd131e12e">&#9670;&nbsp;</a></span>buffer_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -850,7 +838,7 @@ Sébastien </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5be">ColorSpace</a> Image::color_space_ = <a class="el" href="classImage.html#a664d7bef86644158afe8847fedafc5beab915b1a658d4fc573f623f17b1434601">ColorSpace::YUV</a></td>
+          <td class="memname">const unsigned char* Image::buffer_ = nullptr</td>
         </tr>
       </table>
   </td>
@@ -860,7 +848,195 @@ Sébastien </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>The colorspace of the image. </p>
+<p>The raw image from the camera, assumed to be in YUYV and is used to construct all other image formats and sizes (see header comment). </p>
+
+</div>
+</div>
+<a id="a4d2baa7058b172c011112170ce150abb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d2baa7058b172c011112170ce150abb">&#9670;&nbsp;</a></span>compressed_image_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_ptr&lt;unsigned char&gt; Image::compressed_image_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6138dc071c3cc17e2f35cded0824dfe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6138dc071c3cc17e2f35cded0824dfe8">&#9670;&nbsp;</a></span>compressed_size_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Image::compressed_size_ = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Size of the compressed image in bytes. </p>
+
+</div>
+</div>
+<a id="a303f77c8f37c545fd3ed8978f7fc7100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a303f77c8f37c545fd3ed8978f7fc7100">&#9670;&nbsp;</a></span>DOWN_SAMPLE_RATE</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr double Image::DOWN_SAMPLE_RATE = 0.25</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0736a79826915fb1d24f18559c4bdf8c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0736a79826915fb1d24f18559c4bdf8c">&#9670;&nbsp;</a></span>downsampled_bgr_image_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cv::Mat Image::downsampled_bgr_image_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Downsampled bgr image, always continuous in memory. </p>
+
+</div>
+</div>
+<a id="ada392e6668f13707fc6d62327e2539bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada392e6668f13707fc6d62327e2539bf">&#9670;&nbsp;</a></span>downsampled_hsv_image_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cv::Mat Image::downsampled_hsv_image_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Downsampled hsv image, always continuous in memory. </p>
+
+</div>
+</div>
+<a id="a65ad0576b84669d72590187690a7a946"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65ad0576b84669d72590187690a7a946">&#9670;&nbsp;</a></span>downsampled_yuv_image_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">cv::Mat Image::downsampled_yuv_image_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Downsampled yuv image, always continuous in memory. </p>
+
+</div>
+</div>
+<a id="a859a91befa9a82a0cd3e84a89f15814d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a859a91befa9a82a0cd3e84a89f15814d">&#9670;&nbsp;</a></span>has_all_images_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Image::has_all_images_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Boolean tracking whether the class instance has already decompressed it's image into all formats. </p>
+
+</div>
+</div>
+<a id="a9d300c9db2ea5cec10f8c72b5b602579"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d300c9db2ea5cec10f8c72b5b602579">&#9670;&nbsp;</a></span>has_compressed_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Image::has_compressed_ = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">mutable</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Boolean tracking whether the class instance has already compressed it's YUV image. </p>
 
 </div>
 </div>
@@ -874,7 +1050,7 @@ Sébastien </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int Image::height_</td>
+          <td class="memname">unsigned int Image::height_ = 0</td>
         </tr>
       </table>
   </td>
@@ -912,8 +1088,8 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="a1e1ca0477e392035f8cb5289946cdb61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e1ca0477e392035f8cb5289946cdb61">&#9670;&nbsp;</a></span>image_</h2>
+<a id="a7e13749ca29a603a99b0e9ac1b8ea8b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e13749ca29a603a99b0e9ac1b8ea8b5">&#9670;&nbsp;</a></span>JPEG_QUALITY</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -922,42 +1098,15 @@ Sébastien </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned char* Image::image_ = nullptr</td>
+          <td class="memname">constexpr int Image::JPEG_QUALITY = 25</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>The image. </p>
-
-</div>
-</div>
-<a id="af25046114ca72367a6b7cea3862a4334"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af25046114ca72367a6b7cea3862a4334">&#9670;&nbsp;</a></span>MAX_RESOLUTION_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const unsigned int Image::MAX_RESOLUTION_ = 960 * 480</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>The maximum image resolution we would ever use. </p>
-<p>This variable is used at compile time to create the image channel arrays, since we can't read it from the config files at compile time without getting variable sized arrays. This variable is also in <a class="el" href="m__ball__detector_8h.html">m_ball_detector.h</a>. </p>
 
 </div>
 </div>
@@ -985,226 +1134,6 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="ad6bc83cdaf472ca7e25d2c8f6e492c7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6bc83cdaf472ca7e25d2c8f6e492c7b">&#9670;&nbsp;</a></span>scaledGCoeffU</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledGCoeffU</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#a86b2a5a83588f9683f7757e34b36356b">yCoeffB</a> / (<a class="code" href="classImage.html#afe2f50ff8524d7f7f00934ad56864055">yCoeffG</a> * <a class="code" href="classImage.html#a338f0457bcfc0d299ebd376e4965359e">uCoeff</a>) * static_cast&lt;float&gt;(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aeb29310f9225ad76fdbf9b839b6a2a60"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb29310f9225ad76fdbf9b839b6a2a60">&#9670;&nbsp;</a></span>scaledGCoeffV</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledGCoeffV</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#a1e6ee0c9634e64eff1c9bf26ea117a30">yCoeffR</a> / (<a class="code" href="classImage.html#afe2f50ff8524d7f7f00934ad56864055">yCoeffG</a> * <a class="code" href="classImage.html#a54985285ed99b7b03de6a6935b362c08">vCoeff</a>) * static_cast&lt;float&gt;(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ab4a0d2cea8d0b2f60ed00c1a703ec5e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4a0d2cea8d0b2f60ed00c1a703ec5e2">&#9670;&nbsp;</a></span>scaledInvUCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledInvUCoeff</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>) / <a class="code" href="classImage.html#a338f0457bcfc0d299ebd376e4965359e">uCoeff</a>)</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ac50ba39a811d42c06ef7e818ad7e18d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac50ba39a811d42c06ef7e818ad7e18d5">&#9670;&nbsp;</a></span>scaledInvVCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledInvVCoeff</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>) / <a class="code" href="classImage.html#a54985285ed99b7b03de6a6935b362c08">vCoeff</a>)</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a2d7e51af2ddebca1411f48a5709832b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d7e51af2ddebca1411f48a5709832b5">&#9670;&nbsp;</a></span>scaledUCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledUCoeff</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#a338f0457bcfc0d299ebd376e4965359e">uCoeff</a> * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a56cb193ec8fbf6906b51412a9a379873"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56cb193ec8fbf6906b51412a9a379873">&#9670;&nbsp;</a></span>scaledVCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledVCoeff</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#a54985285ed99b7b03de6a6935b362c08">vCoeff</a> * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="aec82988f2562317f4d1daa079689024e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec82988f2562317f4d1daa079689024e">&#9670;&nbsp;</a></span>scaledYCoeffB</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledYCoeffB</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#a86b2a5a83588f9683f7757e34b36356b">yCoeffB</a> * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="a3dd6415cac93cc3646914dbe492151f4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3dd6415cac93cc3646914dbe492151f4">&#9670;&nbsp;</a></span>scaledYCoeffG</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledYCoeffG</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#afe2f50ff8524d7f7f00934ad56864055">yCoeffG</a> * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ac8c26e6eac396f49fafd6d6d4c6f5bec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8c26e6eac396f49fafd6d6d4c6f5bec">&#9670;&nbsp;</a></span>scaledYCoeffR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaledYCoeffR</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">=</div><div class="line">      <span class="keyword">static_cast&lt;</span><span class="keywordtype">int</span><span class="keyword">&gt;</span>(<a class="code" href="classImage.html#a1e6ee0c9634e64eff1c9bf26ea117a30">yCoeffR</a> * <span class="keyword">static_cast&lt;</span><span class="keywordtype">float</span><span class="keyword">&gt;</span>(1 &lt;&lt; <a class="code" href="classImage.html#ab4a60c0156f8675cb521e5ffb0f6c2e3">scaleExponent</a>))</div></div><!-- fragment -->
-</div>
-</div>
-<a id="ab4a60c0156f8675cb521e5ffb0f6c2e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab4a60c0156f8675cb521e5ffb0f6c2e3">&#9670;&nbsp;</a></span>scaleExponent</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr int Image::scaleExponent = 16</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="a8a218cfee2f7cb46e2da3c2cb4ead5d5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8a218cfee2f7cb46e2da3c2cb4ead5d5">&#9670;&nbsp;</a></span>time_stamp_</h2>
 
@@ -1221,94 +1150,6 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="abc647eab5220adc8f5206fb8dbcbe226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abc647eab5220adc8f5206fb8dbcbe226">&#9670;&nbsp;</a></span>u_channel_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned char Image::u_channel_[<a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a338f0457bcfc0d299ebd376e4965359e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a338f0457bcfc0d299ebd376e4965359e">&#9670;&nbsp;</a></span>uCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr float Image::uCoeff = 0.564f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a9ca0c556f7c9f9a7ec1ad5d24da2c360"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ca0c556f7c9f9a7ec1ad5d24da2c360">&#9670;&nbsp;</a></span>v_channel_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">unsigned char Image::v_channel_[<a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a>]</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a54985285ed99b7b03de6a6935b362c08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54985285ed99b7b03de6a6935b362c08">&#9670;&nbsp;</a></span>vCoeff</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr float Image::vCoeff = 0.713f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="ae4485e748d0ecc26399543b01ce68bd2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae4485e748d0ecc26399543b01ce68bd2">&#9670;&nbsp;</a></span>width_</h2>
 
@@ -1319,7 +1160,7 @@ Sébastien </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned int Image::width_</td>
+          <td class="memname">unsigned int Image::width_ = 0</td>
         </tr>
       </table>
   </td>
@@ -1333,8 +1174,8 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="a39bb52aeb0d19565ca0023e74b5d89c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39bb52aeb0d19565ca0023e74b5d89c0">&#9670;&nbsp;</a></span>y_channel_</h2>
+<a id="a82a51ef00a711048aa33bfae07e6f523"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82a51ef00a711048aa33bfae07e6f523">&#9670;&nbsp;</a></span>y_channel_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1343,7 +1184,7 @@ Sébastien </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">unsigned char Image::y_channel_[<a class="el" href="classImage.html#af25046114ca72367a6b7cea3862a4334">MAX_RESOLUTION_</a>]</td>
+          <td class="memname">cv::Mat Image::y_channel_</td>
         </tr>
       </table>
   </td>
@@ -1353,34 +1194,12 @@ Sébastien </dd></dl>
 </table>
 </div><div class="memdoc">
 
-<p>The YUV channels of the image. </p>
+<p>The Y channel of the image. </p>
 
 </div>
 </div>
-<a id="a86b2a5a83588f9683f7757e34b36356b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86b2a5a83588f9683f7757e34b36356b">&#9670;&nbsp;</a></span>yCoeffB</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr float Image::yCoeffB = 0.114f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afe2f50ff8524d7f7f00934ad56864055"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe2f50ff8524d7f7f00934ad56864055">&#9670;&nbsp;</a></span>yCoeffG</h2>
+<a id="a6866a81108de7964b2a34c18bc80a815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6866a81108de7964b2a34c18bc80a815">&#9670;&nbsp;</a></span>yuv_image_</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1389,37 +1208,17 @@ Sébastien </dd></dl>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr float Image::yCoeffG = 0.587f</td>
+          <td class="memname">cv::Mat Image::yuv_image_</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a1e6ee0c9634e64eff1c9bf26ea117a30"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e6ee0c9634e64eff1c9bf26ea117a30">&#9670;&nbsp;</a></span>yCoeffR</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr float Image::yCoeffR = 0.299f</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p>Normal yuv_image, always continuous in memory. </p>
 
 </div>
 </div>

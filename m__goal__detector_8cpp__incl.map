@@ -1,0 +1,27 @@
+<map id="source/dnt/modules/perception/goal_detector/m_goal_detector.cpp" name="source/dnt/modules/perception/goal_detector/m_goal_detector.cpp">
+<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="413,191,553,218"/>
+<area shape="rect" id="node18" href="$m__goal__detector_8h.html" title="m_goal_detector.h" alt="" coords="1471,109,1601,136"/>
+<area shape="rect" id="node35" href="$log_8h.html" title="tools/log.h" alt="" coords="1928,281,2011,307"/>
+<area shape="rect" id="node40" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="3167,191,3305,218"/>
+<area shape="rect" id="node48" href="$timer_8h.html" title="tools/timer.h" alt="" coords="1815,109,1910,136"/>
+<area shape="rect" id="node7" href="$message_8h.html" title="framework/message.h" alt="" coords="43,452,194,479"/>
+<area shape="rect" id="node11" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="297,370,484,397"/>
+<area shape="rect" id="node16" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="227,281,421,307"/>
+<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="724,527,839,553"/>
+<area shape="rect" id="node17" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="819,363,970,404"/>
+<area shape="rect" id="node19" href="$r__goal_8h.html" title="representations/perception\l/r_goal.h" alt="" coords="702,273,877,315"/>
+<area shape="rect" id="node20" href="$dnt__opencv_8h.html" title="tools/dnt_opencv.h" alt="" coords="1219,370,1351,397"/>
+<area shape="rect" id="node25" href="$r__field__boundary_8h.html" title="representations/perception\l/r_field_boundary.h" alt="" coords="901,273,1075,315"/>
+<area shape="rect" id="node26" href="$r__camera__sensor_8h.html" title="representations/sensor\l/r_camera_sensor.h" alt="" coords="1399,184,1553,225"/>
+<area shape="rect" id="node29" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="1856,370,2008,397"/>
+<area shape="rect" id="node27" href="$image_8h.html" title="modules/camera/image.h" alt="" coords="1201,281,1369,307"/>
+<area shape="rect" id="node28" href="$camera__settings_8h.html" title="modules/camera/camera\l_settings.h" alt="" coords="1393,273,1559,315"/>
+<area shape="rect" id="node36" href="$log_2log_8h.html" title="log/log.h" alt="" coords="2635,370,2706,397"/>
+<area shape="rect" id="node39" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="2565,452,2662,479"/>
+<area shape="rect" id="node41" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="3274,273,3409,315"/>
+<area shape="rect" id="node44" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="3244,452,3340,479"/>
+<area shape="rect" id="node43" href="$data_8h.html" title="data.h" alt="" coords="3273,370,3332,397"/>
+<area shape="rect" id="node47" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="3092,370,3199,397"/>
+<area shape="rect" id="node49" href="$timer_2timer_8h.html" title="timer/timer.h" alt="" coords="2394,452,2489,479"/>
+<area shape="rect" id="node50" href="$scope__timer_8h.html" title="timer/scope_timer.h" alt="" coords="1794,191,1931,218"/>
+</map>

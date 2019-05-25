@@ -1,31 +1,31 @@
 <map id="source/dnt/modules/motion/interpolation/m_interpolation_engine.cpp" name="source/dnt/modules/motion/interpolation/m_interpolation_engine.cpp">
-<area shape="rect" id="node2" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="1090,109,1278,151"/>
-<area shape="rect" id="node38" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="2443,206,2581,233"/>
-<area shape="rect" id="node46" href="$log_8h.html" title="tools/log.h" alt="" coords="2625,117,2708,143"/>
-<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="1629,295,1769,322"/>
-<area shape="rect" id="node20" href="$r__interpolation__output_8h.html" title="Represents the output that is given by the InterpolationEngine, which computes joint_angles over time..." alt="" coords="562,199,723,240"/>
-<area shape="rect" id="node28" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="813,199,968,240"/>
-<area shape="rect" id="node34" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="5,467,160,508"/>
-<area shape="rect" id="node7" href="$message_8h.html" title="framework/message.h" alt="" coords="1661,563,1811,590"/>
-<area shape="rect" id="node11" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1268,474,1455,501"/>
-<area shape="rect" id="node17" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1440,385,1635,411"/>
-<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="929,645,1044,672"/>
-<area shape="rect" id="node18" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="1479,467,1630,508"/>
-<area shape="rect" id="node19" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="1473,563,1636,590"/>
-<area shape="rect" id="node21" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="349,377,504,419"/>
-<area shape="rect" id="node27" href="$r__motion_8h.html" title="representations/motion\l/r_motion.h" alt="" coords="565,288,720,329"/>
-<area shape="rect" id="node22" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="217,556,407,597"/>
-<area shape="rect" id="node25" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="235,467,389,508"/>
-<area shape="rect" id="node23" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="494,645,623,672"/>
-<area shape="rect" id="node29" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="813,288,968,329"/>
-<area shape="rect" id="node31" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="696,385,835,411"/>
-<area shape="rect" id="node30" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="819,474,971,501"/>
-<area shape="rect" id="node32" href="$math_2Eigen_8h.html" title="Eigen.h" alt="" coords="728,474,795,501"/>
-<area shape="rect" id="node33" href="$Approx_8h.html" title="tools/math/Approx.h" alt="" coords="464,474,603,501"/>
-<area shape="rect" id="node39" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="2445,288,2579,329"/>
-<area shape="rect" id="node42" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="2447,474,2543,501"/>
-<area shape="rect" id="node41" href="$data_8h.html" title="data.h" alt="" coords="2416,385,2475,411"/>
-<area shape="rect" id="node45" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="2141,474,2248,501"/>
-<area shape="rect" id="node47" href="$log_2log_8h.html" title="log/log.h" alt="" coords="2849,385,2919,411"/>
-<area shape="rect" id="node49" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="2922,474,3019,501"/>
+<area shape="rect" id="node2" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="1474,109,1662,151"/>
+<area shape="rect" id="node38" href="$configuration_8h.html" title="tools/configuration.h" alt="" coords="2136,295,2275,322"/>
+<area shape="rect" id="node46" href="$log_8h.html" title="tools/log.h" alt="" coords="2380,117,2463,143"/>
+<area shape="rect" id="node3" href="$module_8h.html" title="framework/module.h" alt="" coords="1498,385,1638,411"/>
+<area shape="rect" id="node19" href="$r__interpolation__output_8h.html" title="Represents the output that is given by the InterpolationEngine, which computes joint_angles over time..." alt="" coords="990,199,1151,240"/>
+<area shape="rect" id="node27" href="$r__motion__request_8h.html" title="Contains the motion requested by the behavior engine. " alt="" coords="459,199,613,240"/>
+<area shape="rect" id="node33" href="$r__joint__sensor_8h.html" title="representations/sensor\l/r_joint_sensor.h" alt="" coords="853,467,1008,508"/>
+<area shape="rect" id="node34" href="$r__stance_8h.html" title="Information about the stance of the robot: whether it is standing, falling over, has fallen over..." alt="" coords="1279,288,1439,329"/>
+<area shape="rect" id="node7" href="$message_8h.html" title="framework/message.h" alt="" coords="1185,653,1335,679"/>
+<area shape="rect" id="node11" href="$input__message_8h.html" title="framework/input_message.h" alt="" coords="1404,563,1591,590"/>
+<area shape="rect" id="node17" href="$output__message_8h.html" title="framework/output_message.h" alt="" coords="1297,474,1492,501"/>
+<area shape="rect" id="node10" href="$representation_8h.html" title="representation.h" alt="" coords="963,735,1077,761"/>
+<area shape="rect" id="node18" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="731,645,882,687"/>
+<area shape="rect" id="node20" href="$r__joint__request_8h.html" title="Taken from NaoDevils codebase. " alt="" coords="624,377,779,419"/>
+<area shape="rect" id="node26" href="$r__motion_8h.html" title="representations/motion\l/r_motion.h" alt="" coords="993,288,1148,329"/>
+<area shape="rect" id="node21" href="$r__joint__angles_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="714,556,905,597"/>
+<area shape="rect" id="node24" href="$r__stiffness__data_8h.html" title="Inspired by the NaoDevils codebase. " alt="" coords="624,467,779,508"/>
+<area shape="rect" id="node22" href="$angle_8h.html" title="tools/math/angle.h" alt="" coords="509,653,638,679"/>
+<area shape="rect" id="node28" href="$r__walk__generator_8h.html" title="representations/motion\l/r_walk_generator.h" alt="" coords="344,288,499,329"/>
+<area shape="rect" id="node30" href="$Pose2f_8h.html" title="tools/math/Pose2f.h" alt="" coords="197,385,336,411"/>
+<area shape="rect" id="node29" href="$dnt__math_8h.html" title="tools/math/dnt_math.h" alt="" coords="347,474,499,501"/>
+<area shape="rect" id="node31" href="$math_2Eigen_8h.html" title="Eigen.h" alt="" coords="93,474,160,501"/>
+<area shape="rect" id="node32" href="$Approx_8h.html" title="tools/math/Approx.h" alt="" coords="184,474,323,501"/>
+<area shape="rect" id="node39" href="$public__interface_8h.html" title="configuration/public\l_interface.h" alt="" coords="2138,377,2273,419"/>
+<area shape="rect" id="node42" href="$toml__value_8h.html" title="toml_value.h" alt="" coords="2293,563,2389,590"/>
+<area shape="rect" id="node41" href="$data_8h.html" title="data.h" alt="" coords="2243,474,2301,501"/>
+<area shape="rect" id="node45" href="$config__finder_8h.html" title="config_finder.h" alt="" coords="1909,563,2016,590"/>
+<area shape="rect" id="node47" href="$log_2log_8h.html" title="log/log.h" alt="" coords="2594,474,2665,501"/>
+<area shape="rect" id="node49" href="$log__stream_8h.html" title="log_stream.h" alt="" coords="2667,563,2765,590"/>
 </map>

@@ -83,16 +83,20 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a8e7db154fee23d4b6a6ab52adb3bd8b9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#a8e7db154fee23d4b6a6ab52adb3bd8b9">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Default rule - do nothing&quot;), description(&quot;&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a9ab3998eb03c6058f38ce5e4653233ed">UtilityScore::SlightlyUseful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a68eec46437c384d8dad18d5464ebc35c">Event::Always</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1e-4;})}, actions { output_motion_request_-&gt;motion_=Motion::none;})</td></tr>
-<tr class="separator:a8e7db154fee23d4b6a6ab52adb3bd8b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1bdf3b26dd64d318bf793e6186fbe75b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#a1bdf3b26dd64d318bf793e6186fbe75b">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Penalised!&quot;), description(&quot;Robot is penalised&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ab0ee8cb5ebe61389209da7dc57bf2743">Event::Penalized</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkMode=<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa3d34bd13b3ff3084c34c9d34fb633003">rWalkGenerator::speedMode</a>;output_motion_request_-&gt;resetWalk=true;output_motion_request_-&gt;walkSpeed=<a class="el" href="classPose2f.html">Pose2f</a>(0.f, <a class="el" href="math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a">Eigen::Vector2f</a>(0.f, 0.f));})</td></tr>
-<tr class="separator:a1bdf3b26dd64d318bf793e6186fbe75b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2022bd9b814f7b0dce37abca628e1cd5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#a2022bd9b814f7b0dce37abca628e1cd5">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Get up&quot;), description(&quot;get up&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a95b67a217af942dc35cdf4dd029441de">Event::Fallen</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Laying down&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return falldown_representation_-&gt;state==<a class="el" href="classrFallDownState.html#a934085089cd787e90d51acdee8ead38aaacd706c4af2ccd65d8967892a8a50adb">rFallDownState::State::fallen</a>;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkMode=<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa3d34bd13b3ff3084c34c9d34fb633003">rWalkGenerator::speedMode</a>;output_motion_request_-&gt;resetWalk=true;output_motion_request_-&gt;walkSpeed=<a class="el" href="classPose2f.html">Pose2f</a>(0.f, <a class="el" href="math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a">Eigen::Vector2f</a>(0.f, 0.f));if(falldown_representation_-&gt;direction==<a class="el" href="classrFallDownState.html#a745cd9cc2089a310658879ffb27ecea3ab95255d759f20cffcf9d7d07d95e63f9">rFallDownState::Direction::forward</a>) { output_motion_request_-&gt;motion_=Motion::getup_front;} else { output_motion_request_-&gt;motion_=Motion::getup_back;} })</td></tr>
-<tr class="separator:a2022bd9b814f7b0dce37abca628e1cd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca986b256bd1253b53940715e06fb05f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#aca986b256bd1253b53940715e06fb05f">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Default rule - do nothing&quot;), description(&quot;&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a9ab3998eb03c6058f38ce5e4653233ed">UtilityScore::SlightlyUseful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a68eec46437c384d8dad18d5464ebc35c">Event::Always</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1e-4;}) }, actions { output_motion_request_-&gt;motion_=Motion::none;})</td></tr>
+<tr class="separator:aca986b256bd1253b53940715e06fb05f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad61c21d6afa42b814300648c811cc196"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#ad61c21d6afa42b814300648c811cc196">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Penalised!&quot;), description(&quot;Robot is penalised&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ab0ee8cb5ebe61389209da7dc57bf2743">Event::Penalized</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;})</td></tr>
+<tr class="separator:ad61c21d6afa42b814300648c811cc196"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9b7e777b0bf79f5fd64cc3052a4847f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#ab9b7e777b0bf79f5fd64cc3052a4847f">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Get up&quot;), description(&quot;get up&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a95b67a217af942dc35cdf4dd029441de">Event::Fallen</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Laying down&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return stance_representation_-&gt;state==<a class="el" href="classrStance.html#a5fcc345b8b463ed490c83ba67e7080f8afa8fbcf21bca40b830d5fad6c82674cd">rStance::State::fallen</a>;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.f, true);if(stance_representation_-&gt;direction==<a class="el" href="classrStance.html#a85725d81576810128c5c0b3a75a7f164a143e46adb93d29839c25b179644856c2">rStance::Direction::forward</a>) { output_motion_request_-&gt;motion_=Motion::getup_front;} else { output_motion_request_-&gt;motion_=Motion::getup_back;} })</td></tr>
+<tr class="separator:ab9b7e777b0bf79f5fd64cc3052a4847f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadad512c7b3a3d777a1b57d8886c3f5a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#aadad512c7b3a3d777a1b57d8886c3f5a">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Do nothing while sitting&quot;), description(&quot;just sit&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ad23d2ff04211e8f1d629b4b4105d44ab">Event::Sitting</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::sit;})</td></tr>
+<tr class="separator:aadad512c7b3a3d777a1b57d8886c3f5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae96d4203013626db644a6305ae891e1d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="default_8h.html#ae96d4203013626db644a6305ae891e1d">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Stand up&quot;), description(&quot;stand up from sitting&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ad23d2ff04211e8f1d629b4b4105d44ab">Event::Sitting</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Sitting&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return stance_representation_-&gt;state==<a class="el" href="classrStance.html#a5fcc345b8b463ed490c83ba67e7080f8ac43cac676baf23dd30138786590f0a65">rStance::State::sitting</a>;}), <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Button pressed&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return button_representation_-&gt;chest_pressed_;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;})</td></tr>
+<tr class="separator:ae96d4203013626db644a6305ae891e1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a8e7db154fee23d4b6a6ab52adb3bd8b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e7db154fee23d4b6a6ab52adb3bd8b9">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/3]</span></h2>
+<a id="aca986b256bd1253b53940715e06fb05f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aca986b256bd1253b53940715e06fb05f">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -124,7 +128,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1e-4;})}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1e-4;}) }&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
@@ -143,8 +147,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a1bdf3b26dd64d318bf793e6186fbe75b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1bdf3b26dd64d318bf793e6186fbe75b">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/3]</span></h2>
+<a id="ad61c21d6afa42b814300648c811cc196"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad61c21d6afa42b814300648c811cc196">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -182,7 +186,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkMode=<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa3d34bd13b3ff3084c34c9d34fb633003">rWalkGenerator::speedMode</a>;output_motion_request_-&gt;resetWalk=true;output_motion_request_-&gt;walkSpeed=<a class="el" href="classPose2f.html">Pose2f</a>(0.f, <a class="el" href="math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a">Eigen::Vector2f</a>(0.f, 0.f));}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -195,8 +199,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a2022bd9b814f7b0dce37abca628e1cd5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2022bd9b814f7b0dce37abca628e1cd5">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[3/3]</span></h2>
+<a id="ab9b7e777b0bf79f5fd64cc3052a4847f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9b7e777b0bf79f5fd64cc3052a4847f">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -228,13 +232,117 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Laying down&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return falldown_representation_-&gt;state==<a class="el" href="classrFallDownState.html#a934085089cd787e90d51acdee8ead38aaacd706c4af2ccd65d8967892a8a50adb">rFallDownState::State::fallen</a>;})}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Laying down&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return stance_representation_-&gt;state==<a class="el" href="classrStance.html#a5fcc345b8b463ed490c83ba67e7080f8afa8fbcf21bca40b830d5fad6c82674cd">rStance::State::fallen</a>;})}&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkMode=<a class="el" href="classrWalkGenerator.html#aa12e8f29eebaba3d26c6a36f4e06172aa3d34bd13b3ff3084c34c9d34fb633003">rWalkGenerator::speedMode</a>;output_motion_request_-&gt;resetWalk=true;output_motion_request_-&gt;walkSpeed=<a class="el" href="classPose2f.html">Pose2f</a>(0.f, <a class="el" href="math_2Eigen_8h.html#aeaa91c7416823e7ec36091276df1117a">Eigen::Vector2f</a>(0.f, 0.f));if(falldown_representation_-&gt;direction==<a class="el" href="classrFallDownState.html#a745cd9cc2089a310658879ffb27ecea3ab95255d759f20cffcf9d7d07d95e63f9">rFallDownState::Direction::forward</a>) { output_motion_request_-&gt;motion_=Motion::getup_front;} else { output_motion_request_-&gt;motion_=Motion::getup_back;} }&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.f, true);if(stance_representation_-&gt;direction==<a class="el" href="classrStance.html#a85725d81576810128c5c0b3a75a7f164a143e46adb93d29839c25b179644856c2">rStance::Direction::forward</a>) { output_motion_request_-&gt;motion_=Motion::getup_front;} else { output_motion_request_-&gt;motion_=Motion::getup_back;} }&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aadad512c7b3a3d777a1b57d8886c3f5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadad512c7b3a3d777a1b57d8886c3f5a">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">addDecision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classname.html">name</a>(&quot;Do nothing while sitting&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdescription.html">description</a>(&quot;just sit&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a8217136b58b9e050528574585b2fa330">UtilityScore::Useful</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ad23d2ff04211e8f1d629b4b4105d44ab">Event::Sitting</a>}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 1;})}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::sit;}&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae96d4203013626db644a6305ae891e1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae96d4203013626db644a6305ae891e1d">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">addDecision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classname.html">name</a>(&quot;Stand up&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdescription.html">description</a>(&quot;stand up from sitting&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a7da1da5b2a5be58e2914b3680e3077ac">UtilityScore::MostUseful</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ad23d2ff04211e8f1d629b4b4105d44ab">Event::Sitting</a>}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Sitting&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return stance_representation_-&gt;state==<a class="el" href="classrStance.html#a5fcc345b8b463ed490c83ba67e7080f8ac43cac676baf23dd30138786590f0a65">rStance::State::sitting</a>;}), <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Button pressed&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return button_representation_-&gt;chest_pressed_;})}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

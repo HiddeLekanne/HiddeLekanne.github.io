@@ -79,7 +79,9 @@ Inheritance diagram for rBehaviorStatus:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrBehaviorStatus__inherit__graph.png" border="0" usemap="#rBehaviorStatus_inherit__map" alt="Inheritance graph"/></div>
 <map name="rBehaviorStatus_inherit__map" id="rBehaviorStatus_inherit__map">
-<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="7,5,118,32"/>
+<area shape="rect" id="node2" href="classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="34,80,210,107"/>
+<area shape="rect" id="node3" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node4" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="141,5,229,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
@@ -87,17 +89,19 @@ Collaboration diagram for rBehaviorStatus:</div>
 <div class="dyncontent">
 <div class="center"><img src="classrBehaviorStatus__coll__graph.png" border="0" usemap="#rBehaviorStatus_coll__map" alt="Collaboration graph"/></div>
 <map name="rBehaviorStatus_coll__map" id="rBehaviorStatus_coll__map">
-<area shape="rect" id="node2" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="7,5,118,32"/>
+<area shape="rect" id="node2" href="classStreamableRepresentation.html" title="StreamableRepresentation: Representations that are streamable should implement this class..." alt="" coords="34,80,210,107"/>
+<area shape="rect" id="node3" href="classRepresentation.html" title="Representation abstract class. " alt="" coords="5,5,116,32"/>
+<area shape="rect" id="node4" href="classStreamable.html" title="Streamable: all classes that can be streamed/serialized should implement this base class..." alt="" coords="141,5,229,32"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrBehaviorStatus_1_1rDecision.html">rDecision</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct representing a decision (and its considerations) in the behavior engine.  <a href="structrBehaviorStatus_1_1rDecision.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus_1_1rDecision.html">rDecision</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct representing a decision (and its considerations) in the behavior engine.  <a href="classrBehaviorStatus_1_1rDecision.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structrBehaviorStatus_1_1rEvent.html">rEvent</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct representing an event in the behavior engine.  <a href="structrBehaviorStatus_1_1rEvent.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus_1_1rEvent.html">rEvent</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Struct representing an event in the behavior engine.  <a href="classrBehaviorStatus_1_1rEvent.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -107,6 +111,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa398cbb4d4bbbca76bcc069f04672e4b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#aa398cbb4d4bbbca76bcc069f04672e4b">getName</a> () const</td></tr>
 <tr class="memdesc:aa398cbb4d4bbbca76bcc069f04672e4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the representation.  <a href="#aa398cbb4d4bbbca76bcc069f04672e4b">More...</a><br /></td></tr>
 <tr class="separator:aa398cbb4d4bbbca76bcc069f04672e4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7793ab213f088d939c106491a44260bb"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a7793ab213f088d939c106491a44260bb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#a7793ab213f088d939c106491a44260bb">save</a> (Container &amp;container) const</td></tr>
+<tr class="separator:a7793ab213f088d939c106491a44260bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39721733694bcf559273a5e9452b4fb9"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a39721733694bcf559273a5e9452b4fb9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#a39721733694bcf559273a5e9452b4fb9">load</a> (Container &amp;container)</td></tr>
+<tr class="separator:a39721733694bcf559273a5e9452b4fb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classStreamableRepresentation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStreamableRepresentation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStreamableRepresentation.html">StreamableRepresentation</a></td></tr>
+<tr class="memitem:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamableRepresentation.html#af7ad1cdf44b23bf3a04a4c154f2b618c">save</a> (Container &amp;container) const</td></tr>
+<tr class="memdesc:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass the base class of this class for cereal to be able to handle the polymorphism.  <a href="classStreamableRepresentation.html#af7ad1cdf44b23bf3a04a4c154f2b618c">More...</a><br /></td></tr>
+<tr class="separator:af7ad1cdf44b23bf3a04a4c154f2b618c inherit pub_methods_classStreamableRepresentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamableRepresentation.html#a0c30111b963dd9a837d447f63feb3439">load</a> (Container &amp;container)</td></tr>
+<tr class="memdesc:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pass the base class of this class for cereal to be able to handle the polymorphism.  <a href="classStreamableRepresentation.html#a0c30111b963dd9a837d447f63feb3439">More...</a><br /></td></tr>
+<tr class="separator:a0c30111b963dd9a837d447f63feb3439 inherit pub_methods_classStreamableRepresentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classRepresentation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classRepresentation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classRepresentation.html">Representation</a></td></tr>
 <tr class="memitem:ae09dcdcfec5cd319c2e78b7c93d078bc inherit pub_methods_classRepresentation"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRepresentation.html#ae09dcdcfec5cd319c2e78b7c93d078bc">Representation</a> ()=default</td></tr>
 <tr class="memdesc:ae09dcdcfec5cd319c2e78b7c93d078bc inherit pub_methods_classRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor is default.  <a href="classRepresentation.html#ae09dcdcfec5cd319c2e78b7c93d078bc">More...</a><br /></td></tr>
@@ -123,21 +142,39 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa318391a0ba08f90329792a20fc0dd3f inherit pub_methods_classRepresentation"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classRepresentation.html#aa318391a0ba08f90329792a20fc0dd3f">~Representation</a> ()=default</td></tr>
 <tr class="memdesc:aa318391a0ba08f90329792a20fc0dd3f inherit pub_methods_classRepresentation"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destructor is declared virtual, so it is expected to be defined explicitly To prevent warnings from not following the rule of five [1], the constructor, copy constructor, move assignment operator and copy assignment operator are explicitly defined default.  <a href="classRepresentation.html#aa318391a0ba08f90329792a20fc0dd3f">More...</a><br /></td></tr>
 <tr class="separator:aa318391a0ba08f90329792a20fc0dd3f inherit pub_methods_classRepresentation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_classStreamable"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classStreamable')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classStreamable.html">Streamable</a></td></tr>
+<tr class="memitem:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamable.html#a2101910851f9816872d106d1d02cc3e5">save</a> (Container &amp;) const</td></tr>
+<tr class="memdesc:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class needs to implement the save function for cereal.  <a href="classStreamable.html#a2101910851f9816872d106d1d02cc3e5">More...</a><br /></td></tr>
+<tr class="separator:a2101910851f9816872d106d1d02cc3e5 inherit pub_methods_classStreamable"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classStreamable.html#a59c2a8d9f98380131510b3c88eeb737c">load</a> (Container &amp;)</td></tr>
+<tr class="memdesc:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="mdescLeft">&#160;</td><td class="mdescRight">Base class needs to implement the load function for cereal.  <a href="classStreamable.html#a59c2a8d9f98380131510b3c88eeb737c">More...</a><br /></td></tr>
+<tr class="separator:a59c2a8d9f98380131510b3c88eeb737c inherit pub_methods_classStreamable"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ad8a637612c62cbe0cebf0847c3a62dc3"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structrBehaviorStatus_1_1rDecision.html">rDecision</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#ad8a637612c62cbe0cebf0847c3a62dc3">decision_list</a></td></tr>
-<tr class="separator:ad8a637612c62cbe0cebf0847c3a62dc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a73a4136cc6d31e29d62a9fe1a5553882"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="structrBehaviorStatus_1_1rEvent.html">rEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#a73a4136cc6d31e29d62a9fe1a5553882">event_list</a></td></tr>
-<tr class="separator:a73a4136cc6d31e29d62a9fe1a5553882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac24509552f16d4a8a0d4e95338bc8984"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#ac24509552f16d4a8a0d4e95338bc8984">bestDecisionIndex</a></td></tr>
-<tr class="memdesc:ac24509552f16d4a8a0d4e95338bc8984"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the decision with the highest score.  <a href="#ac24509552f16d4a8a0d4e95338bc8984">More...</a><br /></td></tr>
-<tr class="separator:ac24509552f16d4a8a0d4e95338bc8984"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a99b546992b9b61b766561f4d9c713d"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#a3a99b546992b9b61b766561f4d9c713d">events_to_string_</a></td></tr>
+<tr class="memdesc:a3a99b546992b9b61b766561f4d9c713d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vector of strings representations of the enumerations of Event defined at <a class="el" href="m__behavior__engine_8h.html">m_behavior_engine.h</a> and for now there is no easy way to access the event names which are strings.  <a href="#a3a99b546992b9b61b766561f4d9c713d">More...</a><br /></td></tr>
+<tr class="separator:a3a99b546992b9b61b766561f4d9c713d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ccfd6c475043a5c691589c9dc310a00"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classrBehaviorStatus_1_1rDecision.html">rDecision</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#a9ccfd6c475043a5c691589c9dc310a00">decision_list_</a></td></tr>
+<tr class="memdesc:a9ccfd6c475043a5c691589c9dc310a00"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keep the list of all current decisions.  <a href="#a9ccfd6c475043a5c691589c9dc310a00">More...</a><br /></td></tr>
+<tr class="separator:a9ccfd6c475043a5c691589c9dc310a00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff9840c6ce867ad31736a185ec583ecb"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="classrBehaviorStatus_1_1rEvent.html">rEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#aff9840c6ce867ad31736a185ec583ecb">event_list_</a></td></tr>
+<tr class="memdesc:aff9840c6ce867ad31736a185ec583ecb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Keep the list of all current events.  <a href="#aff9840c6ce867ad31736a185ec583ecb">More...</a><br /></td></tr>
+<tr class="separator:aff9840c6ce867ad31736a185ec583ecb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d85efcbf56c5d4ed982dd14692b3ffb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classrBehaviorStatus.html#a8d85efcbf56c5d4ed982dd14692b3ffb">best_decision_index_</a></td></tr>
+<tr class="memdesc:a8d85efcbf56c5d4ed982dd14692b3ffb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index of the decision with the highest score.  <a href="#a8d85efcbf56c5d4ed982dd14692b3ffb">More...</a><br /></td></tr>
+<tr class="separator:a8d85efcbf56c5d4ed982dd14692b3ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>A representation containing information about the decisions, considerations and events present in the behavior engine. </p>
 <p>Useful in outputting debug information about the current thought process of the robot.</p>
-<dl class="section author"><dt>Author</dt><dd><a href="#" onclick="location.href='mai'+'lto:'+'mic'+'hi'+'el@'+'du'+'tch'+'na'+'ote'+'am'+'.nl'; return false;">Michiel</a> </dd></dl>
+<dl class="section author"><dt>Author</dt><dd><a href="#" onclick="location.href='mai'+'lto:'+'mic'+'hi'+'el@'+'du'+'tch'+'na'+'ote'+'am'+'.nl'; return false;">Michiel</a> </dd>
+<dd>
+Jier </dd>
+<dd>
+Akash Raj </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="af6177eb536fdd9ce400140be0b1c0cae"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af6177eb536fdd9ce400140be0b1c0cae">&#9670;&nbsp;</a></span>rBehaviorStatus()</h2>
@@ -195,15 +232,71 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a id="a39721733694bcf559273a5e9452b4fb9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39721733694bcf559273a5e9452b4fb9">&#9670;&nbsp;</a></span>load()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Container &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rBehaviorStatus::load </td>
+          <td>(</td>
+          <td class="paramtype">Container &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7793ab213f088d939c106491a44260bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7793ab213f088d939c106491a44260bb">&#9670;&nbsp;</a></span>save()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Container &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void rBehaviorStatus::save </td>
+          <td>(</td>
+          <td class="paramtype">Container &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac24509552f16d4a8a0d4e95338bc8984"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24509552f16d4a8a0d4e95338bc8984">&#9670;&nbsp;</a></span>bestDecisionIndex</h2>
+<a id="a8d85efcbf56c5d4ed982dd14692b3ffb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d85efcbf56c5d4ed982dd14692b3ffb">&#9670;&nbsp;</a></span>best_decision_index_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int rBehaviorStatus::bestDecisionIndex</td>
+          <td class="memname">int rBehaviorStatus::best_decision_index_</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -212,31 +305,52 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ad8a637612c62cbe0cebf0847c3a62dc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8a637612c62cbe0cebf0847c3a62dc3">&#9670;&nbsp;</a></span>decision_list</h2>
+<a id="a9ccfd6c475043a5c691589c9dc310a00"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ccfd6c475043a5c691589c9dc310a00">&#9670;&nbsp;</a></span>decision_list_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structrBehaviorStatus_1_1rDecision.html">rDecision</a>&gt; rBehaviorStatus::decision_list</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classrBehaviorStatus_1_1rDecision.html">rDecision</a>&gt; rBehaviorStatus::decision_list_</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
+<p>Keep the list of all current decisions. </p>
+
 </div>
 </div>
-<a id="a73a4136cc6d31e29d62a9fe1a5553882"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a73a4136cc6d31e29d62a9fe1a5553882">&#9670;&nbsp;</a></span>event_list</h2>
+<a id="aff9840c6ce867ad31736a185ec583ecb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff9840c6ce867ad31736a185ec583ecb">&#9670;&nbsp;</a></span>event_list_</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt;<a class="el" href="structrBehaviorStatus_1_1rEvent.html">rEvent</a>&gt; rBehaviorStatus::event_list</td>
+          <td class="memname">std::vector&lt;<a class="el" href="classrBehaviorStatus_1_1rEvent.html">rEvent</a>&gt; rBehaviorStatus::event_list_</td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Keep the list of all current events. </p>
+
+</div>
+</div>
+<a id="a3a99b546992b9b61b766561f4d9c713d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a99b546992b9b61b766561f4d9c713d">&#9670;&nbsp;</a></span>events_to_string_</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;std::string&gt; rBehaviorStatus::events_to_string_</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= {</div><div class="line">    <span class="stringliteral">&quot;Always&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Ignore&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;PlayingNone&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;PlayingGoalKick&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;PlayingFoulKick&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Ready&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Set&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Initial&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Finished&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Penalized&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Fallen&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Calibrating&quot;</span>,</div><div class="line">    <span class="stringliteral">&quot;Sitting&quot;</span></div><div class="line">  }</div></div><!-- fragment -->
+<p>Vector of strings representations of the enumerations of Event defined at <a class="el" href="m__behavior__engine_8h.html">m_behavior_engine.h</a> and for now there is no easy way to access the event names which are strings. </p>
+<p>So updating the Event enum class, means also updating this event vector list for the behavior widget to work properly. TODO fix this later, for now accept the incovenience </p>
 
 </div>
 </div>

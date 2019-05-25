@@ -1,7 +1,9 @@
 <map id="source/dnt/representations/sensing/r_foot_support.h" name="source/dnt/representations/sensing/r_foot_support.h">
-<area shape="rect" id="node2" href="$m__footsupport__provider_8h.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.h" alt="" coords="101,95,275,151"/>
-<area shape="rect" id="node5" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="299,95,498,151"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="217,213,357,240"/>
-<area shape="rect" id="node4" href="$m__footsupport__provider_8cpp.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.cpp" alt="" coords="5,199,192,255"/>
-<area shape="rect" id="node6" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="381,199,595,255"/>
+<area shape="rect" id="node2" href="$m__footsupport__provider_8h.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.h" alt="" coords="547,95,720,151"/>
+<area shape="rect" id="node5" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="102,95,301,151"/>
+<area shape="rect" id="node7" href="$m__stance__detector_8h.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="325,102,523,143"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="243,213,383,240"/>
+<area shape="rect" id="node4" href="$m__footsupport__provider_8cpp.html" title="source/dnt/modules\l/motion/footsupport\l/m_footsupport_provider.cpp" alt="" coords="643,199,829,255"/>
+<area shape="rect" id="node6" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="5,199,219,255"/>
+<area shape="rect" id="node8" href="$m__stance__detector_8cpp.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="408,206,619,247"/>
 </map>

@@ -83,22 +83,24 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a645d93fda86bc34af71d1bda3af992bf"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a645d93fda86bc34af71d1bda3af992bf">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Search for ball&quot;), description(&quot;Search for the ball with the whole body&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball not seen recently&quot;), range(2000, 10000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 0.f}, {0.526f, 0.7166666666666667f}, {1.f, 1.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;resetWalk=false;float angle=ball_representation_-&gt;angle_;if(angle &gt;=0.f) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);})</td></tr>
-<tr class="separator:a645d93fda86bc34af71d1bda3af992bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67c6d08dd9f5668b724cd1b62d3dd41b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a67c6d08dd9f5668b724cd1b62d3dd41b">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk to ball&quot;), description(&quot;Walk towards the ball if we see a ball&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is seen recently&quot;), range(0, 3000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;resetWalk=false;float angle=ball_representation_-&gt;angle_;if(std::fabs(angle) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} })</td></tr>
-<tr class="separator:a67c6d08dd9f5668b724cd1b62d3dd41b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9213cf090f1cf6026d380d4c6e9f22c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a9213cf090f1cf6026d380d4c6e9f22c9">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk to ball (free kick)&quot;), description(&quot;Walk towards the ball if we see a ball&quot;), UtilityScore::SlightlyUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is seen recently&quot;), range(0, 3000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));}), consideration(description(&quot;Ball is further than 0.75m&quot;), range(0, 350), Spline::Linear({{0.f, 1.f}, {0.752f, 1.f}, {0.806f, 0.11f}, {1.f, 0.f}}), { if(!ball_representation_-&gt;is_upper_) { return 350;} return ball_representation_-&gt;y_;})}, actions { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;resetWalk=false;float angle=ball_representation_-&gt;angle_;if(std::fabs(angle) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} })</td></tr>
-<tr class="separator:a9213cf090f1cf6026d380d4c6e9f22c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b362ef90a81ccd57776cfd77e1acd0d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a0b362ef90a81ccd57776cfd77e1acd0d">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk away from ball (free kick)&quot;), description(&quot;&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a9ab3998eb03c6058f38ce5e4653233ed">UtilityScore::SlightlyUseful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is closer than 0.75m&quot;), range(250, 700), Spline::Linear({{0.f, 0.f}, {0.028f, 0.9f}, {0.102f, 1.f}, {1.f, 1.f}}), { if(!ball_representation_-&gt;is_upper_) { return 700;} return ball_representation_-&gt;y_;}), consideration(description(&quot;Ball is seen recently&quot;), range(0, 3000), Spline::Monotone({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;resetWalk=false;output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkWithSpeed(-200.f, 0.f, 0.f);})</td></tr>
-<tr class="separator:a0b362ef90a81ccd57776cfd77e1acd0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af1903bee50236c43e641b6c9f7b9d252"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#af1903bee50236c43e641b6c9f7b9d252">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Turn to ball (free kick)&quot;), description(&quot;&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a7da1da5b2a5be58e2914b3680e3077ac">UtilityScore::MostUseful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is seen recently&quot;), range(0, 3000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));}), consideration(description(&quot;Ball at ~0.75m&quot;), range(150, 400), Spline::Monotone({{0.f, 0.f}, {0.67f, 1.f}, {0.844f, 1.f}, {1.f, 0.f}}), { if(!ball_representation_-&gt;is_upper_) { return 0;} return ball_representation_-&gt;y_;}), consideration(description(&quot;Ball is not in center&quot;), range(0, 640), Spline::Monotone({{0.f, 1.f}, {0.338f, 0.7366666666666667f}, {0.504f, 0.f}, {0.662f, 0.7466666666666667f}, {1.f, 1.f}}), { return ball_representation_-&gt;x_;})}, actions { float angle=ball_representation_-&gt;angle_;output_motion_request_-&gt;motion_=Motion::walk;if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);})</td></tr>
-<tr class="separator:af1903bee50236c43e641b6c9f7b9d252"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a367e3dacaafa839bb7f9dca61e8083ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a367e3dacaafa839bb7f9dca61e8083ee">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Stand still&quot;), description(&quot;Stand still by stop walking&quot;), UtilityScore::SlightlyUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 0.001;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;resetWalk=true;output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.f);})</td></tr>
-<tr class="separator:a367e3dacaafa839bb7f9dca61e8083ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3447d1c81d03dbc05e4b035991407216"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a3447d1c81d03dbc05e4b035991407216">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Search for ball&quot;), description(&quot;Search for the ball with the whole body&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball not seen recently&quot;), range(2000, 10000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 0.f}, {0.526f, 0.7166666666666667f}, {1.f, 1.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { float angle=ball_representation_-&gt;angle_;if(angle &gt;=0.f) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);})</td></tr>
+<tr class="separator:a3447d1c81d03dbc05e4b035991407216"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad7bbad58fc972340ad9bc7be518c630"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#aad7bbad58fc972340ad9bc7be518c630">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk to ball&quot;), description(&quot;Walk towards the ball if we see a ball&quot;), UtilityScore::Useful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is seen recently&quot;), range(0, 3000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { float angle=ball_representation_-&gt;angle_;if(std::fabs(angle) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} })</td></tr>
+<tr class="separator:aad7bbad58fc972340ad9bc7be518c630"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95500cba0ccaa4bbd511bcd5eed15586"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a95500cba0ccaa4bbd511bcd5eed15586">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk to ball (free kick)&quot;), description(&quot;Walk towards the ball if we see a ball&quot;), UtilityScore::SlightlyUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is seen recently&quot;), range(0, 3000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));}), consideration(description(&quot;Ball is further than 0.75m&quot;), range(0, 350), Spline::Linear({{0.f, 1.f}, {0.752f, 1.f}, {0.806f, 0.11f}, {1.f, 0.f}}), { if(!ball_representation_-&gt;is_upper_) { return 350;} return ball_representation_-&gt;y_;})}, actions { float angle=ball_representation_-&gt;angle_;if(std::fabs(angle) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} })</td></tr>
+<tr class="separator:a95500cba0ccaa4bbd511bcd5eed15586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ffc8f6b0cf11a5acf21175ebf50431b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a7ffc8f6b0cf11a5acf21175ebf50431b">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Walk away from ball (free kick)&quot;), description(&quot;&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a9ab3998eb03c6058f38ce5e4653233ed">UtilityScore::SlightlyUseful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is closer than 0.75m&quot;), range(250, 700), Spline::Linear({{0.f, 0.f}, {0.028f, 0.9f}, {0.102f, 1.f}, {1.f, 1.f}}), { if(!ball_representation_-&gt;is_upper_) { return 700;} return ball_representation_-&gt;y_;}), consideration(description(&quot;Ball is seen recently&quot;), range(0, 3000), Spline::Monotone({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));})}, actions { output_motion_request_-&gt;walkWithSpeed(-200.f, 0.f, 0.f);})</td></tr>
+<tr class="separator:a7ffc8f6b0cf11a5acf21175ebf50431b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0195514501ffcc2ac1819f8587dd830"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#ac0195514501ffcc2ac1819f8587dd830">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Turn to ball (free kick)&quot;), description(&quot;&quot;), <a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a7da1da5b2a5be58e2914b3680e3077ac">UtilityScore::MostUseful</a>, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Ball is seen recently&quot;), range(0, 3000), <a class="el" href="namespaceSpline.html#a8fe7832743314ef6c756cdbdfa0b7ebe">Spline::Monotone</a>({{0.f, 1.f}, {0.498f, 1.f}, {0.972f, 0.f}, {1.f, 0.f}}), { return SystemTools::getTimeSince(static_cast&lt; unsigned long long &gt;(ball_representation_-&gt;ball_last_seen_));}), consideration(description(&quot;Ball at ~0.75m&quot;), range(150, 400), Spline::Monotone({{0.f, 0.f}, {0.67f, 1.f}, {0.844f, 1.f}, {1.f, 0.f}}), { if(!ball_representation_-&gt;is_upper_) { return 0;} return ball_representation_-&gt;y_;}), consideration(description(&quot;Ball is not in center&quot;), range(0, 640), Spline::Monotone({{0.f, 1.f}, {0.338f, 0.7366666666666667f}, {0.504f, 0.f}, {0.662f, 0.7466666666666667f}, {1.f, 1.f}}), { return ball_representation_-&gt;x_;})}, actions { float angle=ball_representation_-&gt;angle_;if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);})</td></tr>
+<tr class="separator:ac0195514501ffcc2ac1819f8587dd830"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a096def2c080cdeb6c0d3c5dad136cf6a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a096def2c080cdeb6c0d3c5dad136cf6a">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Stand still&quot;), description(&quot;Stand still by stop walking&quot;), UtilityScore::SlightlyUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a49ab2465cf43b1be1619d0ccde74fda9">Event::PlayingGoalKick</a>, <a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124a51b350765d2500d19f56ce595dab9ca2">Event::PlayingFoulKick</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return 0.001;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.f, true);})</td></tr>
+<tr class="separator:a096def2c080cdeb6c0d3c5dad136cf6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25844a560572498514d4d3ec32e4a8c9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="player_8h.html#a25844a560572498514d4d3ec32e4a8c9">addDecision</a> (<a class="el" href="classname.html">name</a>(&quot;Stand still to localize&quot;), description(&quot;stand still every X seconds to localize&quot;), UtilityScore::MostUseful, <a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}, <a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>&lt; <a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>()||last_stood_still_==0;})}, <a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;output_motion_request_-&gt;reset_walk_=true;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=true;unsigned long long int current_time=<a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>();if(last_stood_still_==0) { last_stood_still_=current_time - <a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>;} if(last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>+<a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>&lt; current_time) { last_stood_still_=current_time;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=false;} })</td></tr>
+<tr class="separator:a25844a560572498514d4d3ec32e4a8c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a645d93fda86bc34af71d1bda3af992bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a645d93fda86bc34af71d1bda3af992bf">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/6]</span></h2>
+<a id="a3447d1c81d03dbc05e4b035991407216"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3447d1c81d03dbc05e4b035991407216">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[1/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +138,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;resetWalk=false;float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a> &gt;=0.f) <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=1.f;else <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a> &gt;=0.f) <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=1.f;else <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -149,8 +151,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a67c6d08dd9f5668b724cd1b62d3dd41b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67c6d08dd9f5668b724cd1b62d3dd41b">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/6]</span></h2>
+<a id="aad7bbad58fc972340ad9bc7be518c630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad7bbad58fc972340ad9bc7be518c630">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[2/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -188,7 +190,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;resetWalk=false;float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(std::fabs(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} }&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(std::fabs(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} }&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -201,8 +203,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a9213cf090f1cf6026d380d4c6e9f22c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9213cf090f1cf6026d380d4c6e9f22c9">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[3/6]</span></h2>
+<a id="a95500cba0ccaa4bbd511bcd5eed15586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95500cba0ccaa4bbd511bcd5eed15586">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[3/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -240,7 +242,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;resetWalk=false;float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(std::fabs(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} }&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(std::fabs(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>) &gt;=0.15f) { if(angle &gt; 0) angle=1.f;else angle=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);} else { output_motion_request_-&gt;walkWithSpeed(200.f, 0.f, 0.f);} }&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -253,8 +255,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a0b362ef90a81ccd57776cfd77e1acd0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b362ef90a81ccd57776cfd77e1acd0d">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[4/6]</span></h2>
+<a id="a7ffc8f6b0cf11a5acf21175ebf50431b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ffc8f6b0cf11a5acf21175ebf50431b">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -292,7 +294,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;resetWalk=false;output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkWithSpeed(-200.f, 0.f, 0.f);}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkWithSpeed(-200.f, 0.f, 0.f);}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -305,8 +307,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="af1903bee50236c43e641b6c9f7b9d252"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af1903bee50236c43e641b6c9f7b9d252">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[5/6]</span></h2>
+<a id="ac0195514501ffcc2ac1819f8587dd830"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0195514501ffcc2ac1819f8587dd830">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -344,7 +346,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;output_motion_request_-&gt;motion_=Motion::walk;if(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a> &gt; 0) <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=1.f;else <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { float <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=ball_representation_-&gt;angle_;if(<a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a> &gt; 0) <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=1.f;else <a class="el" href="EigenMatrixBaseExtensions_8h.html#a84f2047f4d3c614c7ca8331705b496d1">angle</a>=-1.f;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.7f *angle);}&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>
@@ -357,8 +359,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a367e3dacaafa839bb7f9dca61e8083ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a367e3dacaafa839bb7f9dca61e8083ee">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[6/6]</span></h2>
+<a id="a096def2c080cdeb6c0d3c5dad136cf6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a096def2c080cdeb6c0d3c5dad136cf6a">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[6/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -396,7 +398,59 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;resetWalk=true;output_motion_request_-&gt;motion_=Motion::walk;output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.f);}&#160;</td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;walkWithSpeed(0.f, 0.f, 0.f, true);}&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a25844a560572498514d4d3ec32e4a8c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25844a560572498514d4d3ec32e4a8c9">&#9670;&nbsp;</a></span>addDecision() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">addDecision </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classname.html">name</a>(&quot;Stand still to localize&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classdescription.html">description</a>(&quot;stand still every X seconds to localize&quot;)&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision_8h.html#a7ddfdc0b3f99a542161130db594afe06a7da1da5b2a5be58e2914b3680e3077ac">UtilityScore::MostUseful</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#ac139b14d53f8d18f104c1d50a35303cc">events</a> {<a class="el" href="m__behavior__engine_8h.html#a596773add5f3fbc596c5adc0957a3124ae543fc2cdc242e8acb7bce94daa461cc">Event::PlayingNone</a>}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#adef4ac8562a0345f6f3a8f43ae1b5a2f">considerations</a> { <a class="el" href="decision__engine_8h.html#a90f4cca1ec59ee691b56c88f268b10ae">consideration</a>(<a class="el" href="classdescription.html">description</a>(&quot;Constant&quot;), range(0, 1), <a class="el" href="namespaceSpline.html#a8735ae5f5bfcd45a568368db1dcb7385">Spline::Linear</a>({{0.f, 0.f}, {1.f, 1.f}}), { return last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>&lt; <a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>()||last_stood_still_==0;})}&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="decision__engine_8h.html#a2ca5c1bf44e882988eb7630069bff3f6">actions</a> { output_motion_request_-&gt;motion_=Motion::stand;output_motion_request_-&gt;reset_walk_=true;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=true;unsigned long long int current_time=<a class="el" href="namespaceSystemTools.html#afeced738d995789f0023b1607f3a403f">SystemTools::getCurrentTime</a>();if(last_stood_still_==0) { last_stood_still_=current_time - <a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>;} if(last_stood_still_+<a class="el" href="globals_8h.html#ac47b30ef99dfba642113b40eefcd5883">LOCALISATION_INTERVAL_</a>+<a class="el" href="globals_8h.html#ad3cfc6162c7a2f66c884d215bf74c274">LOCALISATION_DURATION_</a>&lt; current_time) { last_stood_still_=current_time;<a class="el" href="classmParticleFilter.html#ab23d236a5ad6f5319cbc11a80942de1d">mParticleFilter::can_localise_</a>=false;} }&#160;</td>
           <td class="paramname">&#160;</td>
         </tr>
         <tr>

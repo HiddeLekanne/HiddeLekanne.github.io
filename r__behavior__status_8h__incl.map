@@ -1,3 +1,6 @@
 <map id="source/dnt/representations/behavior/r_behavior_status.h" name="source/dnt/representations/behavior/r_behavior_status.h">
-<area shape="rect" id="node3" href="$representation_8h.html" title="framework/representation.h" alt="" coords="89,95,269,121"/>
+<area shape="rect" id="node4" href="$streamable__representation_8h.html" title="framework/streamable\l_representation.h" alt="" coords="180,95,331,136"/>
+<area shape="rect" id="node5" href="$representation_8h.html" title="framework/representation.h" alt="" coords="165,184,345,211"/>
+<area shape="rect" id="node7" href="$streamable_8h.html" title="framework/streamable.h" alt="" coords="382,184,545,211"/>
+<area shape="rect" id="node8" href="$container_8h.html" title="framework/container.h" alt="" coords="395,259,545,285"/>
 </map>

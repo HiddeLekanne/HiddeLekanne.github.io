@@ -1,19 +1,28 @@
 <map id="source/dnt/representations/sensor/r_joint_sensor.h" name="source/dnt/representations/sensor/r_joint_sensor.h">
-<area shape="rect" id="node2" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="135,102,320,143"/>
-<area shape="rect" id="node5" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="1074,95,1245,151"/>
-<area shape="rect" id="node7" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="656,95,855,151"/>
-<area shape="rect" id="node9" href="$m__ball__detector_8h.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.h" alt="" coords="879,95,1043,151"/>
-<area shape="rect" id="node11" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="1390,95,1563,151"/>
-<area shape="rect" id="node12" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="1713,199,1875,255"/>
-<area shape="rect" id="node17" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="344,95,529,151"/>
-<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="771,317,911,344"/>
-<area shape="rect" id="node4" href="$m__robot__model_8cpp.html" title="source/dnt/modules\l/modelling/m_robot_model.cpp" alt="" coords="5,206,204,247"/>
-<area shape="rect" id="node6" href="$m__interpolation__engine_8cpp.html" title="source/dnt/modules\l/motion/interpolation\l/m_interpolation_engine.cpp" alt="" coords="1067,199,1251,255"/>
-<area shape="rect" id="node8" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="539,199,753,255"/>
-<area shape="rect" id="node10" href="$m__ball__detector_8cpp.html" title="source/dnt/modules\l/perception/ball_detector\l/m_ball_detector.cpp" alt="" coords="879,199,1043,255"/>
-<area shape="rect" id="node14" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="1523,199,1689,255"/>
-<area shape="rect" id="node16" href="$m__memory__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.cpp" alt="" coords="1326,199,1499,255"/>
-<area shape="rect" id="node13" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="1713,303,1875,359"/>
-<area shape="rect" id="node15" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="1523,303,1689,359"/>
-<area shape="rect" id="node18" href="$m__simulation__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.cpp" alt="" coords="329,199,515,255"/>
+<area shape="rect" id="node2" href="$m__save__representations_8h.html" title="source/dnt/modules\l/communication/m_save\l_representations.h" alt="" coords="849,95,1013,151"/>
+<area shape="rect" id="node5" href="$m__robot__model_8h.html" title="source/dnt/modules\l/modelling/m_robot_model.h" alt="" coords="514,102,700,143"/>
+<area shape="rect" id="node7" href="$m__head__motion_8h.html" title="source/dnt/modules\l/motion/head_motion\l/m_head_motion.h" alt="" coords="348,95,490,151"/>
+<area shape="rect" id="node9" href="$m__interpolation__engine_8h.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="1104,95,1275,151"/>
+<area shape="rect" id="node11" href="$m__walk2014generator__base_8h.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.h" alt="" coords="1321,95,1520,151"/>
+<area shape="rect" id="node13" href="$m__line__detector_8h.html" title="source/dnt/modules\l/perception/line_detector\l/m_line_detector.h" alt="" coords="1556,95,1720,151"/>
+<area shape="rect" id="node16" href="$m__memory__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.h" alt="" coords="2546,95,2719,151"/>
+<area shape="rect" id="node17" href="$m__cortex__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.h" alt="" coords="2868,199,3031,255"/>
+<area shape="rect" id="node22" href="$m__simulation__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.h" alt="" coords="29,95,214,151"/>
+<area shape="rect" id="node24" href="$m__playback__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_playback\l_proxy.h" alt="" coords="1867,95,2046,151"/>
+<area shape="rect" id="node26" href="$m__stance__detector_8h.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="2111,102,2308,143"/>
+<area shape="rect" id="node3" href="$dnt_2main_8cpp.html" title="source/dnt/main.cpp" alt="" coords="1408,317,1548,344"/>
+<area shape="rect" id="node4" href="$m__save__representations_8cpp.html" title="source/dnt/modules\l/communication/m_save\l_representations.cpp" alt="" coords="729,199,893,255"/>
+<area shape="rect" id="node6" href="$m__robot__model_8cpp.html" title="source/dnt/modules\l/modelling/m_robot_model.cpp" alt="" coords="506,206,705,247"/>
+<area shape="rect" id="node8" href="$m__head__motion_8cpp.html" title="source/dnt/modules\l/motion/head_motion\l/m_head_motion.cpp" alt="" coords="238,199,381,255"/>
+<area shape="rect" id="node10" href="$m__interpolation__engine_8cpp.html" title="This file handles interpolation of joints for specific motions. " alt="" coords="968,199,1152,255"/>
+<area shape="rect" id="node12" href="$m__walk2014generator__base_8cpp.html" title="source/dnt/modules\l/motion/walking_engine\l/m_walk2014generator_base.cpp" alt="" coords="1227,199,1440,255"/>
+<area shape="rect" id="node14" href="$line__detector__test_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/line_detector_test.cpp" alt="" coords="1754,199,1918,255"/>
+<area shape="rect" id="node15" href="$m__line__detector_8cpp.html" title="source/dnt/modules\l/perception/line_detector\l/m_line_detector.cpp" alt="" coords="1566,199,1730,255"/>
+<area shape="rect" id="node19" href="$m__motion__proxy_8h.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.h" alt="" coords="2679,199,2844,255"/>
+<area shape="rect" id="node21" href="$m__memory__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_memory\l_proxy.cpp" alt="" coords="2482,199,2655,255"/>
+<area shape="rect" id="node18" href="$m__cortex__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_cortex\l_proxy.cpp" alt="" coords="2868,303,3031,359"/>
+<area shape="rect" id="node20" href="$m__motion__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_motion\l_proxy.cpp" alt="" coords="2679,303,2844,359"/>
+<area shape="rect" id="node23" href="$m__simulation__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_simulation\l_proxy.cpp" alt="" coords="29,199,214,255"/>
+<area shape="rect" id="node25" href="$m__playback__proxy_8cpp.html" title="source/dnt/modules\l/robot_proxies/m_playback\l_proxy.cpp" alt="" coords="1994,199,2172,255"/>
+<area shape="rect" id="node27" href="$m__stance__detector_8cpp.html" title="Detect the current physical position of the robot using the gyro (for falling), foot fsr sensors (for..." alt="" coords="2247,206,2458,247"/>
 </map>

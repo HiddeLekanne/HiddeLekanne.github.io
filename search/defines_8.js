@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['volume_5frx',['VOLUME_RX',['../r__microphone_8h.html#aa5345c28f090d70d4431176ac8c8d365',1,'r_microphone.h']]]
+  ['num_5fchannels_5frx',['NUM_CHANNELS_RX',['../r__microphone_8h.html#ae33afe37a50d0e98cbd3543a1c0c68f7',1,'r_microphone.h']]]
 ];

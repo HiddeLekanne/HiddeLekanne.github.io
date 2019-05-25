@@ -96,9 +96,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a607a4627329d303e085bda5546cb34db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a607a4627329d303e085bda5546cb34db">CameraSettings</a> ()=default</td></tr>
 <tr class="memdesc:a607a4627329d303e085bda5546cb34db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor: does nothing.  <a href="#a607a4627329d303e085bda5546cb34db">More...</a><br /></td></tr>
 <tr class="separator:a607a4627329d303e085bda5546cb34db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a910f07bdef8118b7b993b57bc395096a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a910f07bdef8118b7b993b57bc395096a">CameraSettings</a> (std::string device_name, unsigned int width, unsigned int height, unsigned int size, bool flipped)</td></tr>
-<tr class="memdesc:a910f07bdef8118b7b993b57bc395096a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor Initialize the camera settings.  <a href="#a910f07bdef8118b7b993b57bc395096a">More...</a><br /></td></tr>
-<tr class="separator:a910f07bdef8118b7b993b57bc395096a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a9ae4eb90fe4f996a6b79da2c082670"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a3a9ae4eb90fe4f996a6b79da2c082670">CameraSettings</a> (std::string device_name, unsigned int width, unsigned int height, unsigned int size, bool flipped, int auto_white_balance)</td></tr>
+<tr class="memdesc:a3a9ae4eb90fe4f996a6b79da2c082670"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructor Initialize the camera settings.  <a href="#a3a9ae4eb90fe4f996a6b79da2c082670">More...</a><br /></td></tr>
+<tr class="separator:a3a9ae4eb90fe4f996a6b79da2c082670"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0114b6ddbde68570896067dcb1c1e199"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a0114b6ddbde68570896067dcb1c1e199">getDeviceName</a> () const</td></tr>
 <tr class="memdesc:a0114b6ddbde68570896067dcb1c1e199"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the name of the camera that is used.  <a href="#a0114b6ddbde68570896067dcb1c1e199">More...</a><br /></td></tr>
 <tr class="separator:a0114b6ddbde68570896067dcb1c1e199"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -114,6 +114,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae7b049ad408f21ce282b06351536646c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#ae7b049ad408f21ce282b06351536646c">isFlipped</a> ()</td></tr>
 <tr class="memdesc:ae7b049ad408f21ce282b06351536646c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get if the image of the camera is flipped.  <a href="#ae7b049ad408f21ce282b06351536646c">More...</a><br /></td></tr>
 <tr class="separator:ae7b049ad408f21ce282b06351536646c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f92c8326ceb28c258d254f59a841633"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a0f92c8326ceb28c258d254f59a841633">getAutoWhiteBalance</a> ()</td></tr>
+<tr class="memdesc:a0f92c8326ceb28c258d254f59a841633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the auto white balance of the camera.  <a href="#a0f92c8326ceb28c258d254f59a841633">More...</a><br /></td></tr>
+<tr class="separator:a0f92c8326ceb28c258d254f59a841633"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad41fbfa9e42026e9136290804489257e"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:ad41fbfa9e42026e9136290804489257e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#ad41fbfa9e42026e9136290804489257e">save</a> (Container &amp;container) const</td></tr>
 <tr class="memdesc:ad41fbfa9e42026e9136290804489257e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save the class member variables to something that can be sent over the network.  <a href="#ad41fbfa9e42026e9136290804489257e">More...</a><br /></td></tr>
@@ -149,6 +152,9 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:a683b0429764b0196388f4e85081b2b99"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a683b0429764b0196388f4e85081b2b99">flipped_</a></td></tr>
 <tr class="memdesc:a683b0429764b0196388f4e85081b2b99"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the image that the camera produces is flipped.  <a href="#a683b0429764b0196388f4e85081b2b99">More...</a><br /></td></tr>
 <tr class="separator:a683b0429764b0196388f4e85081b2b99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02032c51f75c6341232515013b5bc30e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCameraSettings.html#a02032c51f75c6341232515013b5bc30e">auto_white_balance_</a></td></tr>
+<tr class="memdesc:a02032c51f75c6341232515013b5bc30e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the auto white balance is on (1) or off (0).  <a href="#a02032c51f75c6341232515013b5bc30e">More...</a><br /></td></tr>
+<tr class="separator:a02032c51f75c6341232515013b5bc30e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
@@ -195,8 +201,8 @@ Sébastien </dd></dl>
 
 </div>
 </div>
-<a id="a910f07bdef8118b7b993b57bc395096a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a910f07bdef8118b7b993b57bc395096a">&#9670;&nbsp;</a></span>CameraSettings() <span class="overload">[2/2]</span></h2>
+<a id="a3a9ae4eb90fe4f996a6b79da2c082670"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a9ae4eb90fe4f996a6b79da2c082670">&#9670;&nbsp;</a></span>CameraSettings() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -229,7 +235,13 @@ Sébastien </dd></dl>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>flipped</em>&#160;</td>
+          <td class="paramname"><em>flipped</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>auto_white_balance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -247,7 +259,8 @@ Sébastien </dd></dl>
     <tr><td class="paramname">width</td><td>The width of the image the camera produces. </td></tr>
     <tr><td class="paramname">height</td><td>The height of the image the camera produces. </td></tr>
     <tr><td class="paramname">size</td><td>The number of parameters the camera produces (usually height * width * 2 for YUV). </td></tr>
-    <tr><td class="paramname">flipped</td><td>If the image of the camera needs to be flipped.</td></tr>
+    <tr><td class="paramname">flipped</td><td>If the image of the camera needs to be flipped. </td></tr>
+    <tr><td class="paramname">auto_white_balance</td><td>If auto white balance is on (1) or off (0).</td></tr>
   </table>
   </dd>
 </dl>
@@ -258,6 +271,26 @@ Sébastien </dd></dl>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0f92c8326ceb28c258d254f59a841633"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f92c8326ceb28c258d254f59a841633">&#9670;&nbsp;</a></span>getAutoWhiteBalance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CameraSettings::getAutoWhiteBalance </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Get the auto white balance of the camera. </p>
+<dl class="section return"><dt>Returns</dt><dd>1 if auto white balance is on, 0 if it is off. </dd></dl>
+
+</div>
+</div>
 <a id="a0114b6ddbde68570896067dcb1c1e199"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0114b6ddbde68570896067dcb1c1e199">&#9670;&nbsp;</a></span>getDeviceName()</h2>
 
@@ -443,6 +476,30 @@ template&lt;class Container &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a02032c51f75c6341232515013b5bc30e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02032c51f75c6341232515013b5bc30e">&#9670;&nbsp;</a></span>auto_white_balance_</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int CameraSettings::auto_white_balance_</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If the auto white balance is on (1) or off (0). </p>
+
+</div>
+</div>
 <a id="aa2957f7ca3bb548ac34ac031885716c4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa2957f7ca3bb548ac34ac031885716c4">&#9670;&nbsp;</a></span>device_name_</h2>
 

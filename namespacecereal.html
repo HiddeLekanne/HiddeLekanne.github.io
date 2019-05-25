@@ -66,25 +66,45 @@ $(function() {
 <div class="title">cereal Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-
-<p>A wrapper around the Eigen include so all the warnings have to be suppressed only once.  
-<a href="#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a9b37c7750f57e12b011a47010400ef57"><td class="memTemplParams" colspan="2">template&lt;class Archive , class _Scalar , int _Rows, int _Cols, int _Options, int _MaxRows, int _MaxCols&gt; </td></tr>
 <tr class="memitem:a9b37c7750f57e12b011a47010400ef57"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; traits::is_output_serializable&lt; BinaryData&lt; _Scalar &gt;, Archive &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#a9b37c7750f57e12b011a47010400ef57">save</a> (Archive &amp;ar, Eigen::Matrix&lt; _Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols &gt; const &amp;m)</td></tr>
+<tr class="memdesc:a9b37c7750f57e12b011a47010400ef57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save Eigen::Matrix.  <a href="#a9b37c7750f57e12b011a47010400ef57">More...</a><br /></td></tr>
 <tr class="separator:a9b37c7750f57e12b011a47010400ef57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac44d4e9a847c7d07df57e3b7c4023f6e"><td class="memTemplParams" colspan="2">template&lt;class Archive , class _Scalar , int _Rows, int _Cols, int _Options, int _MaxRows, int _MaxCols&gt; </td></tr>
 <tr class="memitem:ac44d4e9a847c7d07df57e3b7c4023f6e"><td class="memTemplItemLeft" align="right" valign="top">std::enable_if&lt; traits::is_input_serializable&lt; BinaryData&lt; _Scalar &gt;, Archive &gt;::value, void &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#ac44d4e9a847c7d07df57e3b7c4023f6e">load</a> (Archive &amp;ar, Eigen::Matrix&lt; _Scalar, _Rows, _Cols, _Options, _MaxRows, _MaxCols &gt; &amp;m)</td></tr>
+<tr class="memdesc:ac44d4e9a847c7d07df57e3b7c4023f6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Eigen::Matrix.  <a href="#ac44d4e9a847c7d07df57e3b7c4023f6e">More...</a><br /></td></tr>
 <tr class="separator:ac44d4e9a847c7d07df57e3b7c4023f6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91cc53aecbd344b0649c1a4e11bde425"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a91cc53aecbd344b0649c1a4e11bde425"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#a91cc53aecbd344b0649c1a4e11bde425">save</a> (Archive &amp;archive, Eigen::Block&lt; <a class="el" href="math_2Eigen_8h.html#a35229a7f7ce41195227ebcb48025f93b">Eigen::Matrix3f</a> &gt; const &amp;block)</td></tr>
+<tr class="memdesc:a91cc53aecbd344b0649c1a4e11bde425"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save Eigen::Block&lt;Eigen::Matrix3f&gt; for Affine transformation objects.  <a href="#a91cc53aecbd344b0649c1a4e11bde425">More...</a><br /></td></tr>
+<tr class="separator:a91cc53aecbd344b0649c1a4e11bde425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa72e8b7f2cedd4a8d824bf1917d61552"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:aa72e8b7f2cedd4a8d824bf1917d61552"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#aa72e8b7f2cedd4a8d824bf1917d61552">load</a> (Archive &amp;archive, Eigen::Block&lt; <a class="el" href="math_2Eigen_8h.html#a35229a7f7ce41195227ebcb48025f93b">Eigen::Matrix3f</a> &gt; &amp;block)</td></tr>
+<tr class="memdesc:aa72e8b7f2cedd4a8d824bf1917d61552"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Eigen::Block&lt;Eigen::Matrix3f&gt; for affine transformation objects.  <a href="#aa72e8b7f2cedd4a8d824bf1917d61552">More...</a><br /></td></tr>
+<tr class="separator:aa72e8b7f2cedd4a8d824bf1917d61552"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f95ab4cc4f9b4689bf5e46d00bd12ec"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a1f95ab4cc4f9b4689bf5e46d00bd12ec"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#a1f95ab4cc4f9b4689bf5e46d00bd12ec">save</a> (Archive &amp;archive, Eigen::Quaternion&lt; float, 2 &gt; const &amp;quaternion)</td></tr>
+<tr class="memdesc:a1f95ab4cc4f9b4689bf5e46d00bd12ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save Eigen::Quaternion.  <a href="#a1f95ab4cc4f9b4689bf5e46d00bd12ec">More...</a><br /></td></tr>
+<tr class="separator:a1f95ab4cc4f9b4689bf5e46d00bd12ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae28ff48c9f5f25560281a3b622d75c69"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:ae28ff48c9f5f25560281a3b622d75c69"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#ae28ff48c9f5f25560281a3b622d75c69">load</a> (Archive &amp;archive, Eigen::Quaternion&lt; float, 2 &gt; &amp;quaternion)</td></tr>
+<tr class="memdesc:ae28ff48c9f5f25560281a3b622d75c69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Eigen::Quaternion.  <a href="#ae28ff48c9f5f25560281a3b622d75c69">More...</a><br /></td></tr>
+<tr class="separator:ae28ff48c9f5f25560281a3b622d75c69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ab62a95616962a29abd61e2bad54f55"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a0ab62a95616962a29abd61e2bad54f55"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#a0ab62a95616962a29abd61e2bad54f55">save</a> (Archive &amp;archive, Eigen::Translation3f const &amp;translation)</td></tr>
+<tr class="memdesc:a0ab62a95616962a29abd61e2bad54f55"><td class="mdescLeft">&#160;</td><td class="mdescRight">Save Eigen::Transformation3f for Affine Transformation.  <a href="#a0ab62a95616962a29abd61e2bad54f55">More...</a><br /></td></tr>
+<tr class="separator:a0ab62a95616962a29abd61e2bad54f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8101718eac50b273950351cb020f425a"><td class="memTemplParams" colspan="2">template&lt;class Archive &gt; </td></tr>
+<tr class="memitem:a8101718eac50b273950351cb020f425a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacecereal.html#a8101718eac50b273950351cb020f425a">load</a> (Archive &amp;archive, Eigen::Translation3f &amp;translation)</td></tr>
+<tr class="memdesc:a8101718eac50b273950351cb020f425a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Load Eigen::Transformation3f for Affine Transformation.  <a href="#a8101718eac50b273950351cb020f425a">More...</a><br /></td></tr>
+<tr class="separator:a8101718eac50b273950351cb020f425a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>A wrapper around the Eigen include so all the warnings have to be suppressed only once. </p>
-<dl class="section author"><dt>Author</dt><dd>Caitlin </dd></dl>
-</div><h2 class="groupheader">Function Documentation</h2>
+<h2 class="groupheader">Function Documentation</h2>
 <a id="ac44d4e9a847c7d07df57e3b7c4023f6e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac44d4e9a847c7d07df57e3b7c4023f6e">&#9670;&nbsp;</a></span>load()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac44d4e9a847c7d07df57e3b7c4023f6e">&#9670;&nbsp;</a></span>load() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -119,10 +139,108 @@ template&lt;class Archive , class _Scalar , int _Rows, int _Cols, int _Options, 
 </table>
 </div><div class="memdoc">
 
+<p>Load Eigen::Matrix. </p>
+
+</div>
+</div>
+<a id="aa72e8b7f2cedd4a8d824bf1917d61552"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa72e8b7f2cedd4a8d824bf1917d61552">&#9670;&nbsp;</a></span>load() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void cereal::load </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Block&lt; <a class="el" href="math_2Eigen_8h.html#a35229a7f7ce41195227ebcb48025f93b">Eigen::Matrix3f</a> &gt; &amp;&#160;</td>
+          <td class="paramname"><em>block</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load Eigen::Block&lt;Eigen::Matrix3f&gt; for affine transformation objects. </p>
+
+</div>
+</div>
+<a id="ae28ff48c9f5f25560281a3b622d75c69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae28ff48c9f5f25560281a3b622d75c69">&#9670;&nbsp;</a></span>load() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void cereal::load </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Quaternion&lt; float, 2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>quaternion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load Eigen::Quaternion. </p>
+
+</div>
+</div>
+<a id="a8101718eac50b273950351cb020f425a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8101718eac50b273950351cb020f425a">&#9670;&nbsp;</a></span>load() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void cereal::load </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Translation3f &amp;&#160;</td>
+          <td class="paramname"><em>translation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Load Eigen::Transformation3f for Affine Transformation. </p>
+
 </div>
 </div>
 <a id="a9b37c7750f57e12b011a47010400ef57"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9b37c7750f57e12b011a47010400ef57">&#9670;&nbsp;</a></span>save()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b37c7750f57e12b011a47010400ef57">&#9670;&nbsp;</a></span>save() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -156,6 +274,128 @@ template&lt;class Archive , class _Scalar , int _Rows, int _Cols, int _Options, 
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Save Eigen::Matrix. </p>
+
+</div>
+</div>
+<a id="a91cc53aecbd344b0649c1a4e11bde425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91cc53aecbd344b0649c1a4e11bde425">&#9670;&nbsp;</a></span>save() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cereal::save </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Block&lt; <a class="el" href="math_2Eigen_8h.html#a35229a7f7ce41195227ebcb48025f93b">Eigen::Matrix3f</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>block</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save Eigen::Block&lt;Eigen::Matrix3f&gt; for Affine transformation objects. </p>
+
+</div>
+</div>
+<a id="a1f95ab4cc4f9b4689bf5e46d00bd12ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f95ab4cc4f9b4689bf5e46d00bd12ec">&#9670;&nbsp;</a></span>save() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cereal::save </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Quaternion&lt; float, 2 &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>quaternion</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save Eigen::Quaternion. </p>
+
+</div>
+</div>
+<a id="a0ab62a95616962a29abd61e2bad54f55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ab62a95616962a29abd61e2bad54f55">&#9670;&nbsp;</a></span>save() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Archive &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void cereal::save </td>
+          <td>(</td>
+          <td class="paramtype">Archive &amp;&#160;</td>
+          <td class="paramname"><em>archive</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Eigen::Translation3f const &amp;&#160;</td>
+          <td class="paramname"><em>translation</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Save Eigen::Transformation3f for Affine Transformation. </p>
 
 </div>
 </div>
